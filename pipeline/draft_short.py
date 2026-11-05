@@ -90,10 +90,10 @@ def audit(spec, facts):
             "FACTS:\n" + facts[:12000] + "\n\nSCRIPT LINES:\n" + "\n".join(f"- {l}" for l in lines) +
             "\n\nList every line that (a) states a number, name or date not supported by the FACTS, (b) does arithmetic that is wrong "
             "(e.g. spends 9,520, earns 8,500, loses 680) or that the FACTS do not state, or (c) puts two numbers side by side that measure "
-            "different things. Reply {\"problems\": [\"short description\", ...]} and an empty list if all lines are fine.", 1500, 0.0))
+            "different things. Reply {\"problems\": [\"short description\", ...]} and an empty list if all lines are fine.", 6000, 0.1))
         probs = [str(x) for x in r.get("problems", []) if str(x).strip()][:5]
         print("audit:", probs or "clean", flush=True); return probs
-    except Exception as e:
+    except (Exception, SystemExit) as e:   # chat() raises SystemExit when every model fails; never kill the run over the audit
         print("audit skipped:", type(e).__name__, flush=True); return []
 
 
