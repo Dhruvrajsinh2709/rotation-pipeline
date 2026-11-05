@@ -55,7 +55,11 @@ def draft(facts, angle, words, extra="", focus=()):
             f"EXAMPLE SPEC (shape and tone only, not its facts):\n{json.dumps(EXAMPLE, ensure_ascii=False)}")
     fb = ""
     for attempt in range(7):
-        spec = extract_json(chat(RULES, user + fb))
+        try:
+            spec = extract_json(chat(RULES, user + fb))
+            if not isinstance(spec, dict) or not spec.get("scenes"): raise ValueError("no scenes")
+        except Exception as e:   # truncated or broken JSON: just ask again
+            print("draft JSON unusable:", type(e).__name__, str(e)[:120], flush=True); continue
         spoken = " ".join(sc.get("text", "") for sc in spec.get("scenes", [])) + " " + (spec.get("outro") or {}).get("text", "")
         graphics = json.dumps([[sc.get("stat"), sc.get("card"), sc.get("hook_card"), sc.get("clash")] for sc in spec.get("scenes", [])], ensure_ascii=False)
         bad = unverified_numbers(spoken + " " + graphics, facts)
