@@ -9,23 +9,52 @@ MODELS = [m for m in os.environ.get("NVIDIA_MODEL", "").split(",") if m] + [
 UA = {"User-Agent": "Mozilla/5.0 (RotationPipeline; +https://youtube.com/@RotationNews)"}
 
 
+_PROBED = None
+PREFER = ["nemotron-3-super", "deepseek-v", "kimi", "mistral-large", "nemotron-3-ultra", "llama-3.1-nemotron-70b", "gpt-oss-120b", "qwen3", "llama-4", "gemma-4", "gpt-oss-20b", "nemotron-3.5-lightning", "instruct"]
+SKIP = ("embed", "guard", "safety", "vision", "-vl", "coder", "codestral", "codellama", "parse", "reward", "retriever", "translate", "diffusion", "omni", "chatqa")
+
+
+def _probe(key):
+    """Ask NVIDIA which chat models this key can really use today (models get retired often)."""
+    global _PROBED
+    if _PROBED is not None: return _PROBED
+    try:
+        with urllib.request.urlopen(urllib.request.Request("https://integrate.api.nvidia.com/v1/models", headers={"Authorization": f"Bearer {key}"}), timeout=30) as r:
+            ids = [d["id"] for d in json.loads(r.read())["data"]]
+    except Exception as e:
+        print("NVIDIA model list failed:", type(e).__name__, flush=True); ids = []
+    ids = [i for i in ids if not any(k in i.lower() for k in SKIP)]
+    ids.sort(key=lambda i: next((n for n, k in enumerate(PREFER) if k in i.lower()), 99))
+    ok = []
+    for m in [x for x in MODELS[:1] if x] + ids[:40]:
+        body = json.dumps({"model": m, "messages": [{"role": "user", "content": "Reply with the word OK."}], "max_tokens": 16}).encode()
+        try:
+            with urllib.request.urlopen(urllib.request.Request(NV_URL, data=body, headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"}), timeout=25) as r:
+                if r.status == 200: ok.append(m); print("NVIDIA usable:", m, flush=True)
+        except Exception as e:
+            print("NVIDIA skip", m, type(e).__name__, getattr(e, "code", ""), flush=True)
+        if len(ok) >= 4: break
+    _PROBED = ok or MODELS
+    return _PROBED
+
+
 def chat(system, user, max_tokens=6000, temperature=0.4):
     key = os.environ.get("NVIDIA_API_KEY")
     if not key: raise SystemExit("NVIDIA_API_KEY secret is missing: add it in repo Settings > Secrets and variables > Actions")
     last = None
-    for model in MODELS:
-        for attempt in range(3):
+    for model in _probe(key):
+        for attempt in range(2):
             body = json.dumps({"model": model, "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
                                "max_tokens": max_tokens, "temperature": temperature}).encode()
             req = urllib.request.Request(NV_URL, data=body, headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json", "Accept": "application/json"})
             try:
-                with urllib.request.urlopen(req, timeout=240) as r:
+                with urllib.request.urlopen(req, timeout=420) as r:
                     out = json.loads(r.read())["choices"][0]["message"].get("content") or ""
                     if not out.strip(): raise ValueError("empty content")
                     print(f"NVIDIA model {model} ok ({len(out)} chars)", flush=True); return out
             except Exception as e:   # never print headers (the key lives there)
                 last = f"{model}: {type(e).__name__} {str(e)[:200]}"; print("NVIDIA retry", last, flush=True)
-                if getattr(e, "code", None) in (401, 403, 404, 410): break   # model gone or not allowed: try the next model now
+                if getattr(e, "code", None) in (401, 403, 404, 410) or isinstance(e, TimeoutError): break
                 time.sleep(8 * (attempt + 1))
     raise SystemExit(f"NVIDIA API failed: {last}")
 
