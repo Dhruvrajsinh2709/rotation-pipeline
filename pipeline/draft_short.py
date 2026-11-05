@@ -27,7 +27,8 @@ Hard rules:
 - Number + twist by 12 s, why-it-matters by 30 s. Mark the turn scene with "turn": true. Mixed sentence length. Plain words: explain any jargon in one line.
 - At most 2 graphics in total ("stat" or "card" of type compare). Cards: {"type":"compare","title","items":[[label,value],[label,value]],"source"}.
 - Every scene: "clip": [ONE id from the clip catalog], "tags": 2-3 concrete nouns, "nat": one of [airport, city, street, office, industrial, traffic, market, crowd, port, sea, nature, room], "blur": true.
-- "outro": {"text": a dated next catalyst then a loop line that leads back to the first sentence, "tags": [...], "nat": [...]}. No "follow"/"subscribe" call to action.
+- "outro": {"text": an open question built ONLY from the FACTS (or a dated next event, but ONLY if that exact event and date are written in the FACTS), then a loop line that leads back to the first sentence, "tags": [...], "nat": [...]}. No "follow"/"subscribe" call to action.
+- NO PREDICTIONS: never say what will happen next (next quarter, next results date, a government decision, a fund) unless the FACTS say it word for word. When unsure, leave it out.
 - "music": {"mood": one of doc|tense|light|ambient|pulse, "mood2": another}. "rate": "+24%". "tags": 3 topic nouns.
 - "title": a search-worded question/claim people type (e.g. "Why X is losing money even after Y"), <= 70 characters, not the same pattern as the long video's title.
 - "sources": the source list, copied from the facts given.
