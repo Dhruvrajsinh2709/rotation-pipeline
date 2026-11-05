@@ -490,7 +490,7 @@ async def main():
             nv = len(plan); vin = []; parts = []
             for j, (sh, ss, sd) in enumerate(plan):
                 vin += ["-ss", f"{ss:.2f}", "-stream_loop","-1","-i",f"{OUT}/clips/{sh}.mp4"]
-                if sc.get("blur") or (ac and ac.get("show", "blur") != "crop"):
+                if sc.get("blur") == "force" or (ac and ac.get("show", "blur") != "crop"):   # 2026-11-05: full-screen 9:16 crop by default (user: blur band looked weak)
                     if SCL: parts.append(f"[{j}:v]{BT709},trim=0:{sd:.3f},setpts=PTS-STARTPTS[t{j}];" + gfx.blur_fill_vf(f"t{j}", sd, f"q{j}") + f";[q{j}]{SCL}setsar=1[p{j}]")
                     else: parts.append(f"[{j}:v]{BT709},trim=0:{sd:.3f},setpts=PTS-STARTPTS[t{j}];" + gfx.blur_fill_vf(f"t{j}", sd, f"p{j}"))
                 else:

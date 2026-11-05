@@ -19,15 +19,16 @@ _s1["clash"] = [["Fares", "+34%", "win"], ["IndiGo loss", "Rs 1,879 cr", "lose"]
 RULES = """You write the JSON spec for one YouTube Short on "Rotation" (@RotationNews), a faceless CNBC/WSJ-style business channel.
 Hard rules:
 - Output ONE JSON object only, same keys and shape as the example. No commentary.
-- 32-42 seconds when read at ~170 words per minute: 95-120 words of narration in total across all scene "text" plus "outro.text".
+- 32-42 seconds when read at ~170 words per minute: 80-110 words of narration in total across all scene "text" plus "outro.text".
 - 6-8 scenes. Scene 1: the subject on screen + the clash said in the first 8 spoken words. Give scene 1 "clash": [[label, value, "win"], [label, value, "lose"]]:
   two numbers from the FACTS that fight each other, each label 1-2 words, value short (e.g. [["Fares","+34%","win"],["IndiGo loss","Rs 1,879 cr","lose"]]). Green = winner/positive, red = loser/negative. No "stat" on scene 1.
 - MATH: never combine numbers yourself. Say "X minus Y" or "losing Z on each" ONLY if that exact result is in the FACTS. Two numbers in one sentence must measure the same thing (same unit, same period, same basis).
 - FOOTAGE: pick the clip whose TITLE literally shows the subject (the named company's planes/stores/logo, the named country/city). Never show another company's brand (e.g. a FedEx plane for IndiGo). For an Indian story never show US dollar bills unless that line is about dollars; prefer rupee/India clips. A generic clip only when no literal one fits.
 - Number + twist by 12 s, why-it-matters by 30 s. Mark the turn scene with "turn": true. Mixed sentence length. Plain words: explain any jargon in one line.
 - At most 2 graphics in total ("stat" or "card" of type compare). Cards: {"type":"compare","title","items":[[label,value],[label,value]],"source"}.
-- Every scene: "clip": [ONE id from the clip catalog], "tags": 2-3 concrete nouns, "nat": one of [airport, city, street, office, industrial, traffic, market, crowd, port, sea, nature, room], "blur": true.
+- Every scene: "clip": [ONE id from the clip catalog], "tags": 2-3 concrete nouns, "nat": one of [airport, city, street, office, industrial, traffic, market, crowd, port, sea, nature, room], "blur": false (footage always fills the full 9:16 screen).
 - "outro": {"text": an open question built ONLY from the FACTS (or a dated next event, but ONLY if that exact event and date are written in the FACTS), then a loop line that leads back to the first sentence, "tags": [...], "nat": [...]}. No "follow"/"subscribe" call to action.
+- OTHER BRANDS: never pick a clip that could show a different company (another airline's plane, a rival's shop, a foreign courier). For planes, stores, logos or vehicles use ONLY [SUBJECT] clips; generic clips only for neutral things (money, people, offices, fuel, city).
 - NO PREDICTIONS: never say what will happen next (next quarter, next results date, a government decision, a fund) unless the FACTS say it word for word. When unsure, leave it out.
 - "music": {"mood": one of doc|tense|light|ambient|pulse, "mood2": another}. "rate": "+24%". "tags": 3 topic nouns.
 - "title": a search-worded question/claim people type (e.g. "Why X is losing money even after Y"), <= 70 characters, not the same pattern as the long video's title.
@@ -60,7 +61,7 @@ def draft(facts, angle, words, extra="", focus=()):
         bad = unverified_numbers(spoken + " " + graphics, facts)
         nw = len(spoken.split()); errs = []
         if bad: errs.append(f"these numbers are not in the FACTS: {bad}. Use only numbers from the FACTS.")
-        if not 85 <= nw <= 135: errs.append(f"narration is {nw} words; it must be 95-120.")
+        if not 75 <= nw <= 115: errs.append(f"narration is {nw} words; it must be 80-110.")
         for sc in spec.get("scenes", []):
             cl = sc.get("clip") or []
             if isinstance(cl, str): cl = sc["clip"] = [cl]
