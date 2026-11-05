@@ -19,7 +19,7 @@ _s1["clash"] = [["Fares", "+34%", "win"], ["IndiGo loss", "Rs 1,879 cr", "lose"]
 RULES = """You write the JSON spec for one YouTube Short on "Rotation" (@RotationNews), a faceless CNBC/WSJ-style business channel.
 Hard rules:
 - Output ONE JSON object only, same keys and shape as the example. No commentary.
-- 32-42 seconds when read at ~170 words per minute: 80-110 words of narration in total across all scene "text" plus "outro.text".
+- 32-42 seconds when read at ~170 words per minute: 75-100 words of narration in total across all scene "text" plus "outro.text".
 - 6-8 scenes. Scene 1: the subject on screen + the clash said in the first 8 spoken words. Give scene 1 "clash": [[label, value, "win"], [label, value, "lose"]]:
   two numbers from the FACTS that fight each other, each label 1-2 words, value short (e.g. [["Fares","+34%","win"],["IndiGo loss","Rs 1,879 cr","lose"]]). Green = winner/positive, red = loser/negative. No "stat" on scene 1.
 - MATH: never combine numbers yourself. Say "X minus Y" or "losing Z on each" ONLY if that exact result is in the FACTS. Two numbers in one sentence must measure the same thing (same unit, same period, same basis).
@@ -65,7 +65,7 @@ def draft(facts, angle, words, extra="", focus=()):
         bad = unverified_numbers(spoken + " " + graphics, facts)
         nw = len(spoken.split()); errs = []
         if bad: errs.append(f"these numbers are not in the FACTS: {bad}. Use only numbers from the FACTS.")
-        if not 75 <= nw <= 115: errs.append(f"narration is {nw} words; it must be 80-110.")
+        if not 70 <= nw <= 104: errs.append(f"narration is {nw} words; it must be 75-100.")
         for sc in spec.get("scenes", []):
             cl = sc.get("clip") or []
             if isinstance(cl, str): cl = sc["clip"] = [cl]
@@ -81,7 +81,13 @@ def draft(facts, angle, words, extra="", focus=()):
         if not errs:
             aud = audit(spec, facts)
             if aud: errs.append("a fact audit found these problems (DELETE those claims or replace them with a sentence built only from the FACTS): " + "; ".join(aud))
-        if not errs: return spec
+        if not errs:
+            o = spec.setdefault("outro", {})
+            if not o.get("clip"):   # an outro without a clip got a random library plane (another airline); pin an unused subject clip
+                used = {c for sc in spec["scenes"] for c in (sc.get("clip") or [])}
+                subj = [l.split(" | ")[0] for l in cat.splitlines() if "[SUBJECT]" in l and l.split(" | ")[0] not in used]
+                if subj: o["clip"] = [subj[0]]
+            return spec
         print("draft check failed:", errs, flush=True)
         fb = ("\n\nYOUR LAST DRAFT (edit THIS draft; keep every line that passed, change only what the problems name):\n" + json.dumps(spec, ensure_ascii=False) +
               "\n\nIT FAILED THESE CHECKS, fix them and return the full JSON again:\n- " + "\n- ".join(errs))
