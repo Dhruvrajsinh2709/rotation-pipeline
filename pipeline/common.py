@@ -4,7 +4,8 @@ import json, os, re, time, urllib.request, html as _html
 ROOT = "/workspace/work/yt"   # the workflow symlinks the repo checkout here so the renderers' paths work unchanged
 NV_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
 MODELS = [m for m in os.environ.get("NVIDIA_MODEL", "").split(",") if m] + [
-    "meta/llama-3.3-70b-instruct", "qwen/qwen2.5-72b-instruct", "mistralai/mixtral-8x22b-instruct-v0.1"]
+    "mistralai/mistral-large-2-instruct", "nvidia/llama-3.1-nemotron-70b-instruct", "deepseek-ai/deepseek-v4.1-flash",
+    "moonshotai/kimi-k2.6", "nvidia/nemotron-3-super-120b-a12b", "mistralai/mistral-large"]  # updated 2026-11-05: llama-3.3/qwen2.5/mixtral retired (410/404)
 UA = {"User-Agent": "Mozilla/5.0 (RotationPipeline; +https://youtube.com/@RotationNews)"}
 
 
@@ -19,10 +20,13 @@ def chat(system, user, max_tokens=6000, temperature=0.4):
             req = urllib.request.Request(NV_URL, data=body, headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json", "Accept": "application/json"})
             try:
                 with urllib.request.urlopen(req, timeout=240) as r:
-                    out = json.loads(r.read())["choices"][0]["message"]["content"]
+                    out = json.loads(r.read())["choices"][0]["message"].get("content") or ""
+                    if not out.strip(): raise ValueError("empty content")
                     print(f"NVIDIA model {model} ok ({len(out)} chars)", flush=True); return out
             except Exception as e:   # never print headers (the key lives there)
-                last = f"{model}: {type(e).__name__} {str(e)[:200]}"; print("NVIDIA retry", last, flush=True); time.sleep(8 * (attempt + 1))
+                last = f"{model}: {type(e).__name__} {str(e)[:200]}"; print("NVIDIA retry", last, flush=True)
+                if getattr(e, "code", None) in (401, 403, 404, 410): break   # model gone or not allowed: try the next model now
+                time.sleep(8 * (attempt + 1))
     raise SystemExit(f"NVIDIA API failed: {last}")
 
 
