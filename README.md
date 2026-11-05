@@ -18,4 +18,4 @@ render.log) and keeps it as a 7-day artifact. Hark then fetches the branch, chec
 Clips: only `clips/index.json` is in git; `pipeline/prefetch.py` downloads what a spec needs from Mixkit/Coverr/Wikimedia/NASA
 (cached between runs). Renderers expect `/workspace/work/yt`, which `pipeline/setup_runner.sh` symlinks to the checkout.
 Rendering code = Hark's locked v9/v10 look (orange accent, light palette C, SOUND v10). Spec keys: `SPEC_KEYS.md`.
-Free private-repo limit: 2,000 Actions minutes/month (estimate for this schedule ~950).
+Free private-repo limit: 2,000 Actions minutes/month (estimate for this schedule ~1,050: Short ~15 min x 30, Explains ~70 min x 4.3, Saturday ~70 min x 4.3).
