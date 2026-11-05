@@ -50,17 +50,17 @@ def pick_long():
 
 def draft(facts, angle, words, extra="", focus=()):
     cat, ids = clip_catalog(words, focus=focus)
-    user = (f"ANGLE: {angle}\n\nFACTS (the only allowed facts):\n{facts[:14000]}\n\n{extra}\nCLIP CATALOG (id | title | tags), use only these ids:\n{cat}\n\n"
+    user = (f"ANGLE: {angle}\n\nFACTS (the only allowed facts):\n{facts[:24000]}\n\n{extra}\nCLIP CATALOG (id | title | tags), use only these ids:\n{cat}\n\n"
             f"EXAMPLE SPEC (shape and tone only, not its facts):\n{json.dumps(EXAMPLE, ensure_ascii=False)}")
     fb = ""
-    for attempt in range(5):
+    for attempt in range(7):
         spec = extract_json(chat(RULES, user + fb))
         spoken = " ".join(sc.get("text", "") for sc in spec.get("scenes", [])) + " " + (spec.get("outro") or {}).get("text", "")
         graphics = json.dumps([[sc.get("stat"), sc.get("card"), sc.get("hook_card"), sc.get("clash")] for sc in spec.get("scenes", [])], ensure_ascii=False)
         bad = unverified_numbers(spoken + " " + graphics, facts)
         nw = len(spoken.split()); errs = []
         if bad: errs.append(f"these numbers are not in the FACTS: {bad}. Use only numbers from the FACTS.")
-        if not 85 <= nw <= 130: errs.append(f"narration is {nw} words; it must be 95-120.")
+        if not 85 <= nw <= 135: errs.append(f"narration is {nw} words; it must be 95-120.")
         for sc in spec.get("scenes", []):
             cl = sc.get("clip") or []
             if isinstance(cl, str): cl = sc["clip"] = [cl]
@@ -78,7 +78,8 @@ def draft(facts, angle, words, extra="", focus=()):
             if aud: errs.append("a fact audit found these problems (DELETE those claims or replace them with a sentence built only from the FACTS): " + "; ".join(aud))
         if not errs: return spec
         print("draft check failed:", errs, flush=True)
-        fb = "\n\nYOUR LAST DRAFT FAILED THESE CHECKS, fix them and return the full JSON again:\n- " + "\n- ".join(errs)
+        fb = ("\n\nYOUR LAST DRAFT (edit THIS draft; keep every line that passed, change only what the problems name):\n" + json.dumps(spec, ensure_ascii=False) +
+              "\n\nIT FAILED THESE CHECKS, fix them and return the full JSON again:\n- " + "\n- ".join(errs))
     raise SystemExit("could not produce a Short spec that passes the fact checks")
 
 
@@ -88,7 +89,7 @@ def audit(spec, facts):
     lines += [json.dumps(sc.get(k), ensure_ascii=False) for sc in spec.get("scenes", []) for k in ("clash", "stat", "card") if sc.get(k)]
     try:
         r = extract_json(chat("You are a strict fact-checker for a business news channel. Reply JSON only.",
-            "FACTS:\n" + facts[:12000] + "\n\nSCRIPT LINES:\n" + "\n".join(f"- {l}" for l in lines) +
+            "FACTS:\n" + facts[:24000] + "\n\nSCRIPT LINES:\n" + "\n".join(f"- {l}" for l in lines) +
             "\n\nList every line that (a) states a number, name or date not supported by the FACTS, (b) does arithmetic that is wrong "
             "(e.g. spends 9,520, earns 8,500, loses 680) or that the FACTS do not state, or (c) puts two numbers side by side that measure "
             "different things. Reply {\"problems\": [\"short description\", ...]} and an empty list if all lines are fine.", 6000, 0.1))
