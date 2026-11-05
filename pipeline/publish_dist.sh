@@ -6,7 +6,7 @@ cd /workspace/work/yt
 NAME=$(ls -t dist | head -1); TEST=${1:-}
 git config user.name "rotation-bot"; git config user.email "rotation-bot@users.noreply.github.com"
 TMP=$(mktemp -d); cp -r "dist/$NAME/." "$TMP/"
-( cd "$TMP" && git init -q -b "renders/$NAME" && git add -A && git commit -qm "render $NAME" \
+( cd "$TMP" && git init -q -b "renders/$NAME" && git add -A && git -c user.name=rotation-bot -c user.email=rotation-bot@users.noreply.github.com commit -qm "render $NAME" \
   && git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "renders/$NAME" )
 echo "pushed branch renders/$NAME"
 if [ "$TEST" != "test" ]; then
