@@ -1,0 +1,137 @@
+{
+ "title": "IndiGo fares up 34% so why is it still losing money?",
+ "rate": "+24%",
+ "music": {
+  "mood": "tense",
+  "mood2": "doc"
+ },
+ "tags": [
+  "airplane",
+  "airport",
+  "india"
+ ],
+ "outro": {
+  "text": "Will fares fall when jet fuel is repriced on December 1? IndiGo fares up 34 percent, loss 1,879 crore rupees.",
+  "tags": [
+   "airport",
+   "india"
+  ],
+  "nat": [
+   "airport"
+  ]
+ },
+ "sources": [],
+ "scenes": [
+  {
+   "clip": [
+    "wm_F_WWBX_Airbus_A320_IndiGo_test_in_fl_c0249e"
+   ],
+   "tags": [
+    "indigo",
+    "airbus"
+   ],
+   "nat": "airport",
+   "blur": false,
+   "text": "IndiGo fares up 34 percent, loss 1,879 crore rupees for July to September.",
+   "clash": [
+    [
+     "Fares",
+     "+34%",
+     "win"
+    ],
+    [
+     "IndiGo loss",
+     "Rs 1,879 cr",
+     "lose"
+    ]
+   ]
+  },
+  {
+   "clip": [
+    "wm_IndiGo_Hangar_Indira_Gandhi_Internat_77c7ed"
+   ],
+   "tags": [
+    "hangar",
+    "indigo"
+   ],
+   "nat": "airport",
+   "blur": false,
+   "text": "You're paying a third more per kilometre, and IndiGo is still losing money."
+  },
+  {
+   "clip": [
+    "mk_4360"
+   ],
+   "tags": [
+    "petrochemical",
+    "fuel"
+   ],
+   "nat": "industrial",
+   "blur": false,
+   "turn": true,
+   "text": "Fuel per passenger was 2,070 rupees a year ago, now 3,624 rupees.",
+   "card": {
+    "type": "compare",
+    "title": "Fuel per passenger",
+    "items": [
+     [
+      "Jul–Sep 2025",
+      "₹2,070"
+     ],
+     [
+      "Jul–Sep 2026",
+      "₹3,624"
+     ]
+    ],
+    "source": "IndiGo Q2 FY27 press release (fuel cost ÷ passengers)"
+   }
+  },
+  {
+   "clip": [
+    "mk_1616"
+   ],
+   "tags": [
+    "city",
+    "aerial"
+   ],
+   "nat": "city",
+   "blur": false,
+   "text": "The rupee fell about 9 percent, jet fuel benchmark was up 60 percent."
+  },
+  {
+   "clip": [
+    "hd_4547"
+   ],
+   "tags": [
+    "meeting",
+    "office"
+   ],
+   "nat": "office",
+   "blur": false,
+   "text": "Without currency effects loss was 7,237 million rupees, reported loss was 18,791 million.",
+   "stat": [
+    "6 in 10",
+    "rupees lost came from currency"
+   ]
+  },
+  {
+   "clip": [
+    "wm_IndiGo_A320_Interior_ff4c76"
+   ],
+   "tags": [
+    "interior",
+    "indigo"
+   ],
+   "nat": "room",
+   "blur": false,
+   "text": "Per passenger cost about 9,520 rupees, loss per passenger about 680 rupees."
+  }
+ ],
+ "funnel": {
+  "long_spec": "spec_2026-11-04_explain_indigo.json",
+  "n": 2,
+  "long_title": "Your IndiGo ticket costs more. So why is IndiGo still losing money?"
+ },
+ "output": "/workspace/work/yt/out/2026-11-05_indigo-fares-up-34-so-why-is-it-still-lo.mp4",
+ "log_used": false
+}

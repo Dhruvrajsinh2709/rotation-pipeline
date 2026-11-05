@@ -1,0 +1,17 @@
+scene 0 6.77 shots [6.8]
+scene 1 4.23 shots [4.2]
+scene 2 6.05 shots [6.1]
+scene 3 4.35 shots [4.4]
+scene 4 7.78 shots [5.1, 2.7]
+scene 5 6.17 shots [6.2]
+scene 6 9.05 shots [3.5, 2.3, 3.2]
+V8 music [('mk_846', "I Won't surrender", 'tense'), ('mk_615', 'Tapis', 'doc')]
+V9 nat: 10 segments, sources ['sfx_1588', 'sfx_2932']
+V10 sound: sfx 3 ['click', 'tick', 'whoosh']
+AUDIO voice -21.7 LUFS, music(hp) -23.5, duck -18.0 dB, nat on, v10 off [] sfx layer, dips 2 at [10.6, 35.1], final I -14.0 LUFS, LRA 6.3 LU
+PHONE CHECK (300 Hz-7 kHz band, integrated): {'voice': -24.8, 'music': -41.6, 'nat': -46.0, 'voice_over_music_dB': 16.8, 'voice_over_nat_dB': 21.2}
+V9 voices: 1 ['narrator']; quote/actuality scenes 0
+V8 clips: 10 unique, replaced 1 ['hd_4547->mk_42644']; res 1080x1920; crf 16; render time 4.0 min
+STATS shots 10 avg 4.46s max 6.8s words 96 WPM 129
+cover /workspace/work/yt/covers/2026-11-05_indigo-fares-up-34-so-why-is-it-still-lo_cover.jpg layout split
+44.556315
