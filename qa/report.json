@@ -1,0 +1,18 @@
+{
+ "video": "/workspace/work/yt/dist/2026-11-05_why-indigo-loses-1-879-cr-despite-34-yie/video.mp4",
+ "duration": 44.72,
+ "size": "1080x1920",
+ "fps": "30/1",
+ "audio": true,
+ "lufs": -14.0,
+ "black": [],
+ "freezes": [],
+ "silences": [],
+ "sheets": [
+  "/workspace/work/yt/dist/2026-11-05_why-indigo-loses-1-879-cr-despite-34-yie/qa/sheet_01.jpg",
+  "/workspace/work/yt/dist/2026-11-05_why-indigo-loses-1-879-cr-despite-34-yie/qa/sheet_02.jpg",
+  "/workspace/work/yt/dist/2026-11-05_why-indigo-loses-1-879-cr-despite-34-yie/qa/sheet_03.jpg"
+ ],
+ "frames": 45,
+ "hard_fail": []
+}

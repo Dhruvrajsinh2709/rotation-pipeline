@@ -1,0 +1,145 @@
+{
+ "title": "Why IndiGo loses ₹1,879 cr despite 34% yield jump",
+ "rate": "+24%",
+ "music": {
+  "mood": "tense",
+  "mood2": "doc"
+ },
+ "tags": [
+  "indigo",
+  "aviation",
+  "india"
+ ],
+ "outro": {
+  "text": "Will the December 1 fuel price push fares higher? IndiGo's yield jumped 34 percent. It still lost 1,879 crore.",
+  "tags": [
+   "airport",
+   "fuel",
+   "india"
+  ],
+  "nat": [
+   "airport"
+  ]
+ },
+ "sources": [
+  "IndiGo Q2 FY27 press release (BSE, Oct. 29, 2026)",
+  "IndiGo Q2 FY27 earnings call (AlphaStreet transcript)",
+  "Business Standard",
+  "India Today",
+  "Livemint",
+  "Forbes India"
+ ],
+ "scenes": [
+  {
+   "clip": [
+    "wm_F_WWBX_Airbus_A320_IndiGo_test_in_fl_c0249e"
+   ],
+   "tags": [
+    "indigo",
+    "plane"
+   ],
+   "nat": "airport",
+   "blur": true,
+   "text": "IndiGo's yield jumped 34 percent. It still lost 1,879 crore.",
+   "clash": [
+    [
+     "Yield",
+     "+34%",
+     "win"
+    ],
+    [
+     "Loss",
+     "₹1,879 cr",
+     "lose"
+    ]
+   ]
+  },
+  {
+   "clip": [
+    "mk_4008"
+   ],
+   "tags": [
+    "airport",
+    "crowd"
+   ],
+   "nat": "airport",
+   "blur": true,
+   "text": "That is its third losing quarter in a row. So where did the money go?"
+  },
+  {
+   "clip": [
+    "mk_4360"
+   ],
+   "tags": [
+    "fuel",
+    "plant"
+   ],
+   "nat": "industrial",
+   "blur": true,
+   "turn": true,
+   "card": {
+    "type": "compare",
+    "title": "Fuel cost per passenger",
+    "items": [
+     [
+      "Jul–Sep 2025",
+      "₹2,070"
+     ],
+     [
+      "Jul–Sep 2026",
+      "₹3,624"
+     ]
+    ],
+    "source": "IndiGo Q2 FY27 press release (fuel cost ÷ passengers)"
+   },
+   "text": "Our calculation: each passenger burned ₹3,624 of fuel, up 75 percent."
+  },
+  {
+   "clip": [
+    "hd_4533"
+   ],
+   "tags": [
+    "calculator",
+    "office"
+   ],
+   "nat": "office",
+   "blur": true,
+   "stat": [
+    "61%",
+    "of loss from currency"
+   ],
+   "text": "Six of every ten rupees lost came from the rupee, not the flying."
+  },
+  {
+   "clip": [
+    "wm_IndiGo_VT_IDJ_Airbus_A320_232_MSN_48_5d1982"
+   ],
+   "tags": [
+    "indigo",
+    "delhi"
+   ],
+   "nat": "airport",
+   "blur": true,
+   "text": "Delhi to Mumbai now earns ₹7,180, up 34 percent per kilometre."
+  },
+  {
+   "clip": [
+    "mk_4065"
+   ],
+   "tags": [
+    "airport",
+    "departure"
+   ],
+   "nat": "airport",
+   "blur": true,
+   "text": "Cost per passenger hit ₹9,520. After every bit of income, IndiGo still loses ₹680 on each flyer."
+  }
+ ],
+ "funnel": {
+  "long_spec": "spec_2026-11-04_explain_indigo.json",
+  "n": 2,
+  "long_title": "Your IndiGo ticket costs more. So why is IndiGo still losing money?"
+ },
+ "output": "/workspace/work/yt/out/2026-11-05_why-indigo-loses-1-879-cr-despite-34-yie.mp4",
+ "log_used": false
+}
