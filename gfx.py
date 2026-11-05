@@ -1386,3 +1386,25 @@ def panel_texture(path, W=1920, H=1080, alpha=13, seed=7):
     grain = rng.random((H, W)).astype(np.float32)
     a = np.clip(lines*alpha + (grain > 0.5)*3, 0, 255).astype(np.uint8)
     im = Image.new("RGBA", (W, H), (255, 255, 255, 0)); im.putalpha(Image.fromarray(a)); im.save(path); return path
+
+
+CLASH_WIN = (34, 197, 94, 255); CLASH_LOSE = (239, 68, 68, 255)
+def clash_card(im, clash, v=True):
+    """FRAME 1 CLASH (user rule 2026-11-04): two big numbers over moving footage, winner green, loser red, each with a
+    1-2 word label, readable with sound off; stacked (top, "vs", bottom). clash = [[label, value, "win"|"lose"], [...]]."""
+    W, H = im.size; d = ImageDraw.Draw(im)
+    g = Image.new("RGBA", (W, H), (0, 0, 0, 0)); gd = ImageDraw.Draw(g)
+    for y in range(440, 1330):
+        a = int(175*min(1, (y-440)/160, (1330-y)/160)); gd.line([(0, y), (W, y)], fill=(0, 0, 0, a))
+    im.alpha_composite(g)
+    rows = [600, 1010]   # loser label ends ~1290, above the Shorts caption line (y=1360)
+    for i, it in enumerate(clash[:2]):
+        label, val = str(it[0]), str(it[1]); kind = (it[2] if len(it) > 2 else ("win" if i == 0 else "lose"))
+        col = CLASH_WIN if kind == "win" else CLASH_LOSE; y0 = rows[i]
+        sz = 190
+        while sz > 70 and d.textlength(val, font=MF(sz, 900)) > W-140: sz -= 6
+        fv = MF(sz, 900); tw = d.textlength(val, font=fv)
+        shadow(im, ((W-tw)/2, y0), val, fv, fill=col, r=8)
+        fl = MF(56, 800); lt = label.upper(); lw = d.textlength(lt, font=fl)
+        shadow(im, ((W-lw)/2, y0+sz+18), lt, fl, r=6)
+    fvs = MF(58, 900); shadow(im, ((W-d.textlength("vs", font=fvs))/2, 915), "vs", fvs, fill=(248, 241, 228, 255), r=6)

@@ -40,23 +40,43 @@ def wanted(spec, k):
     return out, set(explicit)
 
 
+def to_mp4(src, dst, still, dur=10.0):
+    """Same as clipfetch._to_mp4: a photo becomes a 10 s 1920x1080 slow push; webm/ogv become H.264 mp4."""
+    if still:
+        vf = (f"scale=2304:1296:force_original_aspect_ratio=increase:flags=lanczos,crop=2304:1296,"
+              f"zoompan=z='1+0.06*on/{int(dur*24)}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={int(dur*24)}:s=1920x1080:fps=24,format=yuv420p")
+        cmd = ["ffmpeg", "-y", "-v", "error", "-loop", "1", "-i", src, "-t", f"{dur}", "-vf", vf, "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", dst]
+    else:
+        cmd = ["ffmpeg", "-y", "-v", "error", "-i", src, "-t", "60", "-c:v", "libx264", "-preset", "veryfast", "-crf", "17", "-pix_fmt", "yuv420p",
+               "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", dst]
+    return subprocess.run(cmd).returncode == 0
+
+
 def get(cid):
     m = IX[cid]; p = f"{CL}/{cid}.mp4"
     if os.path.exists(p) and os.path.getsize(p) > 10000: return cid, "cached"
     if not m.get("url"): return cid, "no-url"
-    tmp = p + ".part"
+    ext = m["url"].split("?")[0].rsplit(".", 1)[-1].lower()
+    convert = bool(m.get("still")) or ext in ("webm", "ogv", "mov", "jpg", "jpeg", "png")
+    tmp = p + ".part" + (f".{ext}" if convert else "")
     try:
-        req = urllib.request.Request(m["url"], headers=UA)
+        hdr = dict(UA); hdr["User-Agent"] = "RotationPipeline/1.0 (https://youtube.com/@RotationNews; rotation-bot@users.noreply.github.com)"
+        req = urllib.request.Request(m["url"], headers=hdr)
         with urllib.request.urlopen(req, timeout=120) as r, open(tmp, "wb") as fh:
             while True:
                 b = r.read(1 << 20)
                 if not b: break
                 fh.write(b)
+        if convert:
+            out = p + ".conv.mp4"
+            if not to_mp4(tmp, out, bool(m.get("still")) or ext in ("jpg", "jpeg", "png")): raise ValueError("convert failed")
+            os.remove(tmp); tmp = out
         d = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", tmp], check=True, capture_output=True, text=True).stdout.strip()
         if float(d) < 0.5: raise ValueError("no duration")   # 'N/A' (HTML page or broken file) raises too
         os.replace(tmp, p); return cid, "ok"
     except Exception as e:
-        if os.path.exists(tmp): os.remove(tmp)
+        for f in (tmp, p + ".conv.mp4"):
+            if os.path.exists(f): os.remove(f)
         return cid, f"fail {type(e).__name__}"
 
 

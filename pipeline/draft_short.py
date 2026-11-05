@@ -13,12 +13,17 @@ STATE = f"{ROOT}/state/funnel.json"; os.makedirs(f"{ROOT}/state", exist_ok=True)
 funnel = json.load(open(STATE)) if os.path.exists(STATE) else {}
 EXAMPLE = json.load(open(f"{ROOT}/specs/shorts/spec_2026-11-04.json"))
 EXAMPLE.pop("output", None)
+_s1 = EXAMPLE["scenes"][0]; _s1.pop("hook_card", None); _s1.pop("stat", None)
+_s1["clash"] = [["Fares", "+34%", "win"], ["IndiGo loss", "Rs 1,879 cr", "lose"]]   # FRAME 1 CLASH shape for the model
 
 RULES = """You write the JSON spec for one YouTube Short on "Rotation" (@RotationNews), a faceless CNBC/WSJ-style business channel.
 Hard rules:
 - Output ONE JSON object only, same keys and shape as the example. No commentary.
 - 32-42 seconds when read at ~170 words per minute: 95-120 words of narration in total across all scene "text" plus "outro.text".
-- 6-8 scenes. Scene 1: the subject on screen + the shock number said immediately; give it "hook_card" (<= 6 words, caps ok) and a "stat".
+- 6-8 scenes. Scene 1: the subject on screen + the clash said in the first 8 spoken words. Give scene 1 "clash": [[label, value, "win"], [label, value, "lose"]]:
+  two numbers from the FACTS that fight each other, each label 1-2 words, value short (e.g. [["Fares","+34%","win"],["IndiGo loss","Rs 1,879 cr","lose"]]). Green = winner/positive, red = loser/negative. No "stat" on scene 1.
+- MATH: never combine numbers yourself. Say "X minus Y" or "losing Z on each" ONLY if that exact result is in the FACTS. Two numbers in one sentence must measure the same thing (same unit, same period, same basis).
+- FOOTAGE: pick the clip whose TITLE literally shows the subject (the named company's planes/stores/logo, the named country/city). Never show another company's brand (e.g. a FedEx plane for IndiGo). For an Indian story never show US dollar bills unless that line is about dollars; prefer rupee/India clips. A generic clip only when no literal one fits.
 - Number + twist by 12 s, why-it-matters by 30 s. Mark the turn scene with "turn": true. Mixed sentence length. Plain words: explain any jargon in one line.
 - At most 2 graphics in total ("stat" or "card" of type compare). Cards: {"type":"compare","title","items":[[label,value],[label,value]],"source"}.
 - Every scene: "clip": [ONE id from the clip catalog], "tags": 2-3 concrete nouns, "nat": one of [airport, city, street, office, industrial, traffic, market, crowd, port, sea, nature, room], "blur": true.
@@ -42,15 +47,15 @@ def pick_long():
     return None
 
 
-def draft(facts, angle, words, extra=""):
-    cat, ids = clip_catalog(words)
+def draft(facts, angle, words, extra="", focus=()):
+    cat, ids = clip_catalog(words, focus=focus)
     user = (f"ANGLE: {angle}\n\nFACTS (the only allowed facts):\n{facts[:14000]}\n\n{extra}\nCLIP CATALOG (id | title | tags), use only these ids:\n{cat}\n\n"
             f"EXAMPLE SPEC (shape and tone only, not its facts):\n{json.dumps(EXAMPLE, ensure_ascii=False)}")
     fb = ""
     for attempt in range(4):
         spec = extract_json(chat(RULES, user + fb))
         spoken = " ".join(sc.get("text", "") for sc in spec.get("scenes", [])) + " " + (spec.get("outro") or {}).get("text", "")
-        graphics = json.dumps([[sc.get("stat"), sc.get("card"), sc.get("hook_card")] for sc in spec.get("scenes", [])], ensure_ascii=False)
+        graphics = json.dumps([[sc.get("stat"), sc.get("card"), sc.get("hook_card"), sc.get("clash")] for sc in spec.get("scenes", [])], ensure_ascii=False)
         bad = unverified_numbers(spoken + " " + graphics, facts)
         nw = len(spoken.split()); errs = []
         if bad: errs.append(f"these numbers are not in the FACTS: {bad}. Use only numbers from the FACTS.")
@@ -62,10 +67,34 @@ def draft(facts, angle, words, extra=""):
             q = sc.get("quote")
             if q and q.get("text", "") not in facts: sc.pop("quote"); print("dropped a quote not found verbatim in facts")
             sc.pop("actuality", None)
+        sc1 = (spec.get("scenes") or [{}])[0]
+        cl = sc1.get("clash")
+        if not (isinstance(cl, list) and len(cl) == 2 and all(isinstance(x, list) and len(x) >= 2 for x in cl)):
+            errs.append('scene 1 needs "clash": [[label, value, "win"], [label, value, "lose"]] with two numbers from the FACTS.')
+        else: sc1.pop("stat", None); sc1.pop("hook_card", None)
+        if not errs:
+            aud = audit(spec, facts)
+            if aud: errs.append("a fact audit found these problems: " + "; ".join(aud))
         if not errs: return spec
         print("draft check failed:", errs, flush=True)
         fb = "\n\nYOUR LAST DRAFT FAILED THESE CHECKS, fix them and return the full JSON again:\n- " + "\n- ".join(errs)
     raise SystemExit("could not produce a Short spec that passes the fact checks")
+
+
+def audit(spec, facts):
+    """Second NVIDIA pass: does any line do math or combine numbers the FACTS do not support, or misstate a fact?"""
+    lines = [sc.get("text", "") for sc in spec.get("scenes", [])] + [(spec.get("outro") or {}).get("text", "")]
+    lines += [json.dumps(sc.get(k), ensure_ascii=False) for sc in spec.get("scenes", []) for k in ("clash", "stat", "card") if sc.get(k)]
+    try:
+        r = extract_json(chat("You are a strict fact-checker for a business news channel. Reply JSON only.",
+            "FACTS:\n" + facts[:12000] + "\n\nSCRIPT LINES:\n" + "\n".join(f"- {l}" for l in lines) +
+            "\n\nList every line that (a) states a number, name or date not supported by the FACTS, (b) does arithmetic that is wrong "
+            "(e.g. spends 9,520, earns 8,500, loses 680) or that the FACTS do not state, or (c) puts two numbers side by side that measure "
+            "different things. Reply {\"problems\": [\"short description\", ...]} and an empty list if all lines are fine.", 1500, 0.0))
+        probs = [str(x) for x in r.get("problems", []) if str(x).strip()][:5]
+        print("audit:", probs or "clean", flush=True); return probs
+    except Exception as e:
+        print("audit skipped:", type(e).__name__, flush=True); return []
 
 
 def rss_story():
@@ -96,7 +125,8 @@ if __name__ == "__main__":
                  ("Use its single most shocking number + twist (its strongest minute)." if n == 1 else
                   "Use a DIFFERENT angle from Short #1: the Rotation calculation, the 'who wins' turn, or the dated catalyst."))
         facts = f"LONG VIDEO TITLE: {ls.get('title')}\nSOURCES: {json.dumps(ls.get('sources', []))}\n" + spec_text(ls)
-        spec = draft(facts, angle, re.findall(r"[a-z]+", spec_text(ls).lower()))
+        spec = draft(facts, angle, re.findall(r"[a-z]+", spec_text(ls).lower()),
+                     focus=[w.lower() for w in re.findall(r"\b[A-Z][A-Za-z]{2,}\b", ls.get("title", "")) if w not in ("Why", "Your", "The", "So", "How", "What")])
         spec["funnel"] = {"long_spec": os.path.basename(lp), "n": n, "long_title": ls.get("title")}
         if not spec.get("sources"): spec["sources"] = ls.get("sources", [])
     else:

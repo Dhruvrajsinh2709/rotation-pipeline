@@ -142,9 +142,10 @@ def overlay(cap, stat, path, card=None, loc=None, title=None, stat_prog=1.0, sta
     for y in range(H-600, H):
         a = int(120*(y-(H-600))/600); d.line([(0,y),(W,y)], fill=(0,0,0,a))
     if hook:   # Study 2: 0-3 s headline card (pin moves into it); v8: eases out over the last 0.3 s
-        if hook_a >= 1: gfx.hook_card(im, hook, loc, True)
+        _hc = (lambda T: gfx.clash_card(T, hook["clash"], True)) if isinstance(hook, dict) else (lambda T: gfx.hook_card(T, hook, loc, True))
+        if hook_a >= 1: _hc(im)
         else:
-            L = Image.new("RGBA",(W,H),(0,0,0,0)); gfx.hook_card(L, hook, loc, True); e = _ease4(hook_a)
+            L = Image.new("RGBA",(W,H),(0,0,0,0)); _hc(L); e = _ease4(hook_a)
             im.alpha_composite(_fade_layer(L, e, dy=-30*(1-e)))
         d = ImageDraw.Draw(im)
     brand_tag(im)
@@ -279,6 +280,8 @@ if _o:
                    "tags": (_o.get("tags") if isinstance(_o, dict) else None) or [],
                    **({"nat": _o["nat"]} if isinstance(_o, dict) and "nat" in _o else {})})
 HOOK = scenes[0].get("hook_card", TITLE) if scenes else None   # 0-3 s headline card; fallback = the title
+if scenes and scenes[0].get("clash"):   # FRAME 1 CLASH (2026-11-04): green-vs-red number pair replaces the text hook; scene-1 stat waits
+    HOOK = {"clash": scenes[0]["clash"]}; scenes[0].pop("stat", None)
 # ---- v8 for Shorts (user 2026-10-30: "this video is insane yes same for shorts") ----
 # black-and-white graphics, per-video music from the library, no repeated clips, 4K sources + lanczos, no grain, eased graphics.
 V8 = spec.get("v8", True) if spec else False

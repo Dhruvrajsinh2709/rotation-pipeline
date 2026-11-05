@@ -108,17 +108,17 @@ def spec_text(spec):
     walk(spec); return "\n".join(out)
 
 
-def clip_catalog(words, n=90, vertical_ok=True):
+def clip_catalog(words, n=90, vertical_ok=True, focus=()):
     """Short catalog of library clips that match the topic words (id | title | tags) for the drafting prompt."""
     ix = json.load(open(f"{ROOT}/clips/index.json")); w = {x.lower() for x in words}
     sc = []
     for k, m in ix.items():
         if m.get("bad") or "restricted" in str(m.get("licence", "")).lower() or not m.get("url"): continue
         t = set(m.get("tags", [])) | set(" ".join(m.get("kw", [])).split()) | set(re.findall(r"[a-z]+", m.get("title", "").lower()))
-        s = len(t & w) + (0.5 if m.get("h", 0) >= 2000 else 0)
+        s = len(t & w) + (0.5 if m.get("h", 0) >= 2000 else 0) + 8 * len(t & {f.lower() for f in focus})   # named subject first
         if s > 0: sc.append((s, k, m))
     sc.sort(key=lambda x: -x[0])
-    return "\n".join(f"{k} | {m.get('title','')[:70]} | {','.join(m.get('tags', [])[:8])}" for s, k, m in sc[:n]), {k for _, k, _ in sc[:n]}
+    return "\n".join(f"{k} | {'[SUBJECT] ' if s >= 8 else ''}{m.get('title','')[:70]} | {','.join(m.get('tags', [])[:8])}" for s, k, m in sc[:n]), {k for _, k, _ in sc[:n]}
 
 
 def log(path, line):
