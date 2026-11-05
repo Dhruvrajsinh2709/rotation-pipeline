@@ -1,0 +1,152 @@
+{
+ "title": "How India's state fuel retailers lose money on every litre of diesel sold",
+ "output": "/workspace/work/yt/out/2026-11-02_pump-gap-short1.mp4",
+ "rate": "+24%",
+ "music": {
+  "mood": "tense",
+  "mood2": "doc"
+ },
+ "tags": [
+  "gas station",
+  "fuel pump",
+  "india"
+ ],
+ "outro": {
+  "text": "Either the pump price rises or taxpayers pay. And that is why",
+  "tags": [
+   "india",
+   "city",
+   "traffic"
+  ],
+  "nat": [
+   "city",
+   "traffic"
+  ]
+ },
+ "sources": [
+  "Elara Capital via Financial Express, Oct. 27, 2026",
+  "ICRA via Moneycontrol, Oct. 28, 2026",
+  "Economic Times / Hindu BusinessLine on Reliance Q2 FY27, Oct. 30, 2026"
+ ],
+ "scenes": [
+  {
+   "clip": [
+    "wm_Hindustan_Petroleum_Fuel_Filling_Sta_40dda3"
+   ],
+   "tags": [
+    "gas station",
+    "fuel pump"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "blur": true,
+   "hook_card": "Diesel costs Rs 95 a litre. Indian retailers still lose Rs 24 on each.",
+   "stat": [
+    "-Rs 24",
+    "Loss per litre of diesel, Jul-Sep"
+   ],
+   "text": "Diesel in Delhi costs 95 rupees 20 paise a litre. State fuel retailers still lose about 24 rupees on each one."
+  },
+  {
+   "clip": [
+    "wm_Delhi_India_City_traffic_Motion_aa501c"
+   ],
+   "tags": [
+    "india",
+    "city",
+    "traffic"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "A year ago they earned 5 rupees a litre. The rupee changed that."
+  },
+  {
+   "chart": {
+    "type": "bar",
+    "title": "Crude cost inside one litre",
+    "subtitle": "Rupees per litre, Rotation calculation",
+    "bars": [
+     [
+      "Mar 2012",
+      39.7
+     ],
+     [
+      "Oct 2026",
+      73.8
+     ]
+    ],
+    "prefix": "Rs ",
+    "decimals": 1,
+    "highlight": 1,
+    "source": "Rotation calculation from Financial Express: Rs 6,310 and Rs 11,732 a barrel"
+   },
+   "text": "Oil costs the same in dollars as in 2012, but a dollar now buys 95 rupees, not 51. Crude alone costs 74 rupees a litre."
+  },
+  {
+   "clip": [
+    "wm_Bharat_Petroleum_Fuel_Filling_Statio_9069d3"
+   ],
+   "tags": [
+    "gas station",
+    "fuel pump"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "blur": true,
+   "card": {
+    "type": "compare",
+    "title": "Diesel, retailer margin per litre",
+    "items": [
+     [
+      "Jul-Sep 2025",
+      "+Rs 5"
+     ],
+     [
+      "Jul-Sep 2026",
+      "-Rs 24"
+     ]
+    ],
+    "source": "Elara Capital via Financial Express, Oct. 27, 2026"
+   },
+   "text": "Elara Capital's estimate: plus 5 rupees last year, minus 24 now."
+  },
+  {
+   "clip": [
+    "wm_Irving_Oil_Refinery_Saint_John_NB_73349e"
+   ],
+   "tags": [
+    "oil refinery",
+    "industrial"
+   ],
+   "nat": [
+    "industrial"
+   ],
+   "blur": true,
+   "turn": true,
+   "stat": [
+    "Rs 64,000 cr+",
+    "ICRA: possible FY27 fuel losses, no hike"
+   ],
+   "text": "No hike since May. ICRA says losses could pass 64,000 crore rupees this year."
+  },
+  {
+   "clip": [
+    "mk_18302"
+   ],
+   "tags": [
+    "money",
+    "cash"
+   ],
+   "nat": [
+    "office"
+   ],
+   "text": "Reliance sold at world prices and its profit jumped 68 percent. The pump sold at May's price."
+  }
+ ]
+}

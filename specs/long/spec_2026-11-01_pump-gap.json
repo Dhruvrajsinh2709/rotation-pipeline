@@ -1,0 +1,915 @@
+{
+ "output": "/workspace/work/yt/out/long_2026-11-01_pump-gap.mp4",
+ "v9": true,
+ "fps": 24,
+ "res": [
+  2560,
+  1440
+ ],
+ "crf": 15,
+ "rate": "+12%",
+ "change_every": 3.0,
+ "match_min": 2.0,
+ "nat_default": null,
+ "tags": [
+  "oil",
+  "india"
+ ],
+ "chapters": [
+  "The record month",
+  "The rupee trap",
+  "Why not raise prices",
+  "Who wins"
+ ],
+ "music": {
+  "opener": "tense",
+  "moods": [
+   "doc",
+   "pulse",
+   "tense",
+   "ambient"
+  ]
+ },
+ "subscribe": {
+  "line": "New deep dives every weekend",
+  "text": "If you're new here, subscribe for a new deep dive every weekend."
+ },
+ "open_place": {
+  "clip": "wm_Mumbai_India_Bombay_Mumbai_skyline_a_b05ec6",
+  "place": "Mumbai",
+  "date": "File photo",
+  "tags": [
+   "mumbai",
+   "skyline",
+   "city"
+  ],
+  "nat": [
+   "city",
+   "traffic"
+  ],
+  "text": "India just bought more crude oil in a single month than it ever has. And the companies that sell the fuel are losing money doing it."
+ },
+ "title_card": {
+  "series": "Rotation",
+  "title": "India is importing record oil. So why are its fuel retailers losing money?",
+  "clip": "wm_Mumbai_India_Mumbai_Bombay_skyline_w_51659c",
+  "dur": 3.8
+ },
+ "scenes": [
+  {
+   "text": "India burned through a record amount of crude oil last month. And its biggest fuel retailers are still losing money on every litre of diesel they sell.",
+   "tags": [
+    "oil refinery",
+    "india",
+    "tanker"
+   ],
+   "clip": [
+    "wm_Kochi_refinery_on_the_banks_of_chith_dc4eb4"
+   ],
+   "shot": 2.0,
+   "inset": {
+    "dateline": "Kochi, India|File photo",
+    "credit": "Photo CC BY 3.0 via Wikimedia Commons"
+   },
+   "nat": [
+    "industrial",
+    "hum"
+   ]
+  },
+  {
+   "text": "Kpler's ship-tracking data shows India's crude imports hit about 5.6 million barrels a day in October, an all-time high.",
+   "tags": [
+    "oil tanker",
+    "port",
+    "crude"
+   ],
+   "stat": [
+    "5.6M",
+    "Barrels a day imported in October, a record"
+   ],
+   "source": "Kpler via Business Standard",
+   "nat": [
+    "sea",
+    "harbor"
+   ],
+   "shot": 2.0,
+   "clip": [
+    "wm_US_Navy_080918_N_6575H_003_Merchant_ce72f6",
+    "wm_Crude_oil_tanker_Eagle_San_Diego_196f1c"
+   ]
+  },
+  {
+   "text": "Why pay so much to get it? One analyst says price stopped being the point.",
+   "quote": {
+    "text": "The best crude isn't necessarily the cheapest, it's the crude that actually arrives",
+    "who": "Natalia Katona",
+    "role": "Commodity analyst, Oilprice.com",
+    "source": "ThePrint, Oct. 31, 2026",
+    "voice": "en-US-EmmaNeural"
+   },
+   "tags": [
+    "oil tanker",
+    "sea",
+    "ship"
+   ],
+   "nat": [
+    "sea",
+    "waves"
+   ],
+   "clip": [
+    "wm_Tankers_at_the_Iraqi_Al_Basra_Oil_Te_8dfb56"
+   ]
+  },
+  {
+   "text": "Reliance Industries just reported the best refining quarter in its history. Its oil-to-chemicals profit jumped 68 percent to 25,203 crore rupees.",
+   "tags": [
+    "oil refinery",
+    "industrial",
+    "india"
+   ],
+   "clip": [
+    "wm_Anacortes_Refinery_31911_181a0d",
+    "mk_4361"
+   ],
+   "keywords": [
+    "25,203 crore"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ]
+  },
+  {
+   "text": "Yet at state-run Hindustan Petroleum, the first half of the year ended in a loss of 8,639 crore rupees. The same oil. The same war. Opposite results.",
+   "tags": [
+    "petrol pump",
+    "india",
+    "fuel"
+   ],
+   "clip": [
+    "wm_Hindustan_Petroleum_Fuel_Filling_Sta_40dda3",
+    "wm_Shangrilla_Oil_Depot_Melli_Sikkim_In_bed6a0"
+   ],
+   "keywords": [
+    "8,639 crore loss"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ]
+  },
+  {
+   "text": "The reason sits in a sentence from a refiner's earnings call.",
+   "quote": {
+    "text": "Cargoes from Russia have significantly reduced due to their commercial viability",
+    "who": "Vetsa Ramakrishna Gupta",
+    "role": "Chief financial officer, BPCL",
+    "source": "Earnings call, Oct. 26, 2026, via EnergyReader",
+    "voice": "en-GB-RyanNeural"
+   },
+   "tags": [
+    "oil tanker",
+    "ship"
+   ],
+   "nat": [
+    "sea",
+    "harbor"
+   ],
+   "clip": [
+    "wm_BPCL_Petrol_Station_07122014_3c82d1"
+   ]
+  },
+  {
+   "text": "Every litre of diesel at a pump in Delhi costs 95 rupees and 20 paise. Behind that number, one gap decides who wins and who loses. We call it the pump gap.",
+   "tags": [
+    "petrol pump",
+    "india",
+    "fuel"
+   ],
+   "clip": [
+    "wm_Petrol_pump_Boor_Majra_Punjab_panora_1011a4"
+   ],
+   "inset": {
+    "dateline": "Punjab, India|File photo",
+    "credit": "Photo CC BY 3.0 via Wikimedia Commons"
+   },
+   "keywords": [
+    "Rs 95.20",
+    "the pump gap"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ]
+  },
+  {
+   "text": "And the next shock is already on its way.",
+   "quote": {
+    "text": "Russian flows, which have held strong at these levels, could soften in November-December as attacks in the Black Sea push freight rates higher",
+    "who": "Nikhil Dubey",
+    "role": "Lead analyst, Kpler",
+    "source": "Business Standard, Nov. 1, 2026",
+    "voice": "en-AU-WilliamNeural"
+   },
+   "tags": [
+    "black sea",
+    "tanker",
+    "ship"
+   ],
+   "nat": [
+    "sea",
+    "waves"
+   ],
+   "clip": [
+    "wm_Oil_Tanker_in_North_Sea_3928_27ab4d"
+   ]
+  },
+  {
+   "sting": true,
+   "text": ""
+  },
+  {
+   "clip": "wm_Mumbai_India_Bombay_Mumbai_city_skyl_afd32e",
+   "question": "If India buys record oil, why are fuel retailers losing money?",
+   "text": ""
+  },
+  {
+   "agenda": 1,
+   "clip": [
+    "mk_40078"
+   ],
+   "tags": [
+    "ships",
+    "sea"
+   ],
+   "text": ""
+  },
+  {
+   "text": "Start with how much India buys. It imports about 90 percent of the crude it burns. In October, that meant roughly 5.6 million barrels a day, with Russia near 2 million and West Asia near 2.3 million.",
+   "tags": [
+    "oil tanker",
+    "port",
+    "ship"
+   ],
+   "keywords": [
+    "90% imported",
+    "2.3M West Asia"
+   ],
+   "nat": [
+    "sea",
+    "harbor"
+   ],
+   "clip": [
+    "wm_Crude_Oil_Tanker_in_Port_Arthur_Texa_ae466f"
+   ]
+  },
+  {
+   "text": "Refiners ran their plants above 100 percent of nameplate capacity. That is like a factory running three shifts, seven days a week, because a shortage at the pump is worse than a loss.",
+   "tags": [
+    "oil refinery",
+    "night",
+    "industrial"
+   ],
+   "keywords": [
+    "100% capacity"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "clip": [
+    "wm_Irving_Oil_Refinery_Saint_John_NB_73349e",
+    "mk_4380"
+   ]
+  },
+  {
+   "text": "Now the bill. Between April and September, India's crude imports cost 90.6 billion dollars, about 29 billion more than a year earlier, even though volumes rose less than 1 percent. That is nearly half a billion dollars every single day.",
+   "tags": [
+    "money",
+    "oil tanker",
+    "india"
+   ],
+   "keywords": [
+    "$90.6B",
+    "$0.5B a day"
+   ],
+   "source": "PPAC via Financial Express",
+   "nat": [
+    "city"
+   ],
+   "clip": [
+    "wm_Indian_100_and_2000_rupee_notes_3219_d81884",
+    "mk_18296"
+   ]
+  },
+  {
+   "chart": {
+    "type": "bar",
+    "title": "India's crude import bill, April to September",
+    "subtitle": "US dollars, billions",
+    "bars": [
+     [
+      "FY26",
+      61.9,
+      "$61.9B"
+     ],
+     [
+      "FY27",
+      90.6,
+      "$90.6B"
+     ]
+    ],
+    "prefix": "$",
+    "suffix": "B",
+    "decimals": 1,
+    "highlight": 1,
+    "badge": "+46%",
+    "source": "PPAC data via Financial Express; ThePrint"
+   },
+   "text": "Same oil, far bigger invoice. Volumes barely moved. The price per barrel did the damage."
+  },
+  {
+   "text": "And the barrels do not just cost more. They cost more to move. Freight and insurance now make up about a quarter of the cost of a fully loaded supertanker cargo, compared with under 5 percent before the war.",
+   "tags": [
+    "oil tanker",
+    "sea",
+    "ship"
+   ],
+   "keywords": [
+    "25% freight",
+    "<5% before"
+   ],
+   "source": "Business Standard",
+   "nat": [
+    "sea",
+    "waves"
+   ]
+  },
+  {
+   "text": "A supertanker carries about 2 million barrels. At 123 dollars a barrel, that is roughly a quarter of a billion dollars on one ship, and a quarter of it is the cost of getting there.",
+   "tags": [
+    "oil tanker",
+    "crude",
+    "ship"
+   ],
+   "keywords": [
+    "$246M cargo"
+   ],
+   "nat": [
+    "sea",
+    "harbor"
+   ]
+  },
+  {
+   "text": "Notice the shipping squeeze behind that number. Very large crude carriers are scarce, so Indian refiners have started chartering tankers for Gulf oil, something they avoided earlier this year because of attacks near the Strait of Hormuz. It is a quiet, expensive change in how a country of 1.4 billion people keeps its lights on.",
+   "tags": [
+    "oil tanker",
+    "strait of hormuz",
+    "ship"
+   ],
+   "keywords": [
+    "tanker charters"
+   ],
+   "source": "Bloomberg via FT Mercati",
+   "nat": [
+    "sea",
+    "waves"
+   ]
+  },
+  {
+   "text": "So the bill is huge. Who pays it?",
+   "tags": [
+    "oil tanker",
+    "sea"
+   ]
+  },
+  {
+   "agenda": 2,
+   "clip": [
+    "mk_40079"
+   ],
+   "tags": [
+    "ships",
+    "sea"
+   ],
+   "text": ""
+  },
+  {
+   "text": "Here is the trap. India does not pay in rupees. It pays in dollars, and the rupee has slid to about 95 to the dollar. On October 23, India's crude basket cost 123 dollars and 29 cents, almost exactly what it cost in March 2012.",
+   "tags": [
+    "currency",
+    "bank notes",
+    "india"
+   ],
+   "keywords": [
+    "Rs 95 a dollar",
+    "$123.29"
+   ],
+   "source": "Financial Express",
+   "nat": [
+    "city"
+   ],
+   "clip": [
+    "hd_18261",
+    "cv_9403"
+   ]
+  },
+  {
+   "text": "But back then a dollar bought 51 rupees. Now it takes 95. So the same barrel that cost about 6,300 rupees in 2012 costs about 11,700 rupees today.",
+   "tags": [
+    "bank notes",
+    "money",
+    "currency"
+   ],
+   "keywords": [
+    "Rs 6,310",
+    "Rs 11,732"
+   ],
+   "source": "Financial Express",
+   "nat": [
+    "city"
+   ],
+   "clip": [
+    "mk_18263",
+    "cv_1976"
+   ]
+  },
+  {
+   "chart": {
+    "type": "line",
+    "title": "Same dollar price, almost double the rupee price",
+    "subtitle": "Cost of one barrel of India's crude basket, rupees",
+    "x": [
+     "Mar 2012",
+     "Oct 2026"
+    ],
+    "series": [
+     {
+      "name": "Rupees per barrel",
+      "values": [
+       6310,
+       11732
+      ]
+     }
+    ],
+    "prefix": "Rs ",
+    "decimals": 0,
+    "min": 0,
+    "max": 13000,
+    "badge": "+86%",
+    "source": "Financial Express, Oct. 27, 2026"
+   },
+   "text": "That is an 86 percent jump for the companies buying it, with the dollar price almost unchanged."
+  },
+  {
+   "text": "Now our own calculation. A barrel holds about 159 litres. Divide 11,732 rupees by 159 and crude alone costs 73 rupees and 80 paise a litre. In 2012 it was about 40 rupees.",
+   "tags": [
+    "petrol pump",
+    "fuel",
+    "india"
+   ],
+   "clip": [
+    "wm_Petrol_bunk_in_Porumamilla_af7a90"
+   ],
+   "inset": {
+    "dateline": "Andhra Pradesh, India|File photo",
+    "credit": "Photo CC0 via Wikimedia Commons"
+   },
+   "keywords": [
+    "Rs 73.80 a litre"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ]
+  },
+  {
+   "chart": {
+    "type": "bar",
+    "title": "Rotation calculation: crude cost inside one litre",
+    "subtitle": "Rupees per litre = basket price in rupees divided by 159 litres",
+    "bars": [
+     [
+      "Mar 2012",
+      39.7,
+      "Rs 39.7"
+     ],
+     [
+      "Oct 2026",
+      73.8,
+      "Rs 73.8"
+     ]
+    ],
+    "prefix": "Rs ",
+    "decimals": 1,
+    "highlight": 1,
+    "source": "Rotation calculation from Financial Express: Rs 6,310 and Rs 11,732 a barrel; 1 barrel = 158.99 litres"
+   },
+   "text": "Crude alone costs nearly twice as much per litre. And the pump price did not move to match."
+  },
+  {
+   "text": "A rule of thumb from Financial Express makes it concrete. Every extra dollar on a barrel adds about 60 paise to a litre's raw cost. Every rupee the currency falls adds about 78 paise more.",
+   "tags": [
+    "fuel",
+    "petrol pump",
+    "money"
+   ],
+   "keywords": [
+    "60 paise per $1",
+    "78 paise per Re 1"
+   ],
+   "source": "Financial Express",
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "clip": [
+    "wm_Bharat_Petroleum_Fuel_Filling_Statio_9069d3"
+   ]
+  },
+  {
+   "text": "Put it together. Elara Capital estimates the state retailers lost about 24 rupees on every litre of diesel in July to September, against a profit of 5 rupees a year earlier. Petrol went from a 9 rupee profit to a 2 rupee loss.",
+   "tags": [
+    "petrol pump",
+    "fuel",
+    "diesel"
+   ],
+   "keywords": [
+    "-Rs 24 a litre",
+    "from +Rs 5"
+   ],
+   "source": "Elara Capital via Financial Express",
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "clip": [
+    "wm_Petrol_pump_Boor_Majra_panoramio_f36c31"
+   ]
+  },
+  {
+   "text": "Add one more number to keep in mind. Brent itself settled at 117 dollars and 64 cents on October 30. Dated Brent, the price of physical barrels, has touched 140 dollars according to Axis Bank Research. Refiners buy physical barrels, not paper ones, so their real cost can sit well above the headline.",
+   "tags": [
+    "oil tanker",
+    "crude",
+    "sea"
+   ],
+   "keywords": [
+    "Brent $117.64",
+    "Dated Brent $140"
+   ],
+   "source": "CNBC; Axis Bank Research via BusinessToday",
+   "nat": [
+    "sea",
+    "harbor"
+   ]
+  },
+  {
+   "text": "The pump gap, then, is the distance between what crude costs and what the pump is allowed to charge. Right now it runs the wrong way. Why not just raise prices?",
+   "tags": [
+    "petrol pump",
+    "india",
+    "road"
+   ],
+   "keywords": [
+    "the pump gap"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "clip": [
+    "wm_Nanhe_Petrol_Pump_NICHNOUL_by_Moyid_99fbf1"
+   ],
+   "inset": {
+    "dateline": "India|File photo",
+    "credit": "Photo CC BY 3.0 via Wikimedia Commons"
+   }
+  },
+  {
+   "agenda": 3,
+   "tags": [
+    "harbor",
+    "cranes",
+    "port"
+   ],
+   "text": ""
+  },
+  {
+   "text": "Because the last hike was in May, about 7 rupees and 50 paise a litre, and prices have not moved since. Delhi petrol is 102 rupees and 12 paise, diesel 95 rupees and 20 paise. Pump prices are politics as much as economics.",
+   "tags": [
+    "petrol pump",
+    "road",
+    "traffic"
+   ],
+   "clip": [
+    "wm_Cotton_Green_Station_Neighbourhood_3_30eaea"
+   ],
+   "inset": {
+    "dateline": "Mumbai, India|File photo",
+    "credit": "Photo CC BY 2.0 via Wikimedia Commons"
+   },
+   "keywords": [
+    "Rs 7.50 hike",
+    "May"
+   ],
+   "source": "Financial Express",
+   "nat": [
+    "city",
+    "traffic"
+   ]
+  },
+  {
+   "text": "The government has already given up something too. It cut the special excise duty on petrol and diesel by 10 rupees a litre, and excise collections fell nearly 23 percent to 86,687 crore rupees in April to August.",
+   "tags": [
+    "parliament",
+    "india",
+    "government"
+   ],
+   "keywords": [
+    "-Rs 10 duty",
+    "-23% excise"
+   ],
+   "source": "Financial Express",
+   "nat": [
+    "city"
+   ],
+   "clip": [
+    "wm_Sansad_Bhavan_1_1b7ff0",
+    "wm_Sansad_Bhavan_2_bb9931"
+   ],
+   "inset": {
+    "dateline": "New Delhi, India|File photo",
+    "credit": "Photo public domain via Wikimedia Commons"
+   }
+  },
+  {
+   "text": "The ratings agency ICRA did the math forward. If crude stays between 105 and 115 dollars with no price hike, state retailers could lose more than 64,000 crore rupees on petrol and diesel this fiscal year.",
+   "tags": [
+    "india",
+    "money",
+    "fuel"
+   ],
+   "keywords": [
+    "Rs 64,000 crore"
+   ],
+   "source": "ICRA via Moneycontrol",
+   "nat": [
+    "city"
+   ],
+   "clip": [
+    "hd_18296",
+    "hd_18249"
+   ]
+  },
+  {
+   "chart": {
+    "type": "bar",
+    "title": "ICRA's fuel under-recovery scenarios, FY27",
+    "subtitle": "Rupees crore lost on petrol and diesel sales",
+    "bars": [
+     [
+      "Crude $105-115",
+      64000,
+      "Rs 64,000 cr"
+     ],
+     [
+      "+ Rs 6 hike, $130-140",
+      89500,
+      "Rs 89,500 cr"
+     ],
+     [
+      "No hike, $130-140",
+      191000,
+      "Rs 1.91 lakh cr"
+     ]
+    ],
+    "prefix": "Rs ",
+    "decimals": 0,
+    "highlight": 2,
+    "source": "ICRA via Moneycontrol, Oct. 28, 2026"
+   },
+   "text": "At 130 to 140 dollars with no hike, the loss reaches 1 lakh 91 thousand crore. A 6 rupee a litre hike would cut that to 89,500 crore."
+  },
+  {
+   "text": "So where does the money go? Not away. It moves up the chain. The company that refines the oil keeps a margin the company that sells it does not.",
+   "tags": [
+    "oil refinery",
+    "industrial",
+    "night"
+   ],
+   "keywords": [
+    "the pump gap"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ]
+  },
+  {
+   "text": "Split the chain and you see winners.",
+   "tags": [
+    "oil refinery",
+    "night"
+   ]
+  },
+  {
+   "agenda": 4,
+   "tags": [
+    "sunset",
+    "sea",
+    "waves"
+   ],
+   "text": ""
+  },
+  {
+   "flow": {
+    "title": "Where a litre's profit goes",
+    "subtitle": "The Indian fuel chain",
+    "layout": "chain",
+    "nodes": [
+     {
+      "label": "Crude at sea",
+      "icon": "ship"
+     },
+     {
+      "label": "Refinery",
+      "sub": "margin kept here",
+      "icon": "oil"
+     },
+     {
+      "label": "Export or sell",
+      "icon": "globe"
+     },
+     {
+      "label": "Retail pump",
+      "sub": "price held down",
+      "icon": "fuel"
+     },
+     {
+      "label": "Driver",
+      "icon": "car"
+     }
+    ],
+    "source": "Reliance, Financial Express"
+   },
+   "sync": true,
+   "text": "A barrel is bought at sea, refined, then either exported at global prices or sold to a pump where the price is held down. The refiner can win at one step while the retailer loses at the next."
+  },
+  {
+   "text": "Reliance shows it. It says fuel cracks, the gap between refined fuel and crude, rose three to 3.7 times from a year earlier. Diesel cracks alone jumped 252 percent.",
+   "tags": [
+    "oil refinery",
+    "industrial",
+    "india"
+   ],
+   "keywords": [
+    "diesel cracks +252%"
+   ],
+   "source": "Reliance results via The Hindu BusinessLine",
+   "nat": [
+    "industrial",
+    "hum"
+   ]
+  },
+  {
+   "text": "So Reliance redirected fuel exports to East and South Africa, the Mediterranean and Europe, where prices were higher. The Economic Times says that lifted its market share there by about 50 percent.",
+   "tags": [
+    "oil tanker",
+    "port",
+    "ship"
+   ],
+   "keywords": [
+    "+50% share"
+   ],
+   "source": "Economic Times",
+   "nat": [
+    "sea",
+    "harbor"
+   ]
+  },
+  {
+   "text": "It also paid for it. Freight rates rose 15 to 20 times.",
+   "tags": [
+    "oil tanker",
+    "sea"
+   ],
+   "keywords": [
+    "15-20x freight"
+   ]
+  },
+  {
+   "rehook": true,
+   "text": "So go back to the record. 5.6 million barrels a day, the most India has ever bought. The pump gap is why a record month can still lose money. Reliance sold at world prices. The pump sells at a price the politics of May set.",
+   "tags": [
+    "oil refinery",
+    "night",
+    "india"
+   ],
+   "keywords": [
+    "5.6M barrels",
+    "the pump gap"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ]
+  },
+  {
+   "text": "Even Reliance did not escape. It said higher crude premiums, freight, excise duty costs and losses in its own domestic fuel retail all held back earnings. Revenue rose 44 percent. Profit did not rise as fast.",
+   "tags": [
+    "oil refinery",
+    "india",
+    "industrial"
+   ],
+   "keywords": [
+    "revenue +44%",
+    "EBITDA +68%"
+   ],
+   "source": "Reliance via Economic Times",
+   "nat": [
+    "industrial",
+    "hum"
+   ]
+  },
+  {
+   "text": "The mix of crude is shifting too. Russian oil fell to about 35 percent of India's imports in October from 55 percent in July, according to Kpler, as freight erased its discount.",
+   "tags": [
+    "oil tanker",
+    "sea",
+    "ship"
+   ],
+   "keywords": [
+    "Russia 55% to 35%"
+   ],
+   "source": "Kpler via ThePrint",
+   "nat": [
+    "sea",
+    "waves"
+   ]
+  },
+  {
+   "text": "The Reserve Bank opened a special dollar window on October 12 for Indian Oil, BPCL and HPCL, so the three retailers need not buy dollars in the open market and push the rupee lower.",
+   "tags": [
+    "bank notes",
+    "india",
+    "money"
+   ],
+   "keywords": [
+    "RBI dollar window"
+   ],
+   "source": "Financial Express",
+   "nat": [
+    "city"
+   ]
+  },
+  {
+   "text": "What happens next depends on three things. A Black Sea attack could lift freight again. The rupee could slide further. And the government could finally allow a pump price hike.",
+   "tags": [
+    "india",
+    "road",
+    "city"
+   ],
+   "keywords": [
+    "freight",
+    "rupee",
+    "price hike"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ]
+  },
+  {
+   "text": "For you, the pump gap shows up in two places. The price at the pump if it closes, and the tax and deficit numbers if it does not. Neither is free.",
+   "tags": [
+    "petrol pump",
+    "india",
+    "road"
+   ],
+   "keywords": [
+    "the pump gap"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ]
+  }
+ ],
+ "closer": {
+  "text": "The oil keeps arriving. The pump gap decides who can afford it.",
+  "clip": "mk_1086",
+  "tags": [
+   "sunrise",
+   "ocean",
+   "sea"
+  ]
+ },
+ "endcard": {
+  "dur": 10,
+  "line": "Watch next",
+  "bg_clip": "wm_Mumbai_India_Bombay_Mumbai_skyline_a_b05ec6",
+  "thumb": "/workspace/work/yt/covers/watchnext_7ri47ST9KZA.jpg",
+  "video": "Why oil keeps rising when more oil is flowing"
+ }
+}

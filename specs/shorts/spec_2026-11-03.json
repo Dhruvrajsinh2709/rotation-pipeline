@@ -1,0 +1,136 @@
+{
+ "title": "Why Reliance made record oil profit while HPCL lost money",
+ "output": "/workspace/work/yt/out/2026-11-03_pump-gap-short2.mp4",
+ "rate": "+24%",
+ "music": {
+  "mood": "tense",
+  "mood2": "doc"
+ },
+ "tags": [
+  "gas station",
+  "fuel pump",
+  "india"
+ ],
+ "outro": {
+  "text": "Until Delhi lets pump prices rise, refiners keep winning and pumps keep losing. And that is why Reliance's oil profit jumped",
+  "tags": [
+   "india",
+   "city",
+   "traffic"
+  ],
+  "nat": [
+   "city",
+   "traffic"
+  ]
+ },
+ "sources": [
+  "Times of India / Moneycontrol on Reliance Q2 FY27, Oct. 30, 2026",
+  "HPCL results release, Oct. 22, 2026",
+  "The Hindu BusinessLine / DSIJ on HPCL Q1-Q2 FY27, Oct. 24, 2026"
+ ],
+ "scenes": [
+  {
+   "clip": [
+    "wm_Hindustan_Petroleum_Fuel_Filling_Sta_40dda3"
+   ],
+   "tags": [
+    "gas station",
+    "fuel pump"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "blur": true,
+   "hook_card": "Reliance oil profit +68%. HPCL lost Rs 8,639 crore.",
+   "stat": [
+    "+68%",
+    "Reliance oil EBITDA, Jul-Sep"
+   ],
+   "text": "Reliance's oil profit jumped 68 percent. Its rival lost 8,639 crore rupees."
+  },
+  {
+   "clip": [
+    "wm_Irving_Oil_Refinery_Saint_John_NB_73349e"
+   ],
+   "tags": [
+    "oil refinery",
+    "industrial"
+   ],
+   "nat": [
+    "industrial"
+   ],
+   "blur": true,
+   "stat": [
+    "Rs 25,203 cr",
+    "Reliance O2C EBITDA, record"
+   ],
+   "text": "Reliance's oil arm earned a record 25,203 crore rupees in one quarter."
+  },
+  {
+   "clip": [
+    "wm_Hindustan_Petroleum_Fuel_Filling_Sta_40dda3"
+   ],
+   "tags": [
+    "gas station",
+    "fuel pump"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "blur": true,
+   "card": {
+    "type": "compare",
+    "title": "HPCL refining margin, $/barrel",
+    "items": [
+     [
+      "Jul-Sep 2025",
+      "$8.80"
+     ],
+     [
+      "Jul-Sep 2026",
+      "$32.15"
+     ]
+    ],
+    "source": "HPCL results release, Oct. 22, 2026"
+   },
+   "text": "HPCL's refineries did well too. Its refining margin hit 32 dollars a barrel, up from under 9."
+  },
+  {
+   "clip": [
+    "wm_Bharat_Petroleum_Fuel_Filling_Statio_9069d3"
+   ],
+   "tags": [
+    "gas station",
+    "fuel pump"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "blur": true,
+   "turn": true,
+   "stat": [
+    "-Rs 8,639 cr",
+    "HPCL consolidated loss, Apr-Sep"
+   ],
+   "text": "But HPCL also sells at the pump, at prices held since May. That left it with a loss over six months."
+  },
+  {
+   "clip": [
+    "wm_Delhi_India_City_traffic_Motion_aa501c"
+   ],
+   "tags": [
+    "india",
+    "city",
+    "traffic"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "Elara Capital estimates state retailers lost about 24 rupees on every litre of diesel."
+  }
+ ]
+}

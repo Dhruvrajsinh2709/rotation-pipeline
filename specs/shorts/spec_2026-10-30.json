@@ -1,0 +1,223 @@
+{
+  "title": "Why Amazon's AI spending spooked Wall Street",
+  "output": "/workspace/work/yt/out/2026-10-30_amazon-ai-cash-burn.mp4",
+  "rate": "+24%",
+  "music": {
+    "mood": "tense"
+  },
+  "tags": [
+    "amazon",
+    "data center",
+    "cash"
+  ],
+  "outro": {
+    "text": "Next up: AMD reports next week, then Nvidia in mid-November.",
+    "tags": [
+      "chip",
+      "circuit board"
+    ],
+    "clip": [
+      "hd_2381"
+    ],
+    "nat": [
+      "industrial"
+    ]
+  },
+  "sources": [
+    "Amazon Q3 2026 results release: https://www.businesswire.com/news/home/20261028373648/en/Amazon.com-Announces-Third-Quarter-Results",
+    "CNBC, Amazon Q3 2026: https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+    "Reuters via Euronext, Oct. 29, 2026: https://live.euronext.com/en/financial-news/amazon-sinks-ai-spending-eclipses-fastest-cloud-growth-five-years",
+    "CNBC, Intel Q3 2026: https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
+    "CNBC, Oct. 30, 2026: https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+  ],
+  "scenes": [
+    {
+      "clip": [
+        "mk_31346"
+      ],
+      "tags": [
+        "courier",
+        "boxes",
+        "delivery"
+      ],
+      "nat": [
+        "city",
+        "traffic"
+      ],
+      "hook_card": "Amazon spent $77 billion in one quarter. Wall Street sold the stock.",
+      "text": "Amazon spent 77 billion dollars in one quarter. And Wall Street sold the stock."
+    },
+    {
+      "clip": [
+        "wm_Datacenter_Server_Racks_22370909788_6c4879"
+      ],
+      "tags": [
+        "data center",
+        "server racks"
+      ],
+      "blur": true,
+      "nat": [
+        "industrial",
+        "hum"
+      ],
+      "pill": [
+        "Amazon Web Services"
+      ],
+      "text": "Its cloud arm grew 39 percent, the fastest in nearly five years. So what spooked investors? Three numbers explain it."
+    },
+    {
+      "clip": [
+        "hd_4010"
+      ],
+      "tags": [
+        "construction",
+        "crane",
+        "building"
+      ],
+      "nat": [
+        "construction"
+      ],
+      "stat": [
+        "$77.3B",
+        "Amazon capex, Q3 2026"
+      ],
+      "text": "Number one: 77.3 billion dollars on buildings and equipment last quarter, mostly for AI. A year ago: 35.1 billion."
+    },
+    {
+      "clip": [
+        "mk_18263",
+        "mk_18302"
+      ],
+      "tags": [
+        "money",
+        "cash",
+        "counting"
+      ],
+      "nat": [
+        "office"
+      ],
+      "stat": [
+        "-$42.4B",
+        "Free cash flow, past 12 months"
+      ],
+      "text": "Number two: minus 42.4 billion. That's its free cash flow over the past year, the cash left after paying for that equipment. A year ago, it was plus 14.8 billion."
+    },
+    {
+      "chart": {
+        "type": "bar",
+        "title": "Amazon, past 12 months",
+        "subtitle": "Operating cash vs equipment spend, $B",
+        "bars": [
+          [
+            "Cash from operations",
+            168.3
+          ],
+          [
+            "Net equipment spending",
+            210.7
+          ]
+        ],
+        "prefix": "$",
+        "suffix": "B",
+        "decimals": 1,
+        "highlight": 1,
+        "source": "Amazon Q3 2026 results, trailing 12 months"
+      },
+      "text": "Here's the squeeze. Operations brought in 168 billion dollars. But net equipment spending hit 211 billion."
+    },
+    {
+      "clip": [
+        "cv_4862"
+      ],
+      "tags": [
+        "stock market",
+        "trading",
+        "chart"
+      ],
+      "nat": [
+        "office"
+      ],
+      "text": "One portfolio manager was blunt.",
+      "quote": {
+        "text": "Operations generated plenty of cash but their capex just absolutely swallowed it.",
+        "who": "Dave Wagner",
+        "role": "Portfolio manager, Aptus Capital Advisors",
+        "source": "Reuters, Oct. 2026",
+        "voice": "en-GB-RyanNeural"
+      }
+    },
+    {
+      "clip": [
+        "hd_42333"
+      ],
+      "tags": [
+        "construction",
+        "aerial",
+        "site"
+      ],
+      "nat": [
+        "construction"
+      ],
+      "stat": [
+        "$220B",
+        "Amazon 2026 capex plan"
+      ],
+      "text": "Number three: 220 billion dollars, Amazon's capex plan this year. CEO Andy Jassy says next year will be meaningfully more."
+    },
+    {
+      "clip": [
+        "wm_Technician_with_laptop_working_on_se_11af22"
+      ],
+      "tags": [
+        "server",
+        "technician",
+        "data center"
+      ],
+      "nat": [
+        "industrial",
+        "hum"
+      ],
+      "text": "Jassy says not to worry.",
+      "quote": {
+        "text": "Our strategy is working and I expect it will for the foreseeable future.",
+        "who": "Andy Jassy",
+        "role": "CEO, Amazon",
+        "source": "Reuters, Oct. 2026",
+        "voice": "en-AU-WilliamNeural"
+      }
+    },
+    {
+      "clip": [
+        "cv_5368"
+      ],
+      "tags": [
+        "new york stock exchange",
+        "wall street"
+      ],
+      "nat": [
+        "city",
+        "traffic"
+      ],
+      "pill": [
+        "Alphabet",
+        "Amazon",
+        "Intel"
+      ],
+      "text": "It wasn't just Amazon. Alphabet fell more than 12 percent Thursday, its worst day ever. Intel dropped about 29 percent Friday."
+    },
+    {
+      "clip": [
+        "cv_5128"
+      ],
+      "tags": [
+        "stock market",
+        "analyst",
+        "investor"
+      ],
+      "nat": [
+        "office"
+      ],
+      "text": "Investors now want proof the AI spending pays off. Microsoft stayed cash positive, and its shares rose."
+    }
+  ]
+}

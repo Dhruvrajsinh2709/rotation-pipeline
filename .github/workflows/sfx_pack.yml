@@ -1,0 +1,19 @@
+name: SFX pack (Openverse CC0 + earshot bank)
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sfx:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: bash pipeline/setup_runner.sh
+      - run: cd /workspace/work/yt && python pipeline/sfx_addon.py both
+      - run: |
+          git config user.name rotation-bot; git config user.email rotation-bot@users.noreply.github.com
+          git add sfx2 && git commit -m "SFX add-on: Openverse CC0 + earshot sounds" && git push || echo "nothing new"

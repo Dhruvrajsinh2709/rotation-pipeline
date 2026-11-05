@@ -1,0 +1,1365 @@
+{
+ "series": "Rotation Explains",
+ "title": "Your IndiGo ticket costs more. So why is IndiGo still losing money?",
+ "output": "/workspace/work/yt/out/explain_2026-11-04_indigo.mp4",
+ "fps": 24,
+ "crf": 15,
+ "rate": "+16%",
+ "rate2": "+6%",
+ "music_db": -18,
+ "nat_db": [
+  -22,
+  -13
+ ],
+ "endcard_bg": "wm_VT_IUC_20_Jul_2024_acee39",
+ "sources": [],
+ "scenes": [
+  {
+   "kind": "footage",
+   "music": "tense",
+   "nat": [
+    "jet",
+    "plane"
+   ],
+   "shots": [
+    "wm_VT_IUC_20_Jul_2024_acee39",
+    "wm_SGP_Singapore_IndiGo_Airbus_A321_25_b871e3"
+   ],
+   "text": "You're paying IndiGo about a third more per kilometre than a year ago. And IndiGo is still losing money.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "+34%",
+       "Earnings per passenger-km",
+       2.4
+      ]
+     ],
+     "cues": [
+      "third"
+     ]
+    }
+   ],
+   "sheet": [
+    4.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "airport",
+    "crowd"
+   ],
+   "shots": [
+    "wm_SGP_Singapore_IndiGo_Airbus_A320_25_46efca",
+    "mk_4003@1",
+    "wm_F_WWED_ATR_72_600_IndiGo_test_in_fli_a62c55"
+   ],
+   "text": "Last Thursday, India's biggest airline reported a loss of 1,879 crore rupees for July to September. That's about 200 million dollars, and its third losing quarter in a row.",
+   "overlays": [
+    {
+     "type": "headline",
+     "outlet": "Business Standard",
+     "date": "Oct. 29, 2026",
+     "text": "IndiGo Q2 net loss narrows 27.2% to ₹1,879 crore despite fuel cost surge",
+     "credit": "Headline recreated from Business Standard",
+     "cues": [
+      "Thursday"
+     ],
+     "out": 5.4
+    },
+    {
+     "type": "pops",
+     "items": [
+      [
+       "−₹1,879 cr",
+       "Net loss, Jul–Sep 2026",
+       2.4
+      ],
+      [
+       "3 in a row",
+       "Losing quarters",
+       2.2
+      ]
+     ],
+     "cues": [
+      "200",
+      "third"
+     ]
+    }
+   ],
+   "sheet": [
+    3.0,
+    9.0
+   ]
+  },
+  {
+   "kind": "doc",
+   "text": "Here's the line that explains the twist. In its own filing, IndiGo says its yield, what it earns for flying one passenger one kilometre, rose 34.3 percent, to 6.30 rupees.",
+   "gfx": {
+    "page_png": "/workspace/work/yt/explain/indigo/pg2-2.png",
+    "bbox_html": "/workspace/work/yt/explain/indigo/pg2.html",
+    "target": "34.3%",
+    "extra_rings": [
+     "6.30"
+    ],
+    "anchor": "left",
+    "crop_w": [
+     500,
+     450
+    ],
+    "callout": "A third more\nper kilometre",
+    "title": "Yield, Jul–Sep 2026 vs a year earlier",
+    "source": "Source: IndiGo Q2 FY27 press release, p. 1 (BSE filing, Oct. 29, 2026)",
+    "thumb_label": "IndiGo Q2 FY27 press release (BSE filing)",
+    "page_no": "Press release, p. 1",
+    "page_w_pt": 595.32,
+    "page_h_pt": 841.92
+   },
+   "cues": {
+    "hl": "line",
+    "ring": "rose",
+    "callout": "rupees"
+   },
+   "sheet": [
+    9.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "airport",
+    "crowd"
+   ],
+   "shots": [
+    "mk_4008@1",
+    "cv_3419@1"
+   ],
+   "text": "In this video, we read the filing and pull out three things the headlines missed: the fuel bill, the rupee, and what it all means for your next ticket.",
+   "overlays": [
+    {
+     "type": "agenda",
+     "items": [
+      "The fuel bill",
+      "The rupee",
+      "Your ticket"
+     ],
+     "cues": [
+      "fuel",
+      "rupee",
+      "ticket"
+     ]
+    }
+   ],
+   "sheet": [
+    7.0
+   ]
+  },
+  {
+   "kind": "verdict",
+   "bg": "mk_3099@1",
+   "text": "The short version: you're paying more to fly. But IndiGo is caught in what we call the dollar squeeze.",
+   "gfx": {
+    "tag": "The short version",
+    "lines": [
+     "You're paying more to fly.",
+     "IndiGo is caught in a dollar squeeze."
+    ]
+   },
+   "cues": [
+    "short",
+    "caught"
+   ],
+   "sheet": [
+    6.0
+   ]
+  },
+  {
+   "kind": "title",
+   "bg": "wm_F_WWBX_Airbus_A320_IndiGo_test_in_fl_c0249e",
+   "dur": 3.3,
+   "gfx": {
+    "series": "Rotation Explains",
+    "title": "Why IndiGo Is Still Losing Money"
+   },
+   "sheet": [
+    2.6
+   ]
+  },
+  {
+   "kind": "section",
+   "music": "doc",
+   "dur": 1.6,
+   "gfx": {
+    "num": "1",
+    "text": "The fuel bill"
+   }
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "airplane",
+    "rumble"
+   ],
+   "shots": [
+    "wm_IndiGo_VT_IDJ_Airbus_A320_232_MSN_48_5d1982",
+    "mk_4084@1",
+    "mk_3411@1"
+   ],
+   "text": "Start with the fuel. In three months, IndiGo spent 9,967 crore rupees on jet fuel. That's roughly a billion dollars, or about 108 crore rupees every single day.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "₹9,967 cr",
+       "Fuel bill, Jul–Sep 2026",
+       2.4
+      ],
+      [
+       "₹108 cr",
+       "Every day",
+       2.2
+      ]
+     ],
+     "cues": [
+      "jet",
+      "single"
+     ]
+    }
+   ],
+   "sheet": [
+    6.0
+   ]
+  },
+  {
+   "kind": "doc",
+   "text": "The filing puts it plainly. Fuel cost: 99,668 million rupees, against 59,618 million a year earlier. Up 67 percent.",
+   "gfx": {
+    "page_png": "/workspace/work/yt/explain/indigo/pg3-3.png",
+    "bbox_html": "/workspace/work/yt/explain/indigo/pg3.html",
+    "target": "99,668",
+    "extra_rings": [
+     "59,618"
+    ],
+    "anchor": "left",
+    "crop_w": [
+     500,
+     450
+    ],
+    "callout": "Up 67%\nin one year",
+    "title": "Fuel cost, Jul–Sep 2026 vs 2025 (INR million)",
+    "source": "Source: IndiGo Q2 FY27 press release, p. 2",
+    "thumb_label": "IndiGo Q2 FY27 press release (BSE filing)",
+    "page_no": "Revenue and cost, p. 2",
+    "page_w_pt": 595.32,
+    "page_h_pt": 841.92
+   },
+   "cues": {
+    "hl": "plainly",
+    "ring": "against",
+    "callout": "Up"
+   },
+   "sheet": [
+    7.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "airport",
+    "crowd"
+   ],
+   "shots": [
+    "cv_7979@1",
+    "wm_North_South_Block_New_Delhi_29473966_b7c45b",
+    "mk_4083@1",
+    "cv_9939@1",
+    "wm_Delhi_India_City_traffic_Motion_aa501c"
+   ],
+   "text": "And it got worse as the year went on. From April until June 8, the government capped domestic jet fuel at 25 percent above March prices. When that cap ended, airlines paid market rates. IndiGo's quarterly loss grew nearly eightfold, from 238 crore rupees in April to June, to 1,879 crore.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "June 8",
+       "Jet fuel price cap ends",
+       2.4
+      ],
+      [
+       "₹238 cr to ₹1,879 cr",
+       "Quarterly loss",
+       2.6
+      ]
+     ],
+     "cues": [
+      "June",
+      "eightfold"
+     ]
+    }
+   ],
+   "sheet": [
+    5.0,
+    14.0
+   ]
+  },
+  {
+   "kind": "bars",
+   "text": "We ran the numbers. Divide that fuel bill by the passengers IndiGo flew. A year ago, each person burned about 2,070 rupees of fuel. Now it's about 3,624. That's 75 percent more, per person.",
+   "gfx": {
+    "title": "Rotation calculation: fuel cost per passenger",
+    "bars": [
+     [
+      "Jul–Sep 2025",
+      2070,
+      "₹2,070"
+     ],
+     [
+      "Jul–Sep 2026",
+      3624,
+      "₹3,624"
+     ]
+    ],
+    "ymax": 4000,
+    "ystep": 1000,
+    "prefix": "₹",
+    "suffix": "",
+    "source": "Source: IndiGo Q2 FY27 press release (fuel cost ÷ passengers)",
+    "annot": {
+     "text": "+75% PER PERSON"
+    }
+   },
+   "cues": [
+    "ago",
+    "Now"
+   ],
+   "post": 1.0,
+   "sheet": [
+    11.0
+   ]
+  },
+  {
+   "kind": "keyword",
+   "bg": "wm_Anacortes_Refinery_31911_181a0d",
+   "text": "So why is jet fuel so expensive? Crude oil is only part of it. Refiners charge extra to turn crude into jet fuel, and that extra is called the crack spread. Think of crude as wheat and jet fuel as bread. This year, the bakery's markup roughly tripled.",
+   "gfx": {
+    "word": "Crack spread",
+    "sub": "Jet fuel's premium over crude oil"
+   },
+   "cues": [
+    "called"
+   ],
+   "sheet": [
+    8.5
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "office"
+   ],
+   "shots": [
+    "wm_IndiGo_Hangar_Indira_Gandhi_Internat_77c7ed"
+   ],
+   "text": "IndiGo's chief executive, Willie Walsh, walked investors through it on the earnings call.",
+   "overlays": [
+    {
+     "type": "lower",
+     "who": "Willie Walsh",
+     "role": "Chief executive, IndiGo",
+     "cues": [
+      "Willie"
+     ]
+    }
+   ],
+   "sheet": [
+    3.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "shots": [
+    "wm_Crude_Oil_Tanker_in_Port_Arthur_Texa_ae466f",
+    "mk_4362@1"
+   ],
+   "text": "He said that spread has usually been a little over 20 percent. This year, he expects it to average 60 to 65 percent.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "~20%",
+       "Usual jet fuel premium",
+       2.2
+      ],
+      [
+       "60–65%",
+       "Expected this year",
+       2.4
+      ]
+     ],
+     "cues": [
+      "usually",
+      "average"
+     ]
+    }
+   ],
+   "sheet": [
+    6.0
+   ]
+  },
+  {
+   "kind": "quote",
+   "bg": "cv_8656@1",
+   "text": "And he warned that cheaper crude won't fix it on its own.",
+   "quote": {
+    "text": "It is not the crude price that is going to really impact us, because as we have said, jet and crude have somewhat diverged.",
+    "who": "Willie Walsh",
+    "role": "Chief executive, IndiGo",
+    "source": "IndiGo Q2 FY27 earnings call, Oct. 29, 2026 (AlphaStreet transcript)",
+    "voice": "en-IE-ConnorNeural"
+   },
+   "sheet": [
+    6.0
+   ]
+  },
+  {
+   "kind": "split",
+   "text": "Fuel now takes 38 percent of everything IndiGo spends. Walsh has put the global airline average nearer 32 percent.",
+   "gfx": {
+    "tag": "Share of IndiGo's costs, Jul–Sep 2026",
+    "left": {
+     "label": "Fuel",
+     "pct": 38
+    },
+    "right": {
+     "label": "Everything else",
+     "pct": 62
+    },
+    "source": "Source: IndiGo Q2 FY27 press release (fuel ₹99,668M of ₹261,884M total cost)"
+   },
+   "cues": [
+    "38",
+    "everything"
+   ],
+   "sheet": [
+    5.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "wind"
+   ],
+   "shots": [
+    "cv_6487@1"
+   ],
+   "text": "But fuel is only half the story. The bigger surprise is the currency."
+  },
+  {
+   "kind": "section",
+   "music": "pulse",
+   "dur": 1.6,
+   "gfx": {
+    "num": "2",
+    "text": "The rupee"
+   }
+  },
+  {
+   "kind": "keyword",
+   "bg": "wm_Indian_100_and_2000_rupee_notes_3219_d81884",
+   "text": "IndiGo sells most of its tickets in rupees. But many of its costs are tied to the dollar: fuel prices, aircraft leases, engines and debt. That's the dollar squeeze.",
+   "gfx": {
+    "word": "Dollar squeeze",
+    "sub": "Costs in dollars, fares in rupees"
+   },
+   "cues": [
+    "squeeze"
+   ],
+   "sheet": [
+    9.0
+   ]
+  },
+  {
+   "kind": "doc",
+   "text": "Look at the balance sheet. Lease payments on its planes are set in dollars. IndiGo lists a lease liability of 551,592 million rupees, and total debt, including those leases, of 873,031 million. That's about 9.2 billion dollars, nearly four times the quarter's revenue.",
+   "gfx": {
+    "page_png": "/workspace/work/yt/explain/indigo/pg3-3.png",
+    "bbox_html": "/workspace/work/yt/explain/indigo/pg3.html",
+    "target": "873,031",
+    "extra_rings": [],
+    "anchor": "left",
+    "crop_w": [
+     520,
+     470
+    ],
+    "callout": "About $9.2B,\nleases included",
+    "title": "Cash and debt, Sept. 30, 2026 (INR million)",
+    "source": "Source: IndiGo Q2 FY27 press release, p. 2; Business Standard (dollar-linked lease costs)",
+    "thumb_label": "IndiGo Q2 FY27 press release (BSE filing)",
+    "page_no": "Cash and debt, p. 2",
+    "page_w_pt": 595.32,
+    "page_h_pt": 841.92
+   },
+   "cues": {
+    "hl": "balance",
+    "ring": "total",
+    "callout": "nearly"
+   },
+   "sheet": [
+    12.0
+   ]
+  },
+  {
+   "kind": "flow",
+   "bg": "mk_18302@1",
+   "darken": 0.15,
+   "text": "The benchmark price of jet fuel was up 60 percent on a year earlier. The rupee fell about 9 percent against the dollar. Put them together, and IndiGo's fuel bill in rupees rose 67 percent.",
+   "gfx": {
+    "title": "How the dollar squeeze works",
+    "nodes": [
+     {
+      "icon": "up",
+      "label": "Jet fuel benchmark",
+      "value": "+60%"
+     },
+     {
+      "icon": "down",
+      "label": "Rupee vs dollar",
+      "value": "−9%"
+     },
+     {
+      "icon": "cash",
+      "label": "Fuel bill in rupees",
+      "value": "+67%",
+      "accent": true
+     }
+    ],
+    "ops": [
+     "+",
+     "="
+    ],
+    "source": "Source: IndiGo Q2 FY27 earnings call (CFO: Singapore jet fuel index +60%, rupee −9% over 12 months); press release (fuel cost +67.2%)"
+   },
+   "cues": [
+    "60",
+    "9",
+    "together"
+   ],
+   "post": 0.8,
+   "sheet": [
+    11.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "office"
+   ],
+   "shots": [
+    "hd_18296@1",
+    "mk_5024@1",
+    "hd_18261@1",
+    "hd_4533@1"
+   ],
+   "text": "Here's what that looks like in rupees. At last year's average exchange rate, a 1,000 dollar bill cost IndiGo about 87,060 rupees. This quarter, about 95,090. Same bill, 8,000 rupees more. Its aircraft and engine rental costs rose 33 percent.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "₹87,060 to ₹95,090",
+       "Cost of a $1,000 bill",
+       2.8
+      ],
+      [
+       "+33%",
+       "Aircraft and engine rentals",
+       2.4
+      ]
+     ],
+     "cues": [
+      "average",
+      "rental"
+     ]
+    }
+   ],
+   "sheet": [
+    5.0,
+    13.0
+   ]
+  },
+  {
+   "kind": "doc",
+   "text": "Now here's the line most headlines skipped. Without currency effects, IndiGo's loss was 7,237 million rupees. The reported loss was 18,791 million.",
+   "gfx": {
+    "page_png": "/workspace/work/yt/explain/indigo/pg2-2.png",
+    "bbox_html": "/workspace/work/yt/explain/indigo/pg2.html",
+    "target": "(7,237)",
+    "extra_rings": [],
+    "anchor": "left",
+    "crop_w": [
+     500,
+     450
+    ],
+    "callout": "Most of the loss\nwas currency",
+    "title": "Profitability metrics, Jul–Sep 2026 (INR million)",
+    "source": "Source: IndiGo Q2 FY27 press release, p. 1",
+    "thumb_label": "IndiGo Q2 FY27 press release (BSE filing)",
+    "page_no": "Profitability metrics, p. 1",
+    "page_w_pt": 595.32,
+    "page_h_pt": 841.92
+   },
+   "cues": {
+    "hl": "skipped",
+    "ring": "Without",
+    "callout": "reported"
+   },
+   "sheet": [
+    8.0
+   ]
+  },
+  {
+   "kind": "bars",
+   "text": "Split it, and about 724 crore came from running the airline. About 1,155 crore came from the currency. Six of every ten rupees lost were the rupee, not the flying.",
+   "gfx": {
+    "title": "Rotation calculation: where the ₹1,879 crore loss came from",
+    "bars": [
+     [
+      "Running the airline",
+      724,
+      "₹724 cr"
+     ],
+     [
+      "Currency and hedging",
+      1155,
+      "₹1,155 cr"
+     ]
+    ],
+    "ymax": 1400,
+    "ystep": 200,
+    "prefix": "₹",
+    "suffix": "",
+    "highlight": 1,
+    "source": "Source: IndiGo Q2 FY27 press release (₹18,791M loss − ₹7,237M ex-forex)",
+    "annot": {
+     "text": "61% FROM CURRENCY"
+    }
+   },
+   "cues": [
+    "running",
+    "currency"
+   ],
+   "post": 1.0,
+   "sheet": [
+    10.0
+   ]
+  },
+  {
+   "kind": "quote",
+   "bg": "hd_18249@1",
+   "text": "Walsh said this is where India differs from America.",
+   "quote": {
+    "text": "what has hit us a bit harder than particularly the US carriers who are also unhedged has been our depreciation of the Rupee against the Dollar",
+    "who": "Willie Walsh",
+    "role": "Chief executive, IndiGo",
+    "source": "IndiGo Q2 FY27 earnings call, Oct. 29, 2026 (AlphaStreet transcript)",
+    "voice": "en-IE-ConnorNeural"
+   },
+   "sheet": [
+    6.0
+   ]
+  },
+  {
+   "kind": "keyword",
+   "bg": "mk_4360@1",
+   "text": "Europe's big budget airlines have had a cushion: they bought much of their fuel in advance. That's called hedging.",
+   "gfx": {
+    "word": "Hedging",
+    "sub": "Locking in a fuel price in advance"
+   },
+   "cues": [
+    "called"
+   ],
+   "sheet": [
+    6.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "shots": [
+    "cv_9693@1",
+    "hd_4915@1",
+    "mk_4805@1"
+   ],
+   "text": "But Walsh told investors those hedges are starting to run out, and Ryanair's boss has talked about unprecedented fare increases next year. IndiGo, which buys at market prices, is now reviewing its own hedging policy.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "Hedges",
+       "Running out in Europe",
+       2.4
+      ],
+      [
+       "Under review",
+       "IndiGo's hedging policy",
+       2.6
+      ]
+     ],
+     "cues": [
+      "hedges",
+      "reviewing"
+     ]
+    }
+   ],
+   "sheet": [
+    5.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "jet",
+    "plane"
+   ],
+   "shots": [
+    "mk_4367@1",
+    "wm_SGP_Singapore_IndiGo_Airbus_A320_25_f06d55",
+    "mk_2684@1"
+   ],
+   "text": "IndiGo is also cutting where it hurts. It flew 1 percent less capacity than a year ago. And on November 1, it ended its leased wide-body flights, a move its finance chief called economically prudent.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "−1%",
+       "Seat capacity, Jul–Sep",
+       2.2
+      ],
+      [
+       "Nov. 1",
+       "Leased wide-body flights end",
+       2.6
+      ]
+     ],
+     "cues": [
+      "less",
+      "November"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "shots": [
+    "hd_18247@1",
+    "mk_18263@1"
+   ],
+   "text": "So who pays for the dollar squeeze in the end? Mostly, you do."
+  },
+  {
+   "kind": "section",
+   "music": "light",
+   "dur": 1.6,
+   "gfx": {
+    "num": "3",
+    "text": "Your ticket"
+   }
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "airport",
+    "crowd"
+   ],
+   "shots": [
+    "cv_6995@1",
+    "mk_4642@1",
+    "cv_178@1",
+    "cv_4303@1",
+    "cv_8351@1"
+   ],
+   "text": "IndiGo's answer is higher fares. Revenue from operations rose 25.9 percent, to 23,364 crore rupees. That's about 2.5 billion dollars, or roughly 8,500 rupees for every passenger, even though it carried 4.7 percent fewer people.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "+25.9%",
+       "Revenue, Jul–Sep 2026",
+       2.3
+      ],
+      [
+       "₹8,500",
+       "Revenue per passenger",
+       2.3
+      ],
+      [
+       "−4.7%",
+       "Passengers: 27.5 million",
+       2.4
+      ]
+     ],
+     "cues": [
+      "rose",
+      "roughly",
+      "fewer"
+     ]
+    }
+   ],
+   "sheet": [
+    5.0,
+    11.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "office"
+   ],
+   "shots": [
+    "wm_IndiGo_A320_Interior_ff4c76",
+    "cv_7278@1",
+    "mk_4368@1"
+   ],
+   "text": "Fares aren't the only lever. Walsh said spending on extras, like seats, bags and meals, rose to about 590 rupees per passenger, from 525. And cargo revenue grew 37 percent.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "₹590",
+       "Extras per passenger, was ₹525",
+       2.6
+      ],
+      [
+       "+37%",
+       "Cargo revenue",
+       2.2
+      ]
+     ],
+     "cues": [
+      "590",
+      "cargo"
+     ]
+    }
+   ],
+   "sheet": [
+    5.0
+   ]
+  },
+  {
+   "kind": "bars",
+   "text": "Put that on a real route. Delhi to Mumbai is about 1,140 kilometres. At last year's average yield, that trip earned IndiGo about 5,350 rupees. This year, about 7,180. That's an average, not a fare you'd see in the app.",
+   "gfx": {
+    "title": "Rotation calculation: average yield on a Delhi–Mumbai trip",
+    "bars": [
+     [
+      "Jul–Sep 2025",
+      5347,
+      "~₹5,350"
+     ],
+     [
+      "Jul–Sep 2026",
+      7182,
+      "~₹7,180"
+     ]
+    ],
+    "ymax": 8000,
+    "ystep": 2000,
+    "prefix": "₹",
+    "suffix": "",
+    "source": "Source: IndiGo Q2 FY27 press release (yield × ~1,140 km)",
+    "annot": {
+     "text": "+34% PER KM"
+    }
+   },
+   "cues": [
+    "last",
+    "This"
+   ],
+   "post": 1.0,
+   "sheet": [
+    12.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "jet",
+    "plane"
+   ],
+   "shots": [
+    "cv_7152@1",
+    "mk_4204@1",
+    "mk_4203@1"
+   ],
+   "text": "One more way to see it. Per passenger, IndiGo's costs came to about 9,520 rupees. After every bit of income, it still lost about 680 rupees on each person it flew.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "₹9,520",
+       "Cost per passenger",
+       2.4
+      ],
+      [
+       "−₹680",
+       "Loss per passenger",
+       2.6
+      ]
+     ],
+     "cues": [
+      "costs",
+      "lost"
+     ]
+    }
+   ],
+   "sheet": [
+    4.0,
+    9.0
+   ]
+  },
+  {
+   "kind": "quote",
+   "bg": "cv_9398@1",
+   "text": "On the call with investors, Walsh was blunt.",
+   "quote": {
+    "text": "There is no way you can avoid increases in fares when you see such significant increases in the fuel price.",
+    "who": "Willie Walsh",
+    "role": "Chief executive, IndiGo",
+    "source": "IndiGo Q2 FY27 earnings call, Oct. 29, 2026; reported by Forbes India",
+    "voice": "en-IE-ConnorNeural"
+   },
+   "sheet": [
+    5.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "office"
+   ],
+   "shots": [
+    "hd_4801@1",
+    "mk_4915@1",
+    "hd_43270@1"
+   ],
+   "text": "He told reporters IndiGo has no choice but to look at raising fares. And he estimates fare hikes and other steps have recovered only about 60 percent of the jump in fuel costs.",
+   "overlays": [
+    {
+     "type": "headline",
+     "outlet": "India Today",
+     "date": "Oct. 29, 2026",
+     "text": "IndiGo has no choice but to raise fares amid rising fuel costs: CEO Willie Walsh",
+     "credit": "Headline recreated from India Today",
+     "cues": [
+      "told"
+     ],
+     "out": 5.0
+    },
+    {
+     "type": "pops",
+     "items": [
+      [
+       "~60%",
+       "Fuel cost rise recovered so far",
+       2.6
+      ]
+     ],
+     "cues": [
+      "recovered"
+     ]
+    }
+   ],
+   "sheet": [
+    3.0,
+    9.5
+   ]
+  },
+  {
+   "kind": "doc",
+   "text": "And some flyers are already saying no. The filing shows the share of seats filled fell to 80.3 percent, from 82.5 a year ago.",
+   "gfx": {
+    "page_png": "/workspace/work/yt/explain/indigo/pg2-2.png",
+    "bbox_html": "/workspace/work/yt/explain/indigo/pg2.html",
+    "target": "82.5%",
+    "extra_rings": [
+     "80.3%"
+    ],
+    "anchor": "left",
+    "crop_w": [
+     500,
+     450
+    ],
+    "callout": "Fewer seats\nfilled",
+    "title": "Operational metrics, Jul–Sep 2026",
+    "source": "Source: IndiGo Q2 FY27 press release, p. 1",
+    "thumb_label": "IndiGo Q2 FY27 press release (BSE filing)",
+    "page_no": "Operational metrics, p. 1",
+    "page_w_pt": 595.32,
+    "page_h_pt": 841.92
+   },
+   "cues": {
+    "hl": "filing",
+    "ring": "fell",
+    "callout": "ago"
+   },
+   "sheet": [
+    7.0
+   ]
+  },
+  {
+   "kind": "tiles",
+   "text": "So, three things the headlines missed. One: each passenger now burns about 3,624 rupees of fuel. Two: six of every ten rupees lost came from the currency. Three: you're paying about a third more per kilometre, and it may rise further.",
+   "gfx": {
+    "title": "3 things the headlines missed",
+    "tiles": [
+     {
+      "name": "Fuel per flyer",
+      "desc": "Fuel bill split across 27.5M passengers",
+      "vlabel": "Per passenger",
+      "value": "₹3,624",
+      "delta": "+75% in a year"
+     },
+     {
+      "name": "The currency",
+      "desc": "Share of the loss from forex and hedging",
+      "vlabel": "Of the ₹1,879 cr loss",
+      "value": "61%",
+      "delta": "₹1,155 crore",
+      "neg": true
+     },
+     {
+      "name": "Your fare",
+      "desc": "Yield: earnings per passenger-km",
+      "vlabel": "Per km",
+      "value": "₹6.30",
+      "delta": "+34.3% in a year"
+     }
+    ],
+    "stamp": {
+     "tile": 1,
+     "text": "MISSED",
+     "cue": "currency"
+    },
+    "unfocus": "further",
+    "ftitle": "IndiGo, Jul–Sep 2026",
+    "source": "Source: IndiGo Q2 FY27 press release; Rotation calculations"
+   },
+   "cues": [
+    "One",
+    "Two",
+    "Three#2"
+   ],
+   "post": 0.9,
+   "sheet": [
+    6.0,
+    15.0
+   ]
+  },
+  {
+   "kind": "section",
+   "music": "tense",
+   "dur": 1.6,
+   "gfx": {
+    "num": "4",
+    "text": "Will fares fall?"
+   }
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "jet",
+    "plane"
+   ],
+   "shots": [
+    "mk_40102@1",
+    "cv_1639@1"
+   ],
+   "text": "So if fuel gets cheaper, do fares come down? Walsh says history points that way, though not one for one. On the call, he put it simply."
+  },
+  {
+   "kind": "quote",
+   "bg": "cv_1200@1",
+   "text": "",
+   "quote": {
+    "text": "As fuel prices go up, ticket prices go up. As fuel prices come down, ticket prices come down.",
+    "who": "Willie Walsh",
+    "role": "Chief executive, IndiGo",
+    "source": "IndiGo Q2 FY27 earnings call, Oct. 29, 2026 (AlphaStreet transcript)",
+    "voice": "en-IE-ConnorNeural"
+   },
+   "sheet": [
+    4.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "shots": [
+    "wm_Mumbai_India_Bombay_Mumbai_skyline_a_b05ec6",
+    "hd_42085@1",
+    "wm_Mumbai_India_Mumbai_Bombay_skyline_w_51659c",
+    "mk_41361@1"
+   ],
+   "text": "The catch is timing. Walsh has said the fuel bill will be much higher again in October to December. And the government is looking at ways to limit sharp fare spikes. Walsh said IndiGo would consider joining a price stabilisation fund, if the terms made sense.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "Oct–Dec",
+       "Fuel bill 'much higher again'",
+       2.6
+      ],
+      [
+       "Price fund",
+       "Under discussion",
+       2.4
+      ]
+     ],
+     "cues": [
+      "timing",
+      "stabilisation"
+     ]
+    }
+   ],
+   "sheet": [
+    6.0
+   ]
+  },
+  {
+   "kind": "section",
+   "music": "ambient",
+   "dur": 1.6,
+   "gfx": {
+    "num": "5",
+    "text": "Bulls vs bears"
+   }
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "office"
+   ],
+   "shots": [
+    "cv_7209@2",
+    "wm_Terminal_1_Area_and_Aircraft_Mainten_a28bda",
+    "cv_3403@1",
+    "cv_6797@1"
+   ],
+   "text": "The bears say this is IndiGo's third loss in a row. Its shares fell for four straight months through October, down about 9 percent. Even without fuel and currency, its cost per seat kilometre rose 14.6 percent. And a parliamentary panel has already raised concerns about high airfares.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "Bears",
+       "The case against",
+       2.0
+      ],
+      [
+       "−9%",
+       "Shares, four months to October",
+       2.6
+      ]
+     ],
+     "cues": [
+      "bears",
+      "straight"
+     ]
+    }
+   ],
+   "sheet": [
+    6.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "airport",
+    "crowd"
+   ],
+   "shots": [
+    "wm_Inside_Terminal_3_at_Indira_Gandhi_I_b9c249",
+    "cv_3965@1",
+    "hd_42096@1",
+    "wm_Mumbai_India_Bombay_Mumbai_city_skyl_afd32e",
+    "cv_9043@1",
+    "cv_936@1",
+    "wm_ISS014_E_11817_View_of_India_ee03dd"
+   ],
+   "text": "The bulls say IndiGo is still the strongest airline in the room. It holds about 39,929 crore rupees of free cash. That's around 4.2 billion dollars, or four quarters of fuel at today's prices. And the loss was smaller than analysts expected: JM Financial had pencilled in 2,180 crore. The shares rose 4.3 percent the next day. And Walsh points out India had 78 million international passengers last year. London's Heathrow airport alone had 79 million.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "Bulls",
+       "The case for",
+       2.0
+      ],
+      [
+       "₹39,929 cr",
+       "Free cash, Sept. 30",
+       2.6
+      ],
+      [
+       "+4.3%",
+       "Shares, Oct. 30",
+       2.2
+      ]
+     ],
+     "cues": [
+      "bulls",
+      "free",
+      "rose"
+     ]
+    }
+   ],
+   "sheet": [
+    6.0
+   ]
+  },
+  {
+   "kind": "quote",
+   "bg": "cv_7524@2",
+   "text": "Morgan Stanley analyst Binay Singh opened his question on the call by saying",
+   "quote": {
+    "text": "the company is managing quite well in a pretty tough environment.",
+    "who": "Binay Singh",
+    "role": "Analyst, Morgan Stanley",
+    "source": "IndiGo Q2 FY27 earnings call, Oct. 29, 2026 (AlphaStreet transcript)",
+    "voice": "en-IN-PrabhatNeural"
+   },
+   "sheet": [
+    5.0
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "jet",
+    "plane"
+   ],
+   "shots": [
+    "mk_3298@1"
+   ],
+   "text": "So is IndiGo in trouble, or just flying through a storm? We'll let you be the judge.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "You decide",
+       "Tell us in the comments",
+       2.2
+      ]
+     ],
+     "cues": [
+      "judge"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "footage",
+   "nat": [
+    "airplane",
+    "rumble"
+   ],
+   "shots": [
+    "mk_4007@1",
+    "cv_3707@1",
+    "wm_Kochi_refinery_on_the_banks_of_chith_dc4eb4",
+    "wm_Shangrilla_Oil_Depot_Melli_Sikkim_In_bed6a0"
+   ],
+   "text": "The next clue lands on December 1, when India's state oil companies set the month's jet fuel price. IndiGo expects revenue per seat kilometre to rise more than 25 percent from October to December. Its next results will show whether flyers kept paying.",
+   "overlays": [
+    {
+     "type": "pops",
+     "items": [
+      [
+       "Dec. 1",
+       "Next jet fuel price",
+       2.4
+      ],
+      [
+       "+25%",
+       "Revenue per seat-km goal",
+       2.4
+      ]
+     ],
+     "cues": [
+      "December",
+      "rise"
+     ]
+    }
+   ]
+  },
+  {
+   "kind": "closer",
+   "nat": [
+    "wind"
+   ],
+   "shots": [
+    "wm_VT_IUE_8_Feb_2025_a70721"
+   ],
+   "post": 1.0,
+   "text": "IndiGo taught India to fly cheap. The dollar squeeze is now testing how cheap a ticket can stay."
+  },
+  {
+   "kind": "endcard",
+   "dur": 10,
+   "bg": "wm_VT_IUC_20_Jul_2024_acee39",
+   "gfx": {
+    "brand": "ROTATION",
+    "line": "Watch next"
+   },
+   "credits": [
+    [
+     "Sources",
+     "IndiGo Q2 FY27 press release (BSE, Oct. 29, 2026); Q2 FY27 earnings call; Business Standard; India Today; Livemint; Forbes India"
+    ],
+    [
+     "Footage",
+     "Mixkit, Coverr, Wikimedia Commons (CC0, PD, CC BY: see description)"
+    ],
+    [
+     "Music & voice",
+     "Mixkit (free licence). Narration and quotes read by AI voices; quotes are real and sourced."
+    ]
+   ]
+  }
+ ],
+ "music_tracks": {
+  "tense#0": "mk_597",
+  "doc#1": "mk_588",
+  "pulse#2": "mk_623",
+  "light#3": "mk_32",
+  "tense#4": "mk_676",
+  "ambient#5": "mk_138"
+ }
+}

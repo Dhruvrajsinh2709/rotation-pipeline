@@ -1,0 +1,36 @@
+{
+ "title": "Why oil jumped after a tanker was mined",
+ "output": "/workspace/work/yt/out/2026-10-31_oil-mine.mp4",
+ "rate": "+24%",
+ "music": {"mood": "tense"},
+ "tags": ["oil tanker", "oil", "sea"],
+ "outro": {"text": "Next test: November 3, the US midterm elections. Full story in our deep dive, linked below.", "tags": ["ship", "sea", "port"], "nat": ["sea", "waves"]},
+ "sources": [
+  "CNBC/Reuters, Oct. 30, 2026: https://www.cnbc.com/2026/10/30/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia.html",
+  "Al Jazeera, Oct. 30, 2026: https://www.aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising",
+  "Xinhua, Oct. 30, 2026: https://english.news.cn/20261031/9156cd5984c741dbabc132ce9ff130de/c.html",
+  "The National, Oct. 30, 2026: https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
+ ],
+ "scenes": [
+  {"clip": ["wm_Crude_oil_tanker_Eagle_San_Diego_196f1c"], "tags": ["oil tanker", "ship"], "nat": ["sea", "waves"], "blur": true,
+   "hook_card": "Oil just hit a six-month high. A tanker bomb did it.",
+   "stat": ["$117.64", "Brent crude, settled Oct. 30"],
+   "text": "Oil just hit a six month high. Brent crude settled at 117 dollars 64 a barrel on Friday."},
+  {"clip": ["mk_4011"], "tags": ["cargo ship", "sea"], "nat": ["sea", "waves"], "pill": ["Fourth monthly gain"],
+   "stat": ["+13.6%", "Brent in October"],
+   "text": "That's up 13.6 percent in October alone, the fourth monthly gain in a row."},
+  {"clip": ["mk_4209"], "tags": ["cargo ship", "port"], "nat": ["industrial"],
+   "text": "The trigger looked small. A tanker in the Strait of Hormuz was hit by limpet mines, explosives stuck to the hull by a small boat. It was the first successful strike like that since the war began in February."},
+  {"clip": ["mk_50186"], "tags": ["boat", "sea"], "nat": ["sea", "waves"], "sticker": "One fifth of the world's oil and gas",
+   "text": "Hormuz is the sea route for about one fifth of the world's oil and gas."},
+  {"clip": ["wm_Crude_Oil_Tanker_in_Port_Arthur_Texa_ae466f"], "tags": ["oil tanker", "port"], "nat": ["industrial"], "blur": true,
+   "text": "Here's the strange part. Saudi Arabia's crude exports actually rose in October, according to ship trackers. So barrels are still moving."},
+  {"chart": {"type": "bar", "title": "Oil settled Friday", "subtitle": "$ per barrel, Oct. 30", "bars": [["Brent, Dec", 117.64], ["Brent, Jan", 113.43], ["WTI", 104.12]], "prefix": "$", "decimals": 2, "highlight": 0, "source": "Reuters via CNBC, Oct. 30, 2026"},
+   "text": "So why the jump? Traders aren't pricing today's barrels. They're pricing what comes next. President Trump has signalled he may restart strikes on Iran after the midterms."},
+  {"clip": ["cv_7209"], "tags": ["stock market", "trader"], "nat": ["office"],
+   "text": "An Oxford energy lecturer and veteran oil trader put it bluntly.",
+   "quote": {"text": "The market is doing exactly what it is supposed to do: It is telling us there is plenty of prompt oil, but there is no end to this war in sight", "who": "Adi Imsirovic", "role": "Energy lecturer, University of Oxford", "source": "Al Jazeera, Oct. 2026", "voice": "en-GB-RyanNeural"}},
+  {"clip": ["cv_3058"], "tags": ["gas station", "fuel pump"], "nat": ["city", "traffic"],
+   "text": "And a peace deal may not bring the old prices back. Saxo Bank expects crude at 70 to 90 dollars even after the war ends, up from 60 to 70 before it."}
+ ]
+}

@@ -1,0 +1,652 @@
+{
+ "sfx_2930": {
+  "file": "sfx_2930.mp3",
+  "title": "City traffic background ambience",
+  "tags": [
+   "city",
+   "traffic"
+  ],
+  "dur": 67,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/city-traffic-background-ambience/",
+  "kw": "city traffic",
+  "fetched": "2026-10-30"
+ },
+ "sfx_3031": {
+  "file": "sfx_3031.mp3",
+  "title": "City traffic bus pass by",
+  "tags": [
+   "bus",
+   "city",
+   "pass",
+   "traffic"
+  ],
+  "dur": 24,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/city-traffic-bus-pass-by/",
+  "kw": "city traffic",
+  "fetched": "2026-10-30"
+ },
+ "sfx_2678": {
+  "file": "sfx_2678.mp3",
+  "title": "Urban city ambience at night",
+  "tags": [
+   "city",
+   "night",
+   "rain",
+   "tram",
+   "urban"
+  ],
+  "dur": 126,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/urban-city-ambience-at-night/",
+  "kw": "urban ambience",
+  "fetched": "2026-10-30"
+ },
+ "sfx_2505": {
+  "file": "sfx_2505.mp3",
+  "title": "Urban ambience during the day",
+  "tags": [
+   "day",
+   "during",
+   "nature",
+   "urban",
+   "wind"
+  ],
+  "dur": 46,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/urban-ambience-during-the-day/",
+  "kw": "urban ambience",
+  "fetched": "2026-10-30"
+ },
+ "sfx_447": {
+  "file": "sfx_447.mp3",
+  "title": "Office ambience",
+  "tags": [
+   "keyboard",
+   "office",
+   "phone",
+   "ring"
+  ],
+  "dur": 42,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/office-ambience/",
+  "kw": "office ambience",
+  "fetched": "2026-10-30"
+ },
+ "sfx_444": {
+  "file": "sfx_444.mp3",
+  "title": "Restaurant crowd talking ambience",
+  "tags": [
+   "crowd",
+   "restaurant",
+   "talking",
+   "voices"
+  ],
+  "dur": 120,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/restaurant-crowd-talking-ambience/",
+  "kw": "restaurant crowd",
+  "fetched": "2026-10-30"
+ },
+ "sfx_355": {
+  "file": "sfx_355.mp3",
+  "title": "Restaurant party crowd loop",
+  "tags": [
+   "crowd",
+   "party",
+   "places",
+   "public",
+   "restaurant"
+  ],
+  "dur": 61,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/restaurant-party-crowd-loop/",
+  "kw": "restaurant crowd",
+  "fetched": "2026-10-30"
+ },
+ "sfx_1185": {
+  "file": "sfx_1185.mp3",
+  "title": "Sea waves with birds loop",
+  "tags": [
+   "beach",
+   "bird",
+   "birds",
+   "ocean",
+   "sea",
+   "water",
+   "waves"
+  ],
+  "dur": 38,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/sea-waves-with-birds-loop/",
+  "kw": "sea waves",
+  "fetched": "2026-10-30"
+ },
+ "sfx_1195": {
+  "file": "sfx_1195.mp3",
+  "title": "Close sea waves loop",
+  "tags": [
+   "close",
+   "ocean",
+   "sea",
+   "waves"
+  ],
+  "dur": 28,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/close-sea-waves-loop/",
+  "kw": "sea waves",
+  "fetched": "2026-10-30"
+ },
+ "sfx_1208": {
+  "file": "sfx_1208.mp3",
+  "title": "Small waves harbor rocks",
+  "tags": [
+   "beach",
+   "harbor",
+   "ocean",
+   "rocks",
+   "sea",
+   "small",
+   "waves"
+  ],
+  "dur": 77,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/small-waves-harbor-rocks/",
+  "kw": "harbor",
+  "fetched": "2026-10-30"
+ },
+ "sfx_2658": {
+  "file": "sfx_2658.mp3",
+  "title": "Wind blowing ambience",
+  "tags": [
+   "blow",
+   "blowing",
+   "nature",
+   "wild",
+   "wind"
+  ],
+  "dur": 61,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/wind-blowing-ambience/",
+  "kw": "wind blowing",
+  "fetched": "2026-10-30"
+ },
+ "sfx_2504": {
+  "file": "sfx_2504.mp3",
+  "title": "Industrial machine hum",
+  "tags": [
+   "hum",
+   "industrial",
+   "machine",
+   "technology",
+   "wind"
+  ],
+  "dur": 50,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/industrial-machine-hum/",
+  "kw": "industrial machine",
+  "fetched": "2026-10-30"
+ },
+ "sfx_1253": {
+  "file": "sfx_1253.mp3",
+  "title": "Light rain loop",
+  "tags": [
+   "happy",
+   "light",
+   "rain"
+  ],
+  "dur": 39,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/light-rain-loop/",
+  "kw": "light rain",
+  "fetched": "2026-10-30"
+ },
+ "sfx_1249": {
+  "file": "sfx_1249.mp3",
+  "title": "Light rain looping",
+  "tags": [
+   "light",
+   "looping",
+   "rain"
+  ],
+  "dur": 96,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/light-rain-looping/",
+  "kw": "light rain",
+  "fetched": "2026-10-30"
+ },
+ "sfx_1574": {
+  "file": "sfx_1574.mp3",
+  "title": "Jet plane hum flying",
+  "tags": [
+   "airport",
+   "flying",
+   "hum",
+   "jet",
+   "plane"
+  ],
+  "dur": 29,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/jet-plane-hum-flying/",
+  "kw": "airport",
+  "fetched": "2026-10-30"
+ },
+ "sfx_1588": {
+  "file": "sfx_1588.mp3",
+  "title": "Airplane flying by rumble",
+  "tags": [
+   "airplane",
+   "airport",
+   "flying",
+   "rumble"
+  ],
+  "dur": 36,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/airplane-flying-by-rumble/",
+  "kw": "airport",
+  "fetched": "2026-10-30"
+ },
+ "sfx_1639": {
+  "file": "sfx_1639.mp3",
+  "title": "Train station depart ambience",
+  "tags": [
+   "depart",
+   "station",
+   "train"
+  ],
+  "dur": 27,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/train-station-depart-ambience/",
+  "kw": "train station",
+  "fetched": "2026-10-30"
+ },
+ "sfx_1629": {
+  "file": "sfx_1629.mp3",
+  "title": "Train arrival at station",
+  "tags": [
+   "arrival",
+   "station",
+   "train"
+  ],
+  "dur": 20,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/train-arrival-at-station/",
+  "kw": "train station",
+  "fetched": "2026-10-30"
+ },
+ "sfx_799": {
+  "file": "sfx_799.mp3",
+  "title": "Road construction with reverse truck alert ambiance",
+  "tags": [
+   "alert",
+   "alerts",
+   "ambiance",
+   "construction",
+   "reverse",
+   "road",
+   "truck"
+  ],
+  "dur": 173,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/road-construction-with-reverse-truck-alert-ambiance/",
+  "kw": "construction",
+  "fetched": "2026-10-30"
+ },
+ "sfx_800": {
+  "file": "sfx_800.mp3",
+  "title": "Construction place and bulldozer ambiance",
+  "tags": [
+   "ambiance",
+   "bulldozer",
+   "construction",
+   "place",
+   "truck"
+  ],
+  "dur": 98,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/construction-place-and-bulldozer-ambiance/",
+  "kw": "construction",
+  "fetched": "2026-10-30"
+ },
+ "sfx_2473": {
+  "file": "sfx_2473.mp3",
+  "title": "Birds chirping near the river",
+  "tags": [
+   "bird",
+   "birds",
+   "chirping",
+   "morning",
+   "nature",
+   "near",
+   "river",
+   "water"
+  ],
+  "dur": 90,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/birds-chirping-near-the-river/",
+  "kw": "birds chirping",
+  "fetched": "2026-10-30"
+ },
+ "sfx_2264": {
+  "file": "sfx_2264.mp3",
+  "title": "Busy park playground with kids playing",
+  "tags": [
+   "busy",
+   "children",
+   "human",
+   "kids",
+   "laugh",
+   "park",
+   "playground",
+   "playing",
+   "voices"
+  ],
+  "dur": 60,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/busy-park-playground-with-kids-playing/",
+  "kw": "park ambience",
+  "fetched": "2026-10-30"
+ },
+ "sfx_2932": {
+  "file": "sfx_2932.mp3",
+  "title": "Urban park and traffic",
+  "tags": [
+   "bird",
+   "city",
+   "park",
+   "traffic",
+   "urban"
+  ],
+  "dur": 109,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/urban-park-and-traffic/",
+  "kw": "park ambience",
+  "fetched": "2026-10-30"
+ },
+ "sfx_2739": {
+  "file": "sfx_2739.mp3",
+  "title": "Spaceship engine whoosh working",
+  "tags": [
+   "engine",
+   "flying",
+   "sci",
+   "ship",
+   "spaceship",
+   "whoosh",
+   "working"
+  ],
+  "dur": 15,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/spaceship-engine-whoosh-working/",
+  "kw": "ship engine",
+  "fetched": "2026-10-31"
+ },
+ "sfx_2139": {
+  "file": "sfx_2139.mp3",
+  "title": "Industrial hum loop",
+  "tags": [
+   "hum",
+   "industrial",
+   "technology",
+   "white"
+  ],
+  "dur": 44,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/industrial-hum-loop/",
+  "kw": "industrial",
+  "fetched": "2026-10-31"
+ },
+ "sfx_377": {
+  "file": "sfx_377.mp3",
+  "title": "Shopping center crowd",
+  "tags": [
+   "center",
+   "crowd",
+   "market",
+   "places",
+   "public",
+   "shopping",
+   "supermarket"
+  ],
+  "dur": 28,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/shopping-center-crowd/",
+  "kw": "market crowd",
+  "fetched": "2026-10-31"
+ },
+ "sfx_434": {
+  "file": "sfx_434.mp3",
+  "title": "Shopping mall ambience crowd",
+  "tags": [
+   "crowd",
+   "mall",
+   "market",
+   "places",
+   "public",
+   "shopping"
+  ],
+  "dur": 49,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/shopping-mall-ambience-crowd/",
+  "kw": "market crowd",
+  "fetched": "2026-10-31"
+ },
+ "sfx_1630": {
+  "file": "sfx_1630.mp3",
+  "title": "Steam train passing",
+  "tags": [
+   "passing",
+   "steam",
+   "train"
+  ],
+  "dur": 15,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/steam-train-passing/",
+  "kw": "train passing",
+  "fetched": "2026-10-31"
+ },
+ "sfx_1635": {
+  "file": "sfx_1635.mp3",
+  "title": "Passenger train passing by",
+  "tags": [
+   "passenger",
+   "passing",
+   "train"
+  ],
+  "dur": 18,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/passenger-train-passing-by/",
+  "kw": "train passing",
+  "fetched": "2026-10-31"
+ },
+ "sfx_1633": {
+  "file": "sfx_1633.mp3",
+  "title": "Horror train",
+  "tags": [
+   "horror",
+   "subway",
+   "train"
+  ],
+  "dur": 23,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/horror-train/",
+  "kw": "subway",
+  "fetched": "2026-10-31"
+ },
+ "sfx_1632": {
+  "file": "sfx_1632.mp3",
+  "title": "Train passing by with horn",
+  "tags": [
+   "horn",
+   "passing",
+   "subway",
+   "train"
+  ],
+  "dur": 19,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/train-passing-by-with-horn/",
+  "kw": "subway",
+  "fetched": "2026-10-31"
+ },
+ "sfx_1573": {
+  "file": "sfx_1573.mp3",
+  "title": "Busy crowd at airport terminal estation",
+  "tags": [
+   "airport",
+   "busy",
+   "crowd",
+   "estation",
+   "places",
+   "public",
+   "terminal"
+  ],
+  "dur": 66,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/busy-crowd-at-airport-terminal-estation/",
+  "kw": "airport terminal",
+  "fetched": "2026-10-31"
+ },
+ "sfx_1248": {
+  "file": "sfx_1248.mp3",
+  "title": "Heavy rain on car glass interior",
+  "tags": [
+   "car",
+   "glass",
+   "heavy",
+   "interior",
+   "rain"
+  ],
+  "dur": 39,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/heavy-rain-on-car-glass-interior/",
+  "kw": "car interior",
+  "fetched": "2026-10-31"
+ },
+ "sfx_1537": {
+  "file": "sfx_1537.mp3",
+  "title": "Car interior on car wash",
+  "tags": [
+   "car",
+   "interior",
+   "wash"
+  ],
+  "dur": 164,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/car-interior-on-car-wash/",
+  "kw": "car interior",
+  "fetched": "2026-10-31"
+ },
+ "sfx_2704": {
+  "file": "sfx_2704.mp3",
+  "title": "Helicopter propellers in the sky",
+  "tags": [
+   "airport",
+   "engine",
+   "flying",
+   "helicopter",
+   "propellers",
+   "sky",
+   "transport"
+  ],
+  "dur": 19,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/helicopter-propellers-in-the-sky/",
+  "kw": "helicopter",
+  "fetched": "2026-10-31"
+ },
+ "sfx_2700": {
+  "file": "sfx_2700.mp3",
+  "title": "Helicopter flying in the sky",
+  "tags": [
+   "airport",
+   "engine",
+   "flying",
+   "helicopter",
+   "sky",
+   "transport"
+  ],
+  "dur": 19,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/helicopter-flying-in-the-sky/",
+  "kw": "helicopter",
+  "fetched": "2026-10-31"
+ },
+ "sfx_1735": {
+  "file": "sfx_1735.mp3",
+  "title": "Storm wind atmosphere",
+  "tags": [
+   "atmosphere",
+   "storm",
+   "wild",
+   "wind"
+  ],
+  "dur": 42,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/storm-wind-atmosphere/",
+  "kw": "storm wind",
+  "fetched": "2026-10-31"
+ },
+ "sfx_1153": {
+  "file": "sfx_1153.mp3",
+  "title": "Blizzard cold winds",
+  "tags": [
+   "blizzard",
+   "cold",
+   "desert",
+   "storm",
+   "wind",
+   "winds"
+  ],
+  "dur": 130,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/blizzard-cold-winds/",
+  "kw": "storm wind",
+  "fetched": "2026-10-31"
+ },
+ "sfx_1242": {
+  "file": "sfx_1242.mp3",
+  "title": "Driving in the rain",
+  "tags": [
+   "city",
+   "driving",
+   "rain",
+   "traffic"
+  ],
+  "dur": 108,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/driving-in-the-rain/",
+  "kw": "rain city",
+  "fetched": "2026-10-31"
+ },
+ "sfx_1158": {
+  "file": "sfx_1158.mp3",
+  "title": "Desert winds",
+  "tags": [
+   "desert",
+   "wind",
+   "winds"
+  ],
+  "dur": 88,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/desert-winds/",
+  "kw": "desert wind",
+  "fetched": "2026-10-31"
+ },
+ "sfx_1267": {
+  "file": "sfx_1267.mp3",
+  "title": "Wind in the top of the mountain",
+  "tags": [
+   "desert",
+   "mountain",
+   "top",
+   "wild",
+   "wind"
+  ],
+  "dur": 31,
+  "licence": "Mixkit Sound Effects Free License (commercial use, no attribution) https://mixkit.co/license/#sfxFree",
+  "page": "https://mixkit.co/free-sound-effects/wind-in-the-top-of-the-mountain/",
+  "kw": "desert wind",
+  "fetched": "2026-10-31"
+ }
+}

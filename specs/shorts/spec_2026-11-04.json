@@ -1,0 +1,28 @@
+{
+ "title": "Why IndiGo is losing money even after raising fares",
+ "output": "/workspace/work/yt/out/2026-11-04_indigo-short1.mp4",
+ "rate": "+24%",
+ "music": {"mood": "tense", "mood2": "doc"},
+ "tags": ["airplane", "airport", "india"],
+ "outro": {"text": "The next clue lands December 1, when jet fuel is repriced. And that is why IndiGo's fares jumped a third", "tags": ["airport", "terminal", "india"], "nat": ["airport"]},
+ "sources": ["IndiGo (InterGlobe Aviation) Q2 FY27 results filing and earnings call, Oct. 2026", "Reuters / Business Standard coverage of IndiGo Q2 FY27 loss"],
+ "scenes": [
+  {"clip": ["wm_IndiGo_VT_IDJ_Airbus_A320_232_MSN_48_5d1982"], "tags": ["indigo", "airbus"], "nat": ["airport"], "blur": true,
+   "hook_card": "FARES +34%  |  STILL A Rs 1,879 cr LOSS",
+   "stat": ["Rs 1,879 cr", "IndiGo loss, Jul-Sep"],
+   "text": "IndiGo's fares jumped 34 percent. It still lost 1,879 crore rupees."},
+  {"clip": ["wm_Inside_Terminal_3_at_Indira_Gandhi_I_b9c249"], "tags": ["airport", "terminal"], "nat": ["airport"], "blur": true,
+   "text": "That is its third losing quarter in a row. So where did the money go? Not the flying. The dollar."},
+  {"clip": ["wm_IndiGo_Hangar_Indira_Gandhi_Internat_77c7ed"], "tags": ["hangar", "aircraft"], "nat": ["industrial"], "blur": true, "turn": true,
+   "text": "Fuel, plane leases and engines are all priced in dollars, while tickets sell in rupees."},
+  {"clip": ["mk_4083"], "tags": ["airport", "plane"], "nat": ["airport"],
+   "card": {"type": "compare", "title": "A $1,000 bill costs IndiGo", "items": [["A year ago", "Rs 87,060"], ["This quarter", "Rs 95,090"]], "source": "IndiGo Q2 FY27 filing, author calculation"},
+   "text": "A thousand-dollar bill cost 87,060 rupees a year ago. Now it costs about 95,090."},
+  {"clip": ["wm_IndiGo_A320_Interior_ff4c76"], "tags": ["aircraft", "interior"], "nat": ["airport"], "blur": true,
+   "card": {"type": "compare", "title": "IndiGo Q2 FY27 loss, Rs million", "items": [["Without currency effects", "7,237"], ["Reported loss", "18,791"]], "source": "IndiGo Q2 FY27 filing"},
+   "text": "Its own filing says, without currency effects, the loss was 7,237 million rupees. The reported loss was 18,791 million."},
+  {"clip": ["mk_4065"], "tags": ["airport", "plane"], "nat": ["airport"],
+   "stat": ["6 in 10", "rupees lost came from the currency"],
+   "text": "Six of every ten rupees lost came from the currency, not the flying."}
+ ]
+}

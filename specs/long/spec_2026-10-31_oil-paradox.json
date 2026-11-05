@@ -1,0 +1,1092 @@
+{
+ "output": "/workspace/work/yt/out/long_2026-10-31_oil-paradox.mp4",
+ "v9": true,
+ "fps": 24,
+ "res": [
+  2560,
+  1440
+ ],
+ "crf": 15,
+ "rate": "+12%",
+ "change_every": 3.0,
+ "match_min": 2.0,
+ "nat_default": null,
+ "tags": [
+  "oil"
+ ],
+ "chapters": [
+  "The paradox",
+  "The cost of a barrel",
+  "The fear premium",
+  "Who pays"
+ ],
+ "music": {
+  "moods": [
+   "tense",
+   "doc",
+   "tense",
+   "ambient"
+  ],
+  "opener": "tense"
+ },
+ "subscribe": {
+  "line": "New deep dives every weekend",
+  "text": "If you're new here, subscribe for a new deep dive every weekend."
+ },
+ "open_place": {
+  "clip": "dv_778126@12",
+  "place": "Strait of Hormuz",
+  "date": "File footage, 2020",
+  "tags": [
+   "strait of hormuz",
+   "sea",
+   "ships"
+  ],
+  "nat": [
+   "sea",
+   "waves"
+  ],
+  "text": "The Strait of Hormuz. On Friday, a tanker here was hit by limpet mines, explosives stuck to its hull from a small boat."
+ },
+ "title_card": {
+  "series": "Rotation",
+  "title": "Why oil keeps rising when more oil is flowing",
+  "clip": "wm_Flickr_Official_U_S_Navy_Imagery_U_S_a128e7",
+  "dur": 3.8
+ },
+ "scenes": [
+  {
+   "clip": [
+    "dv_881959@8"
+   ],
+   "tags": [
+    "oil tanker",
+    "strait of hormuz",
+    "boats"
+   ],
+   "nat": [
+    "sea",
+    "waves"
+   ],
+   "shot": 2.0,
+   "inset": {
+    "dateline": "Strait of Hormuz|May 3, 2023",
+    "credit": "U.S. Navy video via DVIDS, public domain"
+   },
+   "keywords": [
+    "32 incidents"
+   ],
+   "text": "It was the latest attack on shipping in and around the strait. By Friday, Britain's maritime security agency had logged 32 incidents this month, the most since the war with Iran began."
+  },
+  {
+   "clip": [
+    "wm_Tankers_at_the_Iraqi_Al_Basra_Oil_Te_8dfb56"
+   ],
+   "tags": [
+    "oil tanker",
+    "oil terminal",
+    "persian gulf"
+   ],
+   "nat": [
+    "sea",
+    "harbor"
+   ],
+   "shot": 2.0,
+   "stat": [
+    "$117.64",
+    "Brent crude settle, Oct. 30, 2026"
+   ],
+   "source": "CNBC, Reuters",
+   "text": "Oil did what you would expect. Brent, the global benchmark, settled at 117 dollars and 64 cents a barrel, its highest close since the end of April."
+  },
+  {
+   "clip": [
+    "wm_Crude_Oil_Tanker_in_Port_Arthur_Texa_ae466f",
+    "wm_Amundsen_Spirit_ship_2010_IMO_943885_d482d6"
+   ],
+   "tags": [
+    "oil tanker",
+    "crude oil tanker",
+    "sea"
+   ],
+   "nat": [
+    "sea",
+    "waves"
+   ],
+   "shot": 2.0,
+   "keywords": [
+    "24.6M barrels a day"
+   ],
+   "text": "But here is the strange part. More oil is leaving the Gulf right now than before the war. In the week to October 18, Gulf crude exports averaged 24.6 million barrels a day, above the pre-war average."
+  },
+  {
+   "clip": [
+    "mk_4360"
+   ],
+   "tags": [
+    "petrochemical plant",
+    "oil refinery",
+    "night"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "text": "So why is the price still climbing? A veteran oil trader puts it simply.",
+   "quote": {
+    "text": "The market is doing exactly what it is supposed to do: It is telling us there is plenty of prompt oil, but there is no end to this war in sight",
+    "who": "Adi Imsirovic",
+    "role": "Energy lecturer, University of Oxford",
+    "source": "Al Jazeera, Oct. 30, 2026",
+    "voice": "en-GB-RyanNeural"
+   }
+  },
+  {
+   "clip": [
+    "dv_346026"
+   ],
+   "tags": [
+    "capitol building",
+    "washington"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "inset": {
+    "dateline": "Washington, D.C.|File footage",
+    "credit": "DVIDS, public domain"
+   },
+   "text": "In Washington, the man who leads the Federal Reserve said this week that it is already showing up in prices."
+  },
+  {
+   "actuality": {
+    "clip": "fed_presconf_20261028",
+    "ss": 249.35,
+    "dur": 12.35,
+    "who": "Kevin Warsh",
+    "role": "Chair, Federal Reserve",
+    "credit": "Federal Reserve video, public domain",
+    "source": "FOMC press conference, Oct. 28, 2026"
+   }
+  },
+  {
+   "clip": [
+    "wm_Gasoline_prices_on_09_26_2026_in_Eug_569d80",
+    "cv_8995"
+   ],
+   "tags": [
+    "gas station",
+    "gasoline prices",
+    "fuel"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "shot": 2.2,
+   "keywords": [
+    "67%"
+   ],
+   "text": "Those are the stakes. Oil feeds gasoline, shipping and prices everywhere. On Tuesday, Americans vote in the midterm elections, and in one NBC News poll, 67 percent of adults called gas prices a serious problem."
+  },
+  {
+   "clip": [
+    "cv_7209"
+   ],
+   "tags": [
+    "trader",
+    "stock market trading chart",
+    "screen"
+   ],
+   "nat": [
+    "office"
+   ],
+   "text": "So when does it end? An oil markets expert in Madrid was blunt.",
+   "quote": {
+    "text": "When could prices return to $70? Not soon.",
+    "who": "Isabel Figuerola-Ferretti",
+    "role": "Oil markets expert, Comillas Pontifical University",
+    "source": "Al Jazeera, Oct. 30, 2026",
+    "voice": "en-GB-SoniaNeural"
+   }
+  },
+  {
+   "sting": true
+  },
+  {
+   "clip": "wm_CVN_69_transits_the_Strait_of_Hormuz_e58599",
+   "question": "If the oil is flowing, why is it so expensive?"
+  },
+  {
+   "agenda": 1,
+   "clip": [
+    "mk_40078"
+   ],
+   "tags": [
+    "ships",
+    "sea"
+   ]
+  },
+  {
+   "chart": {
+    "type": "line",
+    "title": "Brent's October climb",
+    "subtitle": "Brent crude futures, settlement price, US dollars a barrel",
+    "x": [
+     "Oct 7",
+     "Oct 16",
+     "Oct 22",
+     "Oct 23",
+     "Oct 27",
+     "Oct 30"
+    ],
+    "series": [
+     {
+      "name": "Brent",
+      "values": [
+       100.2,
+       109.86,
+       113.17,
+       116.72,
+       113.88,
+       117.64
+      ]
+     }
+    ],
+    "prefix": "$",
+    "decimals": 0,
+    "min": 95,
+    "max": 120,
+    "badge": "+13.6% in October",
+    "source": "Reuters, Bloomberg via Oil & Gas Middle East; CNBC"
+   },
+   "text": "Start with the price. On October 7, Brent closed at 100 dollars and 20 cents. Three weeks later it was above 117. For the month it rose 13.6 percent, its fourth monthly gain in a row."
+  },
+  {
+   "clip": [
+    "mk_4209"
+   ],
+   "tags": [
+    "tanker",
+    "ship",
+    "port"
+   ],
+   "nat": [
+    "harbor"
+   ],
+   "text": "Traders felt it, too.",
+   "quote": {
+    "text": "Weekend escalation fears are adding fuel",
+    "who": "Rebecca Babin",
+    "role": "Senior energy trader, CIBC Private Wealth Group",
+    "source": "Oil & Gas Middle East, Oct. 28, 2026",
+    "voice": "en-US-EmmaNeural"
+   }
+  },
+  {
+   "clip": [
+    "wm_Electra_Texas_2008_24f027@49.4"
+   ],
+   "tags": [
+    "oil field",
+    "pump jack"
+   ],
+   "nat": [
+    "wind"
+   ],
+   "inset": {
+    "dateline": "Electra, Texas|2008",
+    "credit": "T. Nordanstad / Wikimedia Commons, CC BY 3.0"
+   },
+   "keywords": [
+    "$72.48",
+    "+60%"
+   ],
+   "text": "Now zoom out. On February 27, the last trading day before the war, Brent settled at 72 dollars and 48 cents. Today a barrel costs more than 60 percent more."
+  },
+  {
+   "clip": [
+    "mk_40080"
+   ],
+   "tags": [
+    "port",
+    "aerial",
+    "sunset"
+   ],
+   "nat": [
+    "harbor"
+   ],
+   "keywords": [
+    "June"
+   ],
+   "text": "And this is not the first spike. In June, as more tankers left the Gulf, Brent briefly fell back to its pre-war level. Then the attacks picked up again, and so did the price."
+  },
+  {
+   "clip": [
+    "wm_CG_56_transits_the_Strait_of_Hormuz_1a91f0",
+    "dv_476132"
+   ],
+   "tags": [
+    "strait of hormuz",
+    "navy",
+    "ship"
+   ],
+   "nat": [
+    "sea",
+    "waves"
+   ],
+   "keywords": [
+    "20M barrels a day"
+   ],
+   "text": "To see why, you need to know this strip of water. The Strait of Hormuz sits between Iran and Oman. In 2024, about 20 million barrels of oil a day passed through it, roughly a fifth of all the oil the world uses."
+  },
+  {
+   "map": {
+    "view": [
+     34,
+     16,
+     62,
+     32
+    ],
+    "title": "Getting oil out of the Gulf",
+    "subtitle": "Strait of Hormuz and the pipelines around it",
+    "pins": [
+     [
+      "Strait of Hormuz",
+      56.4,
+      26.5
+     ],
+     [
+      "Abqaiq",
+      49.67,
+      25.94
+     ],
+     [
+      "Yanbu",
+      38.06,
+      24.09
+     ],
+     [
+      "Fujairah",
+      56.34,
+      25.12
+     ]
+    ],
+    "routes": [
+     {
+      "path": [
+       [
+        50.3,
+        27.0
+       ],
+       [
+        53.0,
+        26.8
+       ],
+       [
+        55.5,
+        26.6
+       ],
+       [
+        56.4,
+        26.5
+       ],
+       [
+        57.3,
+        25.8
+       ],
+       [
+        58.6,
+        24.6
+       ],
+       [
+        60.5,
+        23.0
+       ]
+      ],
+      "label": "Tanker route",
+      "label_at": 0.75,
+      "label_dy": 40
+     },
+     {
+      "path": [
+       [
+        49.67,
+        25.94
+       ],
+       [
+        46.5,
+        25.2
+       ],
+       [
+        43.0,
+        24.6
+       ],
+       [
+        40.0,
+        24.3
+       ],
+       [
+        38.06,
+        24.09
+       ]
+      ],
+      "label": "East-West pipeline",
+      "label_at": 0.5,
+      "label_dy": -40
+     },
+     {
+      "path": [
+       [
+        53.6,
+        23.8
+       ],
+       [
+        54.8,
+        24.3
+       ],
+       [
+        55.8,
+        24.8
+       ],
+       [
+        56.34,
+        25.12
+       ]
+      ],
+      "label": "Habshan-Fujairah",
+      "label_at": 0.4,
+      "label_dy": 45
+     }
+    ],
+    "counter": [
+     "5M b/d",
+     "East-West pipeline capacity"
+    ],
+    "source": "US Energy Information Administration"
+   },
+   "sync": true,
+   "text": "When the war began, Iran made the strait dangerous. So the Gulf found ways around it. Saudi Arabia's East-West pipeline carries crude from Abqaiq to Yanbu on the Red Sea, with room for 5 million barrels a day. The UAE pipes oil to Fujairah, outside the strait."
+  },
+  {
+   "clip": [
+    "wm_Khor_Fakkan_Beach_Fujairah_UAE_panor_967a7b"
+   ],
+   "tags": [
+    "fujairah",
+    "port",
+    "cranes",
+    "ship"
+   ],
+   "nat": [
+    "harbor"
+   ],
+   "keywords": [
+    "100+ a day"
+   ],
+   "text": "Ships still cross Hormuz, but nothing like before. Tracking data shows a few dozen a day at most, against more than 100 a day before the war."
+  },
+  {
+   "clip": [
+    "mk_4012"
+   ],
+   "tags": [
+    "cranes",
+    "dock",
+    "port",
+    "ship"
+   ],
+   "nat": [
+    "harbor"
+   ],
+   "text": "The UAE even calls its plan a zero-Hormuz strategy.",
+   "quote": {
+    "text": "The east coast of the UAE towards the Gulf of Oman is operational, and we've been already shipping from there.",
+    "who": "Abdulla Balalaa",
+    "role": "Assistant Minister for Energy and Sustainability, UAE",
+    "source": "Khaleej Times via Oil & Gas Middle East",
+    "voice": "en-US-GuyNeural"
+   }
+  },
+  {
+   "clip": [
+    "mk_2167"
+   ],
+   "tags": [
+    "ship",
+    "sea",
+    "sunset"
+   ],
+   "nat": [
+    "sea",
+    "waves"
+   ],
+   "text": "One expert says the numbers can fool you.",
+   "quote": {
+    "text": "So barrels are moving, but neither smoothly nor reliably. That should not be read as a sign of normalisation.",
+    "who": "Isabel Figuerola-Ferretti",
+    "role": "Oil markets expert, Comillas Pontifical University",
+    "source": "Al Jazeera, Oct. 30, 2026",
+    "voice": "en-GB-SoniaNeural"
+   }
+  },
+  {
+   "clip": [
+    "mk_50186"
+   ],
+   "tags": [
+    "ship",
+    "sea",
+    "aerial"
+   ],
+   "nat": [
+    "sea",
+    "waves"
+   ],
+   "text": "The oil gets out. At a price."
+  },
+  {
+   "agenda": 2,
+   "clip": [
+    "mk_50185"
+   ],
+   "tags": [
+    "ship",
+    "sea",
+    "aerial"
+   ]
+  },
+  {
+   "flow": {
+    "title": "How a Gulf barrel gets out now",
+    "subtitle": "The shuttle system around the Strait of Hormuz",
+    "layout": "chain",
+    "nodes": [
+     {
+      "label": "Gulf oil field",
+      "icon": "oil"
+     },
+     {
+      "label": "Shuttle tanker",
+      "icon": "ship"
+     },
+     {
+      "label": "Runs the strait",
+      "icon": "ship"
+     },
+     {
+      "label": "Ship-to-ship transfer",
+      "sub": "off Oman or the UAE",
+      "icon": "ship"
+     },
+     {
+      "label": "Supertanker to Asia",
+      "icon": "globe"
+     }
+    ],
+    "source": "Al Jazeera, Kpler"
+   },
+   "sync": true,
+   "text": "Here is how a barrel leaves the Gulf now. A shuttle tanker loads it inside the Gulf. That ship makes the run through the strait. Off Oman or the UAE, it pumps the oil into a waiting supertanker. Only then does the big ship head for Asia."
+  },
+  {
+   "clip": [
+    "wm_Crude_oil_tanker_Eagle_San_Diego_196f1c"
+   ],
+   "tags": [
+    "crude oil tanker",
+    "ship"
+   ],
+   "nat": [
+    "sea",
+    "waves"
+   ],
+   "text": "Every extra step costs money. Crews have to be paid for the risk. Insurers charge more. And tankers sit tied up in transfers instead of sailing."
+  },
+  {
+   "clip": [
+    "wm_Anna_Chemical_Oil_tanker_IMO_7384986_48f1f5",
+    "mk_4011"
+   ],
+   "tags": [
+    "oil tanker",
+    "ship"
+   ],
+   "nat": [
+    "harbor"
+   ],
+   "stat": [
+    "4x",
+    "Cost to charter a large tanker through Hormuz vs September"
+   ],
+   "source": "NBC News",
+   "text": "NBC News reports that chartering a large tanker through the strait now costs four times what it did in September."
+  },
+  {
+   "chart": {
+    "type": "bar",
+    "title": "Shipping a barrel from the Gulf to China",
+    "subtitle": "Supertanker freight, US dollars a barrel",
+    "bars": [
+     [
+      "Past decade average",
+      1.75,
+      "under $1.75"
+     ],
+     [
+      "October 2026",
+      35,
+      "about $35"
+     ]
+    ],
+    "prefix": "$",
+    "decimals": 0,
+    "highlight": 1,
+    "badge": "20x+",
+    "source": "Citi via Oil & Gas Middle East; LSEG via Al Jazeera"
+   },
+   "text": "Citi puts the cost of shipping crude from the Gulf to China at roughly 35 dollars a barrel, more than 20 times the average of the past decade. Data from LSEG shows freight touching 40 dollars."
+  },
+  {
+   "clip": [
+    "hd_18249"
+   ],
+   "tags": [
+    "dollar bills",
+    "money"
+   ],
+   "nat": false,
+   "punch": {
+    "word": "$70 MILLION",
+    "at": "70"
+   },
+   "text": "Put that on one ship. A supertanker carries about two million barrels. At 35 dollars each, the trip costs about 70 million dollars before the oil is even sold."
+  },
+  {
+   "clip": [
+    "mk_4359"
+   ],
+   "tags": [
+    "petrochemical plant",
+    "oil refinery",
+    "night"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "keywords": [
+    "40% of 2025"
+   ],
+   "text": "But there is a catch. Crude is only half the story. Goldman Sachs estimates that Gulf exports of refined fuels like diesel are only about 40 percent of their 2025 level, partly because refineries in the region were damaged."
+  },
+  {
+   "clip": [
+    "wm_Anacortes_Refinery_31911_181a0d"
+   ],
+   "tags": [
+    "oil refinery"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "text": "And not everyone believes the crude rebound, either.",
+   "quote": {
+    "text": "The IEA's most recent production data \u2013 for September \u2013 shows OPEC Gulf production at 15.8 million bpd, which equates to 75 percent of the pre-war baseline",
+    "who": "Pavel Molchanov",
+    "role": "Investment strategist, Raymond James",
+    "source": "Al Jazeera, Oct. 30, 2026",
+    "voice": "en-AU-WilliamNeural"
+   }
+  },
+  {
+   "clip": [
+    "wm_Irving_Oil_Refinery_Saint_John_NB_73349e"
+   ],
+   "tags": [
+    "oil refinery",
+    "storage tanks"
+   ],
+   "nat": [
+    "wind"
+   ],
+   "keywords": [
+    "-509M barrels"
+   ],
+   "text": "Meanwhile the cushion is shrinking. The International Energy Agency says observed oil stocks fell by 10 million barrels in September, leaving the world's stockpile 509 million barrels below its pre-war level."
+  },
+  {
+   "clip": [
+    "mk_4316"
+   ],
+   "tags": [
+    "cargo ships",
+    "sea"
+   ],
+   "nat": [
+    "harbor"
+   ],
+   "text": "Thin buffers make traders nervous."
+  },
+  {
+   "agenda": 3,
+   "clip": [
+    "mk_44373"
+   ],
+   "tags": [
+    "sea",
+    "aerial",
+    "sunset"
+   ]
+  },
+  {
+   "clip": [
+    "cv_5368",
+    "cv_1649"
+   ],
+   "tags": [
+    "new york stock exchange",
+    "wall street",
+    "trader"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "keywords": [
+    "risk premium"
+   ],
+   "text": "Which brings us to the biggest swing in the price, and it is not oil at all. It is fear. Traders call it the risk premium: the extra dollars buyers pay today in case supply is cut tomorrow."
+  },
+  {
+   "clip": [
+    "mk_4331",
+    "mk_1751"
+   ],
+   "tags": [
+    "rain",
+    "traffic",
+    "night"
+   ],
+   "nat": [
+    "rain"
+   ],
+   "text": "Think of umbrellas. When the forecast says storm, people pay more for them, even while the street is still dry."
+  },
+  {
+   "chart": {
+    "type": "bar",
+    "title": "What's inside a barrel of Brent",
+    "subtitle": "Goldman Sachs estimates, US dollars a barrel, Oct. 22, 2026",
+    "bars": [
+     [
+      "Fair value",
+      85,
+      "$85"
+     ],
+     [
+      "Risk premium",
+      27,
+      "$27"
+     ],
+     [
+      "Brent that day",
+      112,
+      "~$112"
+     ]
+    ],
+    "prefix": "$",
+    "decimals": 0,
+    "highlight": 1,
+    "source": "Goldman Sachs Exchanges, Oct. 23, 2026"
+   },
+   "text": "Goldman Sachs puts a number on it. Its oil team says Brent's fair value, based on supply, demand and stockpiles, is about 85 dollars. On top of that sits a risk premium of roughly 27 dollars a barrel."
+  },
+  {
+   "clip": [
+    "mk_49835"
+   ],
+   "tags": [
+    "power plant",
+    "city",
+    "aerial"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "quote": {
+    "text": "And we do think that essentially all of the increase in prices over the last few weeks is driven by an increase in the risk premium rather than an increase in the fair value of Brent.",
+    "who": "Daan Struyven",
+    "role": "Head of Oil Research, Goldman Sachs",
+    "source": "Goldman Sachs Exchanges, Oct. 23, 2026",
+    "voice": "en-US-ChristopherNeural"
+   }
+  },
+  {
+   "clip": [
+    "mk_18302",
+    "mk_5024"
+   ],
+   "tags": [
+    "money",
+    "dollar bill",
+    "counting money"
+   ],
+   "nat": [
+    "office"
+   ],
+   "text": "Who is paying that premium? Refiners, buying barrels early while they still can. And big investors, using oil to protect their stocks and bonds against an energy shock."
+  },
+  {
+   "tags": [
+    "airplane",
+    "airport",
+    "plane"
+   ],
+   "nat": [
+    "airport"
+   ],
+   "text": "Here is how that hedge works. Say a fund owns airline shares. If oil spikes, those shares fall. Owning some oil can make up part of that loss, so funds buy it, and the price rises."
+  },
+  {
+   "clip": [
+    "wm_Esso_Languedoc_silhouette_1973_ff7045",
+    "mk_40079"
+   ],
+   "tags": [
+    "oil tanker",
+    "sea"
+   ],
+   "nat": [
+    "sea",
+    "waves"
+   ],
+   "rehook": true,
+   "keywords": [
+    "$117.64",
+    "$27"
+   ],
+   "text": "So go back to Friday's 117-dollar barrel. Goldman estimated last week that about 27 dollars of Brent's price was risk premium. That is fear, not oil. And fear can vanish far faster than oil can be pumped."
+  },
+  {
+   "clip": [
+    "cv_7909"
+   ],
+   "tags": [
+    "trader",
+    "notebook"
+   ],
+   "nat": [
+    "office"
+   ],
+   "text": "For now, traders are watching one thing.",
+   "quote": {
+    "text": "Traders will remain focused on oil flows out of the Middle East and the likely escalation by US and allied forces",
+    "who": "Dennis Kissler",
+    "role": "SVP of trading, BOK Financial",
+    "source": "CNBC, Oct. 30, 2026",
+    "voice": "en-GB-RyanNeural"
+   }
+  },
+  {
+   "clip": [
+    "wm_Iranian_IRGC_speedboat_approaching_U_9c2183",
+    "wm_Iranian_IRGC_speedboats_fire_rockets_aa7324"
+   ],
+   "tags": [
+    "iranian speedboat",
+    "strait of hormuz",
+    "navy"
+   ],
+   "nat": [
+    "sea",
+    "waves"
+   ],
+   "text": "Iran has threatened to hit oil sites across the Gulf if American strikes resume. And Yemen's Houthis say they have attacked Saudi sites, including the giant Ras Tanura refinery."
+  },
+  {
+   "clip": [
+    "wm_Fm_nasa_yanbu_saudi_arabia_f3c56c"
+   ],
+   "tags": [
+    "yanbu",
+    "saudi arabia",
+    "satellite"
+   ],
+   "nat": [
+    "wind"
+   ],
+   "inset": {
+    "dateline": "Yanbu, Saudi Arabia|From orbit, file image",
+    "credit": "NASA, public domain"
+   },
+   "text": "And someone always pays the bill."
+  },
+  {
+   "agenda": 4,
+   "clip": [
+    "mk_4445"
+   ],
+   "tags": [
+    "tokyo",
+    "cargo port"
+   ]
+  },
+  {
+   "clip": [
+    "mk_5020",
+    "cv_936"
+   ],
+   "tags": [
+    "asia",
+    "city",
+    "india",
+    "street"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "keywords": [
+    "84%",
+    "India"
+   ],
+   "text": "The first bill lands in Asia. In 2024, 84 percent of the crude that crossed Hormuz went to Asian markets. China, India, Japan and South Korea alone took 69 percent of it."
+  },
+  {
+   "clip": [
+    "mk_49798"
+   ],
+   "tags": [
+    "highway",
+    "city",
+    "aerial"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "They sit furthest from the oil, so they pay the most freight. And Goldman says that bill ends up with ordinary people.",
+   "quote": {
+    "text": "And the second implication is that ultimately these high freight costs have to be paid mostly by the consumers.",
+    "who": "Daan Struyven",
+    "role": "Head of Oil Research, Goldman Sachs",
+    "source": "Goldman Sachs Exchanges, Oct. 23, 2026",
+    "voice": "en-US-ChristopherNeural"
+   }
+  },
+  {
+   "clip": [
+    "cv_3058",
+    "mk_41361"
+   ],
+   "tags": [
+    "gas station",
+    "cars",
+    "highway"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "keywords": [
+    "first hike since 2023"
+   ],
+   "text": "In America, it shows up at the pump, and at the Fed. The central bank raised rates in September for the first time since 2023, and two officials voted to raise them again this week."
+  },
+  {
+   "actuality": {
+    "clip": "fed_presconf_20261028",
+    "ss": 152.1,
+    "dur": 9.1,
+    "who": "Kevin Warsh",
+    "role": "Chair, Federal Reserve",
+    "credit": "Federal Reserve video, public domain",
+    "source": "FOMC press conference, Oct. 28, 2026"
+   }
+  },
+  {
+   "clip": [
+    "mk_44370"
+   ],
+   "tags": [
+    "sea",
+    "sunset",
+    "aerial"
+   ],
+   "nat": [
+    "sea",
+    "waves"
+   ],
+   "keywords": [
+    "$90+",
+    "Oct. 2027"
+   ],
+   "text": "So what would bring prices down? Not more barrels alone. Markets are not betting on a quick fix. On Friday, Brent for delivery in October 2027 still traded above 90 dollars. And Saxo Bank expects crude to trade between 70 and 90 dollars even after the conflict ends, against 60 to 70 before it."
+  },
+  {
+   "clip": [
+    "dv_763572@20"
+   ],
+   "tags": [
+    "strait of hormuz",
+    "ship"
+   ],
+   "nat": [
+    "sea",
+    "waves"
+   ],
+   "inset": {
+    "dateline": "Strait of Hormuz|July 31, 2020",
+    "credit": "U.S. Navy video via DVIDS, public domain"
+   },
+   "text": "Even after a peace deal, the work would take time.",
+   "quote": {
+    "text": "Once the political groundwork is in place, the next steps will be logistical: Demining Hormuz, bringing shipping crews back to work, and resuming production at currently shut-in oilfields.",
+    "who": "Pavel Molchanov",
+    "role": "Investment strategist, Raymond James",
+    "source": "Al Jazeera, Oct. 30, 2026",
+    "voice": "en-AU-WilliamNeural"
+   }
+  },
+  {
+   "clip": [
+    "mk_56"
+   ],
+   "tags": [
+    "city",
+    "traffic",
+    "aerial"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "The next test comes fast. Americans vote on Tuesday, and Goldman sees one path to relief.",
+   "quote": {
+    "text": "Now, if we don't get significant escalation after the midterms, I think it's reasonable to assume that the risk premium does moderate somewhat.",
+    "who": "Daan Struyven",
+    "role": "Head of Oil Research, Goldman Sachs",
+    "source": "Goldman Sachs Exchanges, Oct. 23, 2026",
+    "voice": "en-US-ChristopherNeural"
+   }
+  }
+ ],
+ "closer": {
+  "text": "More oil is leaving the Gulf than before the war. The price will not fall until the fear does.",
+  "clip": "mk_1086",
+  "tags": [
+   "sunrise",
+   "ocean",
+   "sea"
+  ]
+ },
+ "endcard": {
+  "dur": 10,
+  "line": "Watch next",
+  "bg_clip": "dv_778126@12"
+ }
+}

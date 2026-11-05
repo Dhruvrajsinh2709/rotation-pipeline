@@ -1,0 +1,52 @@
+[
+ {
+  "date": "2026-10-30",
+  "title": "demo (explain + fed collage)",
+  "layout": "collage",
+  "tint": [
+   10,
+   38,
+   78
+  ],
+  "out": "covers/thumb_explain_demo.jpg"
+ },
+ {
+  "date": "2026-10-31",
+  "title": "Why oil keeps rising when more oil is flowing",
+  "layout": "ui",
+  "tint": [
+   16,
+   52,
+   40
+  ],
+  "out": "/workspace/work/yt/covers/long_2026-10-31_oil-paradox_thumb.jpg"
+ },
+ {
+  "date": "2026-11-01",
+  "title": "India is importing record oil. So why are its fuel retailers losing money?",
+  "layout": "slab",
+  "tint": [
+   48,
+   28,
+   72
+  ],
+  "out": "/workspace/work/yt/covers/long_2026-11-01_pump-gap_thumb.jpg"
+ },
+ {
+  "date": "2026-11-04",
+  "title": "Your IndiGo ticket costs more. So why is IndiGo still losing money?",
+  "layout": "photo-tag",
+  "tint": [
+   8,
+   10,
+   24
+  ],
+  "out": "/workspace/work/yt/covers/explain_2026-11-04_indigo_thumb.jpg"
+ },
+ {
+  "date": "2026-11-04",
+  "title": "IndiGo Explains (replacement cover, user pick)",
+  "layout": "bignum",
+  "out": "/workspace/work/yt/covers/explain_2026-11-04_indigo_thumb_v2.jpg"
+ }
+]

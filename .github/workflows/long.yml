@@ -1,0 +1,61 @@
+name: Saturday deep dive
+on:
+  schedule:
+    - cron: "0 3 * * 6"   # 08:30 IST Saturday; Hark uploads at 11:00 IST
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: "Spec path to render (blank = draft one with the NVIDIA API)"
+        required: false
+        default: ""
+      test:
+        description: "Test run: render only, do not change state (never uploads anywhere)"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: render-long
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Restore clip + model cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            clips/*.mp4
+            ~/.cache/hf
+            ~/.u2net
+          key: media-${{ github.run_id }}
+          restore-keys: media-
+      - name: Set up runner
+        run: bash pipeline/setup_runner.sh
+      - name: Draft, render, package
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          NVIDIA_MODEL: ${{ vars.NVIDIA_MODEL }}
+        run: bash pipeline/run.sh long "${{ inputs.spec }}" "${{ inputs.test && 'test' || '' }}"
+      - name: Push render branch + state
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash pipeline/publish_dist.sh "${{ inputs.test && 'test' || '' }}"
+      - name: Keep the package as an artifact too
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: long-${{ github.run_id }}
+          path: |
+            dist/
+            /tmp/render.log
+            /tmp/draft.log
+          retention-days: 7

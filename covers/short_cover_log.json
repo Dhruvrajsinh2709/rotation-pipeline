@@ -1,0 +1,50 @@
+[
+ {
+  "date": "2026-10-30",
+  "title": "Why Amazon's AI spending spooked Wall Street",
+  "layout": "slab",
+  "out": "covers/2026-10-30_amazon-ai-cash-burn_cover.jpg"
+ },
+ {
+  "date": "2026-10-31",
+  "title": "Why oil jumped on a mine the size of a suitcase",
+  "layout": "bold",
+  "out": "/workspace/work/yt/covers/2026-10-31_oil-mine_cover.jpg"
+ },
+ {
+  "date": "2026-10-31",
+  "title": "Why oil jumped after a tanker was mined",
+  "layout": "split",
+  "out": "/workspace/work/yt/covers/demo_v10_short_cover.jpg"
+ },
+ {
+  "date": "2026-11-01",
+  "title": "Why oil jumped after a tanker was mined",
+  "layout": "frame",
+  "out": "/workspace/work/yt/covers/demo_voice1_short_cover.jpg"
+ },
+ {
+  "date": "2026-11-02",
+  "title": "How India's state fuel retailers lose money on every litre of diesel sold",
+  "layout": "number",
+  "out": "/workspace/work/yt/covers/2026-11-02_pump-gap-short1_cover.jpg"
+ },
+ {
+  "date": "2026-11-03",
+  "title": "Why Reliance made record oil profit while HPCL lost money",
+  "layout": "slab",
+  "out": "/workspace/work/yt/covers/2026-11-03_pump-gap-short2_cover.jpg"
+ },
+ {
+  "date": "2026-11-03",
+  "title": "Why Reliance made record oil profit while HPCL lost money",
+  "layout": "bold",
+  "out": "/workspace/work/yt/covers/2026-11-03_pump-gap-short2_cover.jpg"
+ },
+ {
+  "date": "2026-11-04",
+  "title": "Why IndiGo is losing money even after raising fares",
+  "layout": "topbar",
+  "out": "/workspace/work/yt/covers/2026-11-04_indigo-short1_cover.jpg"
+ }
+]

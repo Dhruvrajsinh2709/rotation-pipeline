@@ -1,0 +1,11 @@
+clips/*.mp4
+clips/*.part
+out/
+dist/
+qa/
+__pycache__/
+*.pyc
+sc*.mp4
+ov*.png
+/s[0-9]*.mp3
+/tmp*
