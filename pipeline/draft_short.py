@@ -86,7 +86,8 @@ def draft(facts, angle, words, extra="", focus=()):
             if not o.get("clip"):   # an outro without a clip got a random library plane (another airline); pin an unused subject clip
                 used = {c for sc in spec["scenes"] for c in (sc.get("clip") or [])}
                 subj = [l.split(" | ")[0] for l in cat.splitlines() if "[SUBJECT]" in l and l.split(" | ")[0] not in used]
-                if subj: o["clip"] = [subj[0]]
+                if subj: o["clip"] = [subj[-1] if len(subj) > 1 else subj[0]]   # last = least likely auto-picked for scene 1
+            if focus: spec["subject"] = list(focus)   # renderer keeps scene-1/outro replacements on clips of the subject
             return spec
         print("draft check failed:", errs, flush=True)
         fb = ("\n\nYOUR LAST DRAFT (edit THIS draft; keep every line that passed, change only what the problems name):\n" + json.dumps(spec, ensure_ascii=False) +

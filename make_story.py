@@ -343,6 +343,10 @@ def resolve_unique(plan_, sc, own):
         if sh not in USED and ok_clip(sh, 0):
             USED.add(sh); out_.append((sh, ss, L)); continue
         cands = [x for x in own if x not in USED] + pick_lib(tags, sc.get("text") or "", USED | RECENT) + pick_lib(tags, sc.get("text") or "", USED, min_score=0)
+        _subj = [w.lower() for w in (spec.get("subject") or [])]
+        if _subj and (sc.get("outro") or sc is (spec.get("scenes") or [None])[0]):   # 2026-11-05: outro/scene-1 swaps stay on the subject (was HPCL pump for IndiGo)
+            _sl = [k for k, m in IX.items() if not m.get("bad") and any(w in (m.get("title", "") + " " + " ".join(m.get("tags", []))).lower() for w in _subj)]
+            cands = [x for x in _sl if x not in USED] + cands
         alt = next((x for x in cands if x not in USED and ok_clip(x, L) and gfx.clip_luma(f"{OUT}/clips/{x}.mp4", good_ss(x, L), L) >= DARK_LUMA), None)
         if alt is None: alt = next((x for x in cands if x not in USED and ok_clip(x, L)), sh)
         REPL.append(f"{sh}->{alt}"); USED.add(alt); out_.append((alt, good_ss(alt, L), L))
