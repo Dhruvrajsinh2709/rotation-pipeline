@@ -28,7 +28,9 @@ scenes = [
  ("hd_49878", "Follow Rotation for more stories on the money moving the world.", None),
 ]
 
-def dur(p): return float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",p]).decode())
+def dur(p):
+    try: return float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",p]).decode().strip())
+    except ValueError: return 0.0   # broken/unknown-length file: treated as unusable
 
 async def tts(i, text, voice=None, rate=None):
     import asyncio as _a

@@ -151,7 +151,9 @@ def chart_frames(kind, D, d_out):
             d.text((60, H-60), "Source: NSE, Business Standard", font=MF(26, 500), fill=GR)
         im.save(f"{d_out}/{k:04d}.png")
 
-def dur(p): return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]).decode())
+def dur(p):
+    try: return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]).decode().strip())
+    except ValueError: return 0.0   # broken/unknown-length file: treated as unusable
 
 WORDS = {}
 async def tts(i, text, rate="+3%", voice=None):

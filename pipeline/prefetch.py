@@ -52,7 +52,8 @@ def get(cid):
                 b = r.read(1 << 20)
                 if not b: break
                 fh.write(b)
-        subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", tmp], check=True, capture_output=True)
+        d = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", tmp], check=True, capture_output=True, text=True).stdout.strip()
+        if float(d) < 0.5: raise ValueError("no duration")   # 'N/A' (HTML page or broken file) raises too
         os.replace(tmp, p); return cid, "ok"
     except Exception as e:
         if os.path.exists(tmp): os.remove(tmp)

@@ -21,7 +21,9 @@ GRADE = 'eq=contrast=1.05:saturation=0.96:gamma=0.99:brightness=-0.02,vignette=a
 COLOR = ["-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709"]
 
 def sh(cmd, **kw): return subprocess.run(cmd, check=True, **kw)
-def dur(p): return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]).decode())
+def dur(p):
+    try: return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]).decode().strip())
+    except ValueError: return 0.0   # broken/unknown-length file: treated as unusable
 
 _logo = None
 def logo_mark(h):

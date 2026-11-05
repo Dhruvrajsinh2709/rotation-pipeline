@@ -11,7 +11,9 @@ MD = "/workspace/work/yt/music"; IDX = f"{MD}/index.json"; USED = f"{MD}/used.js
 LIC = "Mixkit Stock Music Free License (commercial use incl. YouTube, no attribution) https://mixkit.co/license/#musicFree"
 MOODS = ("doc", "tense", "light", "ambient", "pulse")
 
-def dur(p): return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]).decode())
+def dur(p):
+    try: return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]).decode().strip())
+    except ValueError: return 0.0   # broken/unknown-length file: treated as unusable
 
 def decode(path, sr=SR, mono=False):
     raw = subprocess.check_output(["ffmpeg", "-v", "error", "-i", path, "-f", "f32le", "-ac", "1" if mono else "2", "-ar", str(sr), "-"])
