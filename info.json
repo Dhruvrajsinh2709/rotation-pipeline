@@ -1,0 +1,14 @@
+{
+ "name": "2026-11-05_why-indigo-loses-680-per-flyer-despite-3",
+ "kind": "short",
+ "title": "Why IndiGo loses \u20b9680 per flyer despite 34% yield jump",
+ "duration_s": 37.9,
+ "res": "1080x1920",
+ "upload_mb": 46.8,
+ "funnel": {
+  "long_spec": "spec_2026-11-04_explain_indigo.json",
+  "n": 2,
+  "long_title": "Your IndiGo ticket costs more. So why is IndiGo still losing money?"
+ },
+ "qa_exit": 0
+}

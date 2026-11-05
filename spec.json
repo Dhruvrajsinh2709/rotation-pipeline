@@ -1,0 +1,128 @@
+{
+ "title": "Why IndiGo loses ₹680 per flyer despite 34% yield jump",
+ "rate": "+24%",
+ "music": {
+  "mood": "tense",
+  "mood2": "doc"
+ },
+ "tags": [
+  "indigo",
+  "fuel",
+  "currency"
+ ],
+ "outro": {
+  "text": "Will fares hold if fuel eases? The December 1 price decides. Yield up 34 percent yet each flyer loses 680 rupees.",
+  "tags": [
+   "airport",
+   "fuel",
+   "india"
+  ],
+  "nat": [
+   "airport"
+  ],
+  "clip": [
+   "wm_IndiGo_VT_IDJ_Airbus_A320_232_MSN_48_5d1982"
+  ]
+ },
+ "sources": [
+  "IndiGo Q2 FY27 press release (BSE filing, Oct. 29, 2026)",
+  "IndiGo Q2 FY27 earnings call",
+  "Business Standard",
+  "India Today",
+  "Forbes India"
+ ],
+ "scenes": [
+  {
+   "clip": [
+    "wm_F_WWBX_Airbus_A320_IndiGo_test_in_fl_c0249e"
+   ],
+   "tags": [
+    "indigo",
+    "airbus"
+   ],
+   "nat": "airport",
+   "blur": false,
+   "text": "Yield up 34 percent yet each flyer loses 680 rupees.",
+   "clash": [
+    [
+     "Yield",
+     "+34%",
+     "win"
+    ],
+    [
+     "Loss per flyer",
+     "₹680",
+     "lose"
+    ]
+   ]
+  },
+  {
+   "clip": [
+    "mk_4360"
+   ],
+   "tags": [
+    "refinery",
+    "night"
+   ],
+   "nat": "industrial",
+   "blur": false,
+   "text": "Fuel per passenger jumped 75 percent to 3,624 rupees."
+  },
+  {
+   "clip": [
+    "mk_4170"
+   ],
+   "tags": [
+    "corporate",
+    "buildings"
+   ],
+   "nat": "city",
+   "blur": false,
+   "turn": true,
+   "text": "But the real twist: six of ten lost rupees came from currency, not flying."
+  },
+  {
+   "clip": [
+    "mk_5024"
+   ],
+   "tags": [
+    "dollar",
+    "bill"
+   ],
+   "nat": "office",
+   "blur": false,
+   "text": "A thousand-dollar bill now costs 8,000 rupees more than a year ago."
+  },
+  {
+   "clip": [
+    "wm_IndiGo_A320_Interior_ff4c76"
+   ],
+   "tags": [
+    "aircraft",
+    "interior"
+   ],
+   "nat": "airport",
+   "blur": false,
+   "text": "Cost per passenger 9,520 rupees, loss per passenger 680 rupees."
+  },
+  {
+   "clip": [
+    "wm_VT_IUC_20_Jul_2024_acee39"
+   ],
+   "tags": [
+    "indigo",
+    "neo"
+   ],
+   "nat": "airport",
+   "blur": false,
+   "text": "Next clue: December 1, when jet fuel is repriced."
+  }
+ ],
+ "funnel": {
+  "long_spec": "spec_2026-11-04_explain_indigo.json",
+  "n": 2,
+  "long_title": "Your IndiGo ticket costs more. So why is IndiGo still losing money?"
+ },
+ "output": "/workspace/work/yt/out/2026-11-05_why-indigo-loses-680-per-flyer-despite-3.mp4",
+ "log_used": false
+}
