@@ -10,7 +10,7 @@ UA = {"User-Agent": "Mozilla/5.0 (RotationPipeline; +https://youtube.com/@Rotati
 
 
 _PROBED = None
-PREFER = ["nemotron-3-super", "deepseek-v", "kimi", "mistral-large", "nemotron-3-ultra", "llama-3.1-nemotron-70b", "gpt-oss-120b", "qwen3", "llama-4", "gemma-4", "gpt-oss-20b", "nemotron-3.5-lightning", "instruct"]
+PREFER = ["nemotron-3-ultra", "nemotron-3-super", "deepseek-v", "kimi", "mistral-large", "nemotron-3-ultra", "llama-3.1-nemotron-70b", "gpt-oss-120b", "qwen3", "llama-4", "gemma-4", "gpt-oss-20b", "nemotron-3.5-lightning", "instruct"]
 SKIP = ("embed", "guard", "safety", "vision", "-vl", "coder", "codestral", "codellama", "parse", "reward", "retriever", "translate", "diffusion", "omni", "chatqa")
 
 
@@ -42,7 +42,7 @@ def chat(system, user, max_tokens=6000, temperature=0.4):
     key = os.environ.get("NVIDIA_API_KEY")
     if not key: raise SystemExit("NVIDIA_API_KEY secret is missing: add it in repo Settings > Secrets and variables > Actions")
     last = None
-    for model in _probe(key):
+    for model in list(_probe(key)):
         for attempt in range(2):
             body = json.dumps({"model": model, "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
                                "max_tokens": max_tokens, "temperature": temperature}).encode()
@@ -54,6 +54,8 @@ def chat(system, user, max_tokens=6000, temperature=0.4):
                     print(f"NVIDIA model {model} ok ({len(out)} chars)", flush=True); return out
             except Exception as e:   # never print headers (the key lives there)
                 last = f"{model}: {type(e).__name__} {str(e)[:200]}"; print("NVIDIA retry", last, flush=True)
+                if _PROBED and model in _PROBED and _PROBED[0] == model and len(_PROBED) > 1:   # a failing model goes to the back for the rest of the run
+                    _PROBED.remove(model); _PROBED.append(model)
                 if getattr(e, "code", None) in (401, 403, 404, 410) or isinstance(e, TimeoutError): break
                 time.sleep(8 * (attempt + 1))
     raise SystemExit(f"NVIDIA API failed: {last}")

@@ -52,7 +52,7 @@ def draft(facts, angle, words, extra="", focus=()):
     user = (f"ANGLE: {angle}\n\nFACTS (the only allowed facts):\n{facts[:14000]}\n\n{extra}\nCLIP CATALOG (id | title | tags), use only these ids:\n{cat}\n\n"
             f"EXAMPLE SPEC (shape and tone only, not its facts):\n{json.dumps(EXAMPLE, ensure_ascii=False)}")
     fb = ""
-    for attempt in range(4):
+    for attempt in range(5):
         spec = extract_json(chat(RULES, user + fb))
         spoken = " ".join(sc.get("text", "") for sc in spec.get("scenes", [])) + " " + (spec.get("outro") or {}).get("text", "")
         graphics = json.dumps([[sc.get("stat"), sc.get("card"), sc.get("hook_card"), sc.get("clash")] for sc in spec.get("scenes", [])], ensure_ascii=False)
@@ -74,7 +74,7 @@ def draft(facts, angle, words, extra="", focus=()):
         else: sc1.pop("stat", None); sc1.pop("hook_card", None)
         if not errs:
             aud = audit(spec, facts)
-            if aud: errs.append("a fact audit found these problems: " + "; ".join(aud))
+            if aud: errs.append("a fact audit found these problems (DELETE those claims or replace them with a sentence built only from the FACTS): " + "; ".join(aud))
         if not errs: return spec
         print("draft check failed:", errs, flush=True)
         fb = "\n\nYOUR LAST DRAFT FAILED THESE CHECKS, fix them and return the full JSON again:\n- " + "\n- ".join(errs)
