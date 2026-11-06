@@ -89,7 +89,7 @@ def main():
     # 2026-11-06 pace gate (oil Short #2 held stills 7-8 s): Shorts may not hold one shot longer than 4.5 s
     cuts = []
     if vertical:
-        r = run(['ffmpeg', '-v', 'info', '-i', vid, '-vf', "scale=270:-2,select='gt(scene,0.25)',showinfo", '-an', '-f', 'null', '-'])
+        r = run(['ffmpeg', '-v', 'info', '-i', vid, '-vf', "scale=270:-2,select='gt(scene,0.15)',showinfo", '-an', '-f', 'null', '-'])
         cuts = [float(x) for x in re.findall(r'pts_time:([\d.]+)', r.stderr)]
         b = [0.0] + cuts + [dur]; gaps = [(round(b[k], 1), round(b[k+1]-b[k], 1)) for k in range(len(b)-1)]
         longs = [g for g in gaps if g[1] > 4.5]

@@ -33,14 +33,31 @@ def align(path, text):
                          capture_output=True).stdout
     audio = np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
     dur = len(audio) / 16000.0
-    segs, _ = _model().transcribe(audio, word_timestamps=True, beam_size=1, language="en",
-                                  initial_prompt=text[:200])
-    hw = [(w.start, w.end, w.word.strip()) for s in segs for w in (s.words or [])]
     toks = [t for t in text.split() if _norm(t)]
-    out = [None] * len(toks)
-    sm = difflib.SequenceMatcher(None, [_norm(t) for t in toks], [_norm(w[2]) for w in hw], autojunk=False)
-    for a, b, n in sm.get_matching_blocks():
-        for k in range(n): out[a + k] = (hw[b + k][0], hw[b + k][1])
+    def _try(**kw):
+        segs, _ = _model().transcribe(audio, word_timestamps=True, language="en", **kw)
+        hw_ = [(w.start, w.end, w.word.strip()) for s in segs for w in (s.words or [])]
+        out_ = [None] * len(toks)
+        sm = difflib.SequenceMatcher(None, [_norm(t) for t in toks], [_norm(w[2]) for w in hw_], autojunk=False)
+        for a, b, n in sm.get_matching_blocks():
+            for k in range(n): out_[a + k] = (hw_[b + k][0], hw_[b + k][1])
+        return hw_, out_
+    hw, out = _try(beam_size=1, initial_prompt=text[:200])
+    if sum(o is not None for o in out) < 0.8 * len(toks):   # 2026-11-06: the prompt can make whisper hallucinate; retry plain
+        hw2, out2 = _try(beam_size=5)
+        if sum(o is not None for o in out2) > sum(o is not None for o in out): hw, out = hw2, out2
+    # 2026-11-06: drop matches that go backwards in time (whisper mis-heard a sentence and matched a later word at 0 s,
+    # which froze the oil Short #2 caption on its last line for 5 s); if under half the words match, spread by letters
+    last = -1.0
+    for k in range(len(out)):
+        if out[k] is not None:
+            if out[k][0] < last - 1e-3: out[k] = None
+            else: last = out[k][0]
+    if sum(o is not None for o in out) < 0.5 * len(toks):
+        print("wordtime: alignment weak, spreading words by length", flush=True)
+        t0 = hw[0][0] if hw else 0.05; t1 = max(t0 + 0.5, (hw[-1][1] if hw else dur - 0.1))
+        L = [len(_norm(t)) + 2 for t in toks]; tot = float(sum(L)); acc = t0
+        for k, l in enumerate(L): out[k] = (acc, acc + (t1 - t0) * l / tot); acc = out[k][1]
     # fill gaps by spreading unmatched tokens between known neighbours (numbers read as words etc.)
     i = 0
     while i < len(toks):
