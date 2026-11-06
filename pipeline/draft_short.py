@@ -73,6 +73,12 @@ def draft(facts, angle, words, extra="", focus=()):
             q = sc.get("quote")
             if q and q.get("text", "") not in facts: sc.pop("quote"); print("dropped a quote not found verbatim in facts")
             sc.pop("actuality", None)
+        india = "₹" in facts or " crore" in facts
+        for sc in spec.get("scenes", []):   # foreign banknotes are banned for India stories unless the line is about dollars
+            if india and "dollar" not in sc.get("text", "").lower():
+                for c in sc.get("clip") or []:
+                    line = next((l for l in cat.splitlines() if l.startswith(c + " |")), "").lower()
+                    if "dollar" in line or "euro" in line: errs.append(f"clip {c} shows dollar/euro notes in an India story; pick a rupee, India or neutral clip for: {sc.get('text','')[:60]}")
         sc1 = (spec.get("scenes") or [{}])[0]
         cl = sc1.get("clash")
         if not (isinstance(cl, list) and len(cl) == 2 and all(isinstance(x, list) and len(x) >= 2 for x in cl)):
@@ -83,10 +89,13 @@ def draft(facts, angle, words, extra="", focus=()):
             if aud: errs.append("a fact audit found these problems (DELETE those claims or replace them with a sentence built only from the FACTS): " + "; ".join(aud))
         if not errs:
             o = spec.setdefault("outro", {})
-            if not o.get("clip"):   # an outro without a clip got a random library plane (another airline); pin an unused subject clip
+            subj_all = [l.split(" | ")[0] for l in cat.splitlines() if "[SUBJECT]" in l]
+            oc = o.get("clip") or []
+            if isinstance(oc, str): oc = [oc]
+            if not oc or (subj_all and not all(c in subj_all for c in oc)):   # outro must show the subject (11-06 test: champagne glasses); pin an unused subject clip
                 used = {c for sc in spec["scenes"] for c in (sc.get("clip") or [])}
-                subj = [l.split(" | ")[0] for l in cat.splitlines() if "[SUBJECT]" in l and l.split(" | ")[0] not in used]
-                if subj: o["clip"] = [subj[-1] if len(subj) > 1 else subj[0]]   # last = least likely auto-picked for scene 1
+                subj = [c for c in subj_all if c not in used] or subj_all
+                if subj: o["clip"] = [subj[-1] if len(subj) > 1 else subj[0]]; print("outro pinned to subject clip", o["clip"], flush=True)
             if focus: spec["subject"] = list(focus)   # renderer keeps scene-1/outro replacements on clips of the subject
             return spec
         print("draft check failed:", errs, flush=True)
