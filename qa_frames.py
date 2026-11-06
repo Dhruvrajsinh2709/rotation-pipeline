@@ -48,6 +48,16 @@ def main():
         run(['ffmpeg', '-v', 'error', '-f', 'concat', '-safe', '0', '-i', lst, '-vf',
              'tile=5x4:padding=4:color=gray', '-frames:v', '1', '-q:v', '3', sp])
         os.remove(lst); sheets.append(sp)
+    # 2026-11-06: catch title slates / text cards baked into source clips (a Navy video slate slipped into a test cut)
+    slates = []
+    try:
+        from PIL import Image
+        for k, fr in enumerate(frames):
+            im = Image.open(fr); px = list(im.convert('L').getdata()); n = len(px)
+            dark = sum(1 for x in px if x < 25) / n; bright = sum(1 for x in px if x > 200) / n
+            sat = sum(1 for p in im.convert('HSV').getdata() if p[1] > 90 and p[2] > 60) / n
+            if dark > 0.8 and bright > 0.02 and sat < 0.02: slates.append(round(k / fps, 1))   # black + white text, no colour (our cards carry orange/green)
+    except Exception as e: print('slate check skipped', e)
     shutil.rmtree(fdir)
 
     # automatic checks
@@ -76,9 +86,18 @@ def main():
     if not vertical and H < 1080: hard.append(f'long video only {H}p')
     if lufs is not None and not (-17.5 <= lufs <= -11.5): hard.append(f'loudness {lufs} LUFS off target -14')
 
+    # 2026-11-06 pace gate (oil Short #2 held stills 7-8 s): Shorts may not hold one shot longer than 4.5 s
+    cuts = []
+    if vertical:
+        r = run(['ffmpeg', '-v', 'info', '-i', vid, '-vf', "scale=270:-2,select='gt(scene,0.25)',showinfo", '-an', '-f', 'null', '-'])
+        cuts = [float(x) for x in re.findall(r'pts_time:([\d.]+)', r.stderr)]
+        b = [0.0] + cuts + [dur]; gaps = [(round(b[k], 1), round(b[k+1]-b[k], 1)) for k in range(len(b)-1)]
+        longs = [g for g in gaps if g[1] > 4.5]
+        if longs: hard.append(f'shots held too long (start s, length s) {longs}; max 4.5 s, aim 2-3 s')
+    if vertical and slates: hard.append(f'text slate / black card frames at {slates} s (source clip title card?) - swap that clip')
     rep = dict(video=vid, duration=round(dur, 2), size=f'{W}x{H}', fps=v.get('r_frame_rate'),
                audio=bool(aud), lufs=lufs, black=black, freezes=freezes, silences=silences,
-               sheets=sheets, frames=len(frames), hard_fail=hard)
+               sheets=sheets, frames=len(frames), hard_fail=hard, shots=len(cuts)+1 if vertical else None)
     json.dump(rep, open(os.path.join(out, 'report.json'), 'w'), indent=1)
     print(json.dumps({k: rep[k] for k in rep if k != 'sheets'}, indent=1))
     print(f'{len(sheets)} sheets in {out} -> open EVERY one with read_file')

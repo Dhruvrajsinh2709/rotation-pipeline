@@ -311,6 +311,7 @@ COVER = [None]
 import math, time as _time
 _T_START = _time.time()
 CLIPDUR = {}
+PACE_SHORT = []
 def cdur(cid):
     if cid not in CLIPDUR: CLIPDUR[cid] = dur(f"{OUT}/clips/{cid}.mp4")
     return CLIPDUR[cid]
@@ -333,6 +334,8 @@ def pick_lib(tags, text, exclude, n=25, min_score=1):
     ids = clipfetch.pick(tags, text, exclude=exclude, n=200, min_score=min_score)
     sc_ = {k: clipfetch.score(IX.get(k, {}), tags, text) for k in ids}
     ids = [k for k in ids if not IX.get(k, {}).get("bad") and "restricted" not in str(IX.get(k, {}).get("licence", "")).lower()]
+    if not any(w in (text or "").lower() for w in ("wind", "solar", "renewable", "turbine", "clean energy")):   # 2026-11-06 wrong-scene ban
+        ids = [k for k in ids if not any(w in (IX.get(k, {}).get("title", "") + " " + " ".join(IX.get(k, {}).get("tags", []) + IX.get(k, {}).get("kw", []))).lower() for w in ("wind", "turbine", "solar"))]
     return sorted(ids, key=lambda k: (-sc_[k], -(IX.get(k, {}).get("h") or 1080)))[:n]
 
 def resolve_unique(plan_, sc, own):
@@ -404,7 +407,7 @@ async def main():
         for wi, w in enumerate(words):
             cand = " ".join(x[1] for x in chunks[-1]+[w]) + ("\u201d\u201d" if q0 is not None else "")
             qsplit = q0 is not None and chunks[-1] and chunks[-1][0][0] < q0-1e-3 <= w[0]-1e-3
-            ssplit = V9 and wi > 0 and wi-1 < len(pw) and pw[wi-1][1][-1:] in ".?!"   # v9: a caption never runs across a sentence end
+            ssplit = V9 and wi > 0 and wi-1 < len(pw) and pw[wi-1][1][-1:] in ".?!,;:"   # v9 + 2026-11-06: a caption never runs across a sentence end or comma
             if chunks[-1] and (qsplit or ssplit or len(chunks[-1]) >= 4 or _md.textlength(cand, font=MF(64,700)) > 760): chunks.append([w])
             else: chunks[-1].append(w)
         chunks = [ch for ch in chunks if ch]
@@ -430,8 +433,21 @@ async def main():
                 if not shots:
                     tg = list(sc.get("tags") or []) + list(spec.get("tags") or [])
                     shots = pick_lib(tg, text, USED | RECENT, n=max(1, math.ceil(D/3.8))) or pick_lib(tg, text, USED, n=2, min_score=0)
+            # 2026-11-06 PACE RULE (oil Short #2 held stills 7-8 s): one distinct clip per ~2.6 s, never one still re-zoomed
+            want = (1 if need else 0) + max(1, math.ceil((D-need)/2.6))
+            if len(shots) < want:
+                tg = list(sc.get("tags") or []) + list(spec.get("tags") or []) + list(spec.get("subject") or [])
+                ex = USED | RECENT | {x.split("@")[0] for x in shots}
+                # strict top-up: only clips whose title/tags literally name the subject or a scene tag (the loose
+                # library pick added sailboats, the Thames and cliffs in the 2026-11-06 test)
+                keys = [w.lower() for w in (list(spec.get("subject") or []) + list(sc.get("tags") or [])) if len(w) > 3]
+                def _lit(k):
+                    m = IX.get(k, {}); hay = (m.get("title", "") + " " + " ".join(m.get("tags", []) + m.get("kw", []))).lower()
+                    return any(w in hay for w in keys)
+                shots += [x for x in pick_lib(tg, text, ex, n=60) if ok_clip(x, 1.5) and _lit(x)][:want-len(shots)]
+                if len(shots) < want: PACE_SHORT.append(f"scene {i} ('{text[:40]}'): {len(shots)}/{want} clips")
             while len(shots) > 1 and D-need < 1.2*(len(shots)-1): shots.pop()
-            plan = gfx.plan_shots(shots, D, max(D/len(shots), 0.1), 7.5, cuts_pref, cuts_any, first_min=need,
+            plan = gfx.plan_shots(shots, D, max(D/len(shots), 0.1), max(3.0, need+0.2), cuts_pref, cuts_any, first_min=need,
                                   durs={x.split("@")[0]: cdur(x.split("@")[0]) for x in shots}, min_shot=1.2)
             if V8: plan = resolve_unique(plan, sc, [x.split("@")[0] for x in shots])
             if i == 0: COVER[0] = plan[0][0]
@@ -565,6 +581,7 @@ async def main():
         if LOG_USED: clipfetch.log_used(os.path.basename(FINAL), sorted(USED))
         print(f"V8 clips: {len(USED)} unique, replaced {len(REPL)} {REPL}; res {OW}x{OH}; crf {CRF}; render time {(_time.time()-_T_START)/60:.1f} min", flush=True)
     nw = sum(len((sc.get("text") or "").split()) for sc in scenes)
+    if PACE_SHORT: print("PACE WARNING (renders, but QA will likely fail: add relevant clips to these scenes):", PACE_SHORT, flush=True)
     print(f"STATS shots {len(shots_all)} avg {T/len(shots_all):.2f}s max {max(shots_all):.1f}s words {nw} WPM {nw/T*60:.0f}", flush=True)
     if TITLE:
         s0=scenes[0]; sh=COVER[0] or s0.get("chart") or s0.get("clip"); sh=sh[0] if isinstance(sh,list) else sh

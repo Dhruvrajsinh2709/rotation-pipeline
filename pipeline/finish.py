@@ -27,6 +27,11 @@ else:   # long-form 1440p master -> 1080p upload copy sized for ~90 MB (big file
 # QA sheets (Hark opens every sheet before upload)
 qa = subprocess.run(["python3", f"{ROOT}/qa_frames.py", up, "--out", f"{D}/qa"] + (["--fps", "0.5"] if kind != "short" else []), capture_output=True, text=True)
 print(qa.stdout[-3000:], qa.stderr[-1500:])
+try:
+    _hf = json.load(open(f"{D}/qa/report.json")).get("hard_fail") or []
+except Exception: _hf = []
+if _hf:   # 2026-11-06: a QA hard fail (long shots, text slates, loudness...) blocks the render from being shipped
+    open(f"{D}/QA_FAILED.txt", "w").write("\n".join(_hf) + "\n"); print("QA HARD FAIL:", _hf)
 
 # description: line 1 repeats the title's search words; sources; disclosures (title/Related video/links finished by Hark at upload)
 ix = json.load(open(f"{ROOT}/clips/index.json")); used = set()
