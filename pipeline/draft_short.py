@@ -23,7 +23,7 @@ Hard rules:
 - 6-8 scenes. Scene 1: the subject on screen + the clash said in the first 8 spoken words. Give scene 1 "clash": [[label, value, "win"], [label, value, "lose"]]:
   two numbers from the FACTS that fight each other, each label 1-2 words, value short (e.g. [["Fares","+34%","win"],["IndiGo loss","Rs 1,879 cr","lose"]]). Green = winner/positive, red = loser/negative. No "stat" on scene 1.
 - MATH: never combine numbers yourself. Say "X minus Y" or "losing Z on each" ONLY if that exact result is in the FACTS. Two numbers in one sentence must measure the same thing (same unit, same period, same basis).
-- FOOTAGE: pick the clip whose TITLE literally shows the subject (the named company's planes/stores/logo, the named country/city). Never show another company's brand (e.g. a FedEx plane for IndiGo). For an Indian story never show US dollar bills unless that line is about dollars; prefer rupee/India clips. A generic clip only when no literal one fits.
+- FOOTAGE: pick the clip whose TITLE literally shows the subject (the named company's planes/stores/logo, the named country/city). Never show another company's brand (e.g. a FedEx plane for IndiGo). For an Indian story never show US dollar bills unless that line is about dollars; prefer rupee/India clips. Never show wind turbines or solar panels unless that line is about renewables. A generic clip only when no literal one fits.
 - Number + twist by 12 s, why-it-matters by 30 s. Mark the turn scene with "turn": true. Mixed sentence length. Plain words: explain any jargon in one line.
 - At most 2 graphics in total ("stat" or "card" of type compare). Cards: {"type":"compare","title","items":[[label,value],[label,value]],"source"}.
 - Every scene: "clip": [ONE id from the clip catalog], "tags": 2-3 concrete nouns, "nat": one of [airport, city, street, office, industrial, traffic, market, crowd, port, sea, nature, room], "blur": false (footage always fills the full 9:16 screen).
@@ -79,6 +79,12 @@ def draft(facts, angle, words, extra="", focus=()):
                 for c in sc.get("clip") or []:
                     line = next((l for l in cat.splitlines() if l.startswith(c + " |")), "").lower()
                     if "dollar" in line or "euro" in line: errs.append(f"clip {c} shows dollar/euro notes in an India story; pick a rupee, India or neutral clip for: {sc.get('text','')[:60]}")
+        for sc in spec.get("scenes", []):   # wind turbines / solar only when the line is about renewables
+            t = sc.get("text", "").lower()
+            if not any(w in t for w in ("wind", "solar", "renewable", "turbine", "clean energy")):
+                for c in sc.get("clip") or []:
+                    line = next((l for l in cat.splitlines() if l.startswith(c + " |")), "").lower()
+                    if any(w in line for w in ("wind", "turbine", "solar")): errs.append(f"clip {c} shows wind turbines/solar but the line is not about renewables; pick a clip that shows: {sc.get('text','')[:60]}")
         sc1 = (spec.get("scenes") or [{}])[0]
         cl = sc1.get("clash")
         if not (isinstance(cl, list) and len(cl) == 2 and all(isinstance(x, list) and len(x) >= 2 for x in cl)):
