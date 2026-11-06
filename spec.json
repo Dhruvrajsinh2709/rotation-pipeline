@@ -1,0 +1,157 @@
+{
+ "title": "Why IndiGo loses money despite 34% higher fares",
+ "rate": "+24%",
+ "music": {
+  "mood": "tense",
+  "mood2": "doc"
+ },
+ "tags": [
+  "indigo",
+  "airline",
+  "india"
+ ],
+ "outro": {
+  "text": "The next clue lands December 1, when state oil companies set the jet fuel price. IndiGo taught India to fly cheap.",
+  "tags": [
+   "airport",
+   "terminal",
+   "india"
+  ],
+  "nat": [
+   "airport"
+  ],
+  "clip": [
+   "mk_51557"
+  ]
+ },
+ "sources": [
+  "IndiGo Q2 FY27 press release (BSE filing, Oct. 29, 2026)",
+  "IndiGo Q2 FY27 earnings call",
+  "Business Standard",
+  "India Today",
+  "Forbes India"
+ ],
+ "scenes": [
+  {
+   "clip": [
+    "wm_IndiGo_VT_IDJ_Airbus_A320_232_MSN_48_5d1982"
+   ],
+   "tags": [
+    "indigo",
+    "airbus",
+    "delhi"
+   ],
+   "nat": "airport",
+   "blur": false,
+   "text": "IndiGo's yield jumped 34 percent. It still lost 1,879 crore rupees.",
+   "clash": [
+    [
+     "Yield",
+     "+34%",
+     "win"
+    ],
+    [
+     "Net loss",
+     "₹1,879 cr",
+     "lose"
+    ]
+   ]
+  },
+  {
+   "clip": [
+    "mk_4360"
+   ],
+   "tags": [
+    "refinery",
+    "fuel",
+    "industrial"
+   ],
+   "nat": "industrial",
+   "blur": false,
+   "text": "Fuel per passenger surged 75 percent to 3,624 rupees."
+  },
+  {
+   "clip": [
+    "hd_18247"
+   ],
+   "tags": [
+    "currency",
+    "rupee",
+    "dollar"
+   ],
+   "nat": "office",
+   "blur": false,
+   "turn": true,
+   "card": {
+    "type": "compare",
+    "title": "IndiGo Q2 loss split",
+    "items": [
+     [
+      "Running the airline",
+      "₹724 cr"
+     ],
+     [
+      "Currency & hedging",
+      "₹1,155 cr"
+     ]
+    ],
+    "source": "IndiGo Q2 FY27 press release"
+   },
+   "text": "Six of every ten rupees lost came from the currency."
+  },
+  {
+   "clip": [
+    "wm_IndiGo_A320_Interior_ff4c76"
+   ],
+   "tags": [
+    "cabin",
+    "seat",
+    "passenger"
+   ],
+   "nat": "airport",
+   "blur": false,
+   "text": "The dollar squeeze means you pay more per kilometre."
+  },
+  {
+   "clip": [
+    "mk_4008"
+   ],
+   "tags": [
+    "terminal",
+    "corridor",
+    "travelers"
+   ],
+   "nat": "airport",
+   "blur": false,
+   "stat": [
+    "₹680",
+    "loss per passenger"
+   ],
+   "text": "Fares rose a third, yet IndiGo loses 680 rupees per passenger."
+  },
+  {
+   "clip": [
+    "wm_F_WWBX_Airbus_A320_IndiGo_test_in_fl_c0249e"
+   ],
+   "tags": [
+    "indigo",
+    "airbus",
+    "flight"
+   ],
+   "nat": "airport",
+   "blur": false,
+   "text": "IndiGo expects revenue per seat kilometre to rise more than 25 percent from October to December."
+  }
+ ],
+ "subject": [
+  "indigo",
+  "indigo"
+ ],
+ "funnel": {
+  "long_spec": "spec_2026-11-04_explain_indigo.json",
+  "n": 2,
+  "long_title": "Your IndiGo ticket costs more. So why is IndiGo still losing money?"
+ },
+ "output": "/workspace/work/yt/out/2026-11-06_why-indigo-loses-money-despite-34-higher.mp4",
+ "log_used": false
+}
