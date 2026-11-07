@@ -602,6 +602,37 @@ async def main(spec):
                 else: out.append((sh, ss, L, 0))
                 t0 += L
             plan = out
+            # fix20 (2026-11-07): final dark pass AFTER the unique/split swaps (they could bring in a clip that goes black
+            # mid-shot; the 3-frame mean missed it -> BLACK GUARD fail on run 42354974513). Sample every ~0.8 s, any two
+            # adjacent dark samples = dark shot; swap to another offset, then an unused bright clip, then a designed plate.
+            def _dark_span(cid, ss_, L_):
+                try:
+                    import cv2
+                    cap = cv2.VideoCapture(f"{CL}/{cid}.mp4"); fps_ = cap.get(cv2.CAP_PROP_FPS) or 30; v_ = []
+                    n_ = max(3, int(L_/0.8)+1)
+                    for q in range(n_):
+                        cap.set(cv2.CAP_PROP_POS_FRAMES, int((ss_+L_*(q+0.5)/n_)*fps_)); ok_, fr_ = cap.read()
+                        v_.append(float(cv2.cvtColor(cv2.resize(fr_, (64, 36)), cv2.COLOR_BGR2GRAY).mean())/255 if ok_ else 0.5)
+                    cap.release()
+                    return any(a < DARK_LUMA and b < DARK_LUMA for a, b in zip(v_, v_[1:])) or (len(v_) and v_[0] < DARK_LUMA and v_[-1] < DARK_LUMA and L_ < 2)
+                except Exception: return False
+            if not sc.get("actuality") and not sc.get("_ec_bg"):
+                _tags = list(sc.get("tags") or []) + list(spec.get("tags") or []); _txt = sc.get("text") or ""
+                for j, (sh, ss, L, rf) in enumerate(plan):
+                    if sh.startswith("_fb_") or IX.get(sh, {}).get("source") in ("fed", "dvids", "usgov") or not _dark_span(sh, ss, L): continue
+                    new = None
+                    for tryss in (0.0, max(0.0, cdur(sh)*0.5-L/2), max(0.0, cdur(sh)-L-0.2)):
+                        if tryss+L <= cdur(sh)-0.05 and abs(tryss-ss) > 0.5 and not _dark_span(sh, tryss, L): new = (sh, round(tryss, 2)); break
+                    if new is None:
+                        _c = [x.split("@")[0] for x in shots] + list(pool)
+                        _c += [k for k, _ in clipfetch.pick_matched(_tags, _txt, exclude=USED | RECENT, n=30, match_min=MATCH_MIN)]
+                        _c += [k for k, _ in clipfetch.pick_matched(_tags, _txt, exclude=USED, n=30, match_min=0.5)]
+                        for alt in _c:
+                            if alt in USED or alt.startswith("_fb_") or not ok_clip(alt, L): continue
+                            a_ss = good_ss(alt, L)
+                            if not _dark_span(alt, a_ss, L): new = (alt, a_ss); USED.add(alt); break
+                    if new is None: new = (make_fb(sc, L), 0.0); PICKS.append((sc.get("_i"), new[0], 0, "fallback-plate"))
+                    dark_skips.append(f"fix20 {sh}@{ss:.1f}->{new[0]}@{new[1]:.1f}"); plan[j] = (new[0], new[1], L, 0 if new[0] != sh else rf)
             shot_lens += [L for _, _, L, _ in plan]
             acc = T0
             for (_, _, L, _) in plan[:-1]: acc += L; CHG.append(acc)
