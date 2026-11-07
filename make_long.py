@@ -870,7 +870,7 @@ async def main(spec):
         off = spec.get("music_off")
         if off is None:
             off = []; ags = [k for k, sc in enumerate(scenes) if sc.get("_agenda") is not None and sc.get("_agenda", 0) > 0]
-            want = [ags[0]] if len(ags) < 3 else [ags[0], ags[2]]
+            want = [] if not ags else [ags[0]] if len(ags) < 3 else [ags[0], ags[2]]   # no agenda (Study 13) = no music-off stretch
             for ka in want:
                 nxt = next((k for k in range(ka+1, len(scenes)) if (scenes[k].get("_agenda") is not None and k != ka) or scenes[k].get("_closer") or scenes[k].get("_endcard")), len(scenes))
                 runs = []; cur = []
