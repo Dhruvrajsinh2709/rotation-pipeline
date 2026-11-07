@@ -10,6 +10,15 @@ if [ -z "$SPEC" ]; then
   if [ "$KIND" = short ]; then python pipeline/draft_short.py $T | tee /tmp/draft.log
   else python pipeline/draft_long.py "$KIND" $T | tee /tmp/draft.log; fi
   SPEC=$(grep '^SPEC ' /tmp/draft.log | tail -1 | cut -d' ' -f2)
+  # Save the drafted script to main right away, so a failed render can be re-run
+  # with workflow_dispatch spec=<path> in minutes instead of drafting again.
+  if [ -z "$TEST" ] && [ -n "${GH_TOKEN:-}" ]; then
+    REL=${SPEC#"$PWD"/}
+    gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/$REL" \
+      -f message="save drafted spec $(basename "$SPEC")" \
+      -f content="$(base64 -w0 "$SPEC")" >/dev/null \
+      && echo "SPEC_SAVED $REL" || echo "SPEC_SAVE_FAILED $REL"
+  fi
 fi
 echo "spec: $SPEC"
 if [ "$KIND" = short ]; then python pipeline/prefetch.py "$SPEC" --k 4 --cap 60

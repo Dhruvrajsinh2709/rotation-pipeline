@@ -43,6 +43,7 @@ jobs:
       - name: Draft, render, package
         env:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
           NVIDIA_MODEL: ${{ vars.NVIDIA_MODEL }}
         run: bash pipeline/run.sh long "${{ inputs.spec }}" "${{ inputs.test && 'test' || '' }}"
       - name: Push render branch + state
