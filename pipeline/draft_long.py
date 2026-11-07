@@ -62,8 +62,27 @@ def _visible(x):
     return str(x) if isinstance(x, str) else ""
 
 
+def _clean(t): return re.sub(r"#[0-9A-Fa-f]{3,8}\b|\b[a-z]+_[\w@.-]+", " ", t)   # hex colours, clip ids
+
+
+def scrub(scenes, bad):
+    """Last resort: delete narration sentences / graphic keys that carry an unsourced number, keep the rest of the chapter."""
+    pat = re.compile(r"(?<![\d.,])(?:" + "|".join(re.escape(b) for b in bad) + r")(?![\d])")
+    def hit(x): return bool(pat.search(_clean(_visible(x).replace(",", ""))))
+    out = []
+    for sc in scenes:
+        for k in [k for k in sc if k not in SKIP_KEYS and k != "text"]:
+            if hit(sc[k]): print("scrub key", k, str(sc[k])[:120], flush=True); sc.pop(k)
+        if "text" in sc:
+            sents = re.split(r"(?<=[.!?])\s+", sc["text"]); keep = [x for x in sents if not hit(x)]
+            if len(keep) < len(sents): print("scrub text", [x for x in sents if hit(x)], flush=True)
+            sc["text"] = " ".join(keep)
+        if sc.get("text") or any(k in sc for k in ("card", "chart", "quote", "title")): out.append(sc)
+    return out
+
+
 def check(scenes, facts):
-    txt = re.sub(r"\b[a-z]+_[\w@.-]+", " ", _visible(scenes))   # drop leftover ids like mk_4008, wiki_123@2
+    txt = _clean(_visible(scenes))   # drop leftover ids like mk_4008, wiki_123@2
     vals = " ".join(str(v) for s in scenes for k in ("chart", "bars", "values", "data") if k in s for v in (s[k] if isinstance(s[k], list) else [s[k]]))
     return unverified_numbers(txt + " " + vals, facts)
 
@@ -97,7 +116,15 @@ def draft(topic, facts):
             if not bad: break
             fb = f"\nYOUR LAST DRAFT USED NUMBERS NOT IN THE SOURCES: {bad}. Remove or correct them."
             print("chapter", ci + 1, "check failed", bad, flush=True)
-        else: raise SystemExit(f"chapter {ci+1} failed the fact check")
+            for x in sc:
+                t = _clean(_visible(x))
+                for b in bad:
+                    i = t.find(b)
+                    if i >= 0: print("   ", b, "in:", t[max(0, i-80):i+40].replace("\n", " "), flush=True)
+        else:
+            sc = scrub(sc, bad); bad2 = check(sc, facts)
+            if bad2 or len(sc) < 3: raise SystemExit(f"chapter {ci+1} failed the fact check {bad2}")
+            print("chapter", ci + 1, "scrubbed to pass", flush=True)
         scenes += sc
     spec = dict(head); spec.update(title=outline["title"], sources=outline.get("sources", []), scenes=scenes)
     spec.pop("music_tracks", None); spec.pop("endcard_bg", None)
