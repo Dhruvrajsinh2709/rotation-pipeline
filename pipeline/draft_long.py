@@ -11,8 +11,8 @@ sys.path.insert(0, os.path.dirname(__file__)); from common import *
 KIND = sys.argv[1]; TEST = "--test" in sys.argv; DAY = time.strftime("%Y-%m-%d")
 EX = {"explain": "spec_2026-11-04_explain_indigo.json", "long": "spec_2026-11-01_pump-gap.json"}[KIND]
 EXAMPLE = json.load(open(f"{ROOT}/specs/long/{EX}"))
-FORMAT = {"explain": "ROTATION EXPLAINS (Wednesday): 8:30-9 min, ONE company or filing, TLDR-Business style: doc-zoom highlights, stepped bar charts with source footer, keyword/split cards, tile grids, icon flows, exec lower third. Question/trouble title.",
-          "long": "WEEKEND DEEP DIVE (Saturday): 8-10 min, v9 look: open_place dateline, cold open 75-100 s with 3+ voices, title_card, 4 chapters with agenda, a map/flow/timeline device in ch2, re-hook at ~60 %, closer + end card."}[KIND]
+FORMAT = {"explain": "ROTATION EXPLAINS (Wednesday, STUDY 13): 6:30-8:30 min (~1,100-1,400 words), cold open 20-35 s with the twist first and payoff preview by 0:15, no question card, no agenda card, each chapter ends on an open-loop question, ONE company or filing, TLDR-Business style: doc-zoom highlights, stepped bar charts with source footer, keyword/split cards, tile grids, icon flows, exec lower third. Question/trouble title.",
+          "long": "WEEKEND DEEP DIVE (Saturday, STUDY 13): 6:30-8:30 min total (~1,100-1,400 words). Series WHO PAYS? (title ends ' | Rotation: Who Pays?'): who really pays for one big business story, followed through the chain to the end payer. Title 8-14 words, starts Why, names the company/event/year, no puns or colons, number NOT in title. open_place dateline, cold open 20-35 s whose FIRST sentence is the twist and which previews the payoff by 0:15, logo sting, title_card, then chapter 1 at once: NO question card, NO agenda card. 3-4 chapters, each ends on an open-loop question the next answers; a map/flow/timeline device in ch2; re-hook at ~60 %; closer + end card."}[KIND]
 OUT = f"{ROOT}/specs/{'test' if TEST else 'long'}"; os.makedirs(OUT, exist_ok=True)
 
 
