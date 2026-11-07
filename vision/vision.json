@@ -6518,5 +6518,6346 @@
 "text": false,
 "still": false,
 "model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_104": {
+"desc": "A man is cooking in a large pot outdoors in a wooded area, possibly in the United States.",
+"tags": [
+"pot",
+"man",
+"trees",
+"grass",
+"firewood"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1526": {
+"desc": "A busy road in India with cars and buses.",
+"tags": [
+"cars",
+"buses",
+"motorbikes",
+"road",
+"trees",
+"billboards"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1976": {
+"desc": "A woman sitting on a chair in a living room, counting coins.",
+"tags": [
+"chair",
+"table",
+"coins",
+"jar",
+"pen",
+"book"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2799": {
+"desc": "A man is checking the oil level in a car engine.",
+"tags": [
+"car",
+"engine",
+"oil",
+"dipstick",
+"rag"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3381": {
+"desc": "Aerial view of a rocky coastline with a person swimming in the ocean, possibly in Greece.",
+"tags": [
+"rocky coastline",
+"ocean",
+"person",
+"swimming",
+"aerial view"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3490": {
+"desc": "A blurry close-up of a computer monitor displaying stock market tickers and financial data.",
+"tags": [
+"monitor",
+"stock ticker",
+"financial data",
+"computer screen",
+"trading",
+"numbers"
+],
+"brands": [
+"NFLX",
+"AAPL",
+"TSLA",
+"DJI",
+"VIX",
+"DXY"
+],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"cv_4378": {
+"desc": "Aerial view of a coastal area with a large body of water and a road running along the shore, possibly in China.",
+"tags": [
+"road",
+"water",
+"shore",
+"coast",
+"aerial view"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4651": {
+"desc": "A tropical cityscape with a body of water and palm trees, possibly in Panama.",
+"tags": [
+"palm trees",
+"body of water",
+"cityscape",
+"tropical",
+"clouds",
+"birds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4877": {
+"desc": "A woman places coins into a glass jar on a wooden table before looking down with a somber expression while seated on a patterned sofa.",
+"tags": [
+"woman",
+"hands",
+"coins",
+"jar",
+"table",
+"sofa"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"cv_514": {
+"desc": "A man is rolling a cigarette in a dark room with city lights outside.",
+"tags": [
+"cigarette",
+"room",
+"city",
+"lights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6797": {
+"desc": "A person looking at a computer screen displaying a stock market graph in a dark room.",
+"tags": [
+"computer",
+"screen",
+"graph",
+"room",
+"person"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6995": {
+"desc": "A man pulling a suitcase in an airport terminal, possibly in the United States.",
+"tags": [
+"suitcase",
+"airport",
+"terminal",
+"man",
+"window",
+"column"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8142": {
+"desc": "A blurry interior scene of a restaurant or cafe, possibly in the United Kingdom.",
+"tags": [
+"table",
+"chair",
+"light",
+"window",
+"person",
+"floor"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8424": {
+"desc": "A crowd of pedestrians walks along a bridge walkway with the stone towers of the Brooklyn Bridge and city skyscrapers visible in the background.",
+"tags": [
+"bridge",
+"pedestrians",
+"backpack",
+"skyscraper",
+"railing",
+"tower"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"cv_8854": {
+"desc": "A tall building in a city, possibly in Asia.",
+"tags": [
+"building",
+"tree",
+"streetlight",
+"clouds",
+"sky",
+"city"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_923": {
+"desc": "A man in a red and black plaid shirt is sitting outside, looking at his phone and holding a credit card.",
+"tags": [
+"phone",
+"credit card",
+"trees",
+"fence",
+"sunglasses",
+"shirt"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9330": {
+"desc": "A small boat is moored in the water near a large industrial facility, possibly in the Middle East.",
+"tags": [
+"boat",
+"water",
+"industrial facility",
+"smokestack",
+"building",
+"dock"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_1781": {
+"desc": "A person typing on a laptop keyboard.",
+"tags": [
+"laptop",
+"keyboard",
+"hands",
+"fingers",
+"desk",
+"table"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_18247": {
+"desc": "A hand holding a dollar bill in front of a black background.",
+"tags": [
+"hand",
+"dollar bill",
+"black background"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_18249": {
+"desc": "A close-up of US $100 bills.",
+"tags": [
+"cash",
+"bills",
+"money",
+"currency",
+"dollar",
+"banknotes"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_231": {
+"desc": "A man in a suit jacket stands on a balcony overlooking a cityscape at dusk.",
+"tags": [
+"city",
+"balcony",
+"suit",
+"jacket",
+"phone",
+"building"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_2381": {
+"desc": "A close-up of a computer motherboard with various components and text labels.",
+"tags": [
+"microchips",
+"capacitors",
+"resistors",
+"circuit board",
+"soldering",
+"electronics"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_34565": {
+"desc": "A busy highway with multiple lanes and a bridge in the background, possibly in the United States.",
+"tags": [
+"highway",
+"bridge",
+"cars",
+"lanes",
+"traffic"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_3970": {
+"desc": "A construction site with a crane and trees in the foreground, set against a hazy sky.",
+"tags": [
+"crane",
+"trees",
+"construction site",
+"hazy sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_39782": {
+"desc": "A woman lying in bed looking at her phone.",
+"tags": [
+"phone",
+"bed",
+"woman",
+"pillow",
+"blanket",
+"wall"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_41541": {
+"desc": "Aerial view of a cityscape with skyscrapers and roads, possibly in Mexico.",
+"tags": [
+"skyscrapers",
+"roads",
+"cars",
+"buildings",
+"trees",
+"mountains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_42105": {
+"desc": "A flag with a blue wheel on a white background, set against a red and green backdrop, likely representing India.",
+"tags": [
+"flag",
+"wheel",
+"background",
+"red",
+"green"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_42333": {
+"desc": "Aerial view of a construction site in a suburban area, possibly in the United States.",
+"tags": [
+"cranes",
+"buildings",
+"roads",
+"cars",
+"trees",
+"houses"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4533": {
+"desc": "A person is sitting at a white table with a calculator and plant, possibly in an office or home setting.",
+"tags": [
+"calculator",
+"plant",
+"table",
+"chair",
+"pen",
+"book"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4547": {
+"desc": "A group of people sitting around a table in an office.",
+"tags": [
+"table",
+"chairs",
+"bookshelf",
+"clock",
+"folders",
+"plants"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_914": {
+"desc": "A high-angle view of a modern open-plan office with rows of desks, computers, and employees working amidst hanging greenery.",
+"tags": [
+"office",
+"desks",
+"computers",
+"workers",
+"plants",
+"floor"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_100678": {
+"desc": "A person is shown in front of a bright light, possibly a camera flash or a stage light, with no clear indication of the location or country.",
+"tags": [
+"light",
+"person",
+"camera",
+"stage"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101085": {
+"desc": "A person is working on a circuit board in a workshop or laboratory setting, possibly in an Asian country.",
+"tags": [
+"circuit board",
+"workshop",
+"laboratory",
+"tools",
+"electronics"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101086": {
+"desc": "A close-up of a computer motherboard, likely in a factory or workshop, with no country clue.",
+"tags": [
+"microchips",
+"capacitors",
+"resistors",
+"wires",
+"circuits",
+"soldering"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101097": {
+"desc": "A close-up of a green circuit board with various components and text.",
+"tags": [
+"circuit board",
+"components",
+"text",
+"green",
+"electronics"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101098": {
+"desc": "A close-up of a green circuit board with various components, likely in a factory or laboratory setting, possibly in Asia.",
+"tags": [
+"circuit board",
+"microchips",
+"wires",
+"soldering",
+"factory",
+"laboratory"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101100": {
+"desc": "A macro close-up of a green printed circuit board populated with small electronic components and solder points.",
+"tags": [
+"circuit board",
+"motherboard",
+"capacitor",
+"resistor",
+"chip",
+"electronics"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_101198": {
+"desc": "Aerial view of boats in the water, possibly in Thailand.",
+"tags": [
+"boats",
+"water",
+"aerial view"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1074": {
+"desc": "A surfer riding a wave in the ocean, with a coastal town in the background, possibly in California.",
+"tags": [
+"surfer",
+"wave",
+"ocean",
+"coastal town",
+"beach",
+"mountains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1606": {
+"desc": "A train is shown in a train station, possibly in Germany.",
+"tags": [
+"train",
+"train station",
+"tracks",
+"platform",
+"signs",
+"lights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1618": {
+"desc": "Aerial view of a cityscape with mountains in the background, likely in Mexico.",
+"tags": [
+"buildings",
+"streets",
+"cars",
+"trees",
+"mountains",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1651": {
+"desc": "A city street with a bus and cars driving by, possibly in Mexico.",
+"tags": [
+"bus",
+"cars",
+"street",
+"traffic light",
+"building",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1673": {
+"desc": "Aerial view of a city at night, possibly in the Middle East.",
+"tags": [
+"city",
+"buildings",
+"streets",
+"lights",
+"night"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_18203": {
+"desc": "Two people in hazmat suits walking on a bridge.",
+"tags": [
+"bridge",
+"hazmat suits",
+"cityscape",
+"fence",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_18296": {
+"desc": "A person is holding a stack of US $100 bills.",
+"tags": [
+"cash",
+"hand",
+"fingers",
+"thumb",
+"nail",
+"money"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_18302": {
+"desc": "A hand holding a calculator on a table with money and coins.",
+"tags": [
+"cash",
+"coins",
+"calculator",
+"table",
+"hand"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1919": {
+"desc": "A highway with two trucks driving on it, set in a rural area with mountains in the background, possibly in the United States.",
+"tags": [
+"highway",
+"trucks",
+"mountains",
+"rural area",
+"road",
+"vehicles"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1920": {
+"desc": "A truck driving on a road in a desert landscape with mountains in the background, possibly in the United States.",
+"tags": [
+"truck",
+"road",
+"desert",
+"mountains",
+"clouds",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1958": {
+"desc": "A beach with a small island in the distance, possibly in the United States.",
+"tags": [
+"beach",
+"island",
+"ocean",
+"sand",
+"rocks",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2019": {
+"desc": "A row of red and white lanterns hanging from the ceiling of a building, possibly in Japan.",
+"tags": [
+"lanterns",
+"ceiling",
+"building",
+"Japan"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2034": {
+"desc": "Aerial view of a city with a highway and skyscrapers, possibly in Mexico.",
+"tags": [
+"highway",
+"skyscrapers",
+"city",
+"trees",
+"buildings",
+"cars"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2049": {
+"desc": "A person's hand is on the steering wheel of a boat, with water in the background.",
+"tags": [
+"steering wheel",
+"boat",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2052": {
+"desc": "A woman wearing a hat is on a boat in the ocean.",
+"tags": [
+"hat",
+"boat",
+"ocean",
+"woman"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_26092": {
+"desc": "A man is eating in a living room with a TV on.",
+"tags": [
+"TV",
+"couch",
+"table",
+"food",
+"bottle",
+"pillow"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3051": {
+"desc": "A storefront with a sign that reads 'STOP BUYING SHIT YOU DON'T NEED' in bold letters, set against a backdrop of a red wall and a yellow door.",
+"tags": [
+"storefront",
+"sign",
+"red wall",
+"yellow door"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3620": {
+"desc": "A man in front of a graffiti-covered wall.",
+"tags": [
+"man",
+"wall",
+"hat",
+"shirt",
+"graffiti",
+"camera"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3964": {
+"desc": "A close-up of honeycomb cells in a beehive, possibly in the United States.",
+"tags": [
+"honeycomb",
+"beehive",
+"cells",
+"honey",
+"bees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_39700": {
+"desc": "A person's leg is visible in a workshop or factory setting, with no clear country clue.",
+"tags": [
+"workbench",
+"leg",
+"glove",
+"machine",
+"wood",
+"saw"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3971": {
+"desc": "A construction site featuring a crane and skeletal building frame silhouetted against a bright sunset sky with trees framing the view.",
+"tags": [
+"crane",
+"building",
+"sunset",
+"trees",
+"sky",
+"construction"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_39782": {
+"desc": "A woman lying in bed looking at her phone.",
+"tags": [
+"phone",
+"bed",
+"woman",
+"pillow",
+"blanket",
+"wall"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40076": {
+"desc": "Aerial view of a marina in Mexico",
+"tags": [
+"boats",
+"yachts",
+"marina",
+"harbor",
+"mountains",
+"sea"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40176": {
+"desc": "A person is carrying two bags with plants in them, possibly at a market or store, and there is a clue that it might be in Canada.",
+"tags": [
+"bag",
+"plant",
+"person",
+"market",
+"store",
+"Canada"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_403": {
+"desc": "A man crouches in an industrial warehouse with graffiti on the walls.",
+"tags": [
+"warehouse",
+"graffiti",
+"man",
+"smoke",
+"canoe",
+"skateboard"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4049": {
+"desc": "A desert landscape with cacti and a blue sky.",
+"tags": [
+"cactus",
+"desert",
+"sky",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40644": {
+"desc": "A row of cars parked in front of a building, possibly in the United States.",
+"tags": [
+"cars",
+"building",
+"trees",
+"parking lot",
+"street",
+"sidewalk"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40672": {
+"desc": "A train is shown at a station in Spain.",
+"tags": [
+"train",
+"station",
+"platform",
+"passengers",
+"windows",
+"doors"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40692": {
+"desc": "A row of parked electric scooters lines a street in front of commercial buildings and parked cars under a cloudy sky.",
+"tags": [
+"electric scooter",
+"pickup truck",
+"sedan",
+"building",
+"tree",
+"street"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_40967": {
+"desc": "Two men boxing in a ring, possibly in China.",
+"tags": [
+"boxing ring",
+"boxers",
+"gloves",
+"headgear",
+"ropes",
+"lights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4106": {
+"desc": "A large stone pyramid in a grassy field, possibly in Mexico.",
+"tags": [
+"pyramid",
+"field",
+"trees",
+"people",
+"sky",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41159": {
+"desc": "A city street at night with a gas station and traffic lights.",
+"tags": [
+"gas station",
+"traffic lights",
+"cars",
+"street",
+"buildings",
+"skyscrapers"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41161": {
+"desc": "A city street at night with a large building in the background, possibly in the United States.",
+"tags": [
+"street",
+"building",
+"car",
+"bridge",
+"light",
+"pole"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41201": {
+"desc": "A person's hands are shown on a tablet in a cafe.",
+"tags": [
+"tablet",
+"hands",
+"cafe",
+"coffee",
+"cup",
+"table"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41273": {
+"desc": "A man sitting at a desk with two computer monitors, in a home office or studio.",
+"tags": [
+"computer",
+"monitor",
+"desk",
+"chair",
+"headphones",
+"microphone"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4128": {
+"desc": "A stock exchange building in the United Kingdom.",
+"tags": [
+"building",
+"windows",
+"stock exchange",
+"London",
+"United Kingdom"
+],
+"brands": [
+"SSE",
+"Serco Group PLC",
+"Vedanta Resources PLC",
+"United Utilities PLC",
+"Unilever PLC"
+],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41389": {
+"desc": "Aerial view of a highway in a rural area with fields and mountains in the background, possibly in Mexico.",
+"tags": [
+"highway",
+"fields",
+"mountains",
+"trucks",
+"cars",
+"fences"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4150": {
+"desc": "A cityscape with a large Ferris wheel, possibly in London, England.",
+"tags": [
+"Ferris wheel",
+"river",
+"boat",
+"building",
+"clouds",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41537": {
+"desc": "Aerial view of a winding road through a lush green landscape, possibly in Mexico.",
+"tags": [
+"road",
+"car",
+"truck",
+"hill",
+"valley",
+"mountain"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41539": {
+"desc": "Aerial view of a cityscape with skyscrapers and buildings, possibly in Mexico.",
+"tags": [
+"skyscrapers",
+"buildings",
+"city",
+"streets",
+"cars",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41638": {
+"desc": "A person holds a smartphone over a backlit computer keyboard on a desk.",
+"tags": [
+"smartphone",
+"keyboard",
+"hands",
+"desk",
+"computer",
+"lighting"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_41641": {
+"desc": "A man is typing on a keyboard in a dark room.",
+"tags": [
+"keyboard",
+"man",
+"room",
+"table",
+"cable",
+"computer"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41652": {
+"desc": "A person's hand is visible on a computer keyboard in an office setting, with a ruler and pencils in the foreground.",
+"tags": [
+"computer",
+"keyboard",
+"ruler",
+"pencils",
+"office"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41671": {
+"desc": "A person's hand playing a piano keyboard in a dark room.",
+"tags": [
+"piano",
+"hand",
+"keyboard",
+"room",
+"fingers",
+"keys"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4168": {
+"desc": "A cityscape with modern buildings, possibly in the United Kingdom.",
+"tags": [
+"skyscrapers",
+"office buildings",
+"construction site",
+"crane",
+"glass facade",
+"staircase"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4169": {
+"desc": "A modern city street with people walking and sitting outside a large building.",
+"tags": [
+"street",
+"building",
+"people",
+"bench",
+"lamp post",
+"car"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4170": {
+"desc": "A cityscape with skyscrapers and a blue sky with clouds, likely in London, England.",
+"tags": [
+"skyscrapers",
+"city",
+"clouds",
+"sky",
+"buildings"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4178": {
+"desc": "A bustling marketplace in Turkey, with people walking and shopping.",
+"tags": [
+"market",
+"people",
+"signs",
+"arches",
+"columns",
+"tiles"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41936": {
+"desc": "A person is pouring oil into a motorcycle engine in a garage or workshop.",
+"tags": [
+"motorcycle",
+"oil",
+"engine",
+"garage",
+"workshop"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41937": {
+"desc": "A person wearing black gloves pours liquid from a plastic bottle into a motorcycle component.",
+"tags": [
+"plastic bottle",
+"black gloves",
+"motorcycle",
+"funnel",
+"fluid",
+"workshop"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4202": {
+"desc": "A dramatic pink and purple sunset sky over a calm ocean with distant islands and a lit shoreline.",
+"tags": [
+"sky",
+"clouds",
+"ocean",
+"sunset",
+"island",
+"shoreline"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4203": {
+"desc": "Aerial view of a city and a body of water, possibly in the United States.",
+"tags": [
+"airport",
+"runway",
+"plane",
+"wing",
+"engine",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42039": {
+"desc": "A blurry view from inside a car driving at night, showing the dashboard and traffic ahead.",
+"tags": [
+"car",
+"dashboard",
+"steering wheel",
+"rearview mirror",
+"headlights",
+"traffic"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4204": {
+"desc": "An airplane wing is seen from a window above clouds under a pink and blue sky.",
+"tags": [
+"airplane wing",
+"clouds",
+"sky",
+"engine",
+"window",
+"twilight"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_42041": {
+"desc": "Aerial view of a city at night, possibly in the United States.",
+"tags": [
+"city",
+"street",
+"car",
+"building",
+"light",
+"road"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4209": {
+"desc": "A large green and white ship is docked at a port, possibly in Japan.",
+"tags": [
+"ship",
+"port",
+"water",
+"dock",
+"crane",
+"building"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42122": {
+"desc": "Two people opening a cardboard box in a warehouse or storage room, possibly in the United States.",
+"tags": [
+"box",
+"cardboard",
+"warehouse",
+"storage room",
+"people",
+"hands"
+],
+"brands": [
+"TAPA"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42125": {
+"desc": "A woman and a man are sitting in a room with blue walls, possibly in the United States.",
+"tags": [
+"cardboard box",
+"potted plants",
+"bookshelf",
+"woman",
+"man",
+"room"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42129": {
+"desc": "Two people sitting at a table with laptops in a room with shelves of plants.",
+"tags": [
+"laptops",
+"table",
+"shelves",
+"plants"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42130": {
+"desc": "A woman receiving a package from a delivery person in front of a house.",
+"tags": [
+"package",
+"house",
+"woman",
+"delivery person",
+"door",
+"hand"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4231": {
+"desc": "A busy pedestrian street at night in Japan filled with people holding umbrellas beneath glowing neon signs.",
+"tags": [
+"crowd",
+"street",
+"neon signs",
+"umbrellas",
+"pedestrians",
+"buildings"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4233": {
+"desc": "A Mayan ruin in Mexico.",
+"tags": [
+"ruin",
+"steps",
+"trees",
+"sky",
+"clouds",
+"stone"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42333": {
+"desc": "Aerial view of a construction site in an urban area, possibly in the United States.",
+"tags": [
+"cranes",
+"buildings",
+"roads",
+"cars",
+"trees",
+"parking lot"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42368": {
+"desc": "A highway with cars and trees in the background, possibly in the United States.",
+"tags": [
+"highway",
+"cars",
+"trees",
+"streetlights",
+"guardrails",
+"billboards"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42464": {
+"desc": "A person kneading dough on a table in a kitchen, possibly in Italy.",
+"tags": [
+"table",
+"dough",
+"kitchen",
+"hands",
+"flour",
+"apron"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42498": {
+"desc": "Aerial view of a beach and ocean in Greece.",
+"tags": [
+"beach",
+"ocean",
+"sand",
+"water",
+"shore",
+"sea"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4251": {
+"desc": "A busy street in Las Vegas, Nevada, with many cars and buildings.",
+"tags": [
+"cars",
+"buildings",
+"street",
+"traffic",
+"city",
+"Las Vegas"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42524": {
+"desc": "A man is playing soccer in a colorful indoor field.",
+"tags": [
+"soccer ball",
+"field",
+"man",
+"shoes",
+"shorts",
+"shirt"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4262": {
+"desc": "Aerial view of a large stadium in London, England.",
+"tags": [
+"stadium",
+"track",
+"field",
+"parking lot",
+"road",
+"bridge"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4263": {
+"desc": "A city street with a red double-decker bus, possibly in the UK.",
+"tags": [
+"bus",
+"street",
+"building",
+"crane",
+"car",
+"traffic light"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4264": {
+"desc": "A cityscape with a river and boats, possibly in the UK.",
+"tags": [
+"river",
+"boats",
+"city",
+"buildings",
+"bridge",
+"clock tower"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42643": {
+"desc": "A man and woman in a conference room with a laptop and projector screen.",
+"tags": [
+"laptop",
+"projector",
+"screen",
+"conference table",
+"whiteboard",
+"marker"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42644": {
+"desc": "A group of people in a conference room with a large screen displaying a presentation.",
+"tags": [
+"table",
+"laptop",
+"screen",
+"chair",
+"pen",
+"paper"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42648": {
+"desc": "A man in a white shirt is pointing to a large screen displaying a graph.",
+"tags": [
+"screen",
+"graph",
+"man",
+"shirt",
+"wall",
+"picture"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4265": {
+"desc": "A cityscape with modern and historic buildings, possibly in the United Kingdom.",
+"tags": [
+"skyscrapers",
+"office buildings",
+"historic buildings",
+"city street",
+"traffic light",
+"bus"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4267": {
+"desc": "The Louvre Museum's glass pyramid in Paris is shown under shifting skies with an infinity symbol projected on its surface.",
+"tags": [
+"museum",
+"pyramid",
+"glass",
+"sky",
+"crowd",
+"building"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4272": {
+"desc": "A busy city street in the United States with cars and pedestrians.",
+"tags": [
+"cars",
+"pedestrians",
+"street",
+"traffic light",
+"school bus",
+"taxi"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4285": {
+"desc": "Two camels walking in the desert, possibly in Morocco.",
+"tags": [
+"camels",
+"desert",
+"sand",
+"dunes",
+"mountains",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_42936": {
+"desc": "A macro shot of clear bubbles clustered together in a liquid.",
+"tags": [
+"bubbles",
+"liquid",
+"foam",
+"water",
+"spheres",
+"surface"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4294": {
+"desc": "A bartender is preparing drinks in a bar, possibly in the United States.",
+"tags": [
+"bottles",
+"glasses",
+"oranges",
+"bar",
+"bartender",
+"shaker"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4299": {
+"desc": "A crowded glass walkway features St. Paul's Cathedral and construction cranes in the London skyline.",
+"tags": [
+"cathedral",
+"bridge",
+"people",
+"cranes",
+"glass railing",
+"skyline"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_43051": {
+"desc": "A person is preparing a dish in a kitchen, possibly in France.",
+"tags": [
+"bowl",
+"spoon",
+"table",
+"hand",
+"phone",
+"apron"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_43053": {
+"desc": "A man in a kitchen, possibly in the United States.",
+"tags": [
+"mixer",
+"oven",
+"cutting board",
+"bread",
+"apple",
+"knife"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_43060": {
+"desc": "A person wearing a beige apron stirs food in a frying pan on a gas stove in a kitchen with white tiled walls.",
+"tags": [
+"apron",
+"frying pan",
+"stove",
+"blender",
+"spoon",
+"kitchen"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4308": {
+"desc": "A cityscape with a prominent red tower, likely Tokyo, Japan.",
+"tags": [
+"skyscrapers",
+"tower",
+"city",
+"buildings",
+"streets",
+"cars"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_43101": {
+"desc": "A person riding a motorcycle in the desert, with mountains in the background.",
+"tags": [
+"motorcycle",
+"desert",
+"mountains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4316": {
+"desc": "A large cruise ship is visible in the distance, with a red cargo ship in the foreground, set against a gray sky and calm sea, suggesting a location near a port or harbor, possibly in Europe or North America.",
+"tags": [
+"cruise ship",
+"cargo ship",
+"port",
+"harbor",
+"sea",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_43183": {
+"desc": "A man standing on a rooftop, looking out over the cityscape at sunset.",
+"tags": [
+"rooftop",
+"cityscape",
+"sunset",
+"man",
+"building",
+"skyline"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4319": {
+"desc": "An industrial facility, likely an oil refinery, with no clear country indication.",
+"tags": [
+"refinery",
+"pipework",
+"towers",
+"storage tanks",
+"fence",
+"wind turbines"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4320": {
+"desc": "An industrial landscape with a refinery and a grassy field, possibly in the UK.",
+"tags": [
+"refinery",
+"chimney",
+"pipeline",
+"grass",
+"field",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_43202": {
+"desc": "A woman in a black dress is dancing in an empty warehouse with columns and windows, possibly in the United States.",
+"tags": [
+"warehouse",
+"columns",
+"windows",
+"dress",
+"woman",
+"dance"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4328": {
+"desc": "A boat is beached on the shore of a lake in a mountainous area, possibly in Scotland.",
+"tags": [
+"boat",
+"lake",
+"mountains",
+"shore",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4330": {
+"desc": "A city skyline at night, possibly in the United States.",
+"tags": [
+"skyscrapers",
+"city",
+"lights",
+"buildings",
+"windows",
+"signs"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4331": {
+"desc": "A rainy city street with a yellow taxi cab and a black car, possibly in New York City.",
+"tags": [
+"taxi",
+"car",
+"street",
+"rain",
+"city"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4333": {
+"desc": "A blurry, dimly lit subway station with a yellow sign on the right side.",
+"tags": [
+"subway",
+"station",
+"sign",
+"train",
+"platform"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4334": {
+"desc": "A night view of the New York City skyline with illuminated skyscrapers including the Empire State Building and Chrysler Building.",
+"tags": [
+"skyscraper",
+"cityscape",
+"night",
+"clouds",
+"building",
+"spire"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4340": {
+"desc": "A nighttime cityscape with a highway and buildings, possibly in the United States.",
+"tags": [
+"highway",
+"buildings",
+"city",
+"night",
+"lights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4342": {
+"desc": "A cityscape with skyscrapers, likely in the United States.",
+"tags": [
+"skyscrapers",
+"buildings",
+"city",
+"clouds",
+"sky",
+"streetlights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4351": {
+"desc": "A marina in the United States.",
+"tags": [
+"boats",
+"dock",
+"water",
+"sky",
+"clouds",
+"buildings"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4359": {
+"desc": "A nighttime industrial scene with a large refinery in the background, possibly located in the United States.",
+"tags": [
+"refinery",
+"smokestacks",
+"pipelines",
+"tanks",
+"cranes",
+"fog"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4360": {
+"desc": "An industrial complex at night featuring illuminated smokestacks releasing plumes of white smoke against a dark sky.",
+"tags": [
+"refinery",
+"smokestacks",
+"power lines",
+"industrial plant",
+"night sky",
+"steam"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_43605": {
+"desc": "Aerial view of a serene lake surrounded by lush greenery, possibly in China.",
+"tags": [
+"lake",
+"trees",
+"water",
+"boat",
+"island",
+"shoreline"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_43608": {
+"desc": "Aerial view of a riverbank with trees and bushes, possibly in the United States.",
+"tags": [
+"river",
+"trees",
+"bushes",
+"water",
+"bank",
+"aerial"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4361": {
+"desc": "An industrial area with a refinery and power lines, possibly in the United States.",
+"tags": [
+"refinery",
+"power lines",
+"industrial area",
+"smokestacks",
+"pipelines",
+"tanks"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_43618": {
+"desc": "High-angle shot of a downtown city center with a large domed government building in the middle distance.",
+"tags": [
+"capitol building",
+"skyscraper",
+"office building",
+"street",
+"trees",
+"construction site"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4362": {
+"desc": "An industrial refinery with tall smokestacks emitting white smoke against a hazy sky.",
+"tags": [
+"smokestack",
+"refinery",
+"factory",
+"smoke",
+"pipes",
+"chimney"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_43651": {
+"desc": "A man is setting fire to a large, empty warehouse in the United States.",
+"tags": [
+"warehouse",
+"man",
+"fire",
+"columns",
+"windows",
+"skylight"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_43652": {
+"desc": "A man and a woman perform with fire in a dimly lit, empty industrial hall with high windows.",
+"tags": [
+"fire dancer",
+"warehouse",
+"pillar",
+"window",
+"flame",
+"dress"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_43654": {
+"desc": "A couple dancing in an abandoned warehouse with columns and windows, possibly in the United States.",
+"tags": [
+"warehouse",
+"columns",
+"windows",
+"couple",
+"dance"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4367": {
+"desc": "An airplane is being serviced at an airport, possibly in the UK.",
+"tags": [
+"airplane",
+"airport",
+"truck",
+"luggage cart",
+"jetway",
+"terminal"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4368": {
+"desc": "A view from an airplane window showing the wing and engine above a layer of clouds with the sun shining brightly.",
+"tags": [
+"airplane window",
+"wing",
+"jet engine",
+"clouds",
+"sky",
+"sun"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_43688": {
+"desc": "A man is planting flowers in a garden center.",
+"tags": [
+"flowers",
+"garden",
+"man",
+"pot",
+"gloves",
+"soil"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4374": {
+"desc": "A small waterfall in a forest, possibly in Europe.",
+"tags": [
+"waterfall",
+"tree",
+"rock",
+"stream",
+"forest",
+"moss"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4376": {
+"desc": "A city street scene featuring a modern apartment block, a parking garage, and an older building with graffiti under construction cranes against a blue sky.",
+"tags": [
+"apartment block",
+"parking garage",
+"crane",
+"graffiti",
+"sky",
+"tree"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4380": {
+"desc": "A factory with smokestacks emitting white smoke, possibly in the United States.",
+"tags": [
+"factory",
+"smokestacks",
+"chimneys",
+"pipes",
+"tanks",
+"valves"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4381": {
+"desc": "An industrial facility featuring tall smokestacks, complex piping, and towers set against a cloudy sky with green fields in the foreground.",
+"tags": [
+"smokestack",
+"refinery",
+"pipe",
+"tower",
+"grass",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4383": {
+"desc": "A nighttime cityscape with a large bridge and a body of water, possibly in Japan.",
+"tags": [
+"bridge",
+"water",
+"city",
+"buildings",
+"lights",
+"boats"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4389": {
+"desc": "A view of an airport tarmac with planes and vehicles, possibly in Italy.",
+"tags": [
+"airplane",
+"tarmac",
+"vehicle",
+"airport",
+"building",
+"pavement"
+],
+"brands": [
+"Alitalia"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4390": {
+"desc": "A busy airport terminal in France",
+"tags": [
+"airport",
+"terminal",
+"train",
+"passengers",
+"luggage",
+"advertisements"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4401": {
+"desc": "A busy city street in Japan with many pedestrians crossing the road.",
+"tags": [
+"pedestrians",
+"road",
+"street",
+"city",
+"Japan",
+"crosswalk"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4403": {
+"desc": "A Japanese pagoda in a temple setting.",
+"tags": [
+"pagoda",
+"temple",
+"trees",
+"roofs",
+"spire",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4404": {
+"desc": "A crowd of people walking through a large, ornate gate in Japan.",
+"tags": [
+"gate",
+"people",
+"crowd",
+"Japan",
+"temple",
+"lanterns"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4405": {
+"desc": "A crowd of people in front of a red building with Japanese writing, likely in Japan.",
+"tags": [
+"building",
+"people",
+"lantern",
+"sign",
+"roof",
+"columns"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44284": {
+"desc": "A highway with a truck driving on it, set in a rural area with trees and hills in the background, possibly in the United States.",
+"tags": [
+"highway",
+"truck",
+"trees",
+"hills"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44358": {
+"desc": "A close-up view of a runner's legs splashing through a shallow stream in a wooded area.",
+"tags": [
+"runner",
+"stream",
+"forest",
+"sneakers",
+"legs",
+"rocks"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_44360": {
+"desc": "A person in a yellow shirt runs through a shallow stream surrounded by trees.",
+"tags": [
+"person",
+"stream",
+"trees",
+"rocks",
+"water",
+"shirt"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_44370": {
+"desc": "A calm ocean scene at sunset with the sun low on the horizon reflecting on the water.",
+"tags": [
+"ocean",
+"sunset",
+"sun",
+"clouds",
+"water",
+"horizon"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_44373": {
+"desc": "A calm ocean at sunset with clouds and distant land on the horizon.",
+"tags": [
+"ocean",
+"waves",
+"horizon",
+"clouds",
+"sunset",
+"water"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_44378": {
+"desc": "A beach with a mountain range in the background, possibly in Mexico.",
+"tags": [
+"beach",
+"mountains",
+"palm trees",
+"houses",
+"ocean",
+"waves"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44385": {
+"desc": "A beach with palm trees and a building, possibly in Mexico.",
+"tags": [
+"beach",
+"palm trees",
+"building",
+"ocean",
+"sand",
+"sun"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44387": {
+"desc": "A beach with mountains in the background, possibly in Mexico.",
+"tags": [
+"beach",
+"mountains",
+"trees",
+"water",
+"sky",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44391": {
+"desc": "A rocky cliffside overlooking the ocean, possibly in Ireland.",
+"tags": [
+"cliff",
+"ocean",
+"rocks",
+"water",
+"shore",
+"island"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44392": {
+"desc": "A rocky island with green vegetation in the ocean, possibly in Indonesia.",
+"tags": [
+"island",
+"ocean",
+"rocks",
+"vegetation"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44397": {
+"desc": "Aerial view of a rocky island in the ocean, possibly in Ireland.",
+"tags": [
+"island",
+"ocean",
+"rocks",
+"water",
+"sea",
+"coast"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44398": {
+"desc": "Aerial view of a rocky island in the ocean, possibly in Ireland.",
+"tags": [
+"island",
+"ocean",
+"rocks",
+"water",
+"sea",
+"coast"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44399": {
+"desc": "An aerial view of a lush green coastline with a sandy beach curving around a calm bay.",
+"tags": [
+"coastline",
+"beach",
+"ocean",
+"cliff",
+"hill",
+"bay"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_44400": {
+"desc": "A beach with waves crashing on the shore, possibly in a tropical location.",
+"tags": [
+"beach",
+"waves",
+"shore",
+"ocean",
+"sand",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44401": {
+"desc": "Aerial view of a cliffside with a road and water in the background, possibly in Ireland.",
+"tags": [
+"cliff",
+"road",
+"water",
+"car",
+"tree",
+"hill"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44402": {
+"desc": "An aerial view of a lush green hillside sloping down to a blue ocean coastline.",
+"tags": [
+"hillside",
+"ocean",
+"trees",
+"coastline",
+"vegetation",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_44403": {
+"desc": "Aerial view of a beach in Japan",
+"tags": [
+"beach",
+"ocean",
+"cliff",
+"road",
+"trees",
+"grass"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44404": {
+"desc": "Aerial view of a tropical island with palm trees and a mountain range, possibly in Hawaii.",
+"tags": [
+"palm trees",
+"mountain range",
+"tropical island"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44407": {
+"desc": "Aerial view of a beach with palm trees and mountains in the background, possibly in the Philippines.",
+"tags": [
+"palm trees",
+"beach",
+"mountains",
+"ocean",
+"sand",
+"coastline"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4442": {
+"desc": "A busy city street in New York City, USA.",
+"tags": [
+"taxi",
+"car",
+"truck",
+"street",
+"building",
+"billboard"
+],
+"brands": [
+"Kodak",
+"Samsung",
+"Chrysler"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4443": {
+"desc": "A city street in the United States with tall buildings and billboards.",
+"tags": [
+"billboards",
+"buildings",
+"street",
+"cars",
+"traffic lights",
+"skyscrapers"
+],
+"brands": [
+"LG",
+"Swatch",
+"Kodak",
+"Timex"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4445": {
+"desc": "A large shipping port in Japan.",
+"tags": [
+"cranes",
+"containers",
+"ships",
+"buildings",
+"trains",
+"tracks"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4446": {
+"desc": "A large white boat is docked in a harbor at night, with a French flag flying from the back.",
+"tags": [
+"boat",
+"harbor",
+"flag",
+"water",
+"night"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4447": {
+"desc": "Vertical neon signs with Japanese characters glowing red and blue at night.",
+"tags": [
+"neon sign",
+"kanji",
+"japan",
+"night",
+"street",
+"lighting"
+],
+"brands": [],
+"text": true,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4448": {
+"desc": "A cityscape with a river and skyscrapers, possibly in Japan.",
+"tags": [
+"skyscrapers",
+"river",
+"bridge",
+"trees",
+"buildings",
+"city"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44482": {
+"desc": "A beach with waves crashing on the shore, possibly in a tropical or subtropical region.",
+"tags": [
+"beach",
+"waves",
+"shore",
+"sand",
+"water",
+"ocean"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4449": {
+"desc": "A subway train in a station, possibly in Japan.",
+"tags": [
+"train",
+"station",
+"platform",
+"sign",
+"people"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4450": {
+"desc": "A busy shipping port featuring large red and white gantry cranes and a cargo ship on the water, with China Shipping containers visible.",
+"tags": [
+"gantry crane",
+"cargo ship",
+"shipping container",
+"port",
+"dock",
+"water"
+],
+"brands": [
+"China Shipping"
+],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_44506": {
+"desc": "A beach with waves crashing on the shore, possibly in a tropical or subtropical region.",
+"tags": [
+"beach",
+"waves",
+"shore",
+"ocean",
+"sand",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44507": {
+"desc": "A beach with waves crashing on the shore, possibly in the United States.",
+"tags": [
+"beach",
+"waves",
+"shore",
+"ocean",
+"sand",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4451": {
+"desc": "A busy street in Japan with people walking and shops lining the sidewalk.",
+"tags": [
+"people",
+"street",
+"shops",
+"sidewalk",
+"bicycles",
+"lanterns"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4452": {
+"desc": "A crowded Japanese street market lined with red lanterns and stalls leading toward a distant gate.",
+"tags": [
+"crowd",
+"lanterns",
+"stalls",
+"street",
+"market",
+"people"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4454": {
+"desc": "A busy underground walkway in Japan.",
+"tags": [
+"walkway",
+"people",
+"lights",
+"tiles",
+"walls",
+"signs"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4455": {
+"desc": "A nighttime cityscape with a large body of water and a bridge, possibly in Japan.",
+"tags": [
+"bridge",
+"water",
+"city",
+"buildings",
+"lights",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4457": {
+"desc": "A cityscape with a bridge and a river, possibly in the United Kingdom.",
+"tags": [
+"bridge",
+"river",
+"city",
+"tower",
+"clouds",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4458": {
+"desc": "A large bronze lion statue at the base of Nelson's Column in Trafalgar Square, London, surrounded by tourists sitting on the stone plinth.",
+"tags": [
+"lion statue",
+"monument",
+"tourists",
+"building",
+"plinth",
+"square"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4459": {
+"desc": "A city square with people sitting on steps, in front of a church and other buildings, possibly in the UK.",
+"tags": [
+"steps",
+"church",
+"buildings",
+"trees",
+"people",
+"bus"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4461": {
+"desc": "A train car on a track in a desert landscape with a Spanish clue",
+"tags": [
+"train car",
+"track",
+"desert",
+"cactus",
+"gravel",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4462": {
+"desc": "A train on a track in a desert landscape with mountains in the background, possibly in the United States.",
+"tags": [
+"train",
+"track",
+"desert",
+"mountains",
+"wheels",
+"carriage"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44621": {
+"desc": "A car driving on a desert road with mountains in the background, possibly in the United States.",
+"tags": [
+"car",
+"desert",
+"road",
+"mountains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4469": {
+"desc": "A narrow canal in Venice, Italy.",
+"tags": [
+"canal",
+"buildings",
+"windows",
+"water",
+"boats"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4470": {
+"desc": "A narrow canal in Venice, Italy, with boats and buildings on either side.",
+"tags": [
+"boats",
+"buildings",
+"canal",
+"water",
+"windows"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_44708": {
+"desc": "A person's hands holding a remote control device, possibly in an outdoor setting with a blurred background.",
+"tags": [
+"remote control",
+"hands",
+"outdoor setting",
+"blurred background"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4480": {
+"desc": "A person is weaving on a loom in a workshop or factory, possibly in India.",
+"tags": [
+"loom",
+"workshop",
+"factory",
+"India"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4490": {
+"desc": "A cityscape with a mountain in the background, possibly in Spain.",
+"tags": [
+"cranes",
+"buildings",
+"trees",
+"mountain",
+"street",
+"cars"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4493": {
+"desc": "A river with boats in front of a large building, possibly in the UK.",
+"tags": [
+"river",
+"boats",
+"building",
+"ferris wheel",
+"statue",
+"bridge"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4497": {
+"desc": "A wide shot of a construction site featuring multiple blue tower cranes adjacent to a green public park under a clear blue sky.",
+"tags": [
+"tower crane",
+"grass field",
+"park",
+"building",
+"sky",
+"tree"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4556": {
+"desc": "A group of people in a field with smoke bombs.",
+"tags": [
+"field",
+"people",
+"smoke bombs"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4642": {
+"desc": "A moving walkway in an airport, possibly in Europe.",
+"tags": [
+"airport",
+"moving walkway",
+"people",
+"luggage",
+"backpack",
+"suitcase"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4646": {
+"desc": "A nighttime scene of a canal in Venice, Italy, with buildings and a bridge.",
+"tags": [
+"canal",
+"buildings",
+"bridge",
+"gondola",
+"water",
+"streetlights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4682": {
+"desc": "A flock of swans and ducks in a river with a city skyline in the background, possibly in the Czech Republic.",
+"tags": [
+"swans",
+"ducks",
+"river",
+"city",
+"skyline",
+"bridge"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4685": {
+"desc": "A yellow hook is attached to a green net in an industrial setting, possibly in the United States.",
+"tags": [
+"hook",
+"net",
+"industrial equipment",
+"warehouse",
+"factory",
+"crane"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4691": {
+"desc": "A nighttime scene of a canal in Venice, Italy, with gondolas and buildings lining the water.",
+"tags": [
+"gondola",
+"canal",
+"building",
+"streetlight",
+"tree",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4705": {
+"desc": "A man in a warehouse, possibly in the United States.",
+"tags": [
+"warehouse",
+"man",
+"clipboard",
+"pencil",
+"shelves",
+"boxes"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4707": {
+"desc": "A person in a lab coat and hairnet is operating a machine in a factory.",
+"tags": [
+"machine",
+"lab coat",
+"hairnet",
+"factory",
+"person"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4719": {
+"desc": "A man in a lab coat is holding up two beakers of yellow liquid in a laboratory.",
+"tags": [
+"beaker",
+"lab coat",
+"gloves",
+"laboratory",
+"scientist",
+"chemicals"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4721": {
+"desc": "A close-up of two cows in a barn, possibly in the United States.",
+"tags": [
+"cows",
+"barn",
+"farm",
+"fence",
+"hay",
+"milk"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4741": {
+"desc": "A machine is processing olives in a factory, possibly in Italy.",
+"tags": [
+"olives",
+"machine",
+"factory",
+"conveyor belt",
+"metal",
+"leaves"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4744": {
+"desc": "A masseuse applies oil to a client's back on a massage table in a dimly lit room.",
+"tags": [
+"massage table",
+"oil",
+"back",
+"hands",
+"client",
+"curtains"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4750": {
+"desc": "A close-up view of a conveyor belt with small white and green objects on it, possibly in a factory or warehouse setting, with no clear country clue.",
+"tags": [
+"conveyor belt",
+"factory",
+"warehouse",
+"objects",
+"green",
+"white"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4763": {
+"desc": "A child's hands typing on a laptop keyboard in a home or school setting.",
+"tags": [
+"laptop",
+"pencils",
+"paper",
+"desk",
+"child",
+"hands"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4765": {
+"desc": "A man in a lab coat and safety goggles is working in a laboratory.",
+"tags": [
+"lab coat",
+"safety goggles",
+"laboratory equipment",
+"test tubes",
+"beakers",
+"microscope"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4805": {
+"desc": "A man in a suit is looking at his phone in front of a building.",
+"tags": [
+"phone",
+"suit",
+"building"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_48258": {
+"desc": "A boy looking through a coin-operated binoculars at a cityscape, possibly in the United States.",
+"tags": [
+"binoculars",
+"boy",
+"cityscape",
+"building",
+"sky",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_48262": {
+"desc": "A young boy stands at a rooftop observation deck looking through a coin-operated binocular viewer at a sprawling city skyline.",
+"tags": [
+"boy",
+"binoculars",
+"rooftop",
+"city",
+"pillars",
+"railing"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_4832": {
+"desc": "A man in a suit stands on a city street, possibly in Europe.",
+"tags": [
+"street",
+"building",
+"tree",
+"man",
+"suit",
+"traffic light"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4842": {
+"desc": "A man leaning against a wall, listening to music on his phone.",
+"tags": [
+"wall",
+"phone",
+"headphones",
+"shoes",
+"pants",
+"shirt"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4880": {
+"desc": "A woman standing in front of solar panels in a grassy field, possibly in the United States.",
+"tags": [
+"solar panels",
+"grass",
+"field",
+"woman",
+"dress",
+"belt"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4907": {
+"desc": "A person typing on a laptop keyboard, possibly in an office or home setting, with no clear country clue.",
+"tags": [
+"laptop",
+"keyboard",
+"hands",
+"fingers",
+"keys",
+"screen"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4915": {
+"desc": "A person's hands holding a cell phone on a wooden table.",
+"tags": [
+"cell phone",
+"hands",
+"table",
+"wood"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4919": {
+"desc": "A hand holding a smartphone with a social media app open, in a kitchen or cafe setting, possibly in the United States.",
+"tags": [
+"smartphone",
+"coffee mug",
+"kitchen counter",
+"social media app",
+"hand",
+"fingers"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_49798": {
+"desc": "Aerial view of a multi-lane highway running through a city with office buildings and a distant skyline under a hazy sky.",
+"tags": [
+"highway",
+"city",
+"buildings",
+"cars",
+"skyline",
+"road"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_49827": {
+"desc": "A cityscape with a power plant and skyscrapers, likely in the United States.",
+"tags": [
+"power plant",
+"skyscrapers",
+"city",
+"parking lot",
+"train tracks",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_49835": {
+"desc": "A cityscape with a power plant in the foreground, likely in the United States.",
+"tags": [
+"skyscrapers",
+"power plant",
+"city",
+"streetlights",
+"buildings",
+"trees"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_50017": {
+"desc": "A chef in a white uniform uses a scraper on a partially frosted round cake sitting on a metal turntable.",
+"tags": [
+"cake",
+"spatula",
+"turntable",
+"chef",
+"frosting",
+"coat"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_50139": {
+"desc": "A beach with rocks in the water and sand dunes in the background, possibly in Mexico.",
+"tags": [
+"rocks",
+"sand",
+"dunes",
+"water",
+"beach",
+"ocean"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5016": {
+"desc": "Turquoise ocean waves break on a sandy beach with seaweed washed ashore.",
+"tags": [
+"ocean",
+"waves",
+"sand",
+"seaweed",
+"beach",
+"foam"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_50163": {
+"desc": "A street with palm trees and streetlights at night, possibly in a tropical country.",
+"tags": [
+"streetlights",
+"palm trees",
+"street",
+"night"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_50176": {
+"desc": "Aerial view of a small boat moving across dark teal water leaving a long white wake.",
+"tags": [
+"boat",
+"water",
+"wake",
+"sea",
+"vessel",
+"ripples"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_50180": {
+"desc": "Aerial view of a coastal town with boats in the water, possibly in Australia.",
+"tags": [
+"boats",
+"water",
+"town",
+"coast",
+"buildings"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_50185": {
+"desc": "A small boat is sailing in the open sea, possibly off the coast of a European country.",
+"tags": [
+"boat",
+"sea",
+"water",
+"sail",
+"mast"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_50186": {
+"desc": "Aerial view of a sailboat in the ocean, possibly near the coast of Greece.",
+"tags": [
+"sailboat",
+"ocean",
+"coast",
+"water",
+"sea",
+"boat"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_50199": {
+"desc": "A desert landscape with mountains in the background, possibly in the United States.",
+"tags": [
+"mountains",
+"desert",
+"sand",
+"rocks",
+"sky",
+"sun"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5020": {
+"desc": "An aerial top-down view of city buildings, rooftops, and intersecting streets with crosswalks.",
+"tags": [
+"buildings",
+"rooftops",
+"streets",
+"crosswalk",
+"city",
+"windows"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_50205": {
+"desc": "Aerial view of a desert landscape with mountains and a lake, possibly in the United States.",
+"tags": [
+"mountains",
+"lake",
+"desert",
+"road",
+"valley",
+"hills"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_50212": {
+"desc": "Aerial view of a coastal area with a body of water and landmasses, possibly in Mexico.",
+"tags": [
+"coast",
+"water",
+"land",
+"mountains",
+"trees",
+"road"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5024": {
+"desc": "A close-up of a US dollar bill, with the words 'IN GOD WE TRUST' visible.",
+"tags": [
+"dollar bill",
+"currency",
+"money",
+"banknote",
+"paper money",
+"cash"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5053": {
+"desc": "A man in a black t-shirt is holding a kettlebell in front of him, with a camera on a tripod in the background.",
+"tags": [
+"kettlebell",
+"camera",
+"tripod",
+"t-shirt",
+"man",
+"gym"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_50610": {
+"desc": "A person is grating food in a kitchen, possibly in Japan.",
+"tags": [
+"grater",
+"food",
+"kitchen",
+"table",
+"hand",
+"plate"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_50736": {
+"desc": "A woman with long blonde hair sits in front of a computer screen displaying lines of code, in a dimly lit room with a blue hue.",
+"tags": [
+"computer",
+"screen",
+"code",
+"room",
+"chair",
+"hair"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_50737": {
+"desc": "A woman with long blonde hair sits in front of a computer screen displaying lines of code, in a dimly lit room with a wall of screens behind her.",
+"tags": [
+"computer",
+"screen",
+"code",
+"room",
+"wall",
+"screens"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_50738": {
+"desc": "A woman with long blonde hair sits in front of multiple computer monitors displaying lines of code, in a dimly lit room with a blue-tiled wall.",
+"tags": [
+"monitors",
+"code",
+"woman",
+"hair",
+"room",
+"wall"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_50739": {
+"desc": "A woman with long blonde hair sits in front of a computer screen displaying lines of code, in a dimly lit room with a blue glow.",
+"tags": [
+"computer",
+"screen",
+"code",
+"room",
+"chair",
+"hair"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_50759": {
+"desc": "A man is standing on a rooftop patio, with a city skyline in the background.",
+"tags": [
+"rooftop",
+"patio",
+"city",
+"skyline",
+"bench",
+"plants"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51123": {
+"desc": "A person's hands holding a smartphone with a pink background, possibly in the United States.",
+"tags": [
+"smartphone",
+"hands",
+"pink background"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51170": {
+"desc": "A woman in a white bathrobe and head towel touches her face in a tiled bathroom.",
+"tags": [
+"woman",
+"bathrobe",
+"towel",
+"bathroom",
+"tiles",
+"bottle"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_51354": {
+"desc": "Two children are sitting on the floor of a living room, making Christmas cards.",
+"tags": [
+"cards",
+"glue stick",
+"presents",
+"Christmas tree",
+"carpet",
+"table"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51410": {
+"desc": "A close-up of water droplets on a pink surface, possibly in Spain.",
+"tags": [
+"water droplets",
+"pink surface",
+"Spain"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51415": {
+"desc": "Water droplets on a purple surface, possibly in a laboratory or industrial setting, with no clear country clue.",
+"tags": [
+"water droplets",
+"purple surface",
+"laboratory equipment",
+"industrial setting",
+"microscope",
+"petri dish"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51416": {
+"desc": "Water droplets on a purple surface, possibly in a laboratory or scientific setting, with no clear country clue.",
+"tags": [
+"water",
+"droplets",
+"purple",
+"surface",
+"laboratory",
+"scientific"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51417": {
+"desc": "A close-up of a purple liquid with bubbles in it, possibly oil or water, in a laboratory setting, likely in the United States.",
+"tags": [
+"bubbles",
+"liquid",
+"laboratory",
+"microscope",
+"petri dish",
+"test tube"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51426": {
+"desc": "A microscopic view of a cell with two nuclei, possibly in a laboratory setting, with no country clue.",
+"tags": [
+"microscope",
+"cell",
+"nucleus",
+"laboratory"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51478": {
+"desc": "Aerial view of a sailboat on the ocean, possibly in the Caribbean.",
+"tags": [
+"sailboat",
+"ocean",
+"horizon",
+"sky",
+"clouds",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51541": {
+"desc": "A man and two women are holding sparklers in the dark.",
+"tags": [
+"sparklers",
+"man",
+"women",
+"darkness"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51557": {
+"desc": "A close-up of champagne glasses on a table, possibly in a restaurant or bar, with no clear country clue.",
+"tags": [
+"glasses",
+"table",
+"champagne",
+"restaurant",
+"bar"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51585": {
+"desc": "A serene river flowing through a lush forest in Africa.",
+"tags": [
+"river",
+"trees",
+"rocks",
+"water",
+"forest",
+"grass"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51600": {
+"desc": "A river with rocks and water flowing over them, possibly in a mountainous area of the United States.",
+"tags": [
+"river",
+"rocks",
+"water",
+"mountains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51643": {
+"desc": "A man and woman are sitting at a table in a restaurant, possibly in the United States.",
+"tags": [
+"table",
+"chair",
+"plate",
+"glass",
+"flowers",
+"candle"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51649": {
+"desc": "A person's hands holding a ring box with a diamond ring inside, in a dark room.",
+"tags": [
+"ring",
+"box",
+"hands",
+"diamond",
+"room"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5165": {
+"desc": "Two people in white protective suits spraying disinfectant on a bridge over a road in Mexico.",
+"tags": [
+"bridge",
+"road",
+"protective suits",
+"disinfectant",
+"Mexico"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_51662": {
+"desc": "A misty river flows through a forest with sunlight filtering through the trees.",
+"tags": [
+"river",
+"trees",
+"mist",
+"rocks",
+"water",
+"forest"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_52006": {
+"desc": "Aerial view of a desert highway with trucks and cars driving on it, possibly in the United States.",
+"tags": [
+"highway",
+"trucks",
+"cars",
+"desert",
+"road",
+"vehicles"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52009": {
+"desc": "A vast desert plain marked by curving tire tracks stretches toward distant mountains under a bright, hazy sun.",
+"tags": [
+"desert",
+"sand",
+"mountains",
+"tire tracks",
+"sun",
+"dunes"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"mk_52012": {
+"desc": "A desert landscape with mountains in the background, possibly in Mexico.",
+"tags": [
+"desert",
+"mountains",
+"landscape"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52013": {
+"desc": "Aerial view of a road in a desert landscape with a yellow line down the middle, possibly in the United States.",
+"tags": [
+"road",
+"desert",
+"yellow line",
+"aerial view",
+"United States"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52016": {
+"desc": "A desert landscape with a highway running through it, possibly in the United States.",
+"tags": [
+"highway",
+"desert",
+"mountains",
+"cars",
+"trucks",
+"road"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52017": {
+"desc": "Aerial view of a desert highway with vehicles and a plane flying overhead, possibly in the United States.",
+"tags": [
+"highway",
+"vehicles",
+"plane",
+"desert",
+"road",
+"sand"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52147": {
+"desc": "A person is pouring a liquid into a small white bowl in a medical setting.",
+"tags": [
+"bowl",
+"liquid",
+"gloves",
+"person",
+"medical setting"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52155": {
+"desc": "A person is receiving a facial treatment in a spa or salon, possibly in the United States.",
+"tags": [
+"gloves",
+"towel",
+"skin",
+"face",
+"machine"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52268": {
+"desc": "A woman in a white blazer with blood splatters on her face and clothing, set against a red background.",
+"tags": [
+"blazer",
+"face",
+"clothing",
+"background"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52317": {
+"desc": "A man is exercising with a rope in a gym.",
+"tags": [
+"rope",
+"gym",
+"man",
+"exercise",
+"equipment"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52428": {
+"desc": "A train is traveling through a mountainous area in Mexico.",
+"tags": [
+"train",
+"mountains",
+"road",
+"truck",
+"cactus",
+"barrel"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52430": {
+"desc": "Aerial view of a highway in a mountainous region, possibly in Mexico.",
+"tags": [
+"highway",
+"mountains",
+"trees",
+"cars",
+"trucks",
+"road"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52434": {
+"desc": "Aerial view of a winding road through a desert landscape with sparse vegetation, possibly in Mexico.",
+"tags": [
+"road",
+"truck",
+"desert",
+"vegetation",
+"mountain",
+"valley"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52435": {
+"desc": "Aerial view of a highway in a desert landscape with sparse vegetation, possibly in the United States.",
+"tags": [
+"highway",
+"desert",
+"vegetation",
+"mountains",
+"cars",
+"road"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_52447": {
+"desc": "Aerial view of a highway in a wooded area, possibly in the United States.",
+"tags": [
+"highway",
+"trees",
+"cars",
+"trucks",
+"guardrail",
+"median"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5275": {
+"desc": "A rural area with two large green buildings, possibly in the United States.",
+"tags": [
+"trees",
+"road",
+"buildings",
+"fence",
+"gate",
+"signs"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5280": {
+"desc": "A fire in a town in the Netherlands",
+"tags": [
+"fire truck",
+"ambulance",
+"fire",
+"building",
+"tree",
+"car"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5285": {
+"desc": "A large, green metal building in a wooded area, possibly in the United States.",
+"tags": [
+"building",
+"trees",
+"grass",
+"sky",
+"fence",
+"pole"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5294": {
+"desc": "A rural road with a gate and trees in the background, possibly in Europe.",
+"tags": [
+"gate",
+"road",
+"trees",
+"fence",
+"chain",
+"padlock"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5299": {
+"desc": "A large, green building in a rural area with trees and a road, possibly in the United States.",
+"tags": [
+"building",
+"trees",
+"road",
+"rural area",
+"United States"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5363": {
+"desc": "A boat is traveling through a body of water in a tropical location, possibly Thailand.",
+"tags": [
+"boat",
+"water",
+"mountains",
+"trees",
+"buildings",
+"beach"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5368": {
+"desc": "Aerial view of a small island with a white boat in the sea, possibly in Thailand.",
+"tags": [
+"island",
+"boat",
+"sea",
+"water",
+"trees",
+"rocks"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5371": {
+"desc": "Aerial view of a beach with people and boats, possibly in Thailand.",
+"tags": [
+"beach",
+"boats",
+"trees",
+"buildings",
+"pool",
+"umbrellas"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5373": {
+"desc": "Aerial view of a tropical island with boats in the water.",
+"tags": [
+"boats",
+"water",
+"island",
+"tropical",
+"aerial"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_5377": {
+"desc": "Aerial view of a coastal town with a long pier and many boats, possibly in Thailand.",
+"tags": [
+"pier",
+"boats",
+"houses",
+"road",
+"trees",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_56": {
+"desc": "Aerial view of a city street with cars and trees, possibly in Mexico.",
+"tags": [
+"cars",
+"trees",
+"street",
+"buildings",
+"parking lot",
+"traffic light"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_583": {
+"desc": "A woman running on a track in an urban area, possibly in the United States.",
+"tags": [
+"track",
+"woman",
+"trees",
+"buildings",
+"fence",
+"shoes"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_64": {
+"desc": "A car's dashboard with speedometer and tachometer",
+"tags": [
+"speedometer",
+"tachometer",
+"dashboard",
+"car",
+"steering wheel",
+"gauge"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_827": {
+"desc": "Aerial view of a large agricultural field in Israel.",
+"tags": [
+"field",
+"trees",
+"road",
+"pond",
+"buildings",
+"mountains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_832": {
+"desc": "A man in a nightclub, possibly in Japan.",
+"tags": [
+"man",
+"nightclub",
+"disco ball",
+"lights",
+"people",
+"music"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_833": {
+"desc": "A DJ is performing in a nightclub, possibly in the United States.",
+"tags": [
+"headphones",
+"CD players",
+"mixer",
+"lights",
+"crowd",
+"hands"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_939": {
+"desc": "A couple walking hand in hand on a sidewalk in a small town or village, possibly in Spain or another European country.",
+"tags": [
+"sidewalk",
+"trees",
+"streetlights",
+"buildings",
+"couple",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_99899": {
+"desc": "A man sitting at a table with a cup of coffee, possibly in a garden or outdoor setting.",
+"tags": [
+"table",
+"cup",
+"coffee",
+"garden",
+"outdoor setting"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_99903": {
+"desc": "A woman sitting at a table in front of a window with plants, possibly in a cafe or restaurant in Spain.",
+"tags": [
+"table",
+"chair",
+"window",
+"plants",
+"cafe",
+"restaurant"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_99930": {
+"desc": "Water splashing in a sink, possibly in the United States.",
+"tags": [
+"sink",
+"water",
+"splashes",
+"bubbles",
+"drain",
+"faucet"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_99933": {
+"desc": "Water splashing in a dark room, possibly a laboratory or industrial setting, with no country clue.",
+"tags": [
+"water",
+"bubbles",
+"darkness",
+"room",
+"laboratory",
+"industry"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"nasa_GSFC_20130515_LDCM_m11249_Medina": {
+"desc": "Aerial view of a desert landscape with mountains and valleys, possibly in the Middle East or North Africa.",
+"tags": [
+"mountains",
+"valleys",
+"desert",
+"roads",
+"buildings",
+"vehicles"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"nasa_GSFC_20171113_Hurricanes_m12772_Aerosols": {
+"desc": "A satellite image of the Earth's atmosphere, showing smoke and dust particles in the air over North America and the Atlantic Ocean.",
+"tags": [
+"satellite",
+"atmosphere",
+"smoke",
+"dust",
+"North America",
+"Atlantic Ocean"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"nasa_GSFC_20190701_Food_m13242_Drought": {
+"desc": "Aerial view of Africa, possibly from a plane or satellite, with a blue sky and green vegetation",
+"tags": [
+"Africa",
+"plane",
+"satellite",
+"sky",
+"vegetation"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"nasa_GSFC_20190711_Fires_m13257_Kickoff": {
+"desc": "A wildfire in a forest, possibly in the United States.",
+"tags": [
+"trees",
+"fire",
+"smoke",
+"flames",
+"helicopter",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"nasa_jscm001441_Top_20_Earth_Images_of_2020_4": {
+"desc": "Aerial view of wind farms on Maui, Hawaii",
+"tags": [
+"wind turbines",
+"mountains",
+"valleys",
+"roads",
+"houses",
+"fields"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_1_13_15_White_House_Press_Briefing_fbca35": {
+"desc": "A man in a suit stands at a podium with an American flag and a sign that says 'The White House' behind him.",
+"tags": [
+"flag",
+"podium",
+"suit",
+"sign",
+"house"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_1st_MLG_tests_ship_to_ship_connector_421bf8": {
+"desc": "A military ship with a ramp and vehicles on it, possibly in a harbor or dock, with a Dutch flag visible.",
+"tags": [
+"ship",
+"ramp",
+"vehicles",
+"harbor",
+"dock",
+"flag"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_1st_MLG_tests_ship_to_ship_connector_d4ca7d": {
+"desc": "A military hovercraft is shown in the water, with a desert landscape in the background.",
+"tags": [
+"hovercraft",
+"water",
+"desert",
+"landscape"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_1st_MLG_tests_ship_to_ship_connector_f52d01": {
+"desc": "A military ship in the ocean with tanks on it, possibly from China.",
+"tags": [
+"ship",
+"tanks",
+"ocean",
+"military",
+"China"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_2008_05_13_google_01web_883d1c": {
+"desc": "A man in a suit speaks into a microphone in front of a Google backdrop at an event.",
+"tags": [
+"man",
+"suit",
+"microphone",
+"backdrop",
+"logo",
+"stage"
+],
+"brands": [
+"Google"
+],
+"text": true,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_2008_05_13_google_02web_fd8589": {
+"desc": "A man is giving a presentation to an audience in a conference room, possibly in the UK.",
+"tags": [
+"projector",
+"screen",
+"map",
+"microphone",
+"podium",
+"chairs"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_2008_05_13_google_03web_477fc3": {
+"desc": "A group of people in business attire sitting in a circle, possibly in a conference room or office setting, with no clear country clue.",
+"tags": [
+"chairs",
+"table",
+"microphone",
+"window",
+"curtain",
+"carpet"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_2026_05_18_Home_Minister_Salahuddin_b91598": {
+"desc": "A man signing a document at a table with flags and men in uniform behind him, possibly in Bangladesh.",
+"tags": [
+"table",
+"flags",
+"men",
+"uniforms",
+"document",
+"pen"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_914th_Airman_defuels_aircraft_refuel_07e2f0": {
+"desc": "A military personnel is working on a vehicle in a garage.",
+"tags": [
+"military personnel",
+"vehicle",
+"garage",
+"tools",
+"equipment",
+"uniform"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_914th_Airman_defuels_aircraft_refuel_9a82df": {
+"desc": "A soldier in camouflage uniform drains fluid from a vehicle in a maintenance garage.",
+"tags": [
+"soldier",
+"uniform",
+"vehicle",
+"garage",
+"gloves",
+"goggles"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Abadan_invasion_of_Iran_a6c13d": {
+"desc": "A group of soldiers in uniform walking down a street in an industrial area, possibly in Iran.",
+"tags": [
+"soldiers",
+"street",
+"industrial area",
+"factory",
+"cars",
+"signs"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Airpower_today_Flickr_Robert_Couse_B_a236b9": {
+"desc": "A low-angle shot captures the underside of a red-tailed four-engine jet labeled 'GLOBAL SUPERTANKER' flying in a clear blue sky.",
+"tags": [
+"airplane",
+"jet engine",
+"wing",
+"fuselage",
+"tail",
+"sky"
+],
+"brands": [
+"GLOBAL SUPERTANKER"
+],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Al_Fahd_Yanbu_Al_Sinaiyah_Yanbu_4645_ee5ce5": {
+"desc": "A desert landscape with a large building in the distance, possibly a hotel or resort, with a few trees and a clear blue sky, suggesting a Middle Eastern or North African country.",
+"tags": [
+"desert",
+"building",
+"trees",
+"sky",
+"hotel",
+"resort"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Ali_Akbar_Zamani_speaking_about_Kirk_be1849": {
+"desc": "A man in a suit is speaking into a microphone, with an Iranian flag behind him.",
+"tags": [
+"microphone",
+"suit",
+"flag",
+"bottle",
+"chair",
+"table"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Alimhan_Yanbu_Al_Sinaiyah_Yanbu_4645_9f3982": {
+"desc": "A desert highway with a bus and cars driving on it, possibly in the Middle East.",
+"tags": [
+"bus",
+"car",
+"highway",
+"desert",
+"streetlight",
+"sand"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Amundsen_Spirit_ship_2010_IMO_943885_d482d6": {
+"desc": "A large oil tanker named Kongo Spirit sails on the open ocean under a cloudy sky.",
+"tags": [
+"oil tanker",
+"ship",
+"ocean",
+"sky",
+"bird",
+"hull"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Anacortes_Refinery_31911_181a0d": {
+"desc": "An industrial area with a refinery and mountains in the background, likely in Canada.",
+"tags": [
+"refinery",
+"mountains",
+"industrial area",
+"smokestacks",
+"pipelines",
+"tanks"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_As_Sumayri_Yanbu_Al_Sinaiyah_Yanbu_4_3513ee": {
+"desc": "A parking lot in front of a building with a sign that reads 'Al-Riyadh' and a logo for 'Al-Riyadh Bank' in Arabic.",
+"tags": [
+"parking lot",
+"building",
+"sign",
+"logo",
+"bank"
+],
+"brands": [
+"Al-Riyadh Bank"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_BPCL_Petrol_Station_07122014_3c82d1": {
+"desc": "A rural petrol station in India.",
+"tags": [
+"petrol pump",
+"electricity pylon",
+"satellite dish",
+"water tank",
+"trees",
+"road"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Bangladesh_Bridge_Authority_and_Navy_394946": {
+"desc": "A group of men in suits and military uniforms are signing documents at a table.",
+"tags": [
+"table",
+"documents",
+"suits",
+"uniforms",
+"men",
+"pens"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Bangladesh_Coast_Guard_Headquarters_b3ea9d": {
+"desc": "A man in a military uniform stands beside another man signing documents at a desk, with flags of Bangladesh in the background.",
+"tags": [
+"desk",
+"flags",
+"uniform",
+"documents",
+"pen holder",
+"Bangladesh"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Bering_Sea_IMO_9085429_docked_at_Por_d86cad": {
+"desc": "A large oil tanker in a harbor, possibly in the United States.",
+"tags": [
+"oil tanker",
+"harbor",
+"water",
+"grass",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Bharat_Petroleum_Fuel_Filling_Statio_9069d3": {
+"desc": "A gas station in India with a few people and vehicles.",
+"tags": [
+"gas station",
+"motorcycles",
+"bus",
+"petrol pump",
+"trees",
+"building"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Black_Sea_IMO_9180217_p1_at_the_5e_P_82541d": {
+"desc": "A large oil tanker in a harbor, possibly in Russia.",
+"tags": [
+"oil tanker",
+"harbor",
+"crane",
+"ship",
+"water",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Black_Smoke_Plumes_From_Ship_Collisi_62cf8c": {
+"desc": "A satellite image of a stormy weather pattern over the United Kingdom.",
+"tags": [
+"satellite",
+"storm",
+"weather",
+"map",
+"clouds",
+"ocean"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Black_Smoke_Plumes_From_Ship_Collisi_aebe78": {
+"desc": "A satellite image of a stormy weather system over the UK.",
+"tags": [
+"clouds",
+"sea",
+"land",
+"islands",
+"coastline",
+"weather front"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_CENTCOM_Destroys_3_IRGC_Oil_Tankers_97cb11": {
+"desc": "A large ship is on fire in the ocean, possibly near Japan.",
+"tags": [
+"ship",
+"ocean",
+"fire",
+"smoke",
+"water",
+"flames"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_CG_56_transits_the_Strait_of_Hormuz_1a91f0": {
+"desc": "A man in a navy uniform is speaking into a radio in the control room of a ship.",
+"tags": [
+"ship",
+"radio",
+"uniform",
+"control room",
+"navy",
+"man"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_CPI_do_Senado_aguarda_documentos_par_6eb420": {
+"desc": "A man in a suit and glasses speaks into microphones during a press scrum, with an 'ESTAD\u00c3O' microphone visible, indicating a location in Brazil.",
+"tags": [
+"man",
+"suit",
+"glasses",
+"microphone",
+"reporter",
+"press scrum"
+],
+"brands": [
+"ESTAD\u00c3O"
+],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_CVN_69_transits_the_Strait_of_Hormuz_e58599": {
+"desc": "A United States Navy aircraft carrier sails on the open ocean with fighter jets parked on its flight deck.",
+"tags": [
+"aircraft carrier",
+"ocean",
+"warship",
+"fighter jet",
+"flight deck",
+"superstructure"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Chemical_Oil_Products_Tanker_Stolt_P_d2fa20": {
+"desc": "A large black and red oil tanker sailing on the open ocean under a blue sky.",
+"tags": [
+"oil tanker",
+"ship",
+"ocean",
+"sea",
+"cargo vessel",
+"water"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Coalition_airstrike_destroys_168_ISI_54af41": {
+"desc": "Aerial view of a desert landscape with roads and buildings, possibly in the Middle East.",
+"tags": [
+"roads",
+"buildings",
+"desert",
+"landscape",
+"aerial view"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Cotton_Green_Station_Neighbourhood_3_30eaea": {
+"desc": "A gas station in India with a truck and car",
+"tags": [
+"gas station",
+"truck",
+"car",
+"streetlight",
+"building",
+"tree"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Crude_Oil_Tanker_in_Port_Arthur_Texa_ae466f": {
+"desc": "Aerial view of a red oil tanker navigating a river near an industrial port complex with cranes and buildings under an overcast sky.",
+"tags": [
+"oil tanker",
+"ship",
+"river",
+"port",
+"cranes",
+"factory"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Crude_oil_tanker_Eagle_San_Diego_196f1c": {
+"desc": "A large red and white cargo ship in the water, possibly in the United States.",
+"tags": [
+"ship",
+"water",
+"cargo",
+"crane",
+"mast"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Datacenter_Server_Racks_22370909788_6c4879": {
+"desc": "A server room with rows of servers and a large cabinet.",
+"tags": [
+"servers",
+"cabinet",
+"room",
+"floor",
+"ceiling",
+"lights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Delhi_India_City_traffic_Motion_aa501c": {
+"desc": "A busy street in India with cars and motorcycles",
+"tags": [
+"cars",
+"motorcycles",
+"street",
+"India"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Delhi_India_Rain_Street_at_night_dea7a7": {
+"desc": "A wet street with a bicycle and scooter parked on the sidewalk, possibly in India.",
+"tags": [
+"bicycle",
+"scooter",
+"sidewalk",
+"street",
+"building"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Delhi_s_Night_Traffic_panoramio_c9c00e": {
+"desc": "A busy street at night with cars and motorcycles, possibly in India.",
+"tags": [
+"cars",
+"motorcycles",
+"streetlights",
+"trees",
+"sidewalk",
+"road"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Driving_Google_Self_Driving_Car_bf98f2": {
+"desc": "A parking lot with cars, possibly in the United States.",
+"tags": [
+"car",
+"parking lot",
+"tree",
+"road",
+"license plate",
+"camera"
+],
+"brands": [
+"Google"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Early_Self_Driving_Car_16253152591_a264c5": {
+"desc": "A Google self-driving car is parked on a sidewalk in a suburban area with trees and houses in the background.",
+"tags": [
+"car",
+"sidewalk",
+"trees",
+"houses"
+],
+"brands": [
+"Google"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_EarnestWillNicholas_9792e6": {
+"desc": "A man wearing headphones sits on a chair looking through binoculars at a ship on the horizon.",
+"tags": [
+"man",
+"binoculars",
+"ship",
+"ocean",
+"chair",
+"headphones"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Eccles_Building_26088200676_3d05f4": {
+"desc": "A large white building with a flagpole and a grassy area in front, likely in the United States.",
+"tags": [
+"building",
+"flagpole",
+"grass",
+"trees",
+"sidewalk",
+"streetlights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Elastic_spheres_can_walk_on_water_nc_eecfd4": {
+"desc": "A black and white close-up of a dark sphere splashing into water.",
+"tags": [
+"water",
+"splash",
+"sphere",
+"surface",
+"liquid",
+"tank"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Electra_Texas_2008_24f027": {
+"desc": "A rural road in Texas with power lines and a grassy field.",
+"tags": [
+"power lines",
+"road",
+"field",
+"grass",
+"telephone poles",
+"utility poles"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Endothelin_1_supports_clonal_derivat_608747": {
+"desc": "A microscopic view of a green substance, possibly a cell or microorganism, in a laboratory setting, with no country clue.",
+"tags": [
+"microscope",
+"laboratory",
+"cell",
+"microorganism",
+"green substance"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Esso_Languedoc_silhouette_1973_ff7045": {
+"desc": "A train is traveling on a bridge over a body of water, possibly in the United States.",
+"tags": [
+"train",
+"bridge",
+"water",
+"tracks",
+"railway",
+"station"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_F_WWBX_Airbus_A320_IndiGo_test_in_fl_c0249e": {
+"desc": "An IndiGo passenger airplane with its landing gear down is captured flying against a grey, overcast sky.",
+"tags": [
+"airplane",
+"landing gear",
+"engine",
+"wing",
+"tail",
+"sky"
+],
+"brands": [
+"IndiGo"
+],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_F_WWED_ATR_72_600_IndiGo_test_in_fli_a62c55": {
+"desc": "A plane is flying in the sky, possibly in India.",
+"tags": [
+"plane",
+"sky",
+"clouds"
+],
+"brands": [
+"IndiGo"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Fires_in_Louisiana_Cause_Evacuations_b9490c": {
+"desc": "A satellite view of the southeastern United States, showing clouds and landmasses.",
+"tags": [
+"clouds",
+"landmasses",
+"ocean",
+"coastline",
+"satellite",
+"map"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Flickr_Official_U_S_Navy_Imagery_U_S_a128e7": {
+"desc": "Two aircraft carriers in the ocean, possibly near the United States.",
+"tags": [
+"aircraft carrier",
+"ocean",
+"ship",
+"navy",
+"military",
+"warship"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Fm_nasa_yanbu_saudi_arabia_f3c56c": {
+"desc": "Aerial view of a coastal city in Saudi Arabia",
+"tags": [
+"oil tanker",
+"refinery",
+"airport",
+"petrol pump",
+"desert",
+"sea"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Gasoline_prices_on_09_26_2026_in_Eug_569d80": {
+"desc": "A gas station in the United States.",
+"tags": [
+"gas pump",
+"gas station",
+"trees",
+"road",
+"car",
+"sign"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_GoogleTorontoOffice_487c69": {
+"desc": "A Google logo on a marble wall in an office building, possibly in the United States.",
+"tags": [
+"marble",
+"wall",
+"office",
+"building",
+"logo",
+"Google"
+],
+"brands": [
+"Google"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Google_Headquarters_in_Ireland_Build_309e14": {
+"desc": "A low-angle view of a brick building with the Google logo on it, set against a cloudy sky.",
+"tags": [
+"building",
+"clouds",
+"sky"
+],
+"brands": [
+"Google"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Google_Self_Driving_Car_52639793867_4ad26a": {
+"desc": "A Google self-driving car is driving on a road in the United States.",
+"tags": [
+"car",
+"road",
+"tree",
+"pedestrian",
+"traffic light",
+"speed limit sign"
+],
+"brands": [
+"Google"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Google_office_in_Seattle_85bc77": {
+"desc": "A red brick Google office building looms over a bridge sidewalk where two pedestrians walk past a concrete barrier.",
+"tags": [
+"office building",
+"bridge",
+"sidewalk",
+"pedestrians",
+"street light",
+"barrier"
+],
+"brands": [
+"Google"
+],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Grey_Mangrove_Ras_Tanura_Saudi_Arabi_b7a934": {
+"desc": "Dense mangrove trees growing in shallow water with visible prop roots.",
+"tags": [
+"mangrove trees",
+"water",
+"roots",
+"forest",
+"wetland",
+"vegetation"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Hardee_s_at_Yanbu_panoramio_b2bae2": {
+"desc": "A fast food restaurant in the Middle East",
+"tags": [
+"building",
+"sign",
+"window",
+"door",
+"car",
+"road"
+],
+"brands": [
+"Hardee's"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Hindustan_Petroleum_Fuel_Filling_Sta_40dda3": {
+"desc": "A gas station in India with cars and a building in the background.",
+"tags": [
+"cars",
+"gas pumps",
+"building",
+"trees",
+"road",
+"sidewalk"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Hindustan_Petroleum_Logo_6b344a": {
+"desc": "A gas station in India.",
+"tags": [
+"gas pump",
+"car",
+"truck",
+"road",
+"building",
+"sign"
+],
+"brands": [
+"HP"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_ISS014_E_11817_View_of_India_ee03dd": {
+"desc": "Aerial view of a rural area with roads and buildings, possibly in the United States.",
+"tags": [
+"roads",
+"buildings",
+"fields",
+"trees",
+"rural area",
+"aerial view"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_ISS014_E_11818_View_of_India_d26e6a": {
+"desc": "Aerial view of a rural area with roads and buildings, possibly in the United States.",
+"tags": [
+"roads",
+"buildings",
+"fields",
+"trees",
+"rural area"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_IndiGo_A320_Interior_ff4c76": {
+"desc": "The interior of an airplane with passengers seated in rows.",
+"tags": [
+"airplane",
+"passengers",
+"seats",
+"aisle",
+"windows",
+"overhead bins"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_IndiGo_Hangar_Indira_Gandhi_Internat_77c7ed": {
+"desc": "An airport in India with a bus and plane.",
+"tags": [
+"bus",
+"plane",
+"airport",
+"car",
+"truck",
+"building"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_IndiGo_VT_IDJ_Airbus_A320_232_MSN_48_5d1982": {
+"desc": "An airport tarmac with planes and vehicles, likely in India.",
+"tags": [
+"airplane",
+"bus",
+"truck",
+"tarmac",
+"airport"
+],
+"brands": [
+"IndiGo"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Indian_100_and_2000_rupee_notes_3219_d81884": {
+"desc": "A close-up of Indian currency notes on a table.",
+"tags": [
+"cash",
+"table",
+"currency",
+"notes",
+"India"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Inside_Terminal_3_at_Indira_Gandhi_I_b9c249": {
+"desc": "A large, modern airport terminal with a high ceiling and many people walking around, possibly in India.",
+"tags": [
+"airport",
+"terminal",
+"ceiling",
+"people",
+"India"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Iranian_IRGC_speedboat_approaching_U_9c2183": {
+"desc": "A body of water with a boat in the distance, possibly in the Middle East.",
+"tags": [
+"boat",
+"water",
+"horizon",
+"sky",
+"sea",
+"ocean"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Iranian_IRGC_speedboats_fire_rockets_aa7324": {
+"desc": "Aerial view of a desert landscape with a runway, likely in the Middle East.",
+"tags": [
+"runway",
+"desert",
+"airplane",
+"helicopter",
+"radar",
+"cockpit"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Irving_Oil_Refinery_Saint_John_NB_73349e": {
+"desc": "An aerial view of an oil refinery in Canada.",
+"tags": [
+"oil tanker",
+"refinery",
+"lake",
+"road",
+"forest",
+"mountains"
+],
+"brands": [
+"IRVING"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_JNPT_Dock_Yard_Navi_Mumbai_panoramio_31ace8": {
+"desc": "A view of a road and a building in the distance, possibly in India.",
+"tags": [
+"road",
+"building",
+"mountain",
+"trees",
+"fence",
+"pole"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Khor_Fakkan_Beach_Fujairah_UAE_panor_967a7b": {
+"desc": "A large cargo ship is docked at a busy port in China.",
+"tags": [
+"cargo ship",
+"port",
+"cranes",
+"containers",
+"water",
+"dock"
+],
+"brands": [
+"CMA CGM"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Kmarin_Restraint_IMO_9683075_IJmuide_6035be": {
+"desc": "A large black and red cargo ship named Kamari Restraint sails in a harbor with industrial smokestacks in the background.",
+"tags": [
+"cargo ship",
+"bulk carrier",
+"harbor",
+"water",
+"crane",
+"smokestack"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Kochi_refinery_on_the_banks_of_chith_dc4eb4": {
+"desc": "A muddy river winds through lush green fields toward a distant industrial complex with smokestacks and a tall transmission tower under an overcast sky.",
+"tags": [
+"river",
+"factory",
+"smokestacks",
+"grass",
+"trees",
+"transmission tower"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Maritime_Interdiction_Operation_Jan_9495a2": {
+"desc": "A grainy black-and-white surveillance view of a boat on the water with a crosshair overlay and redacted areas.",
+"tags": [
+"boat",
+"sea",
+"crosshair",
+"surveillance",
+"water",
+"vessel"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Melissa_Flores_Indigo_2016_without_a_6319d7": {
+"desc": "An animated girl with blue hair kneels on a dark surface looking out over a frozen landscape under a starry sky.",
+"tags": [
+"animated girl",
+"blue hair",
+"ice",
+"snow",
+"cave",
+"stars"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Mit_m_glichst_wenig_CO2_zur_Schule_k_fdcf39": {
+"desc": "A red car is driving past a gas station in the United States.",
+"tags": [
+"car",
+"gas station",
+"flag",
+"pump",
+"sign"
+],
+"brands": [
+"KAS"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Mumbai_India_Bombay_Mumbai_city_skyl_afd32e": {
+"desc": "A city skyline at dusk with a beach in the foreground.",
+"tags": [
+"skyscrapers",
+"beach",
+"city",
+"water",
+"sand",
+"buildings"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Mumbai_India_Bombay_Mumbai_skyline_a_b05ec6": {
+"desc": "A city skyline at sunset with people on the beach.",
+"tags": [
+"skyscrapers",
+"beach",
+"people",
+"water",
+"sun"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Mumbai_India_Mumbai_Bombay_skyline_w_51659c": {
+"desc": "A cityscape with a body of water and a tall building, possibly in India.",
+"tags": [
+"building",
+"water",
+"boat",
+"shore",
+"trees",
+"birds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Nanhe_Petrol_Pump_NICHNOUL_by_Moyid_99fbf1": {
+"desc": "A gas station in India with two men walking.",
+"tags": [
+"gas station",
+"men",
+"trees",
+"billboard",
+"gas pumps",
+"streetlights"
+],
+"brands": [
+"Indian Oil"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_New_Parliament_Building_fa1849": {
+"desc": "A large, modern building with a circular design and a statue on top, possibly in India.",
+"tags": [
+"building",
+"statue",
+"trees",
+"road",
+"car",
+"parking lot"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_North_South_Block_New_Delhi_29473966_b7c45b": {
+"desc": "A large government building in India",
+"tags": [
+"building",
+"garden",
+"road",
+"sign",
+"potted plant",
+"person"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Numaligarh_Refinery_Bangladesh_Petro_8b40e4": {
+"desc": "Two men in suits signing documents at a table with flowers and water bottles, possibly in Bangladesh.",
+"tags": [
+"table",
+"flowers",
+"water bottles",
+"documents",
+"suits",
+"men"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Petrol_bunk_in_Porumamilla_af7a90": {
+"desc": "A gas station in India",
+"tags": [
+"truck",
+"motorcycle",
+"gas pump",
+"gas station",
+"streetlight",
+"trees"
+],
+"brands": [
+"HP"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Petrol_pump_Boor_Majra_Punjab_panora_1011a4": {
+"desc": "A gas station in a rural area of India.",
+"tags": [
+"gas station",
+"trees",
+"dirt road",
+"billboard",
+"streetlights",
+"fence"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Petrol_pump_Boor_Majra_panoramio_f36c31": {
+"desc": "A gas station in India",
+"tags": [
+"gas station",
+"truck",
+"billboard",
+"streetlights",
+"trees",
+"puddle"
+],
+"brands": [
+"Indian Oil"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Photograph_of_the_Fore_Side_of_the_B_2cb916": {
+"desc": "A ship with a sign that says 'San Valerio' in the background.",
+"tags": [
+"ship",
+"sign",
+"background"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_SGP_Singapore_IndiGo_Airbus_A320_25_46efca": {
+"desc": "An airport in India with two airplanes on the tarmac.",
+"tags": [
+"airplane",
+"tarmac",
+"airport",
+"grass",
+"building"
+],
+"brands": [
+"IndiGo"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_SGP_Singapore_IndiGo_Airbus_A320_25_f06d55": {
+"desc": "An airplane on a runway in front of an airport building.",
+"tags": [
+"airplane",
+"runway",
+"airport",
+"building"
+],
+"brands": [
+"IndiGo"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_SGP_Singapore_IndiGo_Airbus_A321_25_b871e3": {
+"desc": "An airplane flying in the sky, possibly in India.",
+"tags": [
+"airplane",
+"sky",
+"clouds",
+"wings",
+"tail",
+"engines"
+],
+"brands": [
+"IndiGo"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_S_S_Sviet_the_early_petroleum_bulk_c_fac8d1": {
+"desc": "A ship in a harbor, possibly in Russia.",
+"tags": [
+"ship",
+"harbor",
+"water",
+"dock",
+"crane",
+"building"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Sansad_Bhavan_1_1b7ff0": {
+"desc": "A large building with a fountain in front of it, possibly in India.",
+"tags": [
+"building",
+"fountain",
+"trees",
+"cars",
+"road",
+"flag"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Sansad_Bhavan_2_bb9931": {
+"desc": "A large building with a flagpole and trees in front of it, possibly a government building in India.",
+"tags": [
+"building",
+"flagpole",
+"trees",
+"garden",
+"fence",
+"statue"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Sansad_Bhavan_IMG_2152_1_845f55": {
+"desc": "A fountain in front of a large building, possibly in India.",
+"tags": [
+"fountain",
+"building",
+"trees",
+"flag",
+"lake",
+"bridge"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Shangrilla_Oil_Depot_Melli_Sikkim_In_bed6a0": {
+"desc": "A small oil depot in India.",
+"tags": [
+"oil depot",
+"petrol pump",
+"chair",
+"water tank",
+"trees",
+"mountains"
+],
+"brands": [
+"HP"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Some_Coins_20823589_93fc51": {
+"desc": "A pile of Indian coins on a plain background.",
+"tags": [
+"coins",
+"money",
+"currency",
+"India",
+"rupees"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_SunRackMountServers_141bdd": {
+"desc": "A server room with Sun Microsystems servers.",
+"tags": [
+"servers",
+"room",
+"cables",
+"racks",
+"ventilation",
+"floor"
+],
+"brands": [
+"Sun Microsystems"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Tankers_at_the_Iraqi_Al_Basra_Oil_Te_8dfb56": {
+"desc": "Aerial view of oil tankers at a refinery in the ocean, possibly in the Middle East.",
+"tags": [
+"oil tanker",
+"refinery",
+"ocean",
+"pier",
+"crane",
+"ship"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Technician_with_laptop_working_on_se_11af22": {
+"desc": "A man in a red plaid shirt is working on a laptop computer in a server room.",
+"tags": [
+"laptop",
+"server",
+"cable",
+"floor",
+"man",
+"shirt"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Terminal_1_Area_and_Aircraft_Mainten_a28bda": {
+"desc": "An aerial view of an airport in India.",
+"tags": [
+"airport",
+"plane",
+"runway",
+"terminal",
+"taxiway",
+"hangar"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_The_Sphere_at_the_WTC_Plaza_2000_OGV_b47be2": {
+"desc": "A large metal sculpture in front of a city building, possibly in the United States.",
+"tags": [
+"sculpture",
+"building",
+"city",
+"water",
+"fountain"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_The_Sphere_at_the_WTC_Plaza_a81b90": {
+"desc": "A metallic sphere sculpture on a pedestal in a fountain surrounded by tall skyscrapers in a city plaza.",
+"tags": [
+"sculpture",
+"sphere",
+"fountain",
+"skyscraper",
+"plaza",
+"water"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+},
+"wm_Top_Ships_Inc_Logo_57c6c4": {
+"desc": "Aerial view of a shipyard in Greece",
+"tags": [
+"ship",
+"crane",
+"dock",
+"water",
+"building"
+],
+"brands": [
+"TOP SHIPS"
+],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_US_Federal_Reserve_Eccles_Building_1_e95eb9": {
+"desc": "A large building with columns, possibly a government or financial institution in the United States.",
+"tags": [
+"building",
+"columns",
+"steps",
+"trees",
+"grass",
+"sidewalk"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_US_Navy_040517_N_6812T_007_Crew_memb_74a670": {
+"desc": "Two men in military gear on a boat in the water, with an American flag flying above them.",
+"tags": [
+"boat",
+"water",
+"flag",
+"men",
+"military",
+"gear"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_US_Navy_040517_N_9885M_018_Photograp_a2bb0d": {
+"desc": "A man in a military uniform is filming an industrial area with a body of water in the background, possibly in the Middle East.",
+"tags": [
+"camera",
+"helmet",
+"backpack",
+"pipe",
+"crane",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_US_Navy_080918_N_6575H_003_Merchant_ce72f6": {
+"desc": "Aerial view of oil tankers in the ocean, possibly near Singapore.",
+"tags": [
+"oil tanker",
+"ocean",
+"ship",
+"sea",
+"water",
+"vessel"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_VIew_of_Oil_Tanker_in_1972_facing_Bo_0ae206": {
+"desc": "A large oil tanker ship at sea, possibly in the United States.",
+"tags": [
+"oil tanker",
+"ship",
+"sea",
+"ocean",
+"vessel",
+"marine"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_VIew_of_Oil_Tanker_in_1972_facing_St_6b023e": {
+"desc": "A large oil tanker in the middle of the ocean, possibly near the United States.",
+"tags": [
+"oil tanker",
+"refinery",
+"petrol pump",
+"cash",
+"airport"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_VT_IUC_20_Jul_2024_acee39": {
+"desc": "An airplane flying in the sky, possibly in India.",
+"tags": [
+"airplane",
+"sky",
+"clouds"
+],
+"brands": [
+"IndiGo"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_VT_IUE_8_Feb_2025_a70721": {
+"desc": "An airplane flying in the sky, possibly in India.",
+"tags": [
+"airplane",
+"sky",
+"clouds"
+],
+"brands": [
+"IndiGo"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"wm_Yasa_Vega_at_Imperial_Oil_Dartmouth_0c41ae": {
+"desc": "Aerial view of an oil tanker in a harbor, possibly in Canada.",
+"tags": [
+"oil tanker",
+"harbor",
+"water",
+"sky",
+"clouds",
+"sun"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
 }
 }
