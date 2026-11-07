@@ -1,0 +1,6522 @@
+{
+"cv_1093": {
+"desc": "A man is sitting at a table with a laptop in front of him, possibly in an office or coffee shop.",
+"tags": [
+"laptop",
+"table",
+"chair",
+"window",
+"building"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1200": {
+"desc": "A man wearing a mask on an airplane.",
+"tags": [
+"airplane",
+"mask",
+"seat",
+"window",
+"armrest"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1314": {
+"desc": "Aerial view of a body of water, possibly an ocean or sea, with waves and ripples on the surface, likely in the United States.",
+"tags": [
+"water",
+"waves",
+"ocean",
+"sea",
+"aerial view",
+"United States"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1316": {
+"desc": "A large, open room with a yellow machine and curtains, possibly a garage or workshop in an industrial setting, with no clear country clue.",
+"tags": [
+"machine",
+"curtains",
+"room",
+"garage",
+"workshop",
+"industrial"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1323": {
+"desc": "A person is sitting on the ground, surrounded by fish and other seafood, in what appears to be a market or fishing village, possibly in India.",
+"tags": [
+"fish",
+"seafood",
+"market",
+"village",
+"India"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1580": {
+"desc": "A man in a dark room looking at a computer screen displaying stock market data.",
+"tags": [
+"computer",
+"screen",
+"man",
+"room",
+"data"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_160": {
+"desc": "A man fishing on a rocky coastline, possibly in Australia.",
+"tags": [
+"rocks",
+"sea",
+"waves",
+"fishing rod",
+"man",
+"dog"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1639": {
+"desc": "Aerial view of a city and coastline, possibly in the United Kingdom.",
+"tags": [
+"city",
+"coastline",
+"clouds",
+"water",
+"buildings",
+"roads"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1649": {
+"desc": "A city street with American flags in front of a building.",
+"tags": [
+"flags",
+"building",
+"street",
+"city",
+"pole",
+"balcony"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1755": {
+"desc": "A mountainous landscape with people walking in the foreground, possibly in Hawaii.",
+"tags": [
+"mountains",
+"people",
+"trees",
+"grass",
+"sky",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1762": {
+"desc": "A cityscape at dusk with mountains in the background, likely in Spain.",
+"tags": [
+"skyscraper",
+"mountain",
+"city",
+"building",
+"street",
+"car"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1767": {
+"desc": "A coastal city in Portugal with a mountainous backdrop.",
+"tags": [
+"city",
+"mountain",
+"sea",
+"road",
+"building",
+"cloud"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_178": {
+"desc": "A person walking along a cobblestone path with a suitcase, overlooking a body of water and buildings in the background, possibly in Italy.",
+"tags": [
+"suitcase",
+"cobblestone",
+"water",
+"buildings"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1811": {
+"desc": "A city street with tall buildings and a police van, possibly in New York City.",
+"tags": [
+"police van",
+"tall buildings",
+"street",
+"city",
+"suitcase",
+"man in suit"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1822": {
+"desc": "Aerial view of people swimming in the ocean near a beach, possibly in the Caribbean.",
+"tags": [
+"beach",
+"ocean",
+"swimmers",
+"palm trees",
+"island",
+"boat"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_1854": {
+"desc": "A woman with a suitcase walking past two doors in a building, possibly in Europe.",
+"tags": [
+"suitcase",
+"door",
+"building",
+"woman",
+"shoes",
+"pants"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_190": {
+"desc": "Aerial view of a desert landscape with sand dunes and no visible country clue",
+"tags": [
+"desert",
+"sand dunes",
+"aerial view",
+"landscape",
+"sky",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2": {
+"desc": "A man driving a car on a coastal road in the UK.",
+"tags": [
+"car",
+"road",
+"sea",
+"cliff",
+"man",
+"steering wheel"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2086": {
+"desc": "A busy city street with a red double-decker bus and pedestrians, likely in the United States.",
+"tags": [
+"bus",
+"street",
+"pedestrians",
+"traffic light",
+"building"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2093": {
+"desc": "A city skyline with skyscrapers, likely in the United States.",
+"tags": [
+"skyscrapers",
+"city",
+"bridge",
+"cables",
+"buildings",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2122": {
+"desc": "A beach with waves crashing against the shore, possibly in the United States.",
+"tags": [
+"ocean",
+"waves",
+"beach",
+"shore",
+"water",
+"sand"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2197": {
+"desc": "A woman is doing yoga in a garden.",
+"tags": [
+"tree",
+"house",
+"garden",
+"woman",
+"mat",
+"yoga"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2412": {
+"desc": "A nighttime aerial view of a city with a river running through it, possibly in Europe.",
+"tags": [
+"river",
+"city",
+"bridge",
+"streetlights",
+"buildings",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2415": {
+"desc": "A person is sitting in a dark room, possibly on public transport, with a phone in their hand.",
+"tags": [
+"phone",
+"person",
+"bag",
+"seat",
+"train"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2417": {
+"desc": "A woman is taking a photo of a tiny house in a warehouse.",
+"tags": [
+"tiny house",
+"warehouse",
+"woman",
+"camera",
+"ladder",
+"box"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_243": {
+"desc": "A person is using a laptop and phone in a home office setting, with no country clues.",
+"tags": [
+"laptop",
+"phone",
+"watch",
+"desk",
+"wall"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2526": {
+"desc": "A train on a bridge in the mountains of Switzerland.",
+"tags": [
+"train",
+"bridge",
+"mountains",
+"trees",
+"tunnel",
+"valley"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_256": {
+"desc": "A man in a dark room with a computer screen displaying stock market data.",
+"tags": [
+"computer",
+"screen",
+"chair",
+"lamp",
+"desk",
+"room"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2675": {
+"desc": "A rocky coastline with a small town in the background, possibly in Portugal.",
+"tags": [
+"rocks",
+"water",
+"buildings",
+"streetlights",
+"boats",
+"hill"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2893": {
+"desc": "A man working on a laptop in an office setting, possibly in India.",
+"tags": [
+"laptop",
+"pen",
+"table",
+"chair",
+"TV",
+"window"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2948": {
+"desc": "A desert landscape with mountains in the distance, possibly in Israel.",
+"tags": [
+"mountains",
+"desert",
+"landscape",
+"sunset",
+"horizon",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_2963": {
+"desc": "A large, modern, multi-level structure with people walking on it, possibly in the United States.",
+"tags": [
+"staircase",
+"railing",
+"people",
+"water",
+"building",
+"bridge"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_298": {
+"desc": "A woman in a red sweater stands on a rocky coastline, looking out at the sea.",
+"tags": [
+"woman",
+"sweater",
+"coastline",
+"sea",
+"rocks"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3006": {
+"desc": "A city street in Paris with a person walking and another riding a bicycle.",
+"tags": [
+"street",
+"car",
+"bicycle",
+"building",
+"person",
+"mask"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3058": {
+"desc": "A black Mercedes-Benz car is parked in front of a jewelry store in the United States.",
+"tags": [
+"car",
+"jewelry store",
+"parking lot",
+"desert",
+"road",
+"signs"
+],
+"brands": [
+"Mercedes-Benz"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3107": {
+"desc": "A man in a hat looks out at the ocean from a boat.",
+"tags": [
+"hat",
+"boat",
+"ocean",
+"man",
+"shirt",
+"sunglasses"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3120": {
+"desc": "A city street with a white van and a man on a bicycle.",
+"tags": [
+"van",
+"bicycle",
+"street",
+"building",
+"car",
+"tree"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3257": {
+"desc": "Aerial view of a rocky coastline with waves crashing against the shore, possibly in South Africa.",
+"tags": [
+"coastline",
+"rocks",
+"waves",
+"ocean",
+"shore",
+"cliff"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3280": {
+"desc": "A boat is speeding across the water in a coastal area, possibly in Greece.",
+"tags": [
+"boat",
+"water",
+"coast",
+"sea",
+"island",
+"mountain"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_329": {
+"desc": "A desert landscape with a small house and a dirt road, possibly in the United States.",
+"tags": [
+"house",
+"road",
+"desert",
+"mountains",
+"cactus",
+"car"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3403": {
+"desc": "A man in a suit is shown with his head in his hands, possibly in an office or home setting, with no clear country clue.",
+"tags": [
+"man",
+"suit",
+"hands",
+"office",
+"home"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3419": {
+"desc": "A departure board in an airport, possibly in the Philippines.",
+"tags": [
+"airport",
+"departure board",
+"flight information",
+"travel",
+"transportation"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3451": {
+"desc": "A beach at sunset with people playing soccer.",
+"tags": [
+"soccer",
+"beach",
+"ocean",
+"sun",
+"people",
+"goal"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3496": {
+"desc": "A plane flying over a barbed wire fence in an airport or military base, possibly in India.",
+"tags": [
+"plane",
+"barbed wire",
+"fence",
+"airport",
+"military base"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3505": {
+"desc": "Aerial view of a city with many buildings and trees, possibly in Malaysia.",
+"tags": [
+"buildings",
+"trees",
+"roads",
+"cars",
+"mountains",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3507": {
+"desc": "A desert landscape with a piece of driftwood in the foreground, possibly in the United States.",
+"tags": [
+"driftwood",
+"desert",
+"sand",
+"sky",
+"branch",
+"wood"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3525": {
+"desc": "A desert landscape with people in the distance, possibly in North Africa or the Middle East.",
+"tags": [
+"dunes",
+"people",
+"desert",
+"landscape",
+"sky",
+"sun"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3570": {
+"desc": "A nighttime aerial view of a small town with a Christmas tree in the center, possibly in Europe.",
+"tags": [
+"Christmas tree",
+"houses",
+"streets",
+"cars",
+"parking lot",
+"streetlights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3696": {
+"desc": "Aerial view of a suburban neighborhood with trees and houses, possibly in the United States.",
+"tags": [
+"houses",
+"trees",
+"streets",
+"cars",
+"lawns",
+"sidewalks"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3707": {
+"desc": "Aerial view of a coastal area with clouds and water, possibly in the United States.",
+"tags": [
+"airplane",
+"wing",
+"clouds",
+"water",
+"coastline"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3764": {
+"desc": "A man in a cafe or restaurant, possibly in the United States.",
+"tags": [
+"cafe",
+"restaurant",
+"man",
+"hat",
+"bag",
+"lights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3938": {
+"desc": "Aerial view of a body of water with a group of dolphins swimming in it, possibly in the United States.",
+"tags": [
+"water",
+"dolphins",
+"boat",
+"ocean",
+"aerial view"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3954": {
+"desc": "A man in a suit is sitting at a desk with a computer monitor and keyboard, counting money.",
+"tags": [
+"computer",
+"keyboard",
+"money",
+"desk",
+"suit",
+"monitor"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_3965": {
+"desc": "A woman in an airport, possibly in the United States.",
+"tags": [
+"airport",
+"luggage",
+"mask",
+"bench",
+"suitcase",
+"backpack"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4022": {
+"desc": "A person's hand is shown pressing a button on a machine in a public place, possibly in Japan.",
+"tags": [
+"button",
+"machine",
+"hand",
+"person",
+"public place"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_405": {
+"desc": "Aerial view of a city street in Mexico",
+"tags": [
+"cars",
+"trees",
+"buildings",
+"roads",
+"sidewalks",
+"parking lots"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4070": {
+"desc": "A car is driving through a city in India.",
+"tags": [
+"car",
+"building",
+"tree",
+"road",
+"mirror",
+"rosary"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4121": {
+"desc": "A suburban neighborhood with houses and trees, possibly in a Mediterranean country.",
+"tags": [
+"houses",
+"trees",
+"streetlights",
+"cars",
+"sidewalks",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4227": {
+"desc": "A train station in Spain.",
+"tags": [
+"train tracks",
+"platform",
+"station building",
+"streetlights",
+"trees",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4251": {
+"desc": "A train travels over a bridge in the mountains.",
+"tags": [
+"train",
+"bridge",
+"mountains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4303": {
+"desc": "A woman with a suitcase in an airport",
+"tags": [
+"suitcase",
+"airport",
+"seats",
+"mask",
+"signs"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4349": {
+"desc": "A coastal road with a runway in the background, possibly an airport, located in a country with a Mediterranean climate.",
+"tags": [
+"road",
+"runway",
+"airport",
+"trees",
+"houses",
+"sea"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4370": {
+"desc": "Aerial view of a wind farm in a rural area, possibly in the United States.",
+"tags": [
+"wind turbines",
+"fields",
+"roads",
+"hills",
+"clouds",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4382": {
+"desc": "A nighttime aerial view of a city street in Spain.",
+"tags": [
+"street",
+"buildings",
+"cars",
+"lights",
+"trees",
+"road"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4419": {
+"desc": "A man in a denim jacket and baseball cap is standing next to a motorcycle on a road, possibly in the United States.",
+"tags": [
+"motorcycle",
+"helmet",
+"road",
+"cash",
+"denim jacket"
+],
+"brands": [
+"Harley-Davidson"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4513": {
+"desc": "A rocky cliffside overlooking a body of water, possibly in a Mediterranean or Middle Eastern country.",
+"tags": [
+"cliff",
+"water",
+"rock",
+"shore",
+"sea",
+"coast"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4514": {
+"desc": "A rocky coastline with clear blue water, possibly in Hawaii.",
+"tags": [
+"rocks",
+"water",
+"coastline",
+"ocean",
+"shore",
+"cliff"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4582": {
+"desc": "A person working on a computer in an office decorated for Christmas.",
+"tags": [
+"computer",
+"office",
+"Christmas tree",
+"desk",
+"chair",
+"window"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4599": {
+"desc": "A beach with calm waves in the Caribbean",
+"tags": [
+"beach",
+"ocean",
+"waves",
+"sand",
+"shore",
+"sea"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_463": {
+"desc": "A man is working in a warehouse, possibly in Asia.",
+"tags": [
+"shelves",
+"boxes",
+"clothing",
+"plastic bags",
+"cardboard box",
+"light fixture"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4647": {
+"desc": "A close-up of a pile of coins on a table, possibly in the United States.",
+"tags": [
+"coins",
+"table",
+"money",
+"currency",
+"pennies",
+"nickels"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4862": {
+"desc": "A person is sitting in front of a computer screen displaying stock market data.",
+"tags": [
+"computer",
+"screen",
+"data",
+"stock market",
+"person"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4939": {
+"desc": "A man in a warehouse, possibly in the United States.",
+"tags": [
+"shelves",
+"plastic bags",
+"ventilation tubes",
+"skylight",
+"coat",
+"mask"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_4983": {
+"desc": "A hand dusting a fan in a room with books and a dress.",
+"tags": [
+"fan",
+"hand",
+"books",
+"dress"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_500": {
+"desc": "A cityscape with a mix of old and new buildings, possibly in Israel.",
+"tags": [
+"skyscrapers",
+"highway",
+"cars",
+"buildings",
+"streetlights",
+"traffic"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5044": {
+"desc": "A man in a suit is counting money at a desk.",
+"tags": [
+"desk",
+"suit",
+"money",
+"hand",
+"table",
+"office"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5060": {
+"desc": "Aerial view of a roundabout with a golden statue in the center, likely in Mexico.",
+"tags": [
+"roundabout",
+"statue",
+"cars",
+"road",
+"grass",
+"sidewalk"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5128": {
+"desc": "A man in a dark room looking at a computer screen with a graph on it.",
+"tags": [
+"computer",
+"screen",
+"graph",
+"room",
+"man",
+"lamp"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5157": {
+"desc": "A man in a gray hoodie is shown from behind, standing on a dock and holding onto a white boat.",
+"tags": [
+"dock",
+"boat",
+"water",
+"rocks",
+"mountains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5165": {
+"desc": "A person is preparing food in a kitchen, possibly in Thailand.",
+"tags": [
+"kitchen",
+"food",
+"leaves",
+"bowl",
+"spoon",
+"table"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5169": {
+"desc": "Aerial view of a river in the United States.",
+"tags": [
+"river",
+"water",
+"trees",
+"banks",
+"aerial view",
+"United States"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5201": {
+"desc": "A large wave crashing in the ocean, possibly near a coastline in the United States.",
+"tags": [
+"wave",
+"ocean",
+"coastline",
+"sea",
+"water",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5208": {
+"desc": "A man is working on a floor in a building, possibly in Australia.",
+"tags": [
+"floor",
+"building",
+"man",
+"tape measure",
+"gloves",
+"saw"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5252": {
+"desc": "A hand is reaching for a piece of paper on a desk in an office setting, possibly in the United States.",
+"tags": [
+"desk",
+"paper",
+"hand",
+"office",
+"computer",
+"keyboard"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5264": {
+"desc": "A person is grinding coffee beans in a kitchen.",
+"tags": [
+"coffee grinder",
+"kitchen",
+"coffee beans",
+"person",
+"counter",
+"outlet"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5302": {
+"desc": "A pile of coins, possibly in a bank or store, with some coins featuring the number 10 and the word 'LEBANON' in Arabic.",
+"tags": [
+"coins",
+"money",
+"bank",
+"store",
+"Lebanon"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5349": {
+"desc": "A city street in Paris, France with buildings and a bus stop.",
+"tags": [
+"bus stop",
+"street",
+"buildings",
+"bus",
+"streetlight",
+"fence"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5368": {
+"desc": "A building with a statue of people on it, in New York.",
+"tags": [
+"building",
+"statue",
+"people",
+"New York"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5376": {
+"desc": "A person is holding a cell phone and credit card in their hands, possibly outdoors in the United States.",
+"tags": [
+"cell phone",
+"credit card",
+"hands",
+"person",
+"outdoors"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5410": {
+"desc": "A group of people sitting on the ground near a body of water, possibly in India.",
+"tags": [
+"drum",
+"boat",
+"river",
+"temple",
+"crowd",
+"flag"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5415": {
+"desc": "A man washing a car in a garage.",
+"tags": [
+"car",
+"garage",
+"hose",
+"spray",
+"man"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5446": {
+"desc": "Aerial view of a body of water, possibly an ocean or sea, with sunlight reflecting off the surface, likely in a tropical or subtropical region.",
+"tags": [
+"water",
+"sunlight",
+"ocean",
+"sea",
+"aerial view"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5507": {
+"desc": "A construction worker is using a saw on a sidewalk in New York City.",
+"tags": [
+"hard hat",
+"saw",
+"sidewalk",
+"traffic cone",
+"pickup truck",
+"taxi"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5513": {
+"desc": "A man in a suit is folding pants on a table.",
+"tags": [
+"pants",
+"table",
+"suit",
+"mask"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5538": {
+"desc": "A robot vacuum cleaner on a dark wooden floor in a living room with a beige rug, possibly in the United States.",
+"tags": [
+"robot vacuum cleaner",
+"dark wooden floor",
+"beige rug",
+"living room",
+"United States"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5550": {
+"desc": "A man in a black turtleneck stands in a parking lot at night, with city lights visible in the background.",
+"tags": [
+"parking lot",
+"city",
+"lights",
+"cars",
+"man",
+"turtleneck"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5641": {
+"desc": "An airport in Israel with a plane on the tarmac.",
+"tags": [
+"airport",
+"plane",
+"tarmac",
+"control tower",
+"terminal",
+"aircraft"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5656": {
+"desc": "A small boat in the ocean, possibly in the Caribbean.",
+"tags": [
+"boat",
+"ocean",
+"island",
+"clouds",
+"sky",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5765": {
+"desc": "Aerial view of a boat in the ocean near the coast of India.",
+"tags": [
+"boat",
+"ocean",
+"coast",
+"India"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5792": {
+"desc": "A close-up of a machine with a yellow warning sign, possibly in a factory or workshop, with no clear country clue.",
+"tags": [
+"machine",
+"warning sign",
+"factory",
+"workshop",
+"equipment",
+"industry"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5822": {
+"desc": "Aerial view of a small town in Italy.",
+"tags": [
+"houses",
+"trees",
+"roads",
+"cars",
+"church",
+"mountains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5831": {
+"desc": "Aerial view of a wind farm in a rural area, possibly in Spain.",
+"tags": [
+"wind turbines",
+"fields",
+"roads",
+"trees",
+"mountains",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5884": {
+"desc": "Aerial view of a beach with a pier, possibly in the United States.",
+"tags": [
+"beach",
+"pier",
+"water",
+"sand",
+"shoreline"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5902": {
+"desc": "A city street with a Broadway sign and a One Way sign, in the United States.",
+"tags": [
+"street",
+"sign",
+"building",
+"window",
+"pole",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5910": {
+"desc": "A man in a black turtleneck sweater stands outside a building with a palm tree, possibly in an Asian country.",
+"tags": [
+"palm tree",
+"building",
+"sweater",
+"man",
+"glasses"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_5950": {
+"desc": "An airport with a plane on the tarmac, possibly in Italy.",
+"tags": [
+"plane",
+"tarmac",
+"airport",
+"terminal",
+"runway"
+],
+"brands": [
+"EL AL"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_600": {
+"desc": "A canal with a bridge and buildings in the background, possibly in the UK.",
+"tags": [
+"canal",
+"bridge",
+"buildings",
+"trees",
+"water",
+"walkway"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6002": {
+"desc": "Aerial view of a city square with a fountain in the center, surrounded by trees and buildings, likely in Mexico.",
+"tags": [
+"fountain",
+"trees",
+"buildings",
+"square",
+"city",
+"Mexico"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6092": {
+"desc": "A cityscape with tall buildings and a church steeple, likely in the United States.",
+"tags": [
+"skyscrapers",
+"church",
+"steeple",
+"city",
+"buildings"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6093": {
+"desc": "A bus terminal station in New York City, USA.",
+"tags": [
+"bus",
+"terminal",
+"station",
+"sign",
+"post"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6164": {
+"desc": "A close-up of coins on a wooden surface in an outdoor setting with a blurred background, possibly in the United States.",
+"tags": [
+"coins",
+"wooden surface",
+"outdoor setting",
+"blurred background",
+"United States"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6221": {
+"desc": "A man working on a laptop in an office setting, possibly in the United States.",
+"tags": [
+"laptop",
+"chair",
+"desk",
+"wall",
+"TV",
+"cable"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6276": {
+"desc": "A close-up of dry grass in a field, possibly in the United States.",
+"tags": [
+"grass",
+"field",
+"dry",
+"brown",
+"blades",
+"stem"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6317": {
+"desc": "A city skyline with a river and boats, possibly in the UK.",
+"tags": [
+"river",
+"boats",
+"city",
+"skyline",
+"buildings",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6415": {
+"desc": "A construction worker walking down a sidewalk in an urban area, possibly in the United States.",
+"tags": [
+"construction worker",
+"sidewalk",
+"urban area",
+"city street",
+"cars",
+"scaffolding"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6487": {
+"desc": "A view of the sky and clouds from an airplane window.",
+"tags": [
+"airplane",
+"window",
+"sky",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_649": {
+"desc": "A stock market graph on a screen, possibly in the United States.",
+"tags": [
+"screen",
+"graph",
+"stock market",
+"computer",
+"data",
+"numbers"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6530": {
+"desc": "A person's hand pointing at a bus schedule on a street in the United States.",
+"tags": [
+"bus",
+"schedule",
+"street",
+"hand",
+"finger",
+"glass"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6558": {
+"desc": "A person's hand is shown holding a yellow object near the engine of a car.",
+"tags": [
+"car",
+"engine",
+"hand",
+"object"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_659": {
+"desc": "A canal in a European city, possibly France.",
+"tags": [
+"canal",
+"trees",
+"sidewalk",
+"street",
+"cars",
+"construction"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6684": {
+"desc": "A marina with boats in the water, possibly in India",
+"tags": [
+"boats",
+"marina",
+"water",
+"sailboats",
+"masts",
+"docks"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6804": {
+"desc": "A busy city street in the United States with a mix of old and new buildings.",
+"tags": [
+"traffic lights",
+"cars",
+"trucks",
+"pedestrians",
+"buildings",
+"street signs"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6827": {
+"desc": "A car engine with a dipstick, possibly in a garage or workshop, with no country clue.",
+"tags": [
+"car engine",
+"dipstick",
+"garage",
+"workshop"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_6839": {
+"desc": "A man and woman are standing next to a blue truck on a tropical beach.",
+"tags": [
+"truck",
+"beach",
+"palm trees",
+"sand",
+"sea",
+"people"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7152": {
+"desc": "A person is sitting in an airplane seat, with a tray table in front of them.",
+"tags": [
+"airplane",
+"seat",
+"tray table",
+"window",
+"armrest",
+"legroom"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7209": {
+"desc": "A man in a suit looks at a computer screen displaying a stock market graph in a dark room.",
+"tags": [
+"computer",
+"screen",
+"graph",
+"room",
+"suit"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7278": {
+"desc": "A person is sitting in a car and buckling their seatbelt.",
+"tags": [
+"car",
+"seatbelt",
+"person"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7292": {
+"desc": "A group of people in a canoe on a river at sunset, possibly in Africa.",
+"tags": [
+"canoe",
+"river",
+"sun",
+"people"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7353": {
+"desc": "A Dutch flag flies over a canal in a rural area.",
+"tags": [
+"flag",
+"canal",
+"boat",
+"house",
+"tree",
+"field"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7365": {
+"desc": "A person is pouring oil on a turkey in a kitchen.",
+"tags": [
+"turkey",
+"oil",
+"kitchen",
+"bottle",
+"hand",
+"counter"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7521": {
+"desc": "Aerial view of a tropical island with a small beach and rocky cliffs, possibly in the Philippines.",
+"tags": [
+"island",
+"beach",
+"cliffs",
+"boat",
+"water",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7524": {
+"desc": "A man in a suit is standing in front of a computer monitor displaying a stock market graph, in a dimly lit room with a lamp and a chair.",
+"tags": [
+"computer",
+"lamp",
+"chair",
+"graph",
+"suit",
+"room"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7544": {
+"desc": "A person is holding a cell phone in front of a laptop, possibly in a home or office setting, with no clear country clue.",
+"tags": [
+"laptop",
+"cell phone",
+"hand",
+"finger",
+"screen",
+"keyboard"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7632": {
+"desc": "A cityscape with a large body of water and a tall monument in the distance, likely in the United States.",
+"tags": [
+"monument",
+"water",
+"trees",
+"buildings",
+"clouds",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7789": {
+"desc": "A tropical resort with a pool and palm trees.",
+"tags": [
+"pool",
+"palm trees",
+"bridge",
+"building",
+"umbrella",
+"lounge chair"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7824": {
+"desc": "A man and woman are standing in front of a red car, with trees and a building in the background.",
+"tags": [
+"car",
+"trees",
+"building"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7839": {
+"desc": "A car is being filled with petrol at a gas station in Spain.",
+"tags": [
+"car",
+"gas station",
+"petrol pump",
+"cash",
+"oil tanker",
+"refinery"
+],
+"brands": [
+"BP"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7853": {
+"desc": "Aerial view of wind turbines in a forested area, possibly in India.",
+"tags": [
+"wind turbines",
+"forest",
+"trees",
+"sky",
+"clouds",
+"hills"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7909": {
+"desc": "A man in a suit is writing in a notebook at a desk.",
+"tags": [
+"notebook",
+"pen",
+"desk",
+"suit",
+"keyboard",
+"window"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7936": {
+"desc": "A person in a red jacket is handing a blue bag to someone behind a counter.",
+"tags": [
+"counter",
+"bag",
+"jacket",
+"person"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7958": {
+"desc": "A person is counting money in an office setting, with a hint of European currency.",
+"tags": [
+"cash",
+"keyboard",
+"desk",
+"hand",
+"office"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_7979": {
+"desc": "A luggage carousel in an airport, possibly in the United States.",
+"tags": [
+"luggage",
+"carousel",
+"airport",
+"suitcase",
+"baggage",
+"belt"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8095": {
+"desc": "A street food vendor in India is preparing tea.",
+"tags": [
+"tea",
+"stove",
+"pots",
+"tray",
+"cups",
+"spoons"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8152": {
+"desc": "A city street at night with a large Christmas tree in the center.",
+"tags": [
+"street",
+"tree",
+"car",
+"building",
+"light",
+"road"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8182": {
+"desc": "A canal in a European city, possibly France.",
+"tags": [
+"canal",
+"bridge",
+"trees",
+"street",
+"cars",
+"sidewalk"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8282": {
+"desc": "A car is being filled with petrol at a gas station in Portugal.",
+"tags": [
+"car",
+"gas station",
+"petrol pump",
+"cash",
+"oil tanker",
+"refinery"
+],
+"brands": [
+"BP"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8351": {
+"desc": "A person looking out of an airplane window.",
+"tags": [
+"airplane",
+"window",
+"seat",
+"headphones",
+"luggage"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8393": {
+"desc": "A man is working on a project in a room with a table and chair.",
+"tags": [
+"table",
+"chair",
+"project",
+"room",
+"man"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8414": {
+"desc": "A man and woman are standing in a wooded area, possibly in the United States.",
+"tags": [
+"man",
+"woman",
+"tree",
+"hat",
+"shirt",
+"sweater"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8527": {
+"desc": "A large, open space with a high ceiling and many people walking around, possibly in a shopping mall or airport, with a clue that it might be in the United States.",
+"tags": [
+"people",
+"ceiling",
+"mall",
+"airport",
+"United States"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8538": {
+"desc": "Aerial view of a body of water, possibly an ocean or sea, with a coastline in the distance, likely in the United States.",
+"tags": [
+"water",
+"coastline",
+"ocean",
+"sea",
+"aerial view"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8572": {
+"desc": "A man stands in front of a bus terminal station in New York City.",
+"tags": [
+"bus terminal",
+"man",
+"phone",
+"bag",
+"sign",
+"elevator"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8639": {
+"desc": "A small canal in a Dutch village.",
+"tags": [
+"canal",
+"house",
+"tree",
+"bench",
+"car",
+"road"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8649": {
+"desc": "A person writing in a notebook on a wooden table.",
+"tags": [
+"notebook",
+"pen",
+"table",
+"hand",
+"paper",
+"wood"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8656": {
+"desc": "A laundry room with washing machines and dryers, possibly in the United States.",
+"tags": [
+"washing machine",
+"dryer",
+"laundry room",
+"appliance",
+"household",
+"utility"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8720": {
+"desc": "A cityscape at dusk with a mountain range in the background, possibly in Australia.",
+"tags": [
+"city",
+"mountain",
+"sky",
+"building",
+"road",
+"car"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8765": {
+"desc": "A rocky coastline with waves crashing against the shore, possibly in Ireland.",
+"tags": [
+"waves",
+"rocks",
+"coastline",
+"sea",
+"ocean",
+"cliff"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8914": {
+"desc": "A hand holding a smartphone with a stock market graph on the screen, in front of a computer monitor displaying a similar graph.",
+"tags": [
+"smartphone",
+"computer monitor",
+"graph",
+"hand",
+"stock market"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8939": {
+"desc": "A person is holding a cell phone in a living room, possibly in India.",
+"tags": [
+"cell phone",
+"couch",
+"pillow",
+"lamp",
+"bracelet",
+"ring"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_8995": {
+"desc": "A desert gas station with an American flag",
+"tags": [
+"gas station",
+"car",
+"flag",
+"desert",
+"road",
+"sign"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9037": {
+"desc": "A city street with a car and a person walking, possibly in the United States.",
+"tags": [
+"car",
+"person",
+"street",
+"fire hydrant",
+"mailbox",
+"truck"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9043": {
+"desc": "A man is shown talking on his cell phone in a dark room.",
+"tags": [
+"cell phone",
+"man",
+"room",
+"darkness"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9057": {
+"desc": "Aerial view of a city street with trees and a red roofed building, possibly in South America.",
+"tags": [
+"street",
+"trees",
+"building",
+"cars",
+"pedestrian crossing",
+"traffic lights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9179": {
+"desc": "A cityscape with skyscrapers and a cloudy sky, possibly in the United States.",
+"tags": [
+"skyscrapers",
+"city",
+"clouds",
+"sky",
+"buildings",
+"windows"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9214": {
+"desc": "A construction worker in a hard hat and safety vest is using a chainsaw on a sidewalk in New York City.",
+"tags": [
+"hard hat",
+"safety vest",
+"chainsaw",
+"sidewalk",
+"traffic cone",
+"pickup truck"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9327": {
+"desc": "A man looks at his phone in front of a laptop with stock market graphs on the screen.",
+"tags": [
+"phone",
+"laptop",
+"keyboard",
+"mousepad",
+"mouse"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_936": {
+"desc": "A busy street in India at night with cars and motorcycles",
+"tags": [
+"car",
+"motorcycle",
+"bus",
+"truck",
+"street",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9363": {
+"desc": "A busy underground station in London.",
+"tags": [
+"escalator",
+"staircase",
+"handrail",
+"wall",
+"ceiling",
+"light"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9398": {
+"desc": "A person is holding a cell phone in an airplane.",
+"tags": [
+"airplane",
+"cell phone",
+"seat",
+"hand",
+"shirt",
+"belt"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_940": {
+"desc": "A canal in the Netherlands with a boat and buildings.",
+"tags": [
+"canal",
+"boat",
+"buildings",
+"trees",
+"grass",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9403": {
+"desc": "A man in a suit counting money at a desk.",
+"tags": [
+"cash",
+"desk",
+"keyboard",
+"suit",
+"hand",
+"table"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9472": {
+"desc": "A busy city street with cars and bicycles, possibly in the United States.",
+"tags": [
+"cars",
+"bicycles",
+"streetlights",
+"buildings",
+"billboards",
+"traffic lights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9576": {
+"desc": "A desert landscape with mountains in the background, possibly in the United States.",
+"tags": [
+"mountains",
+"desert",
+"cacti",
+"rocks",
+"grass",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9693": {
+"desc": "A person in a black hoodie is sitting at a table with a laptop, possibly in a mall or airport in the United States.",
+"tags": [
+"laptop",
+"table",
+"mall",
+"airport",
+"phone"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9719": {
+"desc": "A woman in a shoe store, possibly in Europe.",
+"tags": [
+"shoes",
+"mask",
+"handbag",
+"counter",
+"mirror",
+"display"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9724": {
+"desc": "A person is using a laptop in a room.",
+"tags": [
+"laptop",
+"hands",
+"keyboard",
+"screen",
+"chair",
+"wall"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9867": {
+"desc": "A man sitting at a desk in front of a computer monitor displaying stock market data, in a dimly lit room with a window and curtains.",
+"tags": [
+"computer",
+"monitor",
+"desk",
+"chair",
+"window",
+"curtains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9880": {
+"desc": "A pile of coins, possibly in a bank or store, with some coins featuring the number 10 and others with illegible text.",
+"tags": [
+"coins",
+"money",
+"bank",
+"store",
+"cash",
+"change"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9894": {
+"desc": "A man is looking at a computer screen displaying a stock market graph in a dark room.",
+"tags": [
+"computer",
+"screen",
+"graph",
+"room",
+"man"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9927": {
+"desc": "Aerial view of a beach with surfers in the water, possibly in South Africa.",
+"tags": [
+"beach",
+"ocean",
+"surfers",
+"waves",
+"shoreline",
+"coastline"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_9939": {
+"desc": "A woman pulling a suitcase on a sidewalk in front of a stone wall and a building with palm trees, possibly in a tropical or subtropical region.",
+"tags": [
+"suitcase",
+"sidewalk",
+"stone wall",
+"building",
+"palm trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_ai-generated-aerial-view-of-a-dub": {
+"desc": "Aerial view of a city with skyscrapers and a beach, possibly in the United Arab Emirates.",
+"tags": [
+"skyscrapers",
+"beach",
+"road",
+"bridge",
+"helicopter",
+"boat"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_blurry-online-payment-interface": {
+"desc": "A computer screen displaying a payment form, likely in an office setting, with no country clue",
+"tags": [
+"computer",
+"screen",
+"payment form",
+"office",
+"keyboard",
+"mouse"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_calculating-expenses-with-cash-an": {
+"desc": "A person is counting money on a table.",
+"tags": [
+"cash",
+"table",
+"phone",
+"paper",
+"hand"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_close-up-of-network-router-ports": {
+"desc": "A close-up of a router in a home office setting, with no country clue.",
+"tags": [
+"router",
+"cable",
+"desk",
+"computer",
+"wire",
+"wall"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_high-voltage-power-line-tower-aga": {
+"desc": "A tall metal electrical tower with wires against a blue sky, possibly in the United States.",
+"tags": [
+"electrical tower",
+"wires",
+"blue sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_man-paying-at-parking-meter": {
+"desc": "A man using a parking ticket machine in a car park with trees and hills in the background.",
+"tags": [
+"car",
+"parking ticket machine",
+"trees",
+"hills"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_online-shopping-with-credit-card": {
+"desc": "A person is using a tablet and credit card in an outdoor setting, possibly in India.",
+"tags": [
+"laptop",
+"tablet",
+"credit card",
+"ring",
+"bracelet",
+"pen"
+],
+"brands": [
+"VISA"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_secure-online-payment-process": {
+"desc": "A person is sitting at a table with a laptop and credit card in their hand.",
+"tags": [
+"laptop",
+"credit card",
+"table",
+"person",
+"hand"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_stormy-sea-waves-crashing-on-pier": {
+"desc": "A concrete pier juts out into the sea, with waves crashing against it.",
+"tags": [
+"pier",
+"sea",
+"waves",
+"concrete",
+"ocean",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"cv_urban-traveler-loading-car-trunk": {
+"desc": "A woman is shown in the back of a car, with a suitcase and a building in the background.",
+"tags": [
+"car",
+"suitcase",
+"building",
+"parking lot",
+"palm tree"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"dv_346026": {
+"desc": "A large white building with a dome, likely the United States Capitol in Washington D.C.",
+"tags": [
+"building",
+"dome",
+"trees",
+"grass",
+"people",
+"bus"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"dv_476132": {
+"desc": "Aircraft carrier at sea, possibly in the United States.",
+"tags": [
+"aircraft carrier",
+"fighter jets",
+"ocean",
+"sea",
+"ships",
+"warships"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"dv_763572": {
+"desc": "Aerial view of a runway at night, possibly in the United States.",
+"tags": [
+"runway",
+"airplane",
+"lights",
+"night",
+"airport"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"dv_881959": {
+"desc": "Aerial view of an oil tanker in the ocean, possibly near a refinery, with no country clue.",
+"tags": [
+"oil tanker",
+"refinery",
+"ocean",
+"ship",
+"water",
+"sea"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"fed_presconf_20261028": {
+"desc": "A man in a suit speaking at a podium with an American flag and a seal behind him, likely in the United States.",
+"tags": [
+"podium",
+"flag",
+"seal",
+"suit",
+"tie",
+"microphone"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_1140": {
+"desc": "A close-up of a computer motherboard, likely in a factory or workshop, with no country clue.",
+"tags": [
+"microchips",
+"wires",
+"circuits",
+"solder",
+"components"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_1146": {
+"desc": "Aerial view of a city at night, possibly in the United States.",
+"tags": [
+"buildings",
+"streets",
+"cars",
+"lights",
+"trees",
+"roads"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_144": {
+"desc": "A person's hands holding a cell phone in front of a window with a city view.",
+"tags": [
+"cell phone",
+"hands",
+"window",
+"city"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_151": {
+"desc": "A man in a suit is standing in front of a window with his back to the camera, looking out at a cityscape.",
+"tags": [
+"city",
+"window",
+"suit",
+"man"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_1614": {
+"desc": "Aerial view of a city with a roundabout and buildings, possibly in Mexico.",
+"tags": [
+"roundabout",
+"buildings",
+"roads",
+"cars",
+"trees",
+"parking lots"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_18261": {
+"desc": "A close-up of a US $100 bill, with the word 'STATES' and 'FRANKLIN' visible.",
+"tags": [
+"bill",
+"money",
+"currency",
+"dollar",
+"banknote",
+"cash"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_18296": {
+"desc": "A person is counting a large stack of US $100 bills.",
+"tags": [
+"cash",
+"money",
+"bills",
+"dollars",
+"US currency",
+"banknotes"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_18303": {
+"desc": "A stack of US $100 bills on fire in a dark room.",
+"tags": [
+"money",
+"fire",
+"room"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_221": {
+"desc": "A woman's face with glasses reflecting a computer screen, possibly in an office in India.",
+"tags": [
+"glasses",
+"computer",
+"screen",
+"face",
+"woman",
+"office"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_241": {
+"desc": "A person signing a document at a table.",
+"tags": [
+"table",
+"pen",
+"paper",
+"phone",
+"hand",
+"shirt"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_242": {
+"desc": "A person's hands typing on a laptop keyboard, with a cell phone nearby, in a home or office setting, possibly in the United States.",
+"tags": [
+"laptop",
+"keyboard",
+"cell phone",
+"hands",
+"desk",
+"floor"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_247": {
+"desc": "A cell phone on a table with a plant in the background, possibly in a home or office setting, with no clear country clue.",
+"tags": [
+"cell phone",
+"table",
+"plant",
+"home",
+"office"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_25575": {
+"desc": "A woman sitting in front of a laptop in a dark room.",
+"tags": [
+"laptop",
+"woman",
+"room"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_29991": {
+"desc": "A person working on a laptop in a workshop or office setting, possibly in the United States.",
+"tags": [
+"laptop",
+"workshop",
+"office",
+"tools",
+"desk",
+"chair"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_39854": {
+"desc": "A man sitting at a desk in front of a computer monitor.",
+"tags": [
+"computer",
+"desk",
+"chair",
+"keyboard",
+"mouse",
+"monitor"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4010": {
+"desc": "A cityscape with construction cranes, likely in the United Kingdom.",
+"tags": [
+"cranes",
+"buildings",
+"city",
+"construction",
+"skyscrapers",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4067": {
+"desc": "A city street with a highway and buildings in the background, possibly in Europe.",
+"tags": [
+"highway",
+"streetlights",
+"buildings",
+"trees",
+"cars",
+"traffic"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_41165": {
+"desc": "A man is sitting on the floor, looking at his phone.",
+"tags": [
+"phone",
+"man",
+"floor"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_41180": {
+"desc": "A close-up of a person's eye, possibly in a medical or cosmetic setting, with no clear country clue.",
+"tags": [
+"eye",
+"eyelashes",
+"skin",
+"face"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_41656": {
+"desc": "A person's hands typing on a keyboard in front of a computer monitor.",
+"tags": [
+"keyboard",
+"monitor",
+"desk",
+"pencils",
+"computer",
+"hands"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_42085": {
+"desc": "A flag of India",
+"tags": [
+"flag",
+"India"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_42096": {
+"desc": "A flag of India waving in the wind against a blue sky with clouds.",
+"tags": [
+"flag",
+"sky",
+"clouds",
+"wind"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_42099": {
+"desc": "A man wrapped in an Indian flag against a blue sky.",
+"tags": [
+"flag",
+"man",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_42133": {
+"desc": "A person is holding a smartphone with a website on the screen, possibly in a home or office setting, and there are no clear country clues.",
+"tags": [
+"smartphone",
+"website",
+"hand",
+"finger",
+"screen"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_42357": {
+"desc": "Aerial view of a busy highway at night in the United States.",
+"tags": [
+"highway",
+"cars",
+"streetlights",
+"buildings",
+"billboards",
+"traffic"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_42648": {
+"desc": "A man in a white shirt is presenting data on a large screen in an office setting.",
+"tags": [
+"screen",
+"office",
+"man",
+"shirt",
+"data",
+"bar chart"
+],
+"brands": [],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4308": {
+"desc": "A cityscape with a red tower, possibly in Japan.",
+"tags": [
+"skyscrapers",
+"tower",
+"city",
+"buildings",
+"streets",
+"cars"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_43270": {
+"desc": "A young woman with brown hair and a pink shirt is holding a cell phone in front of her, possibly taking a selfie or video call, in what appears to be an outdoor setting with a white wall and greenery behind her, suggesting a casual, everyday moment, possibly in a country with a warm climate given the outdoor setting and the woman's attire.",
+"tags": [
+"cell phone",
+"woman",
+"shirt",
+"wall",
+"greenery"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4401": {
+"desc": "A busy city street in Japan with many pedestrians crossing the road.",
+"tags": [
+"pedestrians",
+"road",
+"street",
+"city",
+"Japan",
+"crosswalk"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4442": {
+"desc": "A busy city street in New York City, USA.",
+"tags": [
+"taxi",
+"car",
+"street",
+"building",
+"billboard",
+"traffic light"
+],
+"brands": [
+"Kodak",
+"Samsung",
+"Chrysler"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4451": {
+"desc": "A busy street in Japan with people walking and shops",
+"tags": [
+"people",
+"street",
+"shops",
+"bicycles",
+"signs",
+"lanterns"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4453": {
+"desc": "A busy underground walkway in Japan.",
+"tags": [
+"train",
+"passengers",
+"signs",
+"lights",
+"tiles",
+"walls"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4517": {
+"desc": "A woman sitting on a couch in a living room, possibly in the United States.",
+"tags": [
+"couch",
+"table",
+"lamp",
+"plant",
+"paper",
+"pen"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4529": {
+"desc": "A woman in a pink sari is meditating in a room with Indian-style decor.",
+"tags": [
+"sari",
+"room",
+"window",
+"floor",
+"wall",
+"decor"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4545": {
+"desc": "Two women in traditional Indian clothing dancing in a room with a window and blinds.",
+"tags": [
+"window",
+"blinds",
+"room",
+"women",
+"clothing",
+"dance"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4713": {
+"desc": "A woman is sitting on a couch in front of a Christmas tree, looking at a laptop.",
+"tags": [
+"laptop",
+"couch",
+"Christmas tree"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4801": {
+"desc": "A man working at a desk in an office.",
+"tags": [
+"desk",
+"chair",
+"laptop",
+"papers",
+"coffee cup",
+"folder"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4808": {
+"desc": "A man sitting on a rooftop, looking at his phone, with a city skyline in the background.",
+"tags": [
+"rooftop",
+"phone",
+"city",
+"skyline",
+"sunset"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4809": {
+"desc": "A group of people are sitting around a table in an office, looking at papers and laptops.",
+"tags": [
+"laptop",
+"table",
+"chair",
+"paper",
+"pen",
+"cup"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4857": {
+"desc": "A man and woman sitting at a table in a kitchen, looking at their phones.",
+"tags": [
+"table",
+"phones",
+"kitchen",
+"milk",
+"oranges",
+"laptop"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4907": {
+"desc": "A person typing on a laptop keyboard.",
+"tags": [
+"laptop",
+"keyboard",
+"hands",
+"fingers"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4908": {
+"desc": "A person is holding a cell phone and sitting at a laptop on a wooden table.",
+"tags": [
+"cell phone",
+"laptop",
+"table",
+"book",
+"pen",
+"hand"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4915": {
+"desc": "A person's hands holding a cell phone on a wooden table.",
+"tags": [
+"cell phone",
+"hands",
+"table",
+"wood"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4919": {
+"desc": "A person's hand holding a smartphone with a coffee mug and coffee maker in the background.",
+"tags": [
+"smartphone",
+"coffee mug",
+"coffee maker"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4938": {
+"desc": "A person typing on a laptop at a desk.",
+"tags": [
+"laptop",
+"desk",
+"chair",
+"phone",
+"notebook",
+"pen"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_4953": {
+"desc": "A woman is writing in a notebook at a desk.",
+"tags": [
+"notebook",
+"pen",
+"desk",
+"phone",
+"bracelet",
+"ring"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_49845": {
+"desc": "A cityscape at night with a large building in the foreground and a city skyline in the background, possibly in the United States.",
+"tags": [
+"skyscrapers",
+"city",
+"night",
+"lights",
+"buildings"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_49878": {
+"desc": "A nighttime cityscape with skyscrapers and a large building in the foreground, possibly in the United States.",
+"tags": [
+"skyscrapers",
+"buildings",
+"city",
+"night",
+"lights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_5052": {
+"desc": "A man is exercising in front of a colorful wall.",
+"tags": [
+"man",
+"wall",
+"phone",
+"stand",
+"floor"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"hd_50772": {
+"desc": "A person is sitting on the floor with a plate of lit candles and flowers in front of them.",
+"tags": [
+"candles",
+"flowers",
+"plate",
+"floor",
+"person"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_100216": {
+"desc": "Aerial view of a truck driving on a bridge in a mountainous area, possibly in India.",
+"tags": [
+"bridge",
+"truck",
+"mountains",
+"road",
+"trees",
+"valley"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_100226": {
+"desc": "Aerial view of a highway bridge over a valley in a rural area, possibly in Mexico.",
+"tags": [
+"highway",
+"bridge",
+"valley",
+"mountains",
+"cars",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_100307": {
+"desc": "A man and woman sitting at a desk in front of a laptop, with a colorful mural on the wall behind them.",
+"tags": [
+"laptop",
+"desk",
+"mural",
+"cactus",
+"flower",
+"jar"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_100319": {
+"desc": "A group of people in an office setting, possibly in Mexico or the United States, with a desert landscape mural on the wall.",
+"tags": [
+"laptop",
+"plant",
+"desk",
+"chair",
+"mural",
+"cactus"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_100338": {
+"desc": "Aerial view of a highway bridge over a forested area, possibly in the United States.",
+"tags": [
+"highway",
+"bridge",
+"forest",
+"car",
+"road",
+"mountain"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_100339": {
+"desc": "A long, elevated road with a concrete bridge and guardrails, possibly in India.",
+"tags": [
+"road",
+"bridge",
+"guardrail",
+"car",
+"truck",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_100340": {
+"desc": "Aerial view of a highway bridge over a valley in a rural area, possibly in South America.",
+"tags": [
+"highway",
+"bridge",
+"valley",
+"truck",
+"car",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_100634": {
+"desc": "A dry, cracked lake bed in a desert landscape with mountains in the background.",
+"tags": [
+"lake bed",
+"desert",
+"mountains",
+"sun",
+"sky",
+"landscape"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_100645": {
+"desc": "A horse in a stable, possibly in the United States.",
+"tags": [
+"horse",
+"stable",
+"fence",
+"wood",
+"metal"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101075": {
+"desc": "A close-up of a computer motherboard, likely in a factory or workshop, with no country clue.",
+"tags": [
+"microchips",
+"capacitors",
+"resistors",
+"wires",
+"circuit board",
+"soldering iron"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101076": {
+"desc": "A close-up of a computer motherboard with various components and wires.",
+"tags": [
+"motherboard",
+"computer",
+"wires",
+"components",
+"circuit board",
+"electronics"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101078": {
+"desc": "A close-up of a circuit board with a hand holding a tool, likely in a factory or workshop, possibly in Asia.",
+"tags": [
+"circuit board",
+"tool",
+"hand",
+"factory",
+"workshop"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101080": {
+"desc": "A close-up of a computer motherboard with various components and text, set in China.",
+"tags": [
+"microchip",
+"capacitor",
+"resistor",
+"circuit board",
+"solder",
+"wires"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101081": {
+"desc": "A close-up of a green circuit board with various components, likely in a factory or workshop setting, possibly in an Asian country.",
+"tags": [
+"circuit board",
+"components",
+"factory",
+"workshop",
+"electronics",
+"technology"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101084": {
+"desc": "A person is working on a circuit board in a workshop or factory, possibly in an Asian country.",
+"tags": [
+"circuit board",
+"workshop",
+"factory",
+"tools",
+"electronics"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101087": {
+"desc": "A close-up of a computer motherboard, likely in a factory or workshop, with no country clue.",
+"tags": [
+"microchips",
+"capacitors",
+"resistors",
+"wires",
+"circuit board",
+"soldering iron"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101088": {
+"desc": "A close-up of a computer motherboard, likely in a factory or workshop, with no country clue.",
+"tags": [
+"microchips",
+"capacitors",
+"resistors",
+"wires",
+"circuit board",
+"soldering"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101090": {
+"desc": "A close-up of a circuit board with various components and tools, likely in a workshop or laboratory setting, possibly in an Asian country.",
+"tags": [
+"circuit board",
+"soldering iron",
+"microchip",
+"wires",
+"electronic components",
+"workbench"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101091": {
+"desc": "A close-up of a circuit board with a soldering iron, likely in a factory or workshop, possibly in Asia.",
+"tags": [
+"circuit board",
+"soldering iron",
+"microchips",
+"wires",
+"electronic components"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101093": {
+"desc": "A close-up of a green circuit board with various components and text.",
+"tags": [
+"circuit board",
+"microchips",
+"wires",
+"solder",
+"electronic components"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101094": {
+"desc": "A close-up of a green circuit board with various components and text.",
+"tags": [
+"circuit board",
+"microchips",
+"wires",
+"solder",
+"electronic components"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101095": {
+"desc": "A close-up of a green circuit board with various components, possibly in a factory or workshop setting, with no clear country clue.",
+"tags": [
+"circuit board",
+"components",
+"factory",
+"workshop"
+],
+"brands": [],
+"text": false,
+"still": true,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101096": {
+"desc": "A close-up of a circuit board with a screwdriver in the foreground, likely in a factory or workshop setting, possibly in Asia.",
+"tags": [
+"circuit board",
+"screwdriver",
+"factory",
+"workshop",
+"electronics"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101099": {
+"desc": "A close-up of a circuit board with red and white components, possibly from a computer or electronic device, with no clear country clue.",
+"tags": [
+"circuit board",
+"electronic components",
+"computer hardware",
+"microchip",
+"wires",
+"soldering"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101101": {
+"desc": "A close-up of a green circuit board with red and blue components, possibly from a computer or electronic device, with no clear country clue.",
+"tags": [
+"circuit board",
+"electronic components",
+"computer hardware",
+"microchips",
+"wires",
+"soldering"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_101446": {
+"desc": "A woman sitting in a room with red curtains and a plant.",
+"tags": [
+"curtains",
+"plant",
+"woman",
+"room",
+"glass",
+"bracelet"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1086": {
+"desc": "A sunset over the ocean, with waves crashing against rocks in the foreground, possibly in California.",
+"tags": [
+"rocks",
+"ocean",
+"waves",
+"sunset",
+"sky",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_11": {
+"desc": "Aerial view of a city at night with roads and buildings.",
+"tags": [
+"roads",
+"buildings",
+"cars",
+"lights",
+"trees",
+"bridge"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1136": {
+"desc": "A close-up of a green circuit board with various components and wires.",
+"tags": [
+"circuit board",
+"wires",
+"components",
+"microchip",
+"capacitor",
+"resistor"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1138": {
+"desc": "A close-up of a green circuit board with copper components.",
+"tags": [
+"circuit board",
+"microchip",
+"electronic components",
+"copper",
+"green"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1139": {
+"desc": "A close-up of a green circuit board with various components, likely from an electronic device, possibly in a factory or workshop setting, with no clear country clue.",
+"tags": [
+"circuit board",
+"components",
+"electronic device",
+"factory",
+"workshop"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1140": {
+"desc": "A close-up of a computer motherboard, likely in a factory or laboratory setting, with no country clue.",
+"tags": [
+"microchips",
+"wires",
+"circuits",
+"solder",
+"components"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1141": {
+"desc": "A close-up of an electronic circuit board with various components, possibly in a factory or workshop setting, with no clear country clue.",
+"tags": [
+"circuit board",
+"microchip",
+"capacitor",
+"resistor",
+"wires",
+"soldering iron"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_12152": {
+"desc": "A woman and man in a kitchen, possibly in the United States.",
+"tags": [
+"stove",
+"refrigerator",
+"sink",
+"light fixtures",
+"countertop",
+"cabinet"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1218": {
+"desc": "A serene lake in a mountainous region, possibly in Asia.",
+"tags": [
+"lake",
+"mountains",
+"trees",
+"raft",
+"rope",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1411": {
+"desc": "A person is working with a large metal machine in a factory or workshop, possibly in Japan.",
+"tags": [
+"machine",
+"factory",
+"workshop",
+"metal",
+"person"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_144": {
+"desc": "A person's hands holding a cell phone in front of a window with a city view.",
+"tags": [
+"cell phone",
+"hands",
+"window",
+"city"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1442": {
+"desc": "A construction worker in a hard hat and safety vest is on the phone at a building site.",
+"tags": [
+"hard hat",
+"safety vest",
+"building site",
+"construction worker",
+"phone"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1443": {
+"desc": "A construction worker on a cell phone at a building site.",
+"tags": [
+"hard hat",
+"cell phone",
+"safety vest",
+"building site"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1445": {
+"desc": "A person's hand is shown sanding a piece of wood in a workshop.",
+"tags": [
+"workbench",
+"wood",
+"sandpaper",
+"hand",
+"gloves",
+"sawdust"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1457": {
+"desc": "A construction site with a table of bricks and two workers in the background, possibly in the United States.",
+"tags": [
+"bricks",
+"table",
+"workers",
+"construction site",
+"saw",
+"drill"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1571": {
+"desc": "Aerial view of a tropical island with palm trees and a beach, possibly in the Maldives.",
+"tags": [
+"palm trees",
+"beach",
+"tropical island",
+"ocean",
+"boat",
+"bungalow"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1574": {
+"desc": "Aerial view of a tropical island in the ocean, possibly in the Maldives.",
+"tags": [
+"island",
+"ocean",
+"palm trees",
+"beach",
+"sea",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1614": {
+"desc": "Aerial view of a city with a roundabout and buildings.",
+"tags": [
+"road",
+"building",
+"car",
+"tree",
+"roundabout",
+"parking lot"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1615": {
+"desc": "Aerial view of a busy roundabout in a city, possibly in Asia.",
+"tags": [
+"cars",
+"trucks",
+"buses",
+"motorcycles",
+"pedestrians",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1616": {
+"desc": "Aerial view of a city in Mexico",
+"tags": [
+"buildings",
+"roads",
+"trees",
+"cars",
+"streets",
+"houses"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1617": {
+"desc": "Aerial view of a cityscape with a mountain range in the background, likely in Chile.",
+"tags": [
+"city",
+"mountain",
+"building",
+"road",
+"car",
+"tree"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1622": {
+"desc": "A subway train in a station, possibly in Europe.",
+"tags": [
+"train",
+"subway",
+"station",
+"platform",
+"clock",
+"lights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1640": {
+"desc": "A city skyline with tall buildings and a tower, likely in Canada.",
+"tags": [
+"skyscrapers",
+"tower",
+"city",
+"buildings",
+"clouds",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1652": {
+"desc": "A car driving through a tunnel and a factory at night in India.",
+"tags": [
+"car",
+"tunnel",
+"factory",
+"night",
+"India"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1675": {
+"desc": "Aerial view of a city at night, possibly in the United States.",
+"tags": [
+"city",
+"street",
+"car",
+"building",
+"road",
+"light"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1732": {
+"desc": "A person is working on a computer in an office setting, possibly in the United States.",
+"tags": [
+"computer",
+"office",
+"desk",
+"chair",
+"keyboard",
+"mouse"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1751": {
+"desc": "Rain falling on water in a body of water, possibly a lake or river, with no country clue",
+"tags": [
+"water",
+"rain",
+"lake",
+"river"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1781": {
+"desc": "A person typing on a laptop keyboard, possibly in an office or home setting, with no clear country clue.",
+"tags": [
+"laptop",
+"keyboard",
+"hands",
+"fingers",
+"desk",
+"table"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_1808": {
+"desc": "A person typing on a laptop keyboard, possibly in an office or home setting, with no clear country clue.",
+"tags": [
+"laptop",
+"keyboard",
+"hands",
+"fingers",
+"desk",
+"computer"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_18202": {
+"desc": "A man and woman playing guitars in front of a white building.",
+"tags": [
+"guitars",
+"building",
+"man",
+"woman"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_18263": {
+"desc": "A person's hands holding coins in an outdoor setting with a blurred background, possibly in the United States.",
+"tags": [
+"coins",
+"hands",
+"outdoor setting",
+"blurred background"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2028": {
+"desc": "A nighttime cityscape with a large body of water, possibly in Japan.",
+"tags": [
+"skyscrapers",
+"city",
+"water",
+"buildings",
+"lights",
+"night"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2076": {
+"desc": "A field of tall, dry grasses in a rural area, possibly in the United States.",
+"tags": [
+"grass",
+"field",
+"rural area"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2079": {
+"desc": "A person paddleboarding in the ocean at sunset, possibly in the United States.",
+"tags": [
+"ocean",
+"paddleboard",
+"sunset",
+"clouds",
+"water",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2091": {
+"desc": "Aerial view of ocean waves crashing against the shore in a coastal area, possibly in the United States.",
+"tags": [
+"ocean",
+"waves",
+"shore",
+"coast",
+"water",
+"sea"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2092": {
+"desc": "A desert landscape with a dry riverbed and rocky cliffs, possibly in Mexico.",
+"tags": [
+"riverbed",
+"cliffs",
+"desert",
+"mountains",
+"sky",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_21573": {
+"desc": "A cityscape with two tall buildings, possibly in the United States.",
+"tags": [
+"skyscrapers",
+"trees",
+"buildings",
+"city",
+"night"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_21577": {
+"desc": "A grassy field with a tree in the foreground and mountains in the background, possibly in South America.",
+"tags": [
+"tree",
+"field",
+"mountains",
+"fence",
+"grass",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_21607": {
+"desc": "A globe with a map of the world, showing North America and the Pacific Ocean.",
+"tags": [
+"globe",
+"map",
+"North America",
+"Pacific Ocean"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_21617": {
+"desc": "A globe with a blurry map of the world, possibly in a classroom or office setting, with no clear country clue.",
+"tags": [
+"globe",
+"map",
+"world",
+"classroom",
+"office"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2167": {
+"desc": "A beach at sunset with palm trees and a boat in the water, possibly in the Caribbean or Southeast Asia.",
+"tags": [
+"palm trees",
+"boat",
+"beach",
+"ocean",
+"sunset",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2178": {
+"desc": "A tropical beach with palm trees and people swimming in the ocean, possibly in the Caribbean.",
+"tags": [
+"palm trees",
+"beach",
+"ocean",
+"people",
+"swimmers",
+"sand"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2244": {
+"desc": "A person's hand is pressing a button on a control panel in a factory setting, possibly in an Asian country.",
+"tags": [
+"control panel",
+"button",
+"factory",
+"machine",
+"hand",
+"finger"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2451": {
+"desc": "A large red generator in front of a blue wall.",
+"tags": [
+"generator",
+"wall",
+"building",
+"equipment",
+"machine",
+"engine"
+],
+"brands": [
+"HIMOINSA"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_25545": {
+"desc": "A man is sitting on a tree root by a lake in Thailand.",
+"tags": [
+"tree",
+"lake",
+"man",
+"root",
+"plastic bag",
+"duck"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2626": {
+"desc": "A coastal town in Greece with a mountain range in the background.",
+"tags": [
+"houses",
+"trees",
+"mountains",
+"sea",
+"road",
+"power lines"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2684": {
+"desc": "A plane wing in flight, with clouds and sky visible.",
+"tags": [
+"plane",
+"wing",
+"clouds",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2741": {
+"desc": "A red truck driving on a road in a desert landscape with mountains in the background.",
+"tags": [
+"truck",
+"road",
+"desert",
+"mountains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2782": {
+"desc": "A vast, dry lake bed in a desert landscape with mountains in the distance, possibly in the United States.",
+"tags": [
+"lake bed",
+"desert",
+"mountains",
+"landscape",
+"dry",
+"barren"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_28309": {
+"desc": "Two hands reaching out to each other against a green background, possibly in a studio or against a chroma key.",
+"tags": [
+"hands",
+"background",
+"studio",
+"chroma key"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2851": {
+"desc": "A person is digging in the dirt in a garden or field, possibly in the United States.",
+"tags": [
+"dirt",
+"garden",
+"field",
+"person",
+"hand",
+"sunlight"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2852": {
+"desc": "A close-up view of a drip irrigation system in a field, possibly in the United States.",
+"tags": [
+"drip irrigation system",
+"field",
+"plants",
+"soil",
+"watering system",
+"agriculture"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2861": {
+"desc": "A close-up of molten metal being poured into a mold in a factory, possibly in China.",
+"tags": [
+"metal",
+"mold",
+"factory",
+"China"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2862": {
+"desc": "A shelf with gold bars in a vault, possibly in the United States.",
+"tags": [
+"gold bars",
+"shelf",
+"vault",
+"safe",
+"metal",
+"precious metal"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2875": {
+"desc": "A tropical island with a pier and palm trees, possibly in the Maldives.",
+"tags": [
+"pier",
+"palm tree",
+"ocean",
+"island",
+"boat",
+"hut"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2877": {
+"desc": "A small plane is flying over the ocean in the Maldives.",
+"tags": [
+"plane",
+"ocean",
+"Maldives"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_2883": {
+"desc": "A seaplane is docked at a pier in the Maldives.",
+"tags": [
+"seaplane",
+"pier",
+"water",
+"island",
+"hut",
+"boat"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_29984": {
+"desc": "A person is drawing in a sketchbook at a desk.",
+"tags": [
+"sketchbook",
+"pencils",
+"sharpener",
+"desk",
+"watch",
+"shirt"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_29994": {
+"desc": "A person's hands are working on a project at a desk in a workshop, possibly in the United States.",
+"tags": [
+"workbench",
+"drill",
+"screwdriver",
+"tape measure",
+"pencil",
+"ruler"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_30004": {
+"desc": "Two people shaking hands in front of a man in a suit.",
+"tags": [
+"hands",
+"suit",
+"tie"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_30005": {
+"desc": "Two people shaking hands in an office setting, possibly in the United States.",
+"tags": [
+"office",
+"desk",
+"chair",
+"computer",
+"printer",
+"paper"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_30010": {
+"desc": "Two men in business attire sitting on a couch, looking at papers.",
+"tags": [
+"couch",
+"papers",
+"men",
+"business attire"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_30012": {
+"desc": "Two hands shaking in a business setting, possibly in the United States.",
+"tags": [
+"hands",
+"shirts",
+"suits",
+"background",
+"video"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_30013": {
+"desc": "Two men shaking hands in a business setting, possibly in the United States.",
+"tags": [
+"suit",
+"tie",
+"hand",
+"fingers",
+"shirt",
+"cuff"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_30052": {
+"desc": "A space scene with stars and a greenish-yellow glow, possibly in a nebula or galaxy.",
+"tags": [
+"stars",
+"nebula",
+"galaxy",
+"space",
+"glow"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3024": {
+"desc": "A green field with a house and trees in the background, possibly in Switzerland.",
+"tags": [
+"house",
+"trees",
+"field",
+"mountain",
+"car",
+"road"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3099": {
+"desc": "An airplane wing in flight, with a blue sky and clouds below, possibly over the United States.",
+"tags": [
+"airplane",
+"wing",
+"clouds",
+"sky"
+],
+"brands": [
+"Wizz Air"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3100": {
+"desc": "A sunset over the ocean with boats in the water, possibly in Mexico.",
+"tags": [
+"boats",
+"ocean",
+"sunset",
+"water",
+"sky",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_31136": {
+"desc": "A delivery man in a red uniform walks down a sidewalk in a suburban neighborhood.",
+"tags": [
+"sidewalk",
+"cars",
+"trees",
+"house",
+"lawn",
+"mailbox"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_31137": {
+"desc": "A man in a polo shirt is handing a yellow envelope to someone holding a white cell phone, in front of a window.",
+"tags": [
+"envelope",
+"cell phone",
+"window",
+"polo shirt"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_31138": {
+"desc": "A delivery man holding a package in front of a house.",
+"tags": [
+"package",
+"house",
+"delivery man"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_31155": {
+"desc": "A man in a blue shirt and cap stands in front of a wooden door with a silver handle, possibly in the United States.",
+"tags": [
+"door",
+"handle",
+"shirt",
+"cap",
+"wall",
+"light switch"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_31267": {
+"desc": "A man in a red shirt is walking down the street, pulling a cart with packages on it.",
+"tags": [
+"cart",
+"packages",
+"street",
+"car",
+"bushes",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_31274": {
+"desc": "A woman and a girl are opening a cardboard box on a bench.",
+"tags": [
+"bench",
+"cardboard box",
+"woman",
+"girl",
+"plant",
+"pot"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_31297": {
+"desc": "A man in a red shirt hands a coffee cup to a woman in front of a green bush.",
+"tags": [
+"bush",
+"coffee cup",
+"shirt",
+"woman",
+"man"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3130": {
+"desc": "A cityscape with mountains in the background, possibly in Mexico.",
+"tags": [
+"city",
+"mountains",
+"buildings",
+"trees",
+"roads",
+"houses"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_31346": {
+"desc": "A delivery man is placing a package on the porch of a house.",
+"tags": [
+"package",
+"porch",
+"house",
+"delivery man",
+"plant",
+"door"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_31998": {
+"desc": "A delivery man carrying a large cardboard box in front of a house.",
+"tags": [
+"box",
+"house",
+"man",
+"door",
+"plant",
+"streetlight"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_31999": {
+"desc": "A man delivering a package to a young girl at her front door, in a suburban area, possibly in the United States.",
+"tags": [
+"package",
+"door",
+"girl",
+"man",
+"house",
+"porch"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3298": {
+"desc": "Aerial view of an airport runway in Mexico",
+"tags": [
+"runway",
+"airport",
+"plane",
+"taxiway",
+"grass",
+"mountains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3317": {
+"desc": "A snowy mountain road with cars driving on it, possibly in Canada.",
+"tags": [
+"cars",
+"road",
+"snow",
+"mountain",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3361": {
+"desc": "A cityscape at dusk, with a mountain range in the background, possibly in Japan.",
+"tags": [
+"city",
+"mountain",
+"airplane",
+"wing",
+"lights",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3394": {
+"desc": "Aerial view of a mountainous landscape with a body of water and trees, possibly in Canada.",
+"tags": [
+"mountains",
+"trees",
+"water",
+"sky",
+"sun",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3395": {
+"desc": "Aerial view of a forested area with a body of water in the distance, possibly in Canada.",
+"tags": [
+"forest",
+"water",
+"mountains",
+"sun",
+"sky",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3411": {
+"desc": "A plane is parked at an airport gate, with a cloudy sky in the background.",
+"tags": [
+"plane",
+"airport",
+"gate",
+"clouds",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3420": {
+"desc": "Aerial view of a suburban neighborhood with a city skyline in the distance, likely in Canada.",
+"tags": [
+"houses",
+"streets",
+"trees",
+"cars",
+"buildings",
+"skyscrapers"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3423": {
+"desc": "Aerial view of a harbor with many ships and mountains in the background, likely in Canada.",
+"tags": [
+"ships",
+"harbor",
+"mountains",
+"water",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_34363": {
+"desc": "A body of water with sunlight reflecting off it, possibly a lake or ocean in the United States.",
+"tags": [
+"water",
+"sunlight",
+"lake",
+"ocean",
+"United States"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_34431": {
+"desc": "Two people shaking hands in an office setting, with no country clues.",
+"tags": [
+"hands",
+"table",
+"shirt",
+"tie",
+"desk",
+"office"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_34543": {
+"desc": "A person is rollerblading in a parking lot, possibly in the United States.",
+"tags": [
+"rollerblades",
+"parking lot",
+"trees",
+"buildings",
+"streetlights",
+"cars"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3482": {
+"desc": "A serene lake scene with a mountain in the background, possibly in Scotland.",
+"tags": [
+"lake",
+"mountain",
+"boat",
+"rope",
+"rail",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3486": {
+"desc": "A rocky coastline with a large rock formation in the water, possibly in Spain.",
+"tags": [
+"rock",
+"water",
+"building",
+"island",
+"ocean",
+"cliff"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3489": {
+"desc": "A city street with a mural on the wall, possibly in Italy.",
+"tags": [
+"mural",
+"wall",
+"street",
+"city",
+"building",
+"window"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3509": {
+"desc": "A yellow building with a sign in Portuguese, possibly in Portugal.",
+"tags": [
+"building",
+"sign",
+"window",
+"wall",
+"street",
+"arrow"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3622": {
+"desc": "Two men dancing in front of a graffiti-covered wall, possibly in Mexico.",
+"tags": [
+"wall",
+"men",
+"shoes",
+"vest",
+"hat",
+"can"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3660": {
+"desc": "Two elephants standing by a body of water in a rocky area, possibly in India.",
+"tags": [
+"elephants",
+"rocks",
+"water",
+"dirt",
+"vegetation"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_3970": {
+"desc": "A construction site with a crane and trees in the background, possibly in Australia.",
+"tags": [
+"crane",
+"trees",
+"construction site",
+"scaffolding",
+"building",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_39825": {
+"desc": "A pedestrian crossing sign in an urban setting, possibly in Europe.",
+"tags": [
+"pedestrian crossing sign",
+"street",
+"building",
+"tree",
+"sky",
+"pole"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_39943": {
+"desc": "A desert highway with mountains in the distance, possibly in the United States.",
+"tags": [
+"highway",
+"mountains",
+"desert",
+"truck",
+"barbed wire",
+"fence"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4000": {
+"desc": "A busy city street in New York City with cars and pedestrians.",
+"tags": [
+"cars",
+"pedestrians",
+"street",
+"crosswalk",
+"bus",
+"taxi"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4001": {
+"desc": "A nighttime cityscape with a body of water and construction cranes, possibly in the United Kingdom.",
+"tags": [
+"cranes",
+"boats",
+"buildings",
+"lights",
+"water",
+"city"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4003": {
+"desc": "An airplane is parked at a gate in an airport, with a jetway attached to the plane's door.",
+"tags": [
+"airplane",
+"jetway",
+"airport",
+"gate",
+"plane"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4004": {
+"desc": "A cityscape with a body of water in the foreground, possibly in Turkey.",
+"tags": [
+"boats",
+"buildings",
+"water",
+"trees",
+"cars",
+"people"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4007": {
+"desc": "An airport in the United States with a plane on the runway.",
+"tags": [
+"airplane",
+"runway",
+"airport",
+"fence",
+"lights",
+"tower"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40075": {
+"desc": "Aerial view of a coastal town with boats in the water, possibly in Greece.",
+"tags": [
+"boats",
+"water",
+"coastal town",
+"mountains",
+"buildings",
+"harbor"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40077": {
+"desc": "A marina in a coastal town, possibly in Spain.",
+"tags": [
+"boats",
+"marina",
+"harbor",
+"water",
+"buildings"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40078": {
+"desc": "Aerial view of boats in the ocean near a rocky coastline, possibly in Mexico.",
+"tags": [
+"boats",
+"ocean",
+"coastline",
+"rocks",
+"water",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40079": {
+"desc": "A marina in a coastal town, possibly in Spain.",
+"tags": [
+"boats",
+"marina",
+"buildings",
+"mountains",
+"sea",
+"harbor"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4008": {
+"desc": "A large, open space with a high ceiling and many windows, possibly an airport or train station in Spain.",
+"tags": [
+"airport",
+"train station",
+"windows",
+"ceiling",
+"signs",
+"plants"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40080": {
+"desc": "A marina in Mexico at sunset.",
+"tags": [
+"boats",
+"marina",
+"mountains",
+"houses",
+"harbor",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40098": {
+"desc": "A marina with boats docked in the water, set against a mountainous backdrop under a blue sky with clouds.",
+"tags": [
+"boats",
+"marina",
+"water",
+"mountains",
+"sky",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4010": {
+"desc": "A cityscape with a construction site in the foreground, possibly in the United Kingdom.",
+"tags": [
+"cranes",
+"buildings",
+"city",
+"construction site",
+"skyscrapers",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40102": {
+"desc": "Aerial view of a sunset over the ocean, possibly near the coast of Australia.",
+"tags": [
+"airplane",
+"wing",
+"ocean",
+"island",
+"sunset",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4011": {
+"desc": "A large cargo ship is docked at a port, with cranes and containers visible.",
+"tags": [
+"cargo ship",
+"port",
+"cranes",
+"containers",
+"dock"
+],
+"brands": [
+"Maersk"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4012": {
+"desc": "A large cargo ship is docked at a port in the United States.",
+"tags": [
+"cargo ship",
+"port",
+"cranes",
+"containers",
+"water",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4015": {
+"desc": "A canal in Amsterdam, Netherlands, with boats and buildings.",
+"tags": [
+"canal",
+"boats",
+"buildings",
+"cars",
+"trees",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40174": {
+"desc": "A person is putting a paper bag into the trunk of a car in a parking lot.",
+"tags": [
+"car",
+"trunk",
+"paper bag",
+"parking lot"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40175": {
+"desc": "A dark, dimly lit room with a person in the background, possibly a bar or restaurant in Japan.",
+"tags": [
+"table",
+"chair",
+"person",
+"room",
+"light",
+"shadow"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40177": {
+"desc": "A woman walking down a suburban street in the United States.",
+"tags": [
+"car",
+"street",
+"sidewalk",
+"grass",
+"trees",
+"house"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40185": {
+"desc": "A woman in a mask looks at her phone in front of a concrete wall.",
+"tags": [
+"mask",
+"phone",
+"wall",
+"tree",
+"shirt",
+"earring"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4019": {
+"desc": "A hotel room with a bed and table set for breakfast.",
+"tags": [
+"bed",
+"table",
+"chair",
+"lamp",
+"mirror",
+"air conditioner"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4028": {
+"desc": "A rural landscape with trees and mountains in the background, possibly in Morocco.",
+"tags": [
+"trees",
+"mountains",
+"hills",
+"grass",
+"sky",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4048": {
+"desc": "A desert landscape with mountains in the background, possibly in Mexico.",
+"tags": [
+"cactus",
+"mountains",
+"desert",
+"sky",
+"clouds",
+"landscape"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4059": {
+"desc": "A dark and stormy sea with a cloudy sky, possibly in the UK.",
+"tags": [
+"sea",
+"clouds",
+"storm",
+"boat",
+"light",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4060": {
+"desc": "A dark sky with clouds and a small light in the distance, possibly a cityscape or industrial area, with no clear country clue.",
+"tags": [
+"clouds",
+"light",
+"sky",
+"distance",
+"cityscape",
+"industrial area"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40637": {
+"desc": "A city street at dusk with tall buildings and streetlights.",
+"tags": [
+"streetlights",
+"buildings",
+"trees",
+"traffic lights",
+"clouds",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4066": {
+"desc": "A cityscape at night with a harbor and skyscrapers, possibly in Spain.",
+"tags": [
+"harbor",
+"skyscrapers",
+"statue",
+"streetlights",
+"buildings",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40677": {
+"desc": "A government building in the United States.",
+"tags": [
+"building",
+"road",
+"car",
+"tree",
+"statue",
+"flag"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40680": {
+"desc": "A city street with tall buildings, possibly in the United States.",
+"tags": [
+"street",
+"buildings",
+"signs",
+"poles",
+"clouds",
+"sky"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40681": {
+"desc": "A cityscape with tall buildings and a cloudy sky, possibly in the United States.",
+"tags": [
+"skyscrapers",
+"city",
+"clouds",
+"sky",
+"buildings"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4070": {
+"desc": "A rural landscape with rolling hills and green fields, possibly in the United Kingdom.",
+"tags": [
+"hills",
+"fields",
+"trees",
+"sky",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40723": {
+"desc": "A large industrial building with a metal structure and glass windows, possibly in the United States.",
+"tags": [
+"building",
+"metal",
+"glass",
+"windows",
+"structure",
+"industrial"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40727": {
+"desc": "A river with a bridge and people in kayaks, possibly in the United States.",
+"tags": [
+"bridge",
+"river",
+"kayak",
+"tree",
+"water",
+"column"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40728": {
+"desc": "A river with a bridge and buildings in the background, possibly in the United States.",
+"tags": [
+"bridge",
+"river",
+"buildings",
+"trees",
+"boats",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40729": {
+"desc": "A man kayaking on a river in front of a city skyline.",
+"tags": [
+"kayak",
+"river",
+"city",
+"skyscrapers",
+"trees",
+"buildings"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40732": {
+"desc": "A city power plant in Austin, Texas",
+"tags": [
+"power plant",
+"trees",
+"streetlight",
+"buildings",
+"sign",
+"windows"
+],
+"brands": [
+"City of Austin Power Plant"
+],
+"text": true,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4074": {
+"desc": "A large, manicured lawn in front of a castle or manor house, possibly in the UK.",
+"tags": [
+"lawn",
+"castle",
+"manor house",
+"trees",
+"pathway",
+"fence"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4075": {
+"desc": "A grassy field with trees and yellow flowers, possibly in the UK.",
+"tags": [
+"trees",
+"field",
+"flowers",
+"grass",
+"sky",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4078": {
+"desc": "A beach with a city in the background, possibly in Spain.",
+"tags": [
+"beach",
+"city",
+"buildings",
+"sea",
+"sand",
+"rocks"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4079": {
+"desc": "A clock tower in a city, possibly London.",
+"tags": [
+"clock tower",
+"city",
+"London"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4083": {
+"desc": "A tarmac with airplanes and trucks, possibly in Europe.",
+"tags": [
+"airplane",
+"truck",
+"tarmac",
+"airport",
+"plane",
+"vehicle"
+],
+"brands": [
+"FedEx"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4084": {
+"desc": "An airplane is parked at an airport, with a blurred background suggesting a European or American location.",
+"tags": [
+"airplane",
+"airport",
+"tarmac",
+"jetway",
+"luggage cart"
+],
+"brands": [
+"FedEx"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4085": {
+"desc": "A harbor with boats in Turkey",
+"tags": [
+"boats",
+"harbor",
+"water",
+"seagulls",
+"life preservers",
+"tires"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4086": {
+"desc": "A cityscape with a bridge and skyscrapers, possibly in the United States.",
+"tags": [
+"bridge",
+"skyscrapers",
+"city",
+"water",
+"cars"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40910": {
+"desc": "Aerial view of a city with a highway running through it, possibly in Mexico.",
+"tags": [
+"highway",
+"buildings",
+"cars",
+"trees",
+"billboard",
+"train tracks"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40911": {
+"desc": "Aerial view of a city street with a train track and cars, possibly in Japan.",
+"tags": [
+"train",
+"train track",
+"cars",
+"street",
+"city",
+"buildings"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40917": {
+"desc": "Aerial view of a busy road intersection in an urban area, possibly in Australia.",
+"tags": [
+"cars",
+"trucks",
+"roads",
+"buildings",
+"trees",
+"traffic lights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4095": {
+"desc": "An airport in Cuba",
+"tags": [
+"airplane",
+"airport",
+"truck",
+"car",
+"jetway",
+"tarmac"
+],
+"brands": [
+"HSBC"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40957": {
+"desc": "A boxing match in a Facebook-sponsored arena, possibly in the United States.",
+"tags": [
+"boxing ring",
+"boxers",
+"gloves",
+"Facebook logo",
+"Facebook banner"
+],
+"brands": [
+"Facebook"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_40969": {
+"desc": "A man in a boxing ring, possibly in the United States.",
+"tags": [
+"boxing ring",
+"boxer",
+"gloves",
+"ropes",
+"lights",
+"corner"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41004": {
+"desc": "A group of people performing acrobatic stunts in a fenced outdoor area, possibly in the United States.",
+"tags": [
+"fence",
+"basketball hoop",
+"trees",
+"parking lot",
+"cars",
+"people"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41005": {
+"desc": "A woman in a black shirt and leggings is standing in a wooded area with her arms raised.",
+"tags": [
+"trees",
+"woman",
+"shirt",
+"leggings",
+"arms"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41006": {
+"desc": "A group of people in a park, possibly in Mexico.",
+"tags": [
+"people",
+"park",
+"trees",
+"clothing",
+"shoes",
+"watch"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4107": {
+"desc": "A stone structure in a jungle setting, possibly in Mexico.",
+"tags": [
+"stone structure",
+"jungle",
+"trees",
+"sky",
+"clouds"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4109": {
+"desc": "A Japanese storefront at night with a lantern and flags.",
+"tags": [
+"lantern",
+"flags",
+"bicycle",
+"storefront",
+"building",
+"street"
+],
+"brands": [
+"Forge"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41188": {
+"desc": "A man reading a newspaper in a car dealership in the United States.",
+"tags": [
+"newspaper",
+"car",
+"couch",
+"coffee mug",
+"pillow",
+"poster"
+],
+"brands": [
+"Kashmir"
+],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41190": {
+"desc": "A man reading a newspaper in a room.",
+"tags": [
+"newspaper",
+"room",
+"man",
+"glasses",
+"shirt",
+"collar"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41191": {
+"desc": "A man reading a newspaper in a dimly lit room with a plant and lamp, possibly in a Spanish-speaking country.",
+"tags": [
+"newspaper",
+"lamp",
+"plant",
+"table",
+"mug",
+"watch"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41192": {
+"desc": "A person reading a newspaper in a dark room.",
+"tags": [
+"newspaper",
+"hands",
+"room",
+"couch",
+"light"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41199": {
+"desc": "A man is looking at a tablet in a room.",
+"tags": [
+"tablet",
+"room",
+"man",
+"glasses",
+"jacket",
+"shirt"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41204": {
+"desc": "A person is using a laptop in an office setting, possibly in the United States.",
+"tags": [
+"laptop",
+"hand",
+"pen",
+"desk",
+"office",
+"paper"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4127": {
+"desc": "A DJ is performing in front of a fire, possibly at an outdoor event or festival, with no clear country clue.",
+"tags": [
+"laptop",
+"DJ equipment",
+"fire",
+"people",
+"music",
+"event"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41274": {
+"desc": "A man is sitting in front of a computer monitor in a home office.",
+"tags": [
+"computer",
+"monitor",
+"headphones",
+"desk",
+"chair",
+"wall"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41276": {
+"desc": "A man playing video games on his computer.",
+"tags": [
+"headphones",
+"computer",
+"monitor",
+"keyboard",
+"mouse",
+"desk"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41361": {
+"desc": "Aerial view of a highway with trucks driving on it, surrounded by flooded fields, possibly in the United States.",
+"tags": [
+"highway",
+"trucks",
+"fields",
+"flooded",
+"aerial view"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4137": {
+"desc": "A harbor in Italy with boats and buildings.",
+"tags": [
+"boats",
+"buildings",
+"harbor",
+"water",
+"mountains",
+"lights"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41397": {
+"desc": "Aerial view of a rural landscape with fields and a house in the distance, possibly in Asia.",
+"tags": [
+"fields",
+"house",
+"mountains",
+"fog",
+"trees"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41399": {
+"desc": "Aerial view of a park with a river running through it, possibly in Mexico.",
+"tags": [
+"river",
+"park",
+"trees",
+"road",
+"bridge",
+"grass"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4141": {
+"desc": "A nighttime scene of a marina in Greece.",
+"tags": [
+"boats",
+"water",
+"buildings",
+"trees",
+"lights",
+"harbor"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4146": {
+"desc": "A serene lake with a stone structure in the middle, surrounded by trees and a clear blue sky, possibly in Spain.",
+"tags": [
+"lake",
+"stone structure",
+"trees",
+"sky",
+"reflection",
+"water"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_4149": {
+"desc": "A desert landscape with sand dunes and a clear blue sky, possibly in Morocco.",
+"tags": [
+"sand dunes",
+"desert",
+"landscape",
+"sky",
+"dunes",
+"desert landscape"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41541": {
+"desc": "Aerial view of a city in Mexico with skyscrapers and roads.",
+"tags": [
+"skyscrapers",
+"roads",
+"cars",
+"buildings",
+"trees",
+"mountains"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41611": {
+"desc": "A close-up of a paintbrush on a canvas with colorful paint in an art studio.",
+"tags": [
+"paintbrush",
+"canvas",
+"paint",
+"art studio"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+},
+"mk_41637": {
+"desc": "A man working on a computer in a dark room.",
+"tags": [
+"computer",
+"keyboard",
+"mouse",
+"monitor",
+"desk",
+"chair"
+],
+"brands": [],
+"text": false,
+"still": false,
+"model": "meta/llama-3.2-90b-vision-instruct"
+}
+}
