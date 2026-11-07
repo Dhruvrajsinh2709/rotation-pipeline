@@ -15,7 +15,7 @@ import json, sys, os, random, math, datetime
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageOps, ImageChops
 sys.path.insert(0, "/workspace/work/yt")
 W, H = 1280, 720; FD = "/workspace/work/yt/fonts/"; OR = (250, 78, 2); CR = (248, 241, 228); BK = (12, 12, 14)
-LOG = "/workspace/work/yt/covers/cover_log.json"; LAYOUTS = ["stack", "slab", "ui", "grid"]  # Study 11 (2026-11-01): collage + ring dropped (abstract covers lose)
+LOG = "/workspace/work/yt/covers/cover_log.json"; LAYOUTS = ["bignum"]  # Study 13 (2026-11-07): every long uses the big single number (oil 4.4% CTR vs 1.2-2.0%); variety comes from the backdrop variant, subject and colour. Old: ["stack", "slab", "ui", "grid"]  # Study 11 (2026-11-01): collage + ring dropped (abstract covers lose)
 TINTS = [[10, 38, 78], [70, 20, 18], [16, 52, 40], [48, 28, 72], [60, 44, 12], [14, 46, 62]]
 def F(name, sz): return ImageFont.truetype(FD + name, int(sz))
 def ANTON(sz): return F("Anton-Regular.ttf", sz)
@@ -186,12 +186,36 @@ def L_ring(c, tint):
     caps_stack(bg, c["words"], 40, H-50, 520, slab_i=c.get("slab_i", len(c["words"])-1), slab_col=OR, kicker=c.get("kicker"), kcol=OR)
     return finish(bg, c, OR, "br")
 
+def L_bignum(c, tint):
+    """Study 13: giant number (Anton) with the cut-out subject in front, one short caption on a slab.
+    keys: number (<= 5 chars ideal, e.g. "61%", "Rs 24", "$27"), caption (3-5 words), subject (cut-out), bg (optional photo),
+    variant 'dark' | 'photo' | 'cream' (auto rotates), chip (optional e.g. "EXPLAINS")."""
+    log = load_log(); used = [e.get("variant") for e in log[-2:]]
+    var = c.get("variant") or next((v for v in ["dark", "photo", "cream"] if v not in used), "dark")
+    if var == "photo" and c.get("bg"):
+        bg = cover(Image.open(c["bg"]).convert("RGB"), W, H, c.get("bgfx", 0.5)); bg = ImageEnhance.Brightness(bg).enhance(0.45).convert("RGBA")
+    elif var == "cream": bg = Image.new("RGBA", (W, H), CR+(255,))
+    else: bg = Image.new("RGBA", (W, H), (14, 14, 14, 255))
+    d = ImageDraw.Draw(bg); num = c.get("number", "61%")
+    sz = fit(ANTON, [num], 1180, 600, 200); nf = ANTON(sz); bb = d.textbbox((0, 0), num, font=nf)
+    d.text(((W-(bb[2]-bb[0]))//2-bb[0], 30-bb[1]), num, font=nf, fill=OR)
+    if c.get("subject"): place_subject(bg, c, c.get("subj_h", 420), c.get("subj_x", W//2), c.get("subj_dy", -20))
+    d = ImageDraw.Draw(bg); cap = c.get("caption", "").upper()
+    if cap:
+        cf = ANTON(fit(ANTON, [cap], 1100, 78, 40)); cb = d.textbbox((0, 0), cap, font=cf); cw = cb[2]-cb[0]; ch = cb[3]-cb[1]
+        x0 = 40; y0 = H-ch-70; fg, bgc = (BK, CR) if var != "cream" else ((255, 255, 255), BK)
+        d.rectangle([x0, y0, x0+cw+32, y0+ch+32], fill=bgc); d.text((x0+16, y0+16-cb[1]), cap, font=cf, fill=fg)
+    if c.get("chip"):
+        f = POP(26); w = d.textlength(c["chip"], font=f); d.rectangle([W-w-80, 40, W-40, 84], fill=BK if var == "cream" else CR)
+        d.text((W-w-66, 44), c["chip"], font=f, fill=CR if var == "cream" else BK)
+    c["_variant"] = var
+    return bg
 def main(c):
     lay, tint = pick(c); out = c["out"]; os.makedirs(os.path.dirname(out), exist_ok=True)
-    im = {"collage": L_collage, "stack": L_stack, "slab": L_slab, "ui": L_ui, "grid": L_grid, "ring": L_ring}[lay](c, tint)
+    im = {"collage": L_collage, "stack": L_stack, "slab": L_slab, "ui": L_ui, "grid": L_grid, "ring": L_ring, "bignum": L_bignum}[lay](c, tint)
     if im is not None: im.convert("RGB").save(out, quality=92)
     if c.get("log", True):
-        log = load_log(); log.append({"date": str(datetime.date.today()), "title": c.get("title", ""), "layout": lay, "tint": tint, "out": out})
+        log = load_log(); log.append({"date": str(datetime.date.today()), "title": c.get("title", ""), "layout": lay, "tint": tint, "variant": c.get("_variant"), "out": out})
         json.dump(log, open(LOG, "w"), indent=1)
     print("thumb", lay, tint, out)
 if __name__ == "__main__": main(json.loads(sys.argv[1]))

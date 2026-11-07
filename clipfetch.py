@@ -170,11 +170,29 @@ def log_used(video, clips):
     u = json.load(open(USED)) if os.path.exists(USED) else []
     u.append({"video": video, "date": time.strftime("%Y-%m-%d"), "clips": sorted(set(clips))}); json.dump(u, open(USED, "w"), indent=0)
 
+
+# ======================= Study 13 (2026-11-07): vision gate =======================
+# index entries may carry "vision": {"desc", "tags", "brands", "text", "still"} written by an NVIDIA vision model
+# (pipeline/vision_tag.py). When present, the clip only counts if what it SHOWS matches the scene's subject words.
+def vision_adj(meta, tags, s):
+    v = meta.get("vision")
+    if not v or s <= 0: return s
+    vw = set(words((v.get("desc") or "") + " " + " ".join(v.get("tags") or [])))
+    vw |= {w[:-1] for w in vw if w.endswith("s")} | {w + "s" for w in vw}
+    q = set(words(" ".join(tags or [])))
+    hit = q & vw
+    if not hit: s *= 0.25                      # the model doesn't see the subject: effectively below every gate
+    else: s += 0.75 * min(2, len(hit))
+    br = [b.lower() for b in (v.get("brands") or []) if b]
+    if br and not any(any(w in b for w in q) for b in br): s -= 1.5   # another company's logo/livery/sign
+    if v.get("text"): s -= 1.0                 # slides, captions, documents filling the frame
+    return round(s, 2)
+
 def score(meta, tags, text):
     t = set(meta.get("tags", [])); q = set(words(" ".join(tags))); tw = set(words(text or ""))
     s = 3*len(t & q) + 1*len(t & tw)
     s += {2160: 1.0, 1440: 0.6}.get(meta.get("h", 0) >= 2000 and 2160 or (meta.get("h", 0) >= 1400 and 1440), 0)
-    return s
+    return vision_adj(meta, tags, s)
 
 def pick(tags, text="", exclude=(), n=1, min_score=1):
     ix = load_index(); ex = set(exclude)
@@ -218,6 +236,7 @@ def match_score(meta, tags, text="", detail=False):
     if not ph_hit and hard and not (set(hard) & title_w) and meta.get("source") in ("mixkit", "coverr"): s = min(s, 1.0)   # stock: the TITLE must name the subject
     tw = set(w for w in words(text or "") if w not in AMBIG and w not in q)
     s += min(1.0, 0.5*len(tw & title_w)) if hard else 0
+    s = vision_adj(meta, tags, s)
     return (round(s, 2), hard + ph_hit, soft) if detail else round(s, 2)
 
 def pick_matched(tags, text="", exclude=(), n=1, match_min=2.0, prefer_hi=True):
