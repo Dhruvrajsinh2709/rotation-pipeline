@@ -27,7 +27,7 @@ start=$(date +%s)
 case $KIND in
   short)   python make_story.py "$SPEC" 2>&1 | tee /tmp/render.log ;;
   explain) python make_explain.py "$SPEC" 2>&1 | tee /tmp/render.log ;;
-  long)    python make_long.py "$SPEC" 2>&1 | tee /tmp/render.log ;;
+  long)    timeout -k 60 80m python -X faulthandler -c "import faulthandler,sys,runpy;faulthandler.dump_traceback_later(900,repeat=True);sys.argv=['make_long.py','$SPEC'];runpy.run_path('make_long.py',run_name='__main__')" 2>&1 | tee /tmp/render.log ;;
 esac
 echo "RENDER_MINUTES $(( ($(date +%s)-start)/60 ))"
 python pipeline/finish.py "$SPEC" "$KIND" | tee /tmp/finish.log

@@ -62,7 +62,10 @@ def _visible(x):
     return str(x) if isinstance(x, str) else ""
 
 
-def _clean(t): return re.sub(r"#[0-9A-Fa-f]{3,8}\b|\b[a-z]+_[\w@.-]+", " ", t)   # hex colours, clip ids
+def _clean(t):
+    t = re.sub(r"#[0-9A-Fa-f]{3,8}\b|\b[a-z]+_[\w@.-]+", " ", t)   # hex colours, clip ids
+    # spoken money "4 dollars and 44 cents" -> "4.44" so it matches the source's $4.44 (was wrongly scrubbed 2026-11-07)
+    return re.sub(r"(\d+) (?:dollars?|rupees?|euros?|pounds?) and (\d{1,2}) (?:cents?|paise|pence)", lambda m: f"{m.group(1)}.{int(m.group(2)):02d}", t)
 
 
 def scrub(scenes, bad):
