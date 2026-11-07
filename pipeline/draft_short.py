@@ -165,6 +165,11 @@ if __name__ == "__main__":
     name = f"{day}_{slug(spec.get('title', 'short'))}"
     spec["output"] = f"{ROOT}/out/{name}.mp4"; spec["log_used"] = not TEST
     d = f"{ROOT}/specs/{'test' if TEST else 'shorts'}"; os.makedirs(d, exist_ok=True)
+    # STUDY 13 frame-1 A/B: odd dates = "motion" (no clash card, real subject footage full-screen from frame 1), even = "clash"
+    if int(time.strftime("%d")) % 2 == 1:
+        _sc1 = (spec.get("scenes") or [{}])[0]; _sc1.pop("clash", None); _sc1.pop("hook_card", None); _sc1.pop("stat", None)
+        spec["hook"] = "motion"
+    else: spec["hook"] = "clash"
     p = f"{d}/{name}.json"; json.dump(spec, open(p, "w"), indent=1, ensure_ascii=False)
     if lp and not TEST:
         funnel[os.path.basename(lp)] = funnel.get(os.path.basename(lp), 0) + 1; json.dump(funnel, open(STATE, "w"), indent=1)

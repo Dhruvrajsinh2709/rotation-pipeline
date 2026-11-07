@@ -51,10 +51,21 @@ def research():
     return pick["topic"], "\n\n".join(docs)
 
 
+SKIP_KEYS = {"clip", "shots", "dur", "nat", "music", "sfx", "tags", "id", "t", "start", "end", "mood", "fps", "zoom", "pos", "x", "y", "w", "h", "size"}
+
+
+def _visible(x):
+    """Strings a viewer sees or hears (narration, cards, charts, quotes); clip ids, timings and layout numbers excluded."""
+    if isinstance(x, dict): return " ".join(_visible(v) for k, v in x.items() if k not in SKIP_KEYS)
+    if isinstance(x, list): return " ".join(_visible(v) for v in x)
+    if isinstance(x, (int, float)): return ""          # bare numbers in JSON are durations/positions; chart values are checked via strings below
+    return str(x) if isinstance(x, str) else ""
+
+
 def check(scenes, facts):
-    txt = json.dumps(scenes, ensure_ascii=False)
-    spoken = " ".join(s.get("text", "") for s in scenes)
-    return unverified_numbers(spoken + " " + txt.replace('"dur"', ""), facts)
+    txt = re.sub(r"\b[a-z]+_[\w@.-]+", " ", _visible(scenes))   # drop leftover ids like mk_4008, wiki_123@2
+    vals = " ".join(str(v) for s in scenes for k in ("chart", "bars", "values", "data") if k in s for v in (s[k] if isinstance(s[k], list) else [s[k]]))
+    return unverified_numbers(txt + " " + vals, facts)
 
 
 def draft(topic, facts):
