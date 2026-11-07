@@ -4,7 +4,8 @@ Input: vision/frames/<clip_id>.jpg (two frames side by side, 25% and 70% of the 
 Resumable: skips ids already in vision.json; saves every 25 clips. Never prints the key."""
 import base64, json, os, sys, time, urllib.request, glob
 NV = "https://integrate.api.nvidia.com/v1/chat/completions"
-MODELS = ["meta/llama-3.2-90b-vision-instruct", "nvidia/nemotron-3.5-super-vl-120b-a12b", "google/gemma-3-12b-it", "microsoft/phi-3-vision-128k-instruct"]
+# 2026-11-07: gemma-3-12b-it + phi-3-vision answered 404 on every call; nemotron returned content=null (reasoning model).
+MODELS = ["meta/llama-3.2-90b-vision-instruct", "nvidia/nemotron-3.5-super-vl-120b-a12b"]
 PROMPT = ("These are two frames (side by side) from one short stock video clip. Answer ONLY with JSON, no prose: "
           '{"desc": "<one literal sentence: what is shown, the kind of place, and any country clue>", '
           '"tags": ["<6 concrete nouns, e.g. oil tanker, refinery, airport, cash, petrol pump>"], '
@@ -12,10 +13,12 @@ PROMPT = ("These are two frames (side by side) from one short stock video clip. 
           '"text": <true if large on-screen text, captions, slides or documents fill much of the frame>, '
           '"still": <true if the two frames look identical (a still photo)>}')
 def call(key, model, b64):
-    body = json.dumps({"model": model, "max_tokens": 300, "temperature": 0, "messages": [{"role": "user", "content": [
+    body = json.dumps({"model": model, "max_tokens": 300 if "llama" in model else 2000, "temperature": 0, "messages": [{"role": "user", "content": [
         {"type": "text", "text": PROMPT}, {"type": "image_url", "image_url": {"url": "data:image/jpeg;base64," + b64}}]}]}).encode()
     req = urllib.request.Request(NV, data=body, headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=90) as r: out = json.loads(r.read())["choices"][0]["message"]["content"]
+    with urllib.request.urlopen(req, timeout=90) as r: msg = json.loads(r.read())["choices"][0]["message"]
+    out = msg.get("content") or msg.get("reasoning_content") or ""
+    if "</think>" in out: out = out.split("</think>")[-1]
     s = out[out.find("{"): out.rfind("}") + 1]; return json.loads(s)
 def main():
     key = os.environ["NVIDIA_API_KEY"]; path = "vision/vision.json"
