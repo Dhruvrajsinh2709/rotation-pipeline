@@ -1,0 +1,805 @@
+{
+ "output": "/workspace/work/yt/out/long_2026-11-07_ai-power-bill.mp4",
+ "v9": true,
+ "fps": 24,
+ "res": [
+  2560,
+  1440
+ ],
+ "crf": 15,
+ "rate": "+12%",
+ "change_every": 3.0,
+ "match_min": 2.0,
+ "nat_default": null,
+ "tags": [
+  "data center",
+  "electricity",
+  "power"
+ ],
+ "music": {
+  "opener": "tense",
+  "moods": [
+   "doc",
+   "pulse",
+   "tense",
+   "ambient"
+  ]
+ },
+ "subscribe": {
+  "line": "New deep dives every weekend",
+  "text": "If you're new here, subscribe for a new deep dive every weekend."
+ },
+ "open_place": {
+  "clip": "wm_Data_center_roof_d404fc",
+  "place": "Data center",
+  "date": "File photo",
+  "tags": [
+   "data center",
+   "servers"
+  ],
+  "nat": [
+   "office"
+  ],
+  "text": "Your electric bill may be paying for somebody else's AI. In Ohio, rising grid charges added about 16 dollars a month to the average home bill, and data centers get most of the blame."
+ },
+ "title_card": {
+  "series": "Rotation",
+  "title": "Who pays for the AI power bill?",
+  "clip": "cv_high-voltage-power-line-tower-aga",
+  "dur": 3.8
+ },
+ "scenes": [
+  {
+   "clip": [
+    "cv_3696"
+   ],
+   "tags": [
+    "suburban homes",
+    "houses",
+    "neighborhood"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "shot": 2.0,
+   "stat": [
+    "$16",
+    "More per month on the average Ohio home bill"
+   ],
+   "source": "IEEFA via Fortune and FactCheck.org",
+   "text": "That is about 192 dollars a year. By the end of this video, you will know who pays for the AI buildout: households, tech companies, or investors. And why Wall Street panicked this week."
+  },
+  {
+   "clip": [
+    "wm_Electric_transmission_power_tower_195ebd"
+   ],
+   "tags": [
+    "power lines",
+    "transmission tower"
+   ],
+   "nat": [
+    "wind"
+   ],
+   "text": "But not everyone agrees there is a problem.",
+   "quote": {
+    "text": "Ohio does not have a data center cost crisis",
+    "who": "Ohio Manufacturers' Association",
+    "role": "Industry group",
+    "source": "Fortune, Nov. 4, 2026",
+    "voice": "en-GB-RyanNeural"
+   }
+  },
+  {
+   "clip": [
+    "cv_high-voltage-power-line-tower-aga"
+   ],
+   "tags": [
+    "power lines",
+    "transmission tower"
+   ],
+   "nat": [
+    "wind"
+   ],
+   "text": "This is Who Pays, from Rotation."
+  },
+  {
+   "sting": true
+  },
+  {
+   "clip": [
+    "mk_4319"
+   ],
+   "tags": [
+    "power plant",
+    "smokestack",
+    "industrial"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "text": "Payer one is you. To see how, start with a market most people never hear about. PJM Interconnection runs the power grid for 13 states, from New Jersey to northern Illinois. Once a year it holds an auction that pays power plants to promise future supply."
+  },
+  {
+   "clip": [
+    "mk_4381"
+   ],
+   "tags": [
+    "power plant",
+    "smokestack",
+    "industrial"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "text": "It is called the capacity market. Think of it as insurance: everyone pays a premium so the lights stay on."
+  },
+  {
+   "chart": {
+    "type": "bar",
+    "title": "The price of keeping the lights on",
+    "subtitle": "PJM capacity price, dollars per megawatt-day",
+    "bars": [
+     [
+      "2024-25",
+      28.92,
+      "$28.92"
+     ],
+     [
+      "2025-26",
+      269.92,
+      "$269.92"
+     ],
+     [
+      "2026-27",
+      329.17,
+      "$329.17"
+     ]
+    ],
+    "prefix": "$",
+    "decimals": 0,
+    "highlight": 2,
+    "badge": "11x in two years",
+    "source": "PJM auctions via Rutgers State Policy Lab and Fortune (IEEFA)"
+   },
+   "text": "In 2024 and 2025 that premium was 28 dollars and 92 cents per megawatt-day. For 2026 and 2027 it is 329 dollars and 17 cents. More than eleven times higher."
+  },
+  {
+   "clip": [
+    "cv_1649"
+   ],
+   "tags": [
+    "suburban homes",
+    "houses"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "Why the jump? Forecasts of AI demand. The grid's independent market monitor says data centers caused 63 percent of the price increase in the 2025-26 auction. That is about 9.3 billion dollars, collected from customers through higher rates."
+  },
+  {
+   "clip": [],
+   "tags": [
+    "suburban homes",
+    "houses"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "Across the country, federal data cited by Reuters show home electricity prices up more than 10 percent since 2024, and more than 20 percent in Ohio over two years."
+  },
+  {
+   "map": {
+    "view": [
+     -92,
+     34,
+     -70,
+     44
+    ],
+    "title": "One auction, thirteen states",
+    "subtitle": "A data center in one state can raise bills in another",
+    "pins": [
+     [
+      "Ashburn, Virginia",
+      -77.49,
+      39.04
+     ],
+     [
+      "Columbus, Ohio",
+      -83.0,
+      39.96
+     ],
+     [
+      "Newark, New Jersey",
+      -74.17,
+      40.73
+     ],
+     [
+      "Western Maryland",
+      -78.7,
+      39.6
+     ]
+    ],
+    "routes": [
+     {
+      "path": [
+       [
+        -77.49,
+        39.04
+       ],
+       [
+        -76.0,
+        39.6
+       ],
+       [
+        -74.17,
+        40.73
+       ]
+      ],
+      "label": "Capacity charge",
+      "label_at": 0.55,
+      "label_dy": -35
+     },
+     {
+      "path": [
+       [
+        -77.49,
+        39.04
+       ],
+       [
+        -80.3,
+        39.4
+       ],
+       [
+        -83.0,
+        39.96
+       ]
+      ],
+      "label": "Capacity charge",
+      "label_at": 0.5,
+      "label_dy": 40
+     }
+    ],
+    "counter": [
+     "17-20%",
+     "NJ bill jump, June 2025"
+    ],
+    "source": "Rutgers New Jersey State Policy Lab"
+   },
+   "sync": true,
+   "text": "And the bill travels. A giant data center in Virginia can raise bills in New Jersey, because the whole region shares one auction. New Jersey home bills jumped 17 to 20 percent in June 2025."
+  },
+  {
+   "chart": {
+    "type": "bar",
+    "title": "Rotation calculation: the extra bill",
+    "subtitle": "Capacity-charge increase, dollars per year",
+    "bars": [
+     [
+      "Ohio home",
+      192,
+      "$192"
+     ],
+     [
+      "Western Maryland home",
+      216,
+      "$216"
+     ]
+    ],
+    "prefix": "$",
+    "decimals": 0,
+    "highlight": 1,
+    "badge": "$16-18 a month",
+    "source": "IEEFA monthly estimates via Fortune ($16 Ohio, $18 W. Maryland) x 12 months"
+   },
+   "text": "Here is what that means for one household. IEEFA estimates 16 dollars a month more in Ohio and 18 in western Maryland. Multiply by twelve: 192 dollars a year in Ohio, 216 in western Maryland."
+  },
+  {
+   "clip": [
+    "wm_Electricians_fixing_electricity_mete_667716"
+   ],
+   "tags": [
+    "electric meter",
+    "electrician"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "inset": {
+    "dateline": "Electric meter|File photo",
+    "credit": "Wikimedia Commons, CC0"
+   },
+   "text": "Critics call it a bill for something that does not exist yet. An independent energy consultant who used to work at the Energy Department put it bluntly.",
+   "quote": {
+    "text": "It is really just a windfall to existing generators who aren’t doing anything different, and it’s just a tax paid by existing customers",
+    "who": "Paul Donohoo-Vallett",
+    "role": "Independent energy consultant, formerly at the US Energy Department",
+    "source": "FactCheck.org, Oct. 29, 2026",
+    "voice": "en-US-GuyNeural"
+   }
+  },
+  {
+   "clip": [
+    "mk_4362"
+   ],
+   "tags": [
+    "power plant",
+    "smoke"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "text": "Call it the forward bill: you pay today for demand that has not shown up yet. But is that the whole story?"
+  },
+  {
+   "flow": {
+    "title": "How the forward bill reaches you",
+    "subtitle": "From a demand forecast to your monthly statement",
+    "layout": "chain",
+    "nodes": [
+     {
+      "label": "AI demand forecast",
+      "icon": "chip"
+     },
+     {
+      "label": "PJM capacity auction",
+      "icon": "scale"
+     },
+     {
+      "label": "Power plants paid",
+      "icon": "factory"
+     },
+     {
+      "label": "Utility rate",
+      "icon": "doc"
+     },
+     {
+      "label": "Your monthly bill",
+      "icon": "house"
+     }
+    ],
+    "source": "PJM; FactCheck.org; IEEFA"
+   },
+   "sync": true,
+   "text": "Here is the forward bill, step by step. A forecast of AI demand sets the auction price. The auction pays power plants to stand ready. The utility passes the cost into its rates. And it lands on your monthly bill."
+  },
+  {
+   "clip": [
+    "wm_Logarex_smart_household_electricity_55a4a3"
+   ],
+   "tags": [
+    "electric meter",
+    "smart meter"
+   ],
+   "nat": [
+    "office"
+   ],
+   "inset": {
+    "dateline": "Smart meter|File photo",
+    "credit": "Wikimedia Commons, CC BY 4.0"
+   },
+   "keywords": [
+    "10-20%"
+   ],
+   "text": "Now the catch. Capacity charges are only about 10 to 20 percent of a bill in this region, according to FactCheck.org. And the national picture is different from the PJM picture."
+  },
+  {
+   "chart": {
+    "type": "bar",
+    "title": "US home electricity prices, 2019 to 2025",
+    "subtitle": "Average retail price change",
+    "bars": [
+     [
+      "Before inflation",
+      29,
+      "+29%"
+     ],
+     [
+      "After inflation",
+      3,
+      "+3%"
+     ]
+    ],
+    "suffix": "%",
+    "decimals": 0,
+    "highlight": 0,
+    "badge": "+3% real",
+    "source": "Lawrence Berkeley National Laboratory via FactCheck.org"
+   },
+   "text": "A Lawrence Berkeley National Laboratory report found US home electricity prices rose 29 percent from 2019 to 2025. After inflation, only 3 percent."
+  },
+  {
+   "clip": [
+    "mk_40732"
+   ],
+   "tags": [
+    "power plant",
+    "austin",
+    "texas"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "Rutgers researchers found a nearby data center raised a typical bill by about 2 dollars and 9 cents a month through 2024, and even that vanished once other factors were controlled. A Columbia University energy fellow was blunt.",
+   "quote": {
+    "text": "The politics has certainly grown much larger than the data and the facts on this one",
+    "who": "Douglas J. Arent",
+    "role": "Global fellow, Columbia University Center on Global Energy Policy",
+    "source": "FactCheck.org, Oct. 29, 2026",
+    "voice": "en-AU-WilliamNeural"
+   }
+  },
+  {
+   "clip": [
+    "mk_4381"
+   ],
+   "tags": [
+    "power plant",
+    "smokestack"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "text": "So why the fear? Timing. PJM expects 70 gigawatts of new large power demand by 2038. Meanwhile 15 gigawatts of older plants have closed since 2022."
+  },
+  {
+   "clip": [],
+   "tags": [
+    "power plant",
+    "smokestack"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "text": "A new power plant takes six to seven years to build. A data center takes two to three."
+  },
+  {
+   "clip": [
+    "cv_7209"
+   ],
+   "tags": [
+    "analyst",
+    "screen"
+   ],
+   "nat": [
+    "office"
+   ],
+   "keywords": [
+    "30-60%"
+   ],
+   "text": "The consulting firm ICF estimates home electricity rates across PJM could climb 30 to 60 percent by 2030. The Energy Secretary has argued the opposite.",
+   "quote": {
+    "text": "These are a massive force to reduce the price of electricity and stop the price rises.",
+    "who": "Chris Wright",
+    "role": "US Secretary of Energy",
+    "source": "FactCheck.org, Oct. 29, 2026",
+    "voice": "en-US-ChristopherNeural"
+   }
+  },
+  {
+   "clip": [
+    "mk_4319"
+   ],
+   "tags": [
+    "power plant"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "text": "Both can be true. Whether prices fall or rise depends on one thing: who gets the bill. Which brings us to payer two."
+  },
+  {
+   "clip": [
+    "dv_346026"
+   ],
+   "tags": [
+    "capitol",
+    "washington"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "inset": {
+    "dateline": "Washington, D.C.|File footage",
+    "credit": "DVIDS, public domain"
+   },
+   "text": "Payer two is the tech industry, maybe. On Tuesday, voters made data centers a political issue."
+  },
+  {
+   "clip": [],
+   "tags": [
+    "capitol",
+    "washington"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "Campaigns spent more than 380 million dollars on TV ads mentioning them, and about three in four voters told the AP they oppose a new one in their community."
+  },
+  {
+   "clip": [
+    "mk_40677"
+   ],
+   "tags": [
+    "capitol",
+    "texas",
+    "austin"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "loc": "Austin, Texas",
+   "keywords": [
+    "32 of 34"
+   ],
+   "text": "Of 34 governors-elect whose races were called, 32 back stronger rules on data centers, and 12 back bans or moratoriums, according to Data Center Watch. In Texas, governor-elect Gina Hinojosa says she would block a data center permit if it was not a good deal for Texans."
+  },
+  {
+   "clip": [
+    "wm_Electric_power_transmission_Ljusdal_5e8c50"
+   ],
+   "tags": [
+    "power lines",
+    "transmission"
+   ],
+   "nat": [
+    "wind"
+   ],
+   "inset": {
+    "dateline": "Power lines|File photo",
+    "credit": "Wikimedia Commons, public domain"
+   },
+   "text": "The idea behind all of it is simple. Make data centers pay their own way. A critic of the industry says the stakes are fairness.",
+   "quote": {
+    "text": "Families should never be subsidizing the richest corporations in history through their utility bills.",
+    "who": "Nadine Smith",
+    "role": "President and CEO, Color of Change",
+    "source": "TechCrunch, Nov. 4, 2026",
+    "voice": "en-US-EmmaNeural"
+   }
+  },
+  {
+   "clip": [
+    "wm_Data_center_roof_d404fc"
+   ],
+   "tags": [
+    "data center",
+    "servers"
+   ],
+   "nat": [
+    "office"
+   ],
+   "keywords": [
+    "Voluntary"
+   ],
+   "text": "Today those promises are mostly voluntary. President Trump's Ratepayer Protection Pledge asks tech firms to cover their costs, but a Harvard energy law expert says nobody is checking.",
+   "quote": {
+    "text": "Compliance is not being monitored or enforced by anyone.",
+    "who": "Ari Peskoe",
+    "role": "Director, Harvard Electricity Law Initiative",
+    "source": "FactCheck.org, Oct. 29, 2026",
+    "voice": "en-GB-SoniaNeural"
+   }
+  },
+  {
+   "clip": [
+    "mk_4319"
+   ],
+   "tags": [
+    "power plant",
+    "industrial"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "text": "Even utilities now agree. The chief executive of NextEra Energy, one of the biggest, said it on election day.",
+   "quote": {
+    "text": "data centers have to pay their fair share. They have to pay their own costs for generation and transmission, full stop.",
+    "who": "John Ketchum",
+    "role": "CEO, NextEra Energy",
+    "source": "In Good Company podcast via Yahoo Finance, Nov. 3, 2026",
+    "voice": "en-GB-RyanNeural"
+   }
+  },
+  {
+   "clip": [
+    "mk_49835"
+   ],
+   "tags": [
+    "power plant",
+    "city"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "Could tech afford it? Bernstein puts a gigawatt's yearly electricity bill at about 1.3 billion dollars. Microsoft alone spent 39.4 billion on capital spending in one quarter, according to Yahoo Finance."
+  },
+  {
+   "clip": [],
+   "tags": [
+    "power plant",
+    "city"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "Power is small next to the chips."
+  },
+  {
+   "chart": {
+    "type": "bar",
+    "title": "Rotation calculation: power vs. chips",
+    "subtitle": "US dollars, billions",
+    "bars": [
+     [
+      "One gigawatt, power for a year",
+      1.3,
+      "$1.3B"
+     ],
+     [
+      "Microsoft capex, one quarter",
+      39.4,
+      "$39.4B"
+     ]
+    ],
+    "prefix": "$",
+    "decimals": 1,
+    "highlight": 0,
+    "badge": "3.3%",
+    "source": "Bernstein (power bill at 15 cents per kWh); Microsoft Sept. quarter capex via TIKR/Yahoo Finance; 1.3 / 39.4"
+   },
+   "text": "Run the numbers. A year of power for a gigawatt is 3.3 percent of what Microsoft spent on capital projects in a single quarter. But Alphabet, Amazon and Meta spent more than their operations earned last quarter, so every extra dollar adds to what they borrow."
+  },
+  {
+   "clip": [
+    "cv_649"
+   ],
+   "tags": [
+    "stock chart",
+    "screen"
+   ],
+   "nat": [
+    "office"
+   ],
+   "text": "So tech may pay. And that is where payer three comes in."
+  },
+  {
+   "clip": [
+    "cv_1649"
+   ],
+   "tags": [
+    "new york stock exchange",
+    "wall street"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "rehook": true,
+   "text": "Payer three is investors, and they paid first. This week the chip index had its worst day since April 2025, and trillions of dollars of world stock value were wiped out."
+  },
+  {
+   "clip": [],
+   "tags": [
+    "new york stock exchange",
+    "wall street"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "The Nasdaq entered a correction. The S&P 500 lost 2.7 percent on the week."
+  },
+  {
+   "clip": [
+    "cv_649"
+   ],
+   "tags": [
+    "stock chart",
+    "red",
+    "screen"
+   ],
+   "nat": [
+    "office"
+   ],
+   "stat": [
+    "-2.7%",
+    "S&P 500, week to Nov. 6, worst since April 2025"
+   ],
+   "source": "Bloomberg via Moneycontrol; ActionForex",
+   "text": "The reason is the bill. If data centers must pay for their own power and grid, building gets slower and costlier. A Morgan Stanley report said the results carry greater expectations for data center restrictions."
+  },
+  {
+   "clip": [
+    "cv_7524"
+   ],
+   "tags": [
+    "analyst",
+    "stock market",
+    "screen"
+   ],
+   "nat": [
+    "office"
+   ],
+   "text": "And the industry sees it coming. A trade group official said winners will want to keep their promises.",
+   "quote": {
+    "text": "We should expect them to want to deliver on those promises, but there are going to be real world consequences of that",
+    "who": "Dan Diorio",
+    "role": "Data Center Coalition",
+    "source": "AP, Nov. 6, 2026",
+    "voice": "en-GB-RyanNeural"
+   }
+  },
+  {
+   "clip": [
+    "mk_4381"
+   ],
+   "tags": [
+    "power plant"
+   ],
+   "nat": [
+    "industrial",
+    "hum"
+   ],
+   "keywords": [
+    "48%"
+   ],
+   "text": "Yet the buildout keeps going. Data center capacity under construction is up 48 percent nationwide, according to Reuters. And utilities are on track to match last year's record 31 billion dollars in rate-increase requests."
+  },
+  {
+   "clip": [
+    "cv_3696"
+   ],
+   "tags": [
+    "suburban homes",
+    "houses"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "So the question moves from whether data centers cost something, to who signs the check."
+  },
+  {
+   "clip": [
+    "cv_3696"
+   ],
+   "tags": [
+    "houses"
+   ],
+   "nat": [
+    "city",
+    "traffic"
+   ],
+   "text": "OpenAI said on Thursday it will pay its own way on energy and infrastructure, and Microsoft made the same pledge in January. The next dates: Tuesday's US inflation report, and Monday's start of the lame-duck Congress."
+  }
+ ],
+ "closer": {
+  "text": "Households pay the forward bill today. Whether tech pays it tomorrow depends on rules now being written, state by state.",
+  "clip": "cv_3696",
+  "tags": [
+   "houses"
+  ]
+ },
+ "endcard": {
+  "dur": 10,
+  "line": "Watch next",
+  "bg_clip": "wm_Data_center_roof_d404fc"
+ }
+}

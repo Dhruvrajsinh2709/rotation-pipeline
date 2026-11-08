@@ -1,0 +1,128 @@
+{
+ "video": "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/video.mp4",
+ "duration": 452.56,
+ "size": "1920x1080",
+ "fps": "24/1",
+ "audio": true,
+ "lufs": -14.0,
+ "black": [
+  [
+   279.125,
+   283.375
+  ]
+ ],
+ "freezes": [
+  [
+   57.7917,
+   60.4583
+  ],
+  [
+   63.2083,
+   68.5417
+  ],
+  [
+   68.6667,
+   72.0417
+  ],
+  [
+   114.917,
+   117.583
+  ],
+  [
+   117.583,
+   120.333
+  ],
+  [
+   120.333,
+   123.083
+  ],
+  [
+   123.25,
+   126.625
+  ],
+  [
+   151.917,
+   155.0
+  ],
+  [
+   155.167,
+   157.792
+  ],
+  [
+   157.958,
+   160.833
+  ],
+  [
+   174.792,
+   177.542
+  ],
+  [
+   177.542,
+   180.333
+  ],
+  [
+   180.333,
+   183.125
+  ],
+  [
+   183.542,
+   186.042
+  ],
+  [
+   279.125,
+   281.792
+  ],
+  [
+   287.167,
+   290.125
+  ],
+  [
+   290.125,
+   292.792
+  ],
+  [
+   339.542,
+   342.333
+  ],
+  [
+   342.375,
+   345.167
+  ],
+  [
+   345.167,
+   348.0
+  ],
+  [
+   348.0,
+   350.875
+  ],
+  [
+   350.875,
+   354.417
+  ],
+  [
+   369.833,
+   373.542
+  ]
+ ],
+ "silences": [],
+ "sheets": [
+  "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/qa/sheet_01.jpg",
+  "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/qa/sheet_02.jpg",
+  "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/qa/sheet_03.jpg",
+  "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/qa/sheet_04.jpg",
+  "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/qa/sheet_05.jpg",
+  "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/qa/sheet_06.jpg",
+  "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/qa/sheet_07.jpg",
+  "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/qa/sheet_08.jpg",
+  "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/qa/sheet_09.jpg",
+  "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/qa/sheet_10.jpg",
+  "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/qa/sheet_11.jpg",
+  "/workspace/work/yt/dist/long_2026-11-07_ai-power-bill/qa/sheet_12.jpg"
+ ],
+ "frames": 226,
+ "hard_fail": [
+  "black >1s at [(279.125, 283.375)]"
+ ],
+ "shots": null
+}

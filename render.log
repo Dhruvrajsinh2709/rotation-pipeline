@@ -1,0 +1,258 @@
+scene 0 10.9 shots [10.9]
+scene 1 11.3 shots [11.3]
+scene 2 6.9 shots [2.9, 2.0, 2.0]
+scene 3 2.7 shots [2.7]
+scene 4 3.8 shots [3.8]
+scene 5 14.9 shots [8.1, 6.9]
+scene 6 6.6 shots [6.6]
+scene 7 14.6 shots full
+scene 8 16.5 shots [13.6, 2.9]
+scene 9 10.5 shots [2.4, 2.8, 1.9, 3.4]
+scene 10 12.8 shots map
+scene 11 14.8 shots full
+scene 12 15.9 shots [6.5, 3.3, 6.0]
+scene 13 6.3 shots [6.3]
+scene 14 13.9 shots flow
+scene 15 11.7 shots [3.0, 3.0, 2.0, 3.7]
+scene 16 11.6 shots full
+scene 17 18.6 shots [12.2, 6.4]
+scene 18 11.3 shots [11.3]
+scene 19 5.5 shots [3.2, 2.3]
+scene 20 16.1 shots [13.3, 2.8]
+scene 21 7.2 shots [7.2]
+scene 22 6.6 shots [6.6]
+scene 23 10.3 shots [3.6, 3.4, 3.2]
+scene 24 17.3 shots [13.8, 3.5]
+scene 25 13.6 shots [4.2, 3.6, 3.0, 2.9]
+scene 26 15.2 shots [3.0, 3.1, 3.1, 3.1, 2.9]
+Timeout (0:15:00)!
+Thread 0x00007f8626ff36c0 (most recent call first):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/concurrent/futures/thread.py", line 90 in _worker
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1012 in run
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007f8627ff46c0 (most recent call first):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/concurrent/futures/thread.py", line 90 in _worker
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1012 in run
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007f8631fff6c0 (most recent call first):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 359 in wait
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 655 in wait
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/tqdm/_monitor.py", line 69 in run
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007f86447ff6c0 (most recent call first):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 359 in wait
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 655 in wait
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/tqdm/_monitor.py", line 69 in run
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007f86578646c0 (most recent call first):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/concurrent/futures/thread.py", line 90 in _worker
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1012 in run
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007f866d94ab80 (most recent call first):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/PIL/ImageFilter.py", line 202 in filter
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/PIL/Image.py", line 1459 in filter
+  File "/workspace/work/yt/v9gfx.py", line 22 in _shadow_text
+  File "/workspace/work/yt/v9gfx.py", line 82 in quote_png
+  File "make_long.py", line 688 in rn9
+  File "/workspace/work/yt/gfx.py", line 343 in tl_track
+  File "make_long.py", line 692 in main
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/asyncio/events.py", line 88 in _run
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/asyncio/base_events.py", line 1999 in _run_once
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/asyncio/base_events.py", line 645 in run_forever
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/asyncio/base_events.py", line 678 in run_until_complete
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/asyncio/runners.py", line 118 in run
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/asyncio/runners.py", line 195 in run
+  File "make_long.py", line 1016 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 287 in run_path
+  File "<string>", line 1 in <module>
+scene 27 15.0 shots [11.6, 3.4]
+scene 28 13.9 shots [13.9]
+scene 29 2.2 shots [2.2]
+scene 30 15.3 shots full
+scene 31 3.9 shots [3.9]
+scene 32 11.1 shots [11.1]
+scene 33 4.1 shots full
+scene 34 5.8 shots [1.8, 2.2, 1.8]
+scene 35 12.1 shots [12.1]
+scene 36 12.1 shots [12.1]
+scene 37 13.9 shots [13.9]
+scene 38 4.9 shots [4.9]
+scene 39 13.2 shots [13.2]
+scene 40 6.8 shots [6.8]
+scene 41 10.0 shots [10.0]
+V8 music [(0.0, 'mk_597', 'Vertigo'), (31.8, 'mk_587', 'Discover')]
+V9 nat: 61 segments, sources ['sfx_2504', 'sfx_2932', 'sfx_377', 'sfx_447']
+V10 sound: duck [(0.0, 31.788000000000004, -17.0), (31.788000000000004, 435.00999999999993, -28.0), (435.00999999999993, 453.551224, -20.0)] title-open [(31.788000000000004, 35.588, -3.0)] music_off [] sfx 61 events {'whoosh': 8, 'boom': 1, 'click': 23, 'riser': 1, 'pop': 6, 'tick': 13, 'coins': 3, 'ping': 7}
+AUDIO voice -21.4 LUFS, music(hp) -20.8, duck -18.0 dB, nat on, v10 off [] sfx layer, dips 8 at [24.5, 88.0, 148.3, 199.6, 251.1, 307.6, 369.2, 422.4], final I -14.0 LUFS, LRA 7.7 LU
+V7 longest planned no-change gap 13.3s at 221.1s (change_every 3.0); reframes 0; dark clips swapped []
+V7 density /min: first minute 5.0 (4-5), middle 3.6 (2.5-3), last 10% 4.1 (<=1); devices {'chart': [57.2, 111.5, 174.1, 338.6], 'map': [98.8], 'flow': [148.5]}
+V7 WARN middle 3.6/min outside 2.5-3.5; last 10% 4.1/min > 1; no tilt between 15% and 75%
+STATS total 452.6s shots 70 avg 6.47s longest 15.3s words 1063 WPM(total) 141 WPM(voice) 151 graphics 8 (+20 keyword pops) = 3.7/min sting None agenda []
+V7 measured (study-3 metric): 12.9 changes/min, longest gap 15.2s at 339.2s, 97 events
+V8 measured (fine metric): longest no-visible-change gap 9.0s at 1.0s
+V8 clips: 56 unique, replaced 25 repeats/new ['cv_high-voltage-power-line-tower-aga->px_84669', 'mk_4381->mk_4320', 'cv_1649->px_84625', 'px_267745->px_10749', 'mk_4362->px_4936', 'mk_40732->mk_49827', 'mk_4381->px_79304', 'cv_7209->px_18672', 'mk_4319->px_79304(rep)', 'mk_40677->mk_4443', 'mk_40677->px_91282(rep)', 'wm_Data_center_roof_d404fc->px_91282(rep)', 'wm_Data_center_roof_d404fc->px_316857', 'mk_4319->px_316854', 'wm_Data_center_roof_d404fc->px_316721', 'mk_40677->px_316717', 'wm_Data_center_roof_d404fc->px_316712', 'mk_4319->mk_4360', 'mk_4319->mk_4007', 'cv_1649->px_308077', 'cv_649->px_166289', 'mk_4381->px_79304(rep)', 'cv_3696->mk_3420', 'cv_3696->mk_939', 'cv_3696->px_91282(rep)']; render time 23.7 min; res 2560x1440
+V9 graphics: full-screen 98.0s of 442.6s (excl. end card) = 22% (target 20-30%) [(31.8, 3.8, 'title card'), (57.2, 14.6, 'chart'), (98.8, 12.8, 'map'), (111.5, 14.8, 'chart'), (148.5, 13.9, 'flow'), (174.1, 11.6, 'chart'), (278.6, 4.2, 'fallback plate'), (286.5, 3.0, 'fallback plate'), (338.6, 15.3, 'chart'), (368.9, 4.1, 'subscribe')]
+V9 cold open: 31.8s before the title card, voices 2 ['narrator', 'voice2']; voices in video 2 ['narrator', 'voice2']
+V9 WARN cold open 32s outside 75-100 s
+V9 WARN fewer than 3 voices in the cold open
+V9 voice relief: longest stretch without a non-narrator voice 109s (rule: a new voice every 30-60 s)
+V9 pick scene 0: wm_Data_center_roof_d404fc score 4.0 (named) Data center roof
+V9 pick scene 1: cv_3696 score 2.5 (named) driving near suburban homes
+V9 pick scene 1: cv_3696 score - (extend) driving near suburban homes
+V9 pick scene 1: cv_3696 score - (extend) driving near suburban homes
+V9 pick scene 1: cv_3696 score - (extend) driving near suburban homes
+V9 pick scene 1: cv_3696 score - (extend) driving near suburban homes
+V9 pick scene 1: cv_3696 score - (extend) driving near suburban homes
+V9 pick scene 2: wm_Electric_transmission_power_tower_195ebd score 0.0 (named) 
+V9 pick scene 2: px_85824 score 3.0 (auto) transmission tower, electricity pylon, sky, clouds
+V9 pick scene 2: px_91282 score 2.0 (auto) factory, sunset, smoke, sugar beet factory
+V9 pick scene 2: px_324019 score 2.0 (auto) smoke, electricity, forest, high voltage
+V9 pick scene 3: cv_high-voltage-power-line-tower-aga score 0.0 (named) high voltage power line tower against blue
+V9 pick scene 4: cv_high-voltage-power-line-tower-aga score 0.0 (named) high voltage power line tower against blue
+V9 pick scene 4: px_84669 score 1.5 (relaxed) windmill, wind, wind power, wind energy
+V9 pick scene 4: px_84669 score 1.5 (replace) windmill, wind, wind power, wind energy
+V9 pick scene 5: mk_4319 score 3.0 (named) Power plant working
+V9 pick scene 5: mk_4319 score - (extend) Power plant working
+V9 pick scene 5: mk_4319 score - (extend) Power plant working
+V9 pick scene 5: mk_4320 score 3.0 (replace) Power plant seen from afar
+V9 pick scene 5: mk_4320 score - (extend) Power plant seen from afar
+V9 pick scene 6: mk_4381 score 3.5 (named) An industrial power plant with smoke towers
+V9 pick scene 6: mk_4381 score - (extend) An industrial power plant with smoke towers
+V9 pick scene 8: cv_1649 score 0.0 (named) american flags on a building
+V9 pick scene 8: cv_1649 score - (extend) american flags on a building
+V9 pick scene 8: cv_1649 score - (extend) american flags on a building
+V9 pick scene 8: cv_1649 score - (extend) american flags on a building
+V9 pick scene 8: px_84625 score 1.5 (relaxed) windmill, wind, wind power, wind energy
+V9 pick scene 8: px_84625 score 1.5 (replace) windmill, wind, wind power, wind energy
+V9 pick scene 9: px_84621 score 1.5 (relaxed) windmill, wind, pinwheels, wind power
+V9 pick scene 9: px_372065 score 1.5 (relaxed) automobile, ev, electric, sola
+V9 pick scene 9: px_180971 score 1.5 (relaxed) windmill, highway, roads, traffic
+V9 pick scene 9: px_14476 score 1.5 (relaxed) house, stone, street, motorbike
+V9 pick scene 12: wm_Electricians_fixing_electricity_mete_667716 score 0.0 (named) 
+V9 pick scene 12: px_267745 score 2.0 (auto) hong kong, china, transportation, work smart
+V9 pick scene 12: px_267745 score - (extend) hong kong, china, transportation, work smart
+V9 pick scene 12: px_10749 score 1.5 (relaxed) power pole, clouds, heaven, electricity pylons
+V9 pick scene 12: px_10749 score 1.5 (replace) power pole, clouds, heaven, electricity pylons
+V9 pick scene 12: px_4936 score 1.5 (relaxed) lights, blinking, abstruse, bright
+V9 pick scene 12: px_4936 score 1.5 (replace) lights, blinking, abstruse, bright
+V9 pick scene 12: px_4936 score - (extend) lights, blinking, abstruse, bright
+V9 pick scene 13: mk_4362 score 3.5 (named) Smoke from power plant
+V9 pick scene 13: mk_4362 score - (extend) Smoke from power plant
+V9 pick scene 15: wm_Logarex_smart_household_electricity_55a4a3 score 0.0 (named) 
+V9 pick scene 15: px_19737 score 1.5 (relaxed) lanzarote, arrecife, power, station
+V9 pick scene 15: px_1077 score 1.5 (relaxed) water power, dam, hydroelectric, electricity
+V9 pick scene 15: px_2714 score 1.0 (relaxed) technology, production, abstract, machine
+V9 pick scene 15: px_86252 score 0.5 (relaxed) electric, mechanical, computer, screwdriver
+V9 pick scene 17: mk_40732 score 4.5 (named) Illuminated Facade of the Austin Texas Power Plant
+V9 pick scene 17: mk_40732 score - (extend) Illuminated Facade of the Austin Texas Power Plant
+V9 pick scene 17: mk_40732 score - (extend) Illuminated Facade of the Austin Texas Power Plant
+V9 pick scene 17: mk_40732 score - (extend) Illuminated Facade of the Austin Texas Power Plant
+V9 pick scene 17: mk_49827 score 4.5 (replace) Aerial view of Austin Texas power plant
+V9 pick scene 17: mk_49827 score - (extend) Aerial view of Austin Texas power plant
+V9 pick scene 18: mk_4381 score 2.5 (named) An industrial power plant with smoke towers
+V9 pick scene 18: px_79304 score 2.5 (replace) power plant, hydroelectric power station, energy, water powe
+V9 pick scene 18: px_79304 score - (extend) power plant, hydroelectric power station, energy, water powe
+V9 pick scene 18: px_79304 score - (extend) power plant, hydroelectric power station, energy, water powe
+V9 pick scene 18: px_79304 score - (extend) power plant, hydroelectric power station, energy, water powe
+V9 pick scene 19: px_79303 score 2.5 (auto) power plant, hydroelectric power station, energy, water powe
+V9 pick scene 19: mk_2451 score 2.5 (auto) Power plant of a building 
+V9 pick scene 20: cv_7209 score 0.0 (named) a trader is working on a stock market trading chart
+V9 pick scene 20: cv_7209 score - (extend) a trader is working on a stock market trading chart
+V9 pick scene 20: cv_7209 score - (extend) a trader is working on a stock market trading chart
+V9 pick scene 20: cv_7209 score - (extend) a trader is working on a stock market trading chart
+V9 pick scene 20: px_18672 score 1.25 (relaxed) security, system, computer, data
+V9 pick scene 20: px_18672 score 1.25 (replace) security, system, computer, data
+V9 pick scene 21: mk_4319 score 2.5 (named) Power plant working
+V9 pick scene 21: px_79304 score 2.5 (repeat-ok) power plant, hydroelectric power station, energy, water powe
+V9 pick scene 21: px_79304 score - (extend) power plant, hydroelectric power station, energy, water powe
+V9 pick scene 22: dv_346026 score 2.0 (named) Capitol Building in Washington, D.C., B-Roll
+V9 pick scene 22: dv_346026 score - (extend) Capitol Building in Washington, D.C., B-Roll
+V9 pick scene 23: px_30511 score 1.0 (relaxed) austin, capitol, building, texas
+V9 pick scene 23: px_30506 score 1.0 (relaxed) austin, capitol, building, texas
+V9 pick scene 23: px_30504 score 1.0 (relaxed) austin, capitol, building, texas
+V9 pick scene 24: mk_40677 score 1.0 (named) Government Capitol surrounded by a large garden
+V9 pick scene 24: mk_40677 score - (extend) Government Capitol surrounded by a large garden
+V9 pick scene 24: mk_40677 score - (extend) Government Capitol surrounded by a large garden
+V9 pick scene 24: mk_40677 score - (extend) Government Capitol surrounded by a large garden
+V9 pick scene 24: mk_4443 score 1.0 (relaxed) Center of the street in Times Square
+V9 pick scene 24: mk_4443 score 1.0 (replace) Center of the street in Times Square
+V9 pick scene 25: wm_Electric_power_transmission_Ljusdal_5e8c50 score 0.0 (named) 
+V9 pick scene 25: _fb_3691_1 score 0 (fallback-plate) fallback plate
+V9 pick scene 25: px_91282 score 2.0 (repeat-ok) factory, sunset, smoke, sugar beet factory
+V9 pick scene 25: px_91282 score 2.0 (repeat-ok) factory, sunset, smoke, sugar beet factory
+V9 pick scene 26: wm_Data_center_roof_d404fc score 4.0 (named) Data center roof
+V9 pick scene 26: px_316857 score 1.0 (relaxed) led, indicator lights, electronics, technology
+V9 pick scene 26: px_316857 score 1.0 (replace) led, indicator lights, electronics, technology
+V9 pick scene 26: px_316854 score 1.0 (relaxed) led, indicator lights, electronics, technology
+V9 pick scene 26: px_316854 score 1.0 (replace) led, indicator lights, electronics, technology
+V9 pick scene 26: px_316721 score 1.0 (relaxed) led, indicator lights, electronics, technology
+V9 pick scene 26: px_316721 score 1.0 (replace) led, indicator lights, electronics, technology
+V9 pick scene 26: px_316717 score 1.0 (relaxed) led, indicator lights, electronics, technology
+V9 pick scene 26: px_316717 score 1.0 (replace) led, indicator lights, electronics, technology
+V9 pick scene 26: px_316712 score 1.0 (relaxed) led, indicator lights, electronics, technology
+V9 pick scene 26: px_316712 score 1.0 (replace) led, indicator lights, electronics, technology
+V9 pick scene 27: mk_4319 score 3.0 (named) Power plant working
+V9 pick scene 27: mk_4360 score 1.0 (relaxed) Petrochemical plant lit up at night
+V9 pick scene 27: mk_4360 score 1.0 (replace) Petrochemical plant lit up at night
+V9 pick scene 27: mk_4360 score - (extend) Petrochemical plant lit up at night
+V9 pick scene 27: mk_4360 score - (extend) Petrochemical plant lit up at night
+V9 pick scene 27: mk_4360 score - (extend) Petrochemical plant lit up at night
+V9 pick scene 27: mk_4007 score 1.0 (relaxed) Plane landing on the track in the airport
+V9 pick scene 27: mk_4007 score 1.0 (replace) Plane landing on the track in the airport
+V9 pick scene 28: mk_49835 score 3.5 (named) Aerial view around a power plant in a big city
+V9 pick scene 28: mk_49835 score - (extend) Aerial view around a power plant in a big city
+V9 pick scene 28: mk_49835 score - (extend) Aerial view around a power plant in a big city
+V9 pick scene 28: mk_49835 score - (extend) Aerial view around a power plant in a big city
+V9 pick scene 29: mk_41541 score 1.0 (relaxed) Aerial panorama over the buildings of a big city
+V9 pick scene 29: mk_41539 score 1.0 (relaxed) Aerial view above the skyscrapers of a city
+V9 pick scene 31: cv_649 score 0.0 (named) financial analysis of cryptocurrency
+V9 pick scene 32: cv_1649 score 0.0 (named) american flags on a building
+V9 pick scene 32: px_308077 score 1.5 (relaxed) stock market, finance, trading, investment
+V9 pick scene 32: px_308077 score 1.5 (replace) stock market, finance, trading, investment
+V9 pick scene 32: px_308077 score - (extend) stock market, finance, trading, investment
+V9 pick scene 32: px_308077 score - (extend) stock market, finance, trading, investment
+V9 pick scene 32: px_308077 score - (extend) stock market, finance, trading, investment
+V9 pick scene 34: px_308076 score 1.5 (relaxed) stock market, finance, trading, investment
+V9 pick scene 34: px_124287 score 1.0 (relaxed) nyc, manhattan, new jersey, usa
+V9 pick scene 34: mk_4832 score 1.0 (relaxed) Man dressed in suit crossing the street
+V9 pick scene 35: cv_649 score 0.0 (named) financial analysis of cryptocurrency
+V9 pick scene 35: px_166289 score 2.5 (replace) graph, decline, economy, finance
+V9 pick scene 35: px_166289 score - (extend) graph, decline, economy, finance
+V9 pick scene 35: px_166289 score - (extend) graph, decline, economy, finance
+V9 pick scene 35: px_166289 score - (extend) graph, decline, economy, finance
+V9 pick scene 36: cv_7524 score 0.0 (named) a broker working with a candlestick chart
+V9 pick scene 36: cv_7524 score - (extend) a broker working with a candlestick chart
+V9 pick scene 36: cv_7524 score - (extend) a broker working with a candlestick chart
+V9 pick scene 36: cv_7524 score - (extend) a broker working with a candlestick chart
+V9 pick scene 37: mk_4381 score 2.5 (named) An industrial power plant with smoke towers
+V9 pick scene 37: px_79304 score 2.5 (repeat-ok) power plant, hydroelectric power station, energy, water powe
+V9 pick scene 37: px_79304 score - (extend) power plant, hydroelectric power station, energy, water powe
+V9 pick scene 37: px_79304 score - (extend) power plant, hydroelectric power station, energy, water powe
+V9 pick scene 37: px_79304 score - (extend) power plant, hydroelectric power station, energy, water powe
+V9 pick scene 38: cv_3696 score 2.5 (named) driving near suburban homes
+V9 pick scene 38: mk_3420 score 1.25 (relaxed) View from above to houses in the suburbs
+V9 pick scene 38: mk_3420 score 1.25 (replace) View from above to houses in the suburbs
+V9 pick scene 38: mk_3420 score - (extend) View from above to houses in the suburbs
+V9 pick scene 39: cv_3696 score 0.5 (named) driving near suburban homes
+V9 pick scene 39: mk_939 score 0.5 (relaxed) Couple silhouette walking through a neighborhood
+V9 pick scene 39: mk_939 score 0.5 (replace) Couple silhouette walking through a neighborhood
+V9 pick scene 39: mk_939 score - (extend) Couple silhouette walking through a neighborhood
+V9 pick scene 39: mk_939 score - (extend) Couple silhouette walking through a neighborhood
+V9 pick scene 39: mk_939 score - (extend) Couple silhouette walking through a neighborhood
+V9 pick scene 40: cv_3696 score 0.5 (named) driving near suburban homes
+V9 pick scene 40: px_91282 score 1.5 (repeat-ok) factory, sunset, smoke, sugar beet factory
+V9 weak named clips (score < 2.0): [(2, 'wm_Electric_transmission_power_tower_195ebd', 0.0), (3, 'cv_high-voltage-power-line-tower-aga', 0.0), (4, 'cv_high-voltage-power-line-tower-aga', 0.0), (8, 'cv_1649', 0.0), (12, 'wm_Electricians_fixing_electricity_mete_667716', 0.0), (15, 'wm_Logarex_smart_household_electricity_55a4a3', 0.0), (20, 'cv_7209', 0.0), (24, 'mk_40677', 1.0), (25, 'wm_Electric_power_transmission_Ljusdal_5e8c50', 0.0), (31, 'cv_649', 0.0), (32, 'cv_1649', 0.0), (35, 'cv_649', 0.0), (36, 'cv_7524', 0.0), (39, 'cv_3696', 0.5), (40, 'cv_3696', 0.5)]; fallback plates 1; insets [(0, 'wm_Data_center_roof_d404fc'), (12, 'px_267745'), (12, 'px_10749'), (12, 'px_4936'), (15, 'px_19737'), (15, 'px_1077'), (15, 'px_2714'), (15, 'px_86252'), (22, 'dv_346026'), (25, 'px_91282'), (25, 'px_91282')]; fps 24
+BLACK GUARD: 453 frames scanned, near-black (YAVG<24) outside cards: 1 s; stretches >1 s: none
+TOTAL 452.551224
