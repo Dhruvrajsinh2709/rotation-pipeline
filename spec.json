@@ -1,0 +1,160 @@
+{
+ "title": "Why Your Electric Bill Funds AI Data Centers",
+ "rate": "+12%",
+ "music": {
+  "mood": "tense",
+  "mood2": "doc"
+ },
+ "tags": [
+  "data center",
+  "electricity",
+  "power"
+ ],
+ "outro": {
+  "text": "Who signs the check next auction? That is why PJM prices jumped eleven times.",
+  "tags": [
+   "suburban",
+   "homes"
+  ],
+  "nat": [
+   "city"
+  ],
+  "clip": [
+   "px_1361"
+  ]
+ },
+ "sources": [
+  "PJM auctions via Rutgers State Policy Lab and Fortune (IEEFA)",
+  "IEEFA monthly estimates via Fortune",
+  "FactCheck.org, Oct. 29, 2026",
+  "Lawrence Berkeley National Laboratory via FactCheck.org",
+  "Reuters via FactCheck.org",
+  "Bernstein; Microsoft Sept. quarter via TIKR/Yahoo Finance",
+  "Bloomberg via Moneycontrol; ActionForex",
+  "AP, Nov. 6, 2026",
+  "TechCrunch, Nov. 4, 2026",
+  "Yahoo Finance, Nov. 3, 2026"
+ ],
+ "scenes": [
+  {
+   "clip": [
+    "mk_4381"
+   ],
+   "tags": [
+    "power plant",
+    "smoke"
+   ],
+   "nat": "industrial",
+   "blur": false,
+   "text": "PJM capacity prices jumped eleven times. Ohio homes pay sixteen dollars more monthly.",
+   "clash": [
+    [
+     "Capacity price",
+     "11x higher",
+     "win"
+    ],
+    [
+     "Ohio home bill",
+     "+$16/month",
+     "lose"
+    ]
+   ]
+  },
+  {
+   "clip": [
+    "mk_3420"
+   ],
+   "tags": [
+    "suburban",
+    "homes"
+   ],
+   "nat": "city",
+   "blur": false,
+   "text": "One auction covers thirteen states. Virginia data centers raise New Jersey bills."
+  },
+  {
+   "clip": [
+    "px_166285"
+   ],
+   "tags": [
+    "graph",
+    "data"
+   ],
+   "nat": "office",
+   "blur": false,
+   "text": "Data centers drove sixty-three percent. Nine point three billion from customers."
+  },
+  {
+   "clip": [
+    "px_3757"
+   ],
+   "tags": [
+    "money",
+    "cash"
+   ],
+   "nat": "office",
+   "blur": false,
+   "turn": true,
+   "text": "Critics call it a forward bill. You pay for demand not yet here."
+  },
+  {
+   "clip": [
+    "px_308077"
+   ],
+   "tags": [
+    "stock market",
+    "screen"
+   ],
+   "nat": "office",
+   "blur": false,
+   "card": {
+    "type": "compare",
+    "title": "Power vs. chips",
+    "items": [
+     [
+      "1 GW power, 1 year",
+      "$1.3B"
+     ],
+     [
+      "Microsoft capex, 1 quarter",
+      "$39.4B"
+     ]
+    ],
+    "source": "Bernstein; Microsoft Sept. quarter via TIKR/Yahoo Finance"
+   },
+   "text": "Microsoft spends thirty-nine billion a quarter. A gigawatt of power costs one point three billion."
+  },
+  {
+   "clip": [
+    "px_308076"
+   ],
+   "tags": [
+    "stock market",
+    "screen"
+   ],
+   "nat": "office",
+   "blur": false,
+   "text": "Investors paid first. Chip index worst day since April. S&P down two point seven percent."
+  },
+  {
+   "clip": [
+    "dv_346026"
+   ],
+   "tags": [
+    "capitol",
+    "washington"
+   ],
+   "nat": "city",
+   "blur": false,
+   "text": "Construction up forty-eight percent. Utilities seek thirty-one billion in hikes."
+  }
+ ],
+ "funnel": {
+  "long_spec": "spec_2026-11-07_ai-power-bill.json",
+  "n": 1,
+  "long_title": null
+ },
+ "output": "/workspace/work/yt/out/2026-11-08_why-your-electric-bill-funds-ai-data-cen.mp4",
+ "log_used": true,
+ "hook": "clash"
+}

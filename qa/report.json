@@ -1,0 +1,19 @@
+{
+ "video": "/workspace/work/yt/dist/2026-11-08_why-your-electric-bill-funds-ai-data-cen/video.mp4",
+ "duration": 45.59,
+ "size": "1080x1920",
+ "fps": "30/1",
+ "audio": true,
+ "lufs": -14.0,
+ "black": [],
+ "freezes": [],
+ "silences": [],
+ "sheets": [
+  "/workspace/work/yt/dist/2026-11-08_why-your-electric-bill-funds-ai-data-cen/qa/sheet_01.jpg",
+  "/workspace/work/yt/dist/2026-11-08_why-your-electric-bill-funds-ai-data-cen/qa/sheet_02.jpg",
+  "/workspace/work/yt/dist/2026-11-08_why-your-electric-bill-funds-ai-data-cen/qa/sheet_03.jpg"
+ ],
+ "frames": 46,
+ "hard_fail": [],
+ "shots": 24
+}
