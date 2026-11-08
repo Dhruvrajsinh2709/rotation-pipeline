@@ -409,6 +409,10 @@ async def main(spec):
                         psh, pss, pL, *pr = out_[-1]
                         if pss + pL + L + 0.15 <= cdur(psh): out_[-1] = (psh, pss, pL+L, *pr); PICKS.append((sc.get("_i"), psh, "-", "extend")); continue
                 if alt is None and sh == "__NEW__" and no_fb: return None
+                if alt is None:   # fix21 (2026-11-08): a repeated on-topic clip (other segment) beats a dark plate
+                    _rep = [k for k, _ in clipfetch.pick_matched(tags, txt, exclude=RSV, n=40, match_min=1.0)] + own + [x for x in pool if x not in RSV]
+                    alt = next((x for x in _rep if not x.startswith("_fb_") and ok_clip(x, L) and x != (out_[-1][0] if out_ else None)), None)
+                    if alt is not None: PICKS.append((sc.get("_i"), alt, clipfetch.match_score(IX.get(alt, {}), tags, txt), "repeat-ok")); REPL.append(f"{sh}->{alt}(rep)"); out_.append((alt, good_ss(alt, L), L, *rest)); continue
                 if alt is None: alt = make_fb(sc, L); PICKS.append((sc.get("_i"), alt, 0, "fallback-plate"))
                 else: PICKS.append((sc.get("_i"), alt, clipfetch.match_score(IX.get(alt, {}), tags, txt), "replace" if sh != "__NEW__" else "split"))
                 REPL.append(f"{sh}->{alt}"); USED.add(alt); out_.append((alt, good_ss(alt, L) if not alt.startswith("_fb_") else 0.0, L, *rest)); continue
@@ -989,7 +993,7 @@ async def main(spec):
         _card = [(a_-0.6, b_+0.6) for (a_, b_), sc in zip(times, scenes) if sc.get("sting") or sc.get("_title") or sc.get("question") or sc.get("agenda") is not None or sc.get("_agenda") is not None
                  or sc.get("subscribe") or sc.get("_endcard") or sc.get("quote") or sc.get("_breath")]
         # 2026-11-08 (run 42448828926): designed fallback plates are near-black by design -> count them as cards, not black footage
-        _card += [(a_-0.6, a_+l_+0.6) for a_, l_, k_ in FULLT if k_ == "fallback plate"]
+        # fix21: plates count as black again (they look black to viewers); fix21 repeat-ok makes them rare
         _o = subprocess.run(["ffmpeg", "-v", "info", "-i", spec["output"], "-vf", "fps=1,scale=320:-2,signalstats,metadata=print:key=lavfi.signalstats.YAVG", "-f", "null", "-"],
                             capture_output=True, text=True).stderr
         import re as _re

@@ -22,7 +22,7 @@ if [ -z "$SPEC" ]; then
 fi
 echo "spec: $SPEC"
 if [ "$KIND" = short ]; then python pipeline/prefetch.py "$SPEC" --k 4 --cap 60
-else python pipeline/prefetch.py "$SPEC" --k 2 --cap 220; fi
+else python pipeline/prefetch.py "$SPEC" --k 6 --cap 320; fi
 start=$(date +%s)
 case $KIND in
   short)   python make_story.py "$SPEC" 2>&1 | tee /tmp/render.log ;;
