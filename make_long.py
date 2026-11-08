@@ -639,6 +639,11 @@ async def main(spec):
                             if alt in USED or alt.startswith("_fb_") or not ok_clip(alt, L): continue
                             a_ss = good_ss(alt, L)
                             if not _dark_span(alt, a_ss, L): new = (alt, a_ss); USED.add(alt); break
+                    if new is None:   # fix23: reuse any bright clip already in this video before a plate
+                        for alt in list(USED):
+                            if alt.startswith("_fb_") or alt == sh or not ok_clip(alt, L): continue
+                            a_ss = good_ss(alt, L)
+                            if not _dark_span(alt, a_ss, L): new = (alt, a_ss); break
                     if new is None: new = (make_fb(sc, L), 0.0); PICKS.append((sc.get("_i"), new[0], 0, "fallback-plate"))
                     dark_skips.append(f"fix20 {sh}@{ss:.1f}->{new[0]}@{new[1]:.1f}"); plan[j] = (new[0], new[1], L, 0 if new[0] != sh else rf)
             shot_lens += [L for _, _, L, _ in plan]
