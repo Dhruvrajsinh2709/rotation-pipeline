@@ -413,6 +413,10 @@ async def main(spec):
                     _rep = [k for k, _ in clipfetch.pick_matched(tags, txt, exclude=RSV, n=40, match_min=1.0)] + own + [x for x in pool if x not in RSV]
                     alt = next((x for x in _rep if not x.startswith("_fb_") and ok_clip(x, L) and x != (out_[-1][0] if out_ else None)), None)
                     if alt is not None: PICKS.append((sc.get("_i"), alt, clipfetch.match_score(IX.get(alt, {}), tags, txt), "repeat-ok")); REPL.append(f"{sh}->{alt}(rep)"); out_.append((alt, good_ss(alt, L), L, *rest)); continue
+                if alt is None:   # fix22: last resort before a plate = any on-disk clip already used in this scene/video (on-topic), other segment
+                    _any = [o[0] for o in reversed(out_)] + list(USED)
+                    alt = next((x for x in _any if not x.startswith("_fb_") and ok_clip(x, L)), None)
+                    if alt is not None: PICKS.append((sc.get("_i"), alt, 0, "repeat-last")); REPL.append(f"{sh}->{alt}(rep2)"); out_.append((alt, good_ss(alt, L), L, *rest)); continue
                 if alt is None: alt = make_fb(sc, L); PICKS.append((sc.get("_i"), alt, 0, "fallback-plate"))
                 else: PICKS.append((sc.get("_i"), alt, clipfetch.match_score(IX.get(alt, {}), tags, txt), "replace" if sh != "__NEW__" else "split"))
                 REPL.append(f"{sh}->{alt}"); USED.add(alt); out_.append((alt, good_ss(alt, L) if not alt.startswith("_fb_") else 0.0, L, *rest)); continue
