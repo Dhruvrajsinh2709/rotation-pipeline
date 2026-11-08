@@ -988,6 +988,8 @@ async def main(spec):
     try:
         _card = [(a_-0.6, b_+0.6) for (a_, b_), sc in zip(times, scenes) if sc.get("sting") or sc.get("_title") or sc.get("question") or sc.get("agenda") is not None or sc.get("_agenda") is not None
                  or sc.get("subscribe") or sc.get("_endcard") or sc.get("quote") or sc.get("_breath")]
+        # 2026-11-08 (run 42448828926): designed fallback plates are near-black by design -> count them as cards, not black footage
+        _card += [(a_-0.6, a_+l_+0.6) for a_, l_, k_ in FULLT if k_ == "fallback plate"]
         _o = subprocess.run(["ffmpeg", "-v", "info", "-i", spec["output"], "-vf", "fps=1,scale=320:-2,signalstats,metadata=print:key=lavfi.signalstats.YAVG", "-f", "null", "-"],
                             capture_output=True, text=True).stderr
         import re as _re
