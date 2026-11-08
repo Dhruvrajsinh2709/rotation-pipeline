@@ -220,5 +220,35 @@
 "s2857",
 "s787"
 ]
+},
+{
+"video": "long_2026-11-07_ai-power-bill.mp4",
+"date": "2026-11-08",
+"files": [
+"es_click_soft",
+"es_click_thock",
+"es_cut_hit_sub",
+"es_drip_plink",
+"es_knock_plastic",
+"es_knock_snap",
+"es_knock_wood",
+"es_notify_mid_tine",
+"es_notify_mid_wood",
+"es_riser_dark",
+"es_swish_bright",
+"es_swish_soft",
+"es_ui_pop_soft",
+"es_ui_pop_step",
+"es_whoosh_big_thump",
+"es_whoosh_fast_crisp",
+"es_whoosh_fast_tight",
+"s1049",
+"s1064",
+"s1939",
+"s1993",
+"s2364",
+"s3060",
+"s3116"
+]
 }
 ]
