@@ -221,7 +221,7 @@ async def main(spec):
         th_ = spec.get("theme", "light")   # user 2026-10-30 "use c": light cream graphic panels, orange + cobalt (theme "mono" = old dark look)
         if th_ in ("mono", "light"): ACC_ = _accent(spec); gfx.set_theme("mono", ACC_); opener.set_theme("mono", ACC_); YEL = ACC_ or (255, 255, 255)
         if th_ == "light": gfx.set_theme("light", ACC_ or (250, 78, 2))
-        OW, OH = spec.get("res", [2560, 1440]); GRADE = GRADE8
+        OW, OH = [1920, 1080] if os.environ.get("ALLOW_1440") != "1" else spec.get("res", [2560, 1440]); GRADE = GRADE8   # 2026-11-09: 1080p only (saves Hark usage)
     else: OW, OH = W, H
     USED = set(); RECENT = clipfetch.recent_used(int(spec.get("recent_videos", 4))) if V8 else set(); REPL = []; IX = clipfetch.load_index() if V8 else {}
     import time as _time; _t_start = _time.time()
