@@ -31,7 +31,7 @@ Hard rules:
 - OTHER BRANDS: never pick a clip that could show a different company (another airline's plane, a rival's shop, a foreign courier). For planes, stores, logos or vehicles use ONLY [SUBJECT] clips; generic clips only for neutral things (money, people, offices, fuel, city).
 - NO PREDICTIONS: never say what will happen next (next quarter, next results date, a government decision, a fund) unless the FACTS say it word for word. When unsure, leave it out.
 - "music": {"mood": one of doc|tense|light|ambient|pulse, "mood2": another}. "rate": "+24%". "tags": 3 topic nouns.
-- "title": a search-worded question/claim people type (e.g. "Why X is losing money even after Y"), <= 70 characters, not the same pattern as the long video's title.
+- "title": a search-worded question/claim people type (e.g. "Why X is losing money even after Y"), <= 55 characters, no hashtags (no #shorts), not the same pattern as the long video's title.
 - "sources": the source list, copied from the facts given.
 - Use ONLY numbers, names and dates that appear in the FACTS. Never invent a figure, quote or date. Round only as the facts do.
 - Optional "quote": {"text","who","role","source"} ONLY if that exact quote text appears in the FACTS.
@@ -157,6 +157,8 @@ if __name__ == "__main__":
         spec = draft(facts, angle, re.findall(r"[a-z]+", spec_text(ls).lower()),
                      focus=[w.lower() for w in re.findall(r"\b[A-Z][A-Za-z]{2,}\b", ls.get("title", "")) if w not in ("Why", "Your", "The", "So", "How", "What")])
         spec["funnel"] = {"long_spec": os.path.basename(lp), "n": n, "long_title": ls.get("title")}
+        o = spec.setdefault("outro", {}); t = (o.get("text") or "").rstrip()
+        if "linked below" not in t.lower(): o["text"] = (t + " Full breakdown linked below.").strip()   # 2026-11-09: 2 s cue to the Related video (Shorts feed sent ~0 views to longs)
         if not spec.get("sources"): spec["sources"] = ls.get("sources", [])
     else:
         it, angle, facts = rss_story()
