@@ -1,0 +1,19 @@
+scene 0 5.96 shots [3.1, 2.9]
+scene 1 4.57 shots [2.5, 2.1]
+scene 2 3.65 shots [1.8, 1.8]
+scene 3 4.06 shots [1.9, 2.1]
+scene 4 4.93 shots [2.4, 2.5]
+scene 5 4.49 shots [3.3, 1.2]
+scene 6 4.33 shots [1.7, 2.7]
+scene 7 8.84 shots [3.1, 3.1, 2.7]
+V8 music [('mk_676', 'Epical Drums 01', 'tense'), ('mk_615', 'Tapis', 'doc')]
+V9 nat: 11 segments, sources ['sfx_2504', 'sfx_2932', 'sfx_434']
+V10 sound: sfx 3 ['click', 'tick', 'whoosh']
+AUDIO voice -20.5 LUFS, music(hp) -23.8, duck -18.0 dB, nat on, v10 off [] sfx layer, dips 2 at [10.1, 31.8], final I -14.0 LUFS, LRA 6.6 LU
+PHONE CHECK (300 Hz-7 kHz band, integrated): {'voice': -24.1, 'music': -37.9, 'nat': -43.2, 'voice_over_music_dB': 13.8, 'voice_over_nat_dB': 19.1}
+V9 voices: 1 ['narrator']; quote/actuality scenes 0
+V8 clips: 17 unique, replaced 8 ['mk_4381->px_349091', 'mk_3420->mk_56', 'mk_49835->mk_18296', 'mk_40732->mk_5020', 'px_308077->hd_18247', 'dv_346026->mk_41637', 'px_1361->mk_18263', 'px_1361->mk_1616']; res 1080x1920; crf 16; render time 4.8 min
+PACE WARNING (renders, but QA will likely fail: add relevant clips to these scenes): ["scene 0 ('PJM capacity prices jumped eleven times.'): 1/3 clips", "scene 1 ('Data centers drove sixty three percent, '): 1/2 clips", "scene 2 ('Virginia data centers lift New Jersey bi'): 1/2 clips", "scene 3 ('You pay for demand not here. Ex-Energy o'): 1/2 clips", "scene 5 ('Chip stocks worst day since April. S&P d'): 1/2 clips", "scene 6 ('Buildout up forty eight percent. Utiliti'): 1/2 clips", "scene 7 ('Who signs the check next? Tuesday's infl'): 1/4 clips"]
+STATS shots 17 avg 2.41s max 3.3s words 103 WPM 151
+cover /workspace/work/yt/covers/2026-11-09_why-your-electric-bill-funds-ai-data-cen_cover.jpg layout split
+40.922982

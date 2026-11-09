@@ -1,0 +1,162 @@
+{
+ "title": "Why Your Electric Bill Funds AI Data Centers",
+ "rate": "+24%",
+ "music": {
+  "mood": "tense",
+  "mood2": "doc"
+ },
+ "tags": [
+  "data centers",
+  "electricity",
+  "investors"
+ ],
+ "outro": {
+  "text": "Who signs the check next? Tuesday's inflation report and Monday's Congress will tell. PJM capacity prices jumped eleven times. Full breakdown linked below.",
+  "tags": [
+   "houses",
+   "suburbs"
+  ],
+  "nat": [
+   "city"
+  ],
+  "clip": [
+   "px_1361"
+  ]
+ },
+ "sources": [
+  "PJM auctions via Rutgers State Policy Lab and Fortune (IEEFA)",
+  "FactCheck.org, Oct. 29, 2026",
+  "IEEFA via Fortune and FactCheck.org",
+  "Reuters",
+  "Bloomberg via Moneycontrol; ActionForex",
+  "AP, Nov. 6, 2026",
+  "TechCrunch, Nov. 4, 2026",
+  "Yahoo Finance",
+  "Bernstein",
+  "Rutgers New Jersey State Policy Lab",
+  "Lawrence Berkeley National Laboratory via FactCheck.org",
+  "Data Center Watch",
+  "In Good Company podcast via Yahoo Finance, Nov. 3, 2026",
+  "Columbia University Center on Global Energy Policy",
+  "Harvard Electricity Law Initiative",
+  "Color of Change",
+  "NextEra Energy",
+  "Morgan Stanley",
+  "Data Center Coalition",
+  "ICF"
+ ],
+ "scenes": [
+  {
+   "clip": [
+    "mk_4381"
+   ],
+   "tags": [
+    "power plant",
+    "smoke"
+   ],
+   "nat": "industrial",
+   "blur": false,
+   "text": "PJM capacity prices jumped eleven times. Ohio homes pay one ninety two more yearly."
+  },
+  {
+   "clip": [
+    "mk_3420"
+   ],
+   "tags": [
+    "suburban homes",
+    "houses"
+   ],
+   "nat": "city",
+   "blur": false,
+   "text": "Data centers drove sixty three percent, nine billion on ratepayers."
+  },
+  {
+   "clip": [
+    "mk_49835"
+   ],
+   "tags": [
+    "power lines",
+    "transmission"
+   ],
+   "nat": "industrial",
+   "blur": false,
+   "text": "Virginia data centers lift New Jersey bills twenty percent."
+  },
+  {
+   "clip": [
+    "mk_40732"
+   ],
+   "tags": [
+    "power plant",
+    "facade"
+   ],
+   "nat": "industrial",
+   "blur": false,
+   "turn": true,
+   "text": "You pay for demand not here. Ex-Energy official calls it a generator windfall."
+  },
+  {
+   "clip": [
+    "mk_41541"
+   ],
+   "tags": [
+    "corporate buildings",
+    "city"
+   ],
+   "nat": "city",
+   "blur": false,
+   "card": {
+    "type": "compare",
+    "title": "Power vs. Chips",
+    "items": [
+     [
+      "1 GW power/year",
+      "$1.3B"
+     ],
+     [
+      "Microsoft capex/quarter",
+      "$39.4B"
+     ]
+    ],
+    "source": "Bernstein; Microsoft Sept quarter via Yahoo Finance"
+   },
+   "text": "Microsoft spends thirty nine billion quarterly. Gigawatt power is three percent."
+  },
+  {
+   "clip": [
+    "px_308077"
+   ],
+   "tags": [
+    "stock market",
+    "trading screen"
+   ],
+   "nat": "office",
+   "blur": false,
+   "stat": [
+    "-2.7%",
+    "S&P 500 weekly drop"
+   ],
+   "text": "Chip stocks worst day since April. S&P down two point seven percent."
+  },
+  {
+   "clip": [
+    "dv_346026"
+   ],
+   "tags": [
+    "capitol",
+    "government"
+   ],
+   "nat": "city",
+   "blur": false,
+   "text": "Buildout up forty eight percent. Utilities seek thirty one billion more."
+  }
+ ],
+ "funnel": {
+  "long_spec": "spec_2026-11-07_ai-power-bill.json",
+  "n": 2,
+  "long_title": null
+ },
+ "output": "/workspace/work/yt/out/2026-11-09_why-your-electric-bill-funds-ai-data-cen.mp4",
+ "log_used": true,
+ "hook": "motion"
+}
