@@ -1,0 +1,138 @@
+{
+ "title": "Who pays for AI power bill households or tech",
+ "rate": "+24%",
+ "music": {
+  "mood": "tense",
+  "mood2": "doc"
+ },
+ "tags": [
+  "data center",
+  "electricity",
+  "power"
+ ],
+ "outro": {
+  "text": "Will households keep paying the forward bill while tech promises to pay its own way? Capacity price $28.92, now $329.17. Full breakdown linked below.",
+  "tags": [
+   "data center",
+   "electricity",
+   "power"
+  ],
+  "nat": [
+   "city"
+  ],
+  "clip": [
+   "px_1361"
+  ]
+ },
+ "sources": [],
+ "scenes": [
+  {
+   "clip": [
+    "mk_4381"
+   ],
+   "tags": [
+    "power plant",
+    "smoke"
+   ],
+   "nat": "industrial",
+   "blur": false,
+   "text": "Capacity price $28.92, now $329.17."
+  },
+  {
+   "clip": [
+    "mk_49827"
+   ],
+   "tags": [
+    "austin",
+    "power plant"
+   ],
+   "nat": "industrial",
+   "blur": false,
+   "text": "That is more than eleven times higher in two years."
+  },
+  {
+   "clip": [
+    "mk_3420"
+   ],
+   "tags": [
+    "suburban homes",
+    "houses"
+   ],
+   "nat": "city",
+   "blur": false,
+   "turn": true,
+   "text": "The grid monitor says data centers caused 63 percent of the 2025-26 price increase."
+  },
+  {
+   "clip": [
+    "px_364586"
+   ],
+   "tags": [
+    "houses",
+    "neighborhood"
+   ],
+   "nat": "city",
+   "blur": false,
+   "text": "IEEFA estimates 16 dollars a month more in Ohio, 18 in western Maryland."
+  },
+  {
+   "clip": [
+    "px_364586"
+   ],
+   "tags": [
+    "electric meter",
+    "bill"
+   ],
+   "nat": "street",
+   "blur": false,
+   "card": {
+    "type": "compare",
+    "title": "Rotation calculation: the extra bill",
+    "items": [
+     [
+      "Ohio home",
+      "192"
+     ],
+     [
+      "Western Maryland home",
+      "216"
+     ]
+    ],
+    "source": "IEEFA monthly estimates via Fortune ($16 Ohio, $18 W. Maryland) x 12 months"
+   },
+   "text": "Multiply by twelve: 192 dollars a year in Ohio, 216 in western Maryland."
+  },
+  {
+   "clip": [
+    "mk_40732"
+   ],
+   "tags": [
+    "power plant",
+    "austin"
+   ],
+   "nat": "industrial",
+   "blur": false,
+   "text": "Capacity charges are only about 10 to 20 percent of a bill in this region."
+  },
+  {
+   "clip": [
+    "dv_346026"
+   ],
+   "tags": [
+    "capitol",
+    "washington"
+   ],
+   "nat": "city",
+   "blur": false,
+   "text": "32 of 34 governors-elect back stronger rules on data centers."
+  }
+ ],
+ "funnel": {
+  "long_spec": "spec_2026-11-07_ai-power-bill.json",
+  "n": 2,
+  "long_title": null
+ },
+ "output": "/workspace/work/yt/out/2026-11-09_who-pays-for-ai-power-bill-households-or.mp4",
+ "log_used": true,
+ "hook": "motion"
+}
